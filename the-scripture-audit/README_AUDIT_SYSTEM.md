@@ -39,14 +39,18 @@ the-scripture-audit/
 │   ├── [C]_솔로몬_외양간_4만vs4천.md ← 기능 범주 분리 전례
 │   ├── [D+G]_팀나_족보난제.md
 │   ├── [E]_목요일십자가설.md
-│   ├── [F+E]_베드로_갈보리순교설.md
+│   ├── [F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md ← 복합 TYPE 8종 + CONFIRMED 전례
 │   ├── [G+H+I]_요한1서_콤마.md      ← 복합 TYPE 최고 수준 전례
 │   ├── [I+F]_창세기1장.md
 │   ├── [I+D]_마태복음1장_14세대.md
 │   ├── [J]_도마_신라전래설.md
-│   └── [O+P+Q]_천년왕국_리틀시즌.md ⭐ NEW (과거 성취론 3중 무기 방어 표준 전례)
+│   ├── [O+P+Q]_천년왕국_리틀시즌.md ⭐ NEW (과거 성취론 3중 무기 방어 표준 전례)
+│   ├── CHRONICLE_사울의구원논쟁_주어혼동적발.md   (TYPE-R 주어 혼동 적발)
+│   ├── CHRONICLE_사울의구원논쟁_어휘오독적발.md   (TYPE-T 어휘 오독 적발)
+│   ├── CHRONICLE_사울의구원논쟁_이중지시모순적발.md ⭐ NEW (TYPE-G/L/P 이중 목적지 지시 불가)
+│   └── CHRONICLE_사울의구원논쟁_침묵의타임라인역전.md ⭐ NEW (TYPE-A/B 침묵의 논증 분쇄)
 │
-├── 🏹 QUIVER(무기고)/               ← [4단계] 전쟁터에 들고 가는 무기만 (TYPE 17개)
+├── 🏹 QUIVER(무기고)/               ← [4단계] 전쟁터에 들고 가는 무기만 (TYPE 20개)
 │   ├── TYPE-A_Chronological.md      (연대기 직렬 역산)
 │   ├── TYPE-B_Sequential.md         (사건 순차 병렬 통합)
 │   ├── TYPE-C_Functional.md         (기능적 범주 분리)
@@ -65,6 +69,7 @@ the-scripture-audit/
 │   ├── TYPE-P_Retorsion.md          ⭐ NEW (역논법 / 부메랑 논증)
 │   ├── TYPE-Q_LanguageQuantifier.md ⭐ NEW (성경적 언어 수량화 제약)
 │   ├── TYPE-R_SyntaxConfusion.md    ⭐ NEW (구문/주어 혼동 적발)
+│   ├── TYPE-S_LexicalBridge.md      ⭐ NEW (어휘 교차 연결 — 게제라 샤바)
 │   └── TYPE-T_TenseAndLexical.md    ⭐ NEW (시제 및 어휘 오독 적발)
 │
 ├── 📥 INBOX(공격목록)/              ← [입력] 해결할 성경 공격 목록
@@ -84,7 +89,7 @@ the-scripture-audit/
 | **1** | `CALLING(소명)` | 자세 준비 — 42 기록자 페르소나 + 철학 주입 | "the holy calling" 딤후 1:9 |
 | **2** | `DOCTRINE(교훈)` | 전술 훈련 — 무기 사용 전 규칙/프로토콜 숙지 | "He teacheth my hands to war" 시 18:34 |
 | **3** | `CHRONICLE(전례)` | 시청각 교육 — 과거 전투 기록으로 실전 감각 | "the book of the chronicles" 왕하 |
-| **4** | `QUIVER(무기고)` | 실전 무기만 — TYPE-A~N (14개), 전쟁터에 들고 참전 | "His quiver" 시 127:5 |
+| **4** | `QUIVER(무기고)` | 실전 무기만 — TYPE 20개, 전쟁터에 들고 참전 | "His quiver" 시 127:5 |
 | **입력** | `INBOX(공격목록)` | 해결할 성경 공격 목록 대기 | — |
 | **출력** | `VERDICT(판결록)` | 완성된 판결 보고서 저장 | "weighed in the balances" 단 5:27 |
 
@@ -217,6 +222,7 @@ VERDICT/VERDICT_[난제명].md
 | **TYPE-P** | 역논법 / 부메랑 논증 | "예수님이 마귀라면 즉사 율법이 적용되어야 한다" |
 | **TYPE-Q** | 성경적 언어 수량화 제약 | (ex. 무장 해제된 영적 존재 수량 파악 불가) |
 | **TYPE-R** | 구문/주어 혼동 적발 | "thine enemy" = 하나님이 원수되심 (주어 오독 적발) |
+| **TYPE-S** ⭐ | 어휘 교차 연결 (게제라 샤바) | 동일 원어 단어가 두 구절에 사용된 것을 발견하여 의미 브리지 구축 |
 | **TYPE-T** | 시제 및 어휘 오독 적발 | "disquieted" = 시제(과거완료)와 의미(안식 방해) 오독 적발 |
 | **IMPORT-X** | 외부 데이터 이식 | 이미지·엑셀 → BVCAP 타임라인 변환 |
 | **ANALOGY** | 현대 비유 창작 | 항상 출력 직전 — 1초 이해 달성 |
