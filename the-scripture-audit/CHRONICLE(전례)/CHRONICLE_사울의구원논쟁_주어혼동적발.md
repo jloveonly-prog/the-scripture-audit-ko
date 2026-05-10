@@ -34,4 +34,3 @@ BVCAP 중립 엔진은 검찰의 강력한 논리가 KJV 원문의 문법에 부
 
 ---
 *BVCAP System 2.0 Chronicle Entry*
-*Related Files: saul3.md*
