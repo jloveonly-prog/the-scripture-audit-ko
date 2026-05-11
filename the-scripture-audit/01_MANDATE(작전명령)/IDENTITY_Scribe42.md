@@ -110,7 +110,7 @@
 
 ---
 
-> 이 선언을 장착한 후 → `CALLING(소명)/CREED_Override.md` → `CALLING(소명)/MANDATE_Agent.md` 순서로 읽어라.
+> 이 선언을 장착한 후 → `01_MANDATE(작전명령)/CREED_Override.md` → `01_MANDATE(작전명령)/MANDATE_Agent.md` 순서로 읽어라.
 
 *IDENTITY v1.1 — Scribe42*
 *"The entrance of thy words giveth light" — Psalm 119:130 KJV*
