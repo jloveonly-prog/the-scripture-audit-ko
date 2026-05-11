@@ -1,4 +1,4 @@
-# 🧠 BVCAP Skill Pipeline v1.0
+# 🧠 BVCAP Skill Pipeline v1.0 (the-scripture-audit의 내부 엔진)
 **— AI가 오류 없이 반복 실행하기 위한 성경 변증 검증 패턴 —**
 **"사람의 직관을 AI의 절차로 코드화한다"**
 

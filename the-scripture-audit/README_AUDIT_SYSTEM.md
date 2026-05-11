@@ -15,7 +15,6 @@
 the-scripture-audit/
 │
 ├── 📋 README_AUDIT_SYSTEM.md        ← 지금 이 문서 (시스템 전체 지도)
-├── ⚖️  BVCAP_1.0.md                  ← 독립 검증 전용 엔진 (가벼운 난제, 자체 내장 무기 사용)
 ├── ⚖️  BVCAP_2.0.md                  ← 하이브리드 엔진 (매우 난해한 공격, QUIVER 무기고 전면 연동)
 ├── 🧠 BVCAP_Skill_Pipeline.md       ← 출력/비유/교훈 보조 모듈 파이프라인 (루트)
 │

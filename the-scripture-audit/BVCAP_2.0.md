@@ -1,4 +1,4 @@
-# 🔬 BVCAP 2.0 (Bible Verse Consistency Analysis Pipeline)
+# 🔬 BVCAP 2.0 (the-scripture-audit의 내부 엔진 Bible Verse Consistency Analysis Pipeline)
 **"Supreme Neutral Auditor — 성경 구절 중립 분석 파이프라인"**
 
 > **버전**: v2.0 (v1.2 대비 대폭 개선: 10라운드 기계적 대화 출력 폐기, 직관적 비유와 입체적 논증 구조를 갖춘 'Masterpiece Report' 출력 양식으로 전면 개편)
