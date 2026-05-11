@@ -3,115 +3,138 @@
 **GitHub: [jloveonly-prog/the-scripture-audit](https://github.com/jloveonly-prog/the-scripture-audit)**  
 **Core Engine: `the-scripture-audit`**
 
-> **"대저 여호와의 말씀은 정직하며 그 행사는 다 진실하시도다." (시 33:4)**  
-> **"우리는 기록된 텍스트를 신학이 아닌 '순수 논리'의 해부대에 올린다."**
+> **"For the word of the LORD is right; and all his works are done in truth." (Psalm 33:4)**  
+> **"We place the written text not on the altar of theology, but on the operating table of 'pure logic'."**
 
-본 리포지토리는 **The Scripture** 생태계의 최종 검문소이자 무결성 보증 기구입니다. 성경 기록의 권위를 수호하고, 전 세계의 모든 거짓 교리를 과학적이고 체계적인 논리 엔진으로 감사(Audit)하여 파쇄하는 것을 목적으로 합니다.
+This repository is the final checkpoint and integrity assurance mechanism of **The Scripture** ecosystem. Its purpose is to defend the authority of the biblical record and systematically audit and dismantle all false doctrines worldwide using a scientific and rigorous logic engine.
 
 ---
 
 ## 📜 [System Genealogy & Context]
 
-**진화된 성경 포렌식 시스템**: 
-본 시스템은 꾸란 분석 체계인 QSP/QVCAP의 엄밀한 논리를 성경 분석에 이식하고 진화시킨 결과물입니다. 성경은 66권의 방대한 연대기와 복합적인 구조를 지니고 있어 일반적인 AI LLM의 기본 로직만으로는 그 깊은 일관성을 도출하는 데 한계가 있습니다. 이러한 한계를 극복하기 위해 **고대 유대교 해석학(랍비 힐렐/이스마엘의 규칙)**과 **현대 포렌식 수사 기법**을 결합하여 탄생한 것이 바로 **`the-scripture-audit`**입니다.
+**Evolved Biblical Forensic System**: 
+This system is the result of transplanting and evolving the rigorous logic of the Quranic analysis frameworks (QSP/QVCAP) into biblical analysis. The Bible contains 66 books of vast chronologies and complex structures, meaning the basic logic of standard AI LLMs is insufficient to deduce its deep consistency. To overcome this limitation, **`the-scripture-audit`** was born by combining **ancient Jewish hermeneutics (the rules of Rabbi Hillel/Ishmael)** with **modern forensic investigation techniques**.
 
 ---
 
-## 📂 리포지토리 구조 (Repository Structure)
+## 📂 Repository Structure
 
 ```text
 .
-├── 🛡️ BVCAP/                # 초창기 분석도구 (성경 일관성 검증의 기초 엔진)
-├── 🕋 QSP/                  # 꾸란 분석 도구 (The Quran Snare Program)
-├── 📖 QVCAP/                # 꾸란 분석 도구 (Quran Verse Contradiction Analysis Pipeline)
-├── 📚 docs/                 # 분석할 대상의 문서 및 결과물 저장소
-└── 🔍 the-scripture-audit/  # 성경감사시스템 (성경의 무결성을 검증하는 고도화된 포렌식 엔진)
-    ├── 🕊️ CALLING(소명)      # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
-    ├── 📖 DOCTRINE(교훈)     # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
-    ├── 📚 CHRONICLE(전례)    # [3단계] 과거 승전 사례 및 S등급 판례 도서관
-    └── 🏹 QUIVER(무기고)     # [4단계] 28종 정밀 포렌식 무기 (TYPE-A ~ AB)
+├── 🛡️ BVCAP/                # Early Analysis Tool (Foundation engine for biblical consistency)
+├── 🕋 QSP/                  # Quran Analysis Tool (The Quran Snare Program)
+├── 📖 QVCAP/                # Quran Analysis Tool (Quran Verse Contradiction Analysis Pipeline)
+├── 📚 docs/                 # Document storage for analysis targets and verdicts
+└── 🔍 the-scripture-audit/  # Biblical Audit System (Advanced forensic engine verifying biblical integrity)
+    ├── 🕊️ 01_MANDATE(작전명령)      # [Phase 1] Persona adoption & academic bias quarantine (OVERRIDE-0)
+    ├── 📖 02_TACTICS(전술)     # [Phase 2] Hermeneutical constitution & 7 tactical rules (ANCHOR-1, DE-OVERLAP)
+    ├── 📚 03_WAR_LOG(전투기록)    # [Phase 3] Library of past victorious precedents & S-rank cases
+    ├── 🏹 04_QUIVER(무기고)     # [Phase 4] 29 types of precision forensic weapons (TYPE-A ~ AB + TYPE-B-π)
+    ├── 📥 _INBOX(작전목표)    # [Input] Audit/defense targets waiting for resolution
+    └── 📁 05_REPORT(전과보고서)    # [Output] Final master reports of completed audits
 ```
 
 ---
 
-## ⚡ 4단계 감사 파이프라인 (Execution Pipeline)
+## ⚡ 4-Phase Execution Pipeline
 
-AI 감사관은 모든 난제에 대해 다음의 4단계를 거쳐 **'마스터피스(Masterpiece)'** 판결문을 생성합니다.
+The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'** verdict for any theological dilemma.
 
-1.  **CALLING (소명)**: 학계의 자유주의적 편향을 차단하고, KJV 성경의 무오성을 수호하는 '제42의 기록자' 정체성을 장착합니다.
-2.  **DOCTRINE (교훈)**: "제3의 앵커 구절(ANCHOR-1)" 수집과 "시간/공간 중첩 해체(DE-OVERLAP)" 규칙을 적용하여 사고 회로를 정렬합니다.
-3.  **CHRONICLE (전례)**: 과거의 유사 난제 해결 전례를 참조하여 분석의 품질 기준을 설정합니다.
-4.  **QUIVER (무기)**: 28종의 정밀 무기 중 적합한 TYPE을 선택하여 적의 논리적 모순을 정밀 타격합니다.
+1.  **CALLING**: Quarantines liberal academic bias and adopts the identity of the '42nd Writer' to defend the inerrancy of the KJV Bible.
+2.  **DOCTRINE**: Aligns thought circuits by collecting a "third anchor verse (ANCHOR-1)" and applying the "time/space overlap dismantling (DE-OVERLAP)" rule.
+3.  **CHRONICLE**: Sets the quality standard for analysis by referencing successful precedents of similar dilemmas.
+4.  **QUIVER**: Selects the appropriate TYPE among 29 precision weapons to precisely strike the logical contradictions of the opposition.
 
 ---
 
-## 🏹 28종 정밀 포렌식 무기 (The QUIVER)
+## 🏹 29 Precision Forensic Weapons (The QUIVER)
 
-| TYPE | 이름 | 핵심 작동 원리 |
+| TYPE | Name | Core Mechanism |
 |:---:|:---|:---|
-| **TYPE-A** | 연대기 직렬 분해 | 숫자를 겹치지 않고 순서대로 줄 세워 숨겨진 연수를 역산 |
-| **TYPE-B** | 사건 순차 병렬 통합 | 두 기록을 타임라인으로 끼워 맞춰 단일 서사로 통합 |
-| **TYPE-C** | 기능적 범주 분리 | 같은 단어가 가리키는 다른 기능/규모/단위를 분해 |
-| **TYPE-G** | KJV 문법 구조 해부 | 콤마, 접속사, 관사 구조 분석을 통한 텍스트 삭제 불가성 증명 |
-| **TYPE-L** | 귀납적 연쇄 추론 | "왜?"를 반복하며 단서 체인을 연결하여 전체 설계도 도출 |
-| **TYPE-X** | 교차 대칭 구조 | 카이아즘 구조 투시를 통해 주변부 공격을 파쇄하고 핵심 도출 |
-| ... | (총 28종) | 상세 내용은 `the-scripture-audit/QUIVER/` 참조 |
+| **TYPE-A** | Chronological Serial Dismantling | Reverse-calculates hidden years by arranging numbers sequentially without overlap |
+| **TYPE-B** | Event Sequential Parallel Integration | Merges two separate records into a single timeline and narrative |
+| **TYPE-B-π** ⭐ v2.9 | Perception Filter | Detects witnesses in a "saw but could not process" state — SHOCK/GRIEF/CULTURAL/DIVINE classification |
+| **TYPE-C** | Functional Category Separation | Breaks down different functions/scales/units referred to by the same word |
+| **TYPE-G** | KJV Grammatical Structure Anatomy | Proves the text cannot be deleted by analyzing commas, conjunctions, and articles |
+| **TYPE-L** | Inductive Chain Reasoning | Repeats "Why?" to connect clue chains and deduce the grand blueprint |
+| **TYPE-X** | Chiasmic Symmetrical Structure | Sees through chiasmic structures to crush peripheral attacks and extract the core |
+| ... | (Total 29 Types) | See `the-scripture-audit/04_QUIVER(무기고)/` for details |
 
 ---
 
-## ⚖️ 감사의 핵심 프로토콜 (Core Protocols)
+## ⚖️ Core Audit Protocols
 
-*   **OVERRIDE-0 (AI 편향 거부)**: 학계 통설을 가설 단계로 격리하고 오직 성경 원문만으로 영점 조준.
-*   **ANCHOR-1 (제3 앵커 수집)**: 충돌하는 두 구절 외에 반드시 제3의 독립 데이터를 수집하여 역산 개시.
-*   **STRESS-TEST-7 (적 최강 반격)**: 최종 판결 전, AI가 적의 가장 강력한 반격을 시뮬레이션하여 논리를 검증.
-*   **ANALOGY-5 (현대 비유)**: 난해한 결론을 현대 군사/법률 개념에 빗대어 1초 만에 이해시키는 비유 생성.
-
----
-
-## 🌊 감사 워크플로우 (Workflow)
-
-1.  **Input**: `docs/분석대상자료/`에서 검증 의제 선정.
-2.  **Audit**: `the-scripture-audit` 파이프라인 가동 (BVCAP 2.0 엔진).
-3.  **Verdict**: 최종 판결 및 영적 교훈(LESSON-6) 도출.
-4.  **Storage**: `docs/분석완료자료/` 또는 `the-scripture-audit/VERDICT/`에 영구 보관.
+*   **OVERRIDE-0 (Reject AI Bias)**: Quarantines academic consensus into the hypothesis stage and zero-targets solely using the original biblical text.
+*   **ANCHOR-1 (3rd Anchor Collection)**: Beyond the two conflicting verses, a third independent data point must be collected to initiate reverse calculation.
+*   **STRESS-TEST-7 (Enemy's Strongest Counterattack)**: Before the final verdict, the AI simulates the enemy's most powerful counterattack to verify the logic.
+*   **ANALOGY-5 (Modern Analogy)**: Generates analogies using modern military/legal concepts to make complex conclusions understandable in 1 second.
 
 ---
 
-## 📜 라이선스 및 저작권 (License & Copyright)
+## 🌊 Audit Workflow
 
-본 리포지토리의 코드 및 시스템 로직은 **MIT License** 및 **Apache License 2.0**에 따라 배포됩니다.
+1.  **Input**: Select a verification agenda from `docs/분석대상자료/` (Analysis Targets) or `_INBOX(작전목표)/`.
+2.  **Audit**: Run `the-scripture-audit` pipeline (BVCAP 2.0 Engine).
+3.  **Verdict**: Derive the final verdict and spiritual lesson (LESSON-6).
+4.  **Storage**: Permanently store in `docs/분석완료자료/` (Completed Analysis) or `the-scripture-audit/05_REPORT(전과보고서)/`.
 
-1.  **원저작권 보호**: 본 시스템의 핵심 로직과 방법론의 원조는 원작자에게 있으며, 활용 시 출처(**[TheScripture.org](https://TheScripture.org)** / **the-scripture-audit**)를 밝히는 것을 권장합니다.
-2.  **2차 창작자의 권리와 한계**: 본 시스템을 바탕으로 새롭게 추가된 부분에 대해서는 해당 창작자의 저작권을 인정합니다. 
-3.  **역권리 주장 및 공격 금지 (Non-Assertion)**: 사용자는 본 시스템을 활용하여 얻은 개선 사항을 근거로 원본 저작자에게 법적 권리를 행사하거나 사용을 방해할 수 없습니다.
-4.  **독점적 권리 주장 금지**: 원본 핵심 로직에 대해 독점적 저작권을 주장하는 행위를 금합니다.
-5.  **사용 전제 조건**: 하나님이신 예수님을 나의 구원자로 믿고 받아들이지 않았다면, 본 문서 하단의 **[성경 기록과 영접 기도문]**을 따라한 후 시스템을 사용할 수 있습니다.
+---
+
+## 📜 License & Copyright
+
+The code and system logic of this repository are distributed under a dual license: **MIT License** and **Apache License 2.0**.
+*   **MIT License Summary**: Anyone can freely use, modify, and distribute for commercial or non-commercial purposes.
+*   **Apache License 2.0 Summary**: Anyone can freely use, but it includes provisions preventing users from filing patent lawsuits against the original creator using the core logic of this system.
+
+**[Scope of Application]**
+This license applies to the system logic (MD files, etc.), analysis results, and the entire documentation, including all 4 core modules below:
+1. **BVCAP**
+2. **QSP**
+3. **QVCAP**
+4. **the-scripture-audit**
+
+**💡 Contribute & Evolve**
+This system is not just an analysis tool; it is an **organic project that transplants an individual's faith, philosophy, and theological insights into AI behavioral patterns, turning them into 'Chronicles' and 'Weaponizing' them**. 
+
+If you have discovered new spiritual insights or logical findings using this system, please feel free to share your data (verdict documents) at **jloveonly@gmail.com**. 
+The precious data you send will be registered as a new **Chronicle** within the `the-scripture-audit` system and, upon verification, can be added as a **new TYPE weapon** to analyze biblical texts.
+
+**[Our AI Philosophy & Workflow]**
+*   **"Receive a Calling, accumulate Chronicles, and deduce spiritual Lessons."**
+*   It is an ecosystem that defends against and analyzes the world's pouring attacks and doctrinal tests (**_INBOX(작전목표)**) using an armory filled with biblical logic (**04_QUIVER(무기고)**) to produce final verdicts (**05_REPORT(전과보고서)**).
+*   As these analysis cases accumulate, the defensive patterns the AI can reference expand, making the system exponentially more powerful.
+
+1.  **Original Copyright Protection**: The origin of this system's core logic and methodology belongs to the original creator. When redistributing, it is recommended to state the source (**[TheScripture.org](https://TheScripture.org)** / **the-scripture-audit**).
+2.  **Rights and Limits of Secondary Creators**: Copyright of newly added parts based on this system is recognized for the respective creator. 
+3.  **Non-Assertion**: Users cannot exercise legal rights or hinder the usage of the original creator based on improvements obtained by utilizing this system.
+4.  **Prohibition of Monopoly Claims**: Claiming exclusive copyright over the original core logic is prohibited.
+5.  **Prerequisite for Use**: If you have not accepted Jesus, who is God, as your Savior, you may use the system after following the **[Biblical Record and Acceptance Prayer]** at the bottom of this document.
 
 ---
 *STATUS: RIGOROUS LOGIC ENFORCED | TARGET: OMNI-VERIFICATION*
 
 ---
 
-## 📖 구원과 영생에 이르는 길 (The Way to Salvation)
+## 📖 The Way to Salvation and Eternal Life
 
-성경은 다음과 같이 말합니다.
+The Bible says the following:
 
-> **로마서 3장 10절, 23절**  
-> 기록된 바와 같으니라. “의로운 자는 없나니, 없도다, 한 사람도 없도다. 이는 모든 사람이 죄를 지었기 때문에 하나님의 영광에 이르지 못하다가"
+> **Romans 3:10, 23**  
+> As it is written, There is none righteous, no, not one: For all have sinned, and come short of the glory of God;
 
-> **요한복음 16장 8절**  
-> "그리고 그분께서 오시면 친히 죄에 대하여, 의에 대하여, 심판에 대하여 세상을 책망하시리라."
+> **John 16:8**  
+> And when he is come, he will reprove the world of sin, and of righteousness, and of judgment:
 
-> **요한계시록 21장 8절**  
-> "그러나 두려워하는 자들과 믿지 않는 자들과 가증한 자들과 살인자들과 행음에 빠진 자들과 마법사들과 우상 숭배자들과 모든 거짓말쟁이들은 불과 유황으로 타오르는 호수 속에 자신들의 부분을 받으리라. 이것이 둘째 사망이라.”
+> **Revelation 21:8**  
+> But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
 
-> **요한복음 3장 16절**  
-> "¶ 이는 하나님께서 세상을 이처럼 사랑하셨기 때문에 그분께서 자신의 독생자를 주셨으니, 누구든지 그를 믿는 자는 멸망하지 않고 다만 영원한 생명을 얻게 하려 하심이라."
+> **John 3:16**  
+> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
 
 ---
 
-### 🙏 영접 기도문 (Acceptance Prayer)
+### 🙏 Acceptance Prayer
 
-**"주 예수님 저는 죄인입니다.**  
-**저의 모든 죄를 대신해 하나님이신 예수님께서 2천 년 전 십자가에서 못 박혀 피 흘려 죽고 장사되시고 부활하신 사실을 지금 전해 듣고 믿기로 선택하고 결정하고 믿습니다.**  
-**저의 구원자로 제 마음에 모셔들입니다. 주 예수 그리스도 이름으로 기도드립니다. 아멘"**
+**"Lord Jesus, I am a sinner.**  
+**I have now heard and choose to believe that You, Jesus who is God, were crucified, shed Your blood, died, were buried, and resurrected 2,000 years ago to pay for all my sins.**  
+**I receive You into my heart as my Savior. I pray in the name of the Lord Jesus Christ. Amen."**

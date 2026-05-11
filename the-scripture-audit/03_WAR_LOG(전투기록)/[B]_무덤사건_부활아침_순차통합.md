@@ -2,7 +2,7 @@
 **"He is not here: for he is risen, as he said." — Matthew 28:6 KJV**
 
 > **문서 코드**: [B] — TYPE-B 순차 통합 (Sequential Integration)
-> **분류**: CHRONICLE(전례) — 확정된 사건 순서 정답 기록
+> **분류**: 03_WAR_LOG(전투기록) — 확정된 사건 순서 정답 기록
 > **분석 유형**: TYPE-B + TYPE-C (기능적 범주 분리) + DE-OVERLAP
 > **데이터 출처**: 4복음서 병렬 엑셀 (마태 28장 / 마가 16장 / 누가 24장 / 요한 20장)
 > **판결 상태**: ✅ CONFIRMED — 모순 없음
