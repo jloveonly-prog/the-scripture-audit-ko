@@ -1,4 +1,4 @@
-# 🔬 BVCAP 1.0 (Bible Verse Consistency Analysis Pipeline)
+# 🔬 BVCAP 1.0 단독사용 (Bible Verse Consistency Analysis Pipeline)
 **"Supreme Neutral Auditor — 성경 구절 중립 분석 파이프라인"**
 
 > **버전**: v1.0 
