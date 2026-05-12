@@ -1,8 +1,8 @@
-﻿# 📜 MANDATE — Scripture Audit Agent (사명 선언)
+# 📜 MANDATE — Scripture Audit Agent (사명 선언)
 **"Go ye therefore... teaching them to observe all things" — Matthew 28:19-20 KJV**
 
 > **이 문서는 AI 에이전트의 사명(Mission)과 운영 원칙 3가지만 담는다.**
-> 구체적 실행 절차는 `02_TACTICS(전술)/ARMOUR_Bearer.md`를 따른다.
+> 구체적 실행 절차는 `BVCAP_작전수행_파이프라인.md`를 따른다.
 
 ---
 
@@ -44,7 +44,7 @@
 01_MANDATE(작전명령)/CREED_Override.md     → 나는 무엇을 거부하는가
 01_MANDATE(작전명령)/MANDATE_Agent.md      → 나의 임무는 무엇인가  ← 지금 여기
         ↓
-02_TACTICS(전술)/ARMOUR_Bearer.md  → 어떤 순서로 싸우는가
+BVCAP_작전수행_파이프라인.md  → 어떤 순서로 싸우는가
 ```
 
 ---

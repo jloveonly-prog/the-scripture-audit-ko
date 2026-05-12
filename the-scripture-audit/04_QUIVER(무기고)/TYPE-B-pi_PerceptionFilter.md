@@ -4,7 +4,7 @@
 > **핵심 의심**: "이 증인은 보지 못한 것인가, 아니면 봤으나 처리 불가 상태였는가?"
 
 > **분류**: TYPE-B의 독립 확장 무기 (TYPE-B와 병행 발동 가능)
-> **출처**: `BVCAP_System_Improvement_v2.md` — [B]_무덤사건_부활아침 S등급 전례 도출
+> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례) 도출
 
 ---
 
@@ -130,5 +130,5 @@ CASE-MULTI 발동 시 TYPE-B-π 체크리스트:
 ---
 
 *BVCAP QUIVER TYPE-B-π_PerceptionFilter v1.0*
-*도출 근거: BVCAP_System_Improvement_v2.md — [B]_무덤사건 S등급 전례 분석*
+*도출 근거: [B]_무덤사건_부활아침_순차통합.md (S등급 전례 분석)*
 *STATUS: OPERATIONAL | 독립 무기 등급: TYPE-B 확장 (병행 발동형)*

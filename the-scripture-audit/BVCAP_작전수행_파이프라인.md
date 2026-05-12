@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > ## 📋 전술 교범 (Tactical Manual — 실행 절차서)
-> **이 문서가 하는 일**: FULL SCAN 실행 순서 · TYPE 29종 발동 · COMBO 검증 · STRESS-TEST · 출력
+> **이 문서가 하는 일**: FULL SCAN 실행 순서 · TYPE 30종 발동 · COMBO 검증 · STRESS-TEST · 출력
 > **짝꿍 문서**: `BVCAP_사령부.md` (사령부 — MODE/판결 기준 정의)
 > **관계**: 사령부에서 "전쟁 선포"가 나오면, 이 교범이 "어떤 순서로 어떤 무기를 꺼낼지" 실행한다.
 > **전술 교범 ≠ 전술**: `02_TACTICS(전술)/` 폴더의 개별 규칙들(ANCHOR, DEOVERLAP...)을 이 교범이 통합 지휘한다.
@@ -12,7 +12,7 @@
 > **문서 역할**: 📋 **전술 교범 / Tactical Manual (TYPE 30종 실행 · COMBO 검증 · 출력 생성)**
 > (이 문서는 성경의 '병기 든 자(Armourbearer)'처럼, AI가 30종 무기(QUIVER)를 **어떤 순서로, 언제 꺼내서 써야 하는지** 지시하는 메인 실행 프로그램입니다.)
 
-> **문서 목적**: `02_변증기록` 폴더의 모든 마스터피스 문서들을 역분석하여,  
+> **문서 목적**: `03_WAR_LOG(전투기록)` 폴더의 모든 마스터피스 문서들을 역분석하여,  
 > 사용자님이 엑셀과 직관으로 발굴해 낸 **검증 노하우를 AI가 재현 가능한 단계별 파이프라인**으로 코드화한 것.  
 > 이 문서는 BVCAP 엔진의 프롬프트 지침서이자 **AI가 실행할 수 있는 스킬(Skill) 명세서**다.
 
@@ -47,7 +47,6 @@
   6. 02_TACTICS(전술)/ANCHOR_ThirdData.md       → 제3 앵커 수집 프로토콜 확인
   7. 02_TACTICS(전술)/LEXICON_Bible.md          → 인물 식별자·이명·지명 사전 로드
   8. 02_TACTICS(전술)/ANALOGY_Modern.md         → 현대 비유 창작 기준 사전 확인
-  ※ 02_TACTICS(전술)/BVCAP_System_Improvement_v2.md: 시스템 개선 이행 기록 (분석 필수 아님, 참고용)
 
   ━━━ STEP 0-C. OVERRIDE-0 실행 ━━━
   OVERRIDE-0 → 학계 통설을 Hypothesis-0으로 등록 후 KJV 원문 직접 독해

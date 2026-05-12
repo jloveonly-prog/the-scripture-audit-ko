@@ -29,8 +29,7 @@ the-scripture-audit/
 │   ├── ANCHOR_ThirdData.md          (제3 앵커 수집 규칙 — 역산의 열쇠)
 │   ├── DEOVERLAP_Serial.md          (중첩 해체 + 직렬화 규칙)
 │   ├── LEXICON_Bible.md             (성경 인명/지명/이명 식별자 사전)
-│   ├── ANALOGY_Modern.md            (비유 창작법 — 1초 이해 달성 기술)
-│   └── BVCAP_System_Improvement_v2.md (시스템 개선 이행 기록)
+│   └── ANALOGY_Modern.md            (비유 창작법 — 1초 이해 달성 기술)
 │
 ├── 📚 03_WAR_LOG(전투기록)/              ← [3단계] 시청각 교육 — 과거 전투 기록
 │   (상세 인덱스는 아래 📚 전례 인덱스 표 참조)
@@ -120,7 +119,7 @@ the-scripture-audit/
 | **CHRONICLE_사울의구원논쟁_침묵의타임라인역전** | A + B | 무당 추방 + 하나님 먼저 물음 → 회개 전무 기각 | ✅ |
 
 ### 🏹 [4단계] QUIVER (무기고 & 실전 타격)
-*   **개념:** "어떤 무기로 적의 논리를 타격할 것인가?"를 결정하는 28종의 정밀 포렌식 무기들입니다.
+*   **개념:** "어떤 무기로 적의 논리를 타격할 것인가?"를 결정하는 30종의 정밀 포렌식 무기들입니다.
 *   **역할:** 모든 훈련(소명, 교훈, 전례)이 끝나고 실전 법정(BVCAP 2.0)에 섰을 때, 적재적소에 꺼내어 적의 모순을 박살내는 **실행 파일(Executables)**입니다. (근거: 시 127:5 "His quiver")
 
 ---
@@ -200,7 +199,7 @@ the-scripture-audit/
 
 ## 🏆 전례 등급 체계 (CHRONICLE Grade System) — v2.0 신규
 
-> **출처**: `BVCAP_System_Improvement_v2.md` — [B]_무덤사건 분석에서 체계화됨.
+> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례)에서 체계화됨.
 > 새 사건 분석 시 동일 등급 이상의 전례를 우선 참고하여 분석 품질 기준을 확보한다.
 
 | 등급 | 정의 | 해당 전례 |
@@ -216,7 +215,7 @@ the-scripture-audit/
 
 ## 🔀 CASE-MULTI: 다중 인물 동시 현장 분기 사건 유형 — v2.0 신규
 
-> **출처**: `BVCAP_System_Improvement_v2.md` — 무덤사건에서 기존 TYPE-B 단독 처리 실패 원인 분석으로 도출됨.
+> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례) — 기존 TYPE-B 단독 처리 실패 원인 분석으로 도출됨.
 
 ```
 발동 조건: 단일 사건에 5개 이상 인물그룹 × 복수 복음서 기록이 교차하는 경우
@@ -270,8 +269,8 @@ the-scripture-audit/
 
 ```text
 "[난제 내용]을 검증해줘. (기본 MODE A 가동)
-1. 01_MANDATE(작전명령)/Persona_Scribe42.md — 페르소나 장착
-2. 02_TACTICS(전술)/ARMOUR_Bearer.md — 전투 순서 확인
+1. 01_MANDATE(작전명령)/IDENTITY_Scribe42.md — 페르소나 장착
+2. BVCAP_작전수행_파이프라인.md — 전투 순서 확인
 3. 03_WAR_LOG(전투기록)/에서 동일 TYPE 전례 확인
 4. 04_QUIVER(무기고)/TYPE-X.md — 해당 무기로 분석 실행
 5. BVCAP_사령부.md — BALANCE 검증 후 판결 선고
@@ -280,8 +279,8 @@ the-scripture-audit/
 
 **예시:**
 > "_INBOX(작전목표)의 Shabir Ally 공격 중 Q01(다윗 인구조사)을 검증해줘.
-> QUIVER/ARMOUR_Bearer.md 파이프라인을 따르고,
-> VERDICT/REPORT_Q01_다윗인구조사.md로 저장해."
+> BVCAP_작전수행_파이프라인.md를 따르고,
+> 05_REPORT(전과보고서)/REPORT_Q01_다윗인구조사.md로 저장해."
 
 ---
 
@@ -323,15 +322,15 @@ the-scripture-audit/
 [공격 접수]
 _INBOX(작전목표)/ → Bible_Defense_List or Shabir_Ally_101
     ↓
-[CALLING 장착] — Persona_Scribe42.md + OVERRIDE_AcademicBias.md
+[CALLING 장착] — IDENTITY_Scribe42.md + CREED_Override.md
   → "나는 42 기록자다. 학계 통설은 H0으로 격리한다."
     ↓
 [TACTICS 장착] — 전술 교범 및 필수 원칙 체화
-  ARMOUR_Bearer.md → 무기 사용 순서(알고리즘) 탑재
+  BVCAP_작전수행_파이프라인.md → 무기 사용 순서(알고리즘) 탑재
   ANCHOR_ThirdData.md → 제3 앵커 구절 수집 규칙 강제
   DEOVERLAP_Serial.md → 시공간 중첩 해체 및 직렬 배치 규칙 강제
     ↓
-[QUIVER 실행] — 28종 정밀 무기(TYPE-A ~ TYPE-AB) 전수 스캔
+[QUIVER 실행] — 30종 정밀 무기(TYPE-A ~ TYPE-AC + TYPE-B-π) 전수 스캔
   SUSPECT_Anomaly  → "왜 이것만 다른가?" 의심 감지 (TYPE-M)
   발동된 TYPE → 메모리 보관
   미발동 TYPE → 스킵
@@ -354,7 +353,7 @@ _INBOX(작전목표)/ → Bible_Defense_List or Shabir_Ally_101
 
 ## 📚 부록(Appendix): 고대 유대교 해석학 세부 규칙과 BVCAP 매핑
 
-본 시스템의 무기고(QUIVER)는 고대 랍비들의 성경 해석학을 계승합니다. 랍비 힐렐의 7대 규칙을 확장한 **이스마엘의 13대 규칙(할라하적 방어)**과 **엘리에제르의 32대 규칙(아가다적 방어)**이 어떻게 28종 무기로 이식되었는지 매핑한 표입니다.
+본 시스템의 무기고(QUIVER)는 고대 랍비들의 성경 해석학을 계승합니다. 랍비 힐렐의 7대 규칙을 확장한 **이스마엘의 13대 규칙(할라하적 방어)**과 **엘리에제르의 32대 규칙(아가다적 방어)**이 어떻게 30종 무기로 이식되었는지 매핑한 표입니다.
 
 ### 📜 [부록 1] 랍비 이스마엘의 13대 규칙 (할라하/논리적 변증)
 
