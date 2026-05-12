@@ -13,8 +13,11 @@
 If you are a beginner, before studying the complex structure, **command the AI to run the system**. The operational method is excellent and simple.
 
 **[How to Run]**
-1. Upload or open this entire `the-scripture-audit` folder in your AI (Cursor, ChatGPT, Claude, Workspace, etc.).
-2. Enter the following **two commands** in order into the AI prompt.
+Because this system is a massive framework consisting of over 30 files, uploading all files to standard web AIs (like ChatGPT) may be restricted. **We highly recommend using an Agentic AI environment (Google Antigravity, Cursor, Windsurf, etc.) that can read entire folders.**
+
+1. Install the **Google Antigravity** extension, or open an AI IDE like **Cursor** or **Windsurf**.
+2. Copy and open this entire `the-scripture-audit` folder in that workspace.
+3. Enter the following **two commands** in order into the AI prompt.
 
 > **💬 Prompt 1 (Loading the Engine):**
 > "Read all the documents in this folder, including `BVCAP_사령부.md` and `BVCAP_작전수행_파이프라인.md`, and perfectly equip them as your default audit system."
@@ -271,8 +274,8 @@ Auxiliary modules activated after defense is complete to visualize results and p
 This system consists of a **Multi-file Repository** rather than a single file. Therefore, **pre-training (initialization)** is mandatory so the AI can understand and interlink the entire system (Calling, Doctrine, Chronicle, Quiver).
 
 ### 📌 STEP 0: AI Pre-training and System Loading (Mandatory)
-Before starting an analysis, upload the relevant files to the AI chat window (Claude, GPT-4, etc.) along with the initialization prompt below.
-(You must upload the entire folder, or at least attach `BVCAP_사령부.md`, `README_AUDIT_SYSTEM.md`, and the `CALLING`, `DOCTRINE`, and `QUIVER` files to be used.)
+Before starting an analysis, enter the initialization prompt below in an Agentic AI environment that can read entire folders (Google Antigravity, Cursor, etc.).
+(If using a standard web AI, you must manually attach at least `BVCAP_사령부.md`, `README_AUDIT_SYSTEM.md`, and the `CALLING`, `DOCTRINE`, and `QUIVER` files to be used.)
 
 ```text
 "The files I have uploaded from now on are the core files of 'The Scripture Audit' system.
