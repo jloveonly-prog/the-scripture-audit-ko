@@ -17,6 +17,13 @@
 
 ---
 
+## 🚀 사용 방법 (Quick Start & Usage)
+
+이 시스템을 AI에 장착하고 5분 만에 직접 실행해 보는 **구체적인 사용법(프롬프트 포함)**은 아래의 메인 가이드를 확인해 주십시오.  
+👉 **[the-scripture-audit/README_AUDIT_SYSTEM_KR.md](the-scripture-audit/README_AUDIT_SYSTEM_KR.md)**
+
+---
+
 ## 📂 리포지토리 구조 (Repository Structure)
 
 ```text
