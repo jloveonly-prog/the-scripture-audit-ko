@@ -13,8 +13,11 @@
 초보자라면 복잡한 구조를 공부하기 전에, 먼저 AI에게 **시스템을 가동해 보라고 명령**해 보십시오. 작동 방식은 아주 훌륭하고 단순합니다.
 
 **[실행 방법]**
-1. 이 `the-scripture-audit` 폴더 전체를 AI(Cursor, ChatGPT, Claude, 구글 워크스페이스 등)에 업로드하거나 엽니다.
-2. AI 프롬프트 창에 다음 **두 개의 명령**을 차례대로 입력하세요.
+이 시스템은 30개 이상의 파일로 구성된 거대한 프레임워크이므로, 일반적인 웹 AI(ChatGPT 등)에서는 모든 파일 업로드가 제한될 수 있습니다. 따라서 **폴더 전체를 읽을 수 있는 Agentic AI 환경(Google Antigravity, Cursor, Windsurf 등) 사용을 권장**합니다.
+
+1. **Google Antigravity**를 설치하거나, **Cursor / Windsurf** 같은 AI IDE를 엽니다.
+2. 이 `the-scripture-audit` 폴더 전체를 해당 워크스페이스에 복사하여 엽니다.
+3. AI 프롬프트 창에 다음 **두 개의 명령**을 차례대로 입력하세요.
 
 > **💬 프롬프트 1 (엔진 장착):**
 > "이 폴더 안에 있는 `BVCAP_사령부.md`와 `BVCAP_작전수행_파이프라인.md`를 포함한 모든 문서를 읽고, 너의 기본 감사 시스템으로 완벽히 장착해."
@@ -270,8 +273,8 @@ the-scripture-audit/
 본 시스템은 단일 파일이 아닌 **다중 파일 구조(Multi-file Repository)**로 이루어져 있습니다. 따라서 AI가 전체 시스템(소명, 교훈, 전례, 무기)을 이해하고 연동할 수 있도록 **사전 학습(초기화)**이 반드시 필요합니다.
 
 ### 📌 STEP 0: AI 사전 학습 및 시스템 장착 (필수)
-분석을 시작하기 전, AI 채팅창(Claude, GPT-4 등)에 아래의 초기화 프롬프트와 함께 관련 파일들을 업로드하십시오.
-(전체 폴더를 업로드하거나, 최소한 `BVCAP_사령부.md`, `README_AUDIT_SYSTEM.md`, 그리고 사용할 `CALLING`, `DOCTRINE`, `QUIVER` 파일들을 첨부해야 합니다.)
+분석을 시작하기 전, 폴더 전체를 읽을 수 있는 AI 환경(Google Antigravity, Cursor 등)에서 아래의 초기화 프롬프트를 입력하십시오.
+(일반 웹 AI를 사용할 경우, 최소한 `BVCAP_사령부.md`, `README_AUDIT_SYSTEM_KR.md`, 그리고 사용할 `CALLING`, `DOCTRINE`, `QUIVER` 파일들을 수동으로 첨부해야 합니다.)
 
 ```text
 "지금부터 내가 업로드한 파일들은 'The Scripture Audit' 시스템의 핵심 코어 파일들이다.
