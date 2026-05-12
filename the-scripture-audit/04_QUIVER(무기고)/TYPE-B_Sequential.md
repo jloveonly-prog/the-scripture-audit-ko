@@ -112,7 +112,7 @@
 
 ## 🔧 TYPE-B 내부 확장 (Sub-Types) — v2.0 무덤사건 S등급 전례 도출
 
-> **출처**: `BVCAP_System_Improvement_v2.md` — [B]_무덤사건 분석에서 TYPE-B 단독 처리의 한계 발견 시 도출됨.
+> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례) — TYPE-B 단독 처리의 한계 발견 시 도출됨.
 > 이 두 서브타입은 독립 무기가 아닌 **TYPE-B 발동 시 내부 판별 확장**으로 작동한다.
 
 ### TYPE-B-ψ: 심리적 시간차 (Psychological Temporal Differential)
