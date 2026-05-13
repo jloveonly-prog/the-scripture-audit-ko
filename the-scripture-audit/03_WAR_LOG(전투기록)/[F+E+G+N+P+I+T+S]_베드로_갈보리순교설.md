@@ -9,8 +9,9 @@
 > ✅✅ **COMBO-E5** (F+W) — 삼중 예표+예언 이중 성취 → 갈보리 수렴 **CONFIRMED**
 > ✅✅ **COMBO-GR8** (G심화+R심화) — ὑπάγω≠εἰμί 동사 차이+청중 구분 → "같은 표현" 공격 **완전 기각** CONFIRMED
 > ✅✅ **COMBO-SF11** (S+F+G) — θέλω 어휘 브리지+예표+요 19:17 명시 링커 → **차단 장치** CONFIRMED
-> **분석 대상**: 요한복음 13:36, 요한복음 21:18-19, 마태복음 16:17, 마태복음 26:39
-> **결론**: 베드로의 순교 장소는 예수님이 십자가에 달리신 **갈보리(골고다)**임이 6개 콤보 동시 발화 및 어휘 반론 체인 통과로 철벽 확정된다. 일반적 '순교'로 해석할 경우 다른 제자들도 순교했으므로 예수님의 배타적 허락(TYPE-N)이 거짓이 되는 치명적 모순이 발생한다. 오직 **갈보리라는 특정 장소**만이 배타성을 완벽히 성립시킨다. 모든 대안 해석은 성경 내부 자가모순을 발생시키며, **갈보리만이 모든 모순 없이 성립하는 유일한 해석**이다.
+> ✅✅ **COMBO-SN12** (S+N+I+F) — δοξάζω/δόξα 어휘 브리지+면류관 배타성+빈도+머리 예표 → **영광의 면류관 연결** CONFIRMED
+> **분석 대상**: 요한복음 13:36, 요한복음 21:18-19, 마태복음 16:17, 마태복음 26:39, **베드로전서 5:4**
+> **결론**: 베드로의 순교 장소는 예수님이 십자가에 달리신 **갈보리(골고다)**임이 7개 콤보 동시 발화 및 어휘 반론 체인 통과로 철벽 확정된다. 일반적 '순교'로 해석할 경우 다른 제자들도 순교했으므로 예수님의 배타적 허락(TYPE-N)이 거짓이 되는 치명적 모순이 발생한다. 오직 **갈보리라는 특정 장소**만이 배타성을 완벽히 성립시킨다. 모든 대안 해석은 성경 내부 자가모순을 발생시키며, **갈보리만이 모든 모순 없이 성립하는 유일한 해석**이다.
 
 
 ---
@@ -113,6 +114,7 @@
 | 1 | **요 21:18a** | **베드로** | ἐζώννυες | "젊었을 때 스스로 **띠 띠고**" |
 | 2 | **요 21:18b** | **베드로** | ζώσει | "늙어서는 다른 이가 **띠 띠우고**" |
 | 3 | 행 12:8 | **베드로** | ζῶσαι | 천사가 감옥의 베드로에게 "**띠를 띠라**" |
+| 4 | **벧전 1:13** | 성도들 | ἀναζωσάμενοι (ἀνα+ζώννυμι) | **베드로가 직접 기록:** "생각의 허리를 **동여매라**" / "**gird up** the loins of your mind" |
 
 **διαζώννυμι (강화형 — "동여매다", 동일 어근 ζώννυμι):**
 
@@ -145,6 +147,16 @@
 > ζώννυμι가 다시 베드로에게 사용되었다. 그리고 베드로는 풀려난다.
 > 이것은 요 21:18의 "늙어서" 예언이 아직 성취되지 않았기 때문에
 > **타임라인 가드가 실행되어** 베드로가 이 시점에서는 죽을 수 없었음을 보여준다.
+>
+> **추가 발견 — 벧전 1:13 (베드로 자신이 ζώννυμι를 서신서에 사용 / Peter uses ζώννυμι in his own epistle):**
+> *"Wherefore **gird up** (ἀναζωσάμενοι) the loins of your mind"* (벧전 1:13 KJV)
+> ἀναζωσάμενοι = ἀνά(위로) + **ζώννυμι**(띠 띠다) — 동일 어근.
+> 이것은 δόξα/δοξάζω 패턴과 **정확히 동일한 구조**이다:
+> 예수님이 베드로에게 예언하신 어휘(ζώννυμι, 요 21:18)를
+> **베드로 자신이 자기 서신서에서 동일 어근으로 반복 사용**하고 있다.
+> 베드로는 자기 죽음의 예언 어휘를 **의식하고** 서신서를 기록했다는 추가 증거이다.
+> Peter used the same root (ζώννυμι) in his own epistle, proving he consciously wove
+> the vocabulary of his death prophecy into his writing — the same pattern as δοξάζω/δόξα.
 
 ### 📊 세 가지 어휘 브리지 — KJV 영어에서도 동일한 단어
 
@@ -594,6 +606,273 @@
 
 ---
 
+## 3-2-B. 🔑 신규 발견 — δοξάζω/δόξα 어휘 브리지: "영화롭게 하는 죽음"과 "영광의 면류관"
+## (New Discovery — The δοξάζω/δόξα Lexical Bridge: "A Death That Glorifies" and "The Crown of Glory")
+
+### 🏹 TYPE-S: δοξάζω(동사) ↔ δόξα(명사) — 동일 어근, 동일 사도
+### (TYPE-S: δοξάζω [verb] ↔ δόξα [noun] — Same Root, Same Apostle)
+
+**요 21:19 (John 21:19 KJV):**
+> *"This spake he, **signifying by what death** he should **glorify** (δοξάσει) God."*
+> "어떤 죽음으로 하나님을 **영화롭게 할(δοξάσει)** 것을 보이신 것"
+
+**벧전 5:4 (1 Peter 5:4 KJV):**
+> *"And when the chief Shepherd shall appear, ye shall receive a **crown of glory** (στέφανον τῆς δόξης) that fadeth not away."*
+> "목자장께서 나타나실 때에 너희가 쇠하지 아니하는 **영광(δόξης)의 면류관**을 받으리라"
+
+| 구절 / Verse | 헬라어 / Greek | 어근 / Root | 품사 / Form | 대상 / Subject |
+|:---:|:---:|:---:|:---:|:---:|
+| 요 21:19 | δοξάσει | δοξ- | 동사 (Verb) | **베드로의 죽음** / Peter's death |
+| 벧전 5:4 | δόξης | δοξ- | 명사 (Noun) | **베드로가 기록** / Written by Peter |
+
+> **판정:** 동일 어근(δοξ-). "영화롭게 하는 죽음"의 동사와 "영광의 면류관"의 명사가 같은 단어 가족이다.
+> **Verdict:** Same root (δοξ-). The verb in "a death that glorifies" and the noun in "crown of glory" belong to the same word family.
+
+---
+
+### 🏹 TYPE-N: 신약 5대 면류관 전수 조사 — 오직 베드로만 "Glory" 선택
+### (TYPE-N: Full Audit of the Five NT Crowns — Only Peter Chose "Glory")
+
+| 면류관 / Crown | KJV 영어 | 헬라어 | 기록자 / Author | 구절 / Verse |
+|:---:|:---|:---|:---:|:---:|
+| 썩지 않을 관 | Incorruptible crown | στέφανον ἄφθαρτον | **바울 / Paul** | 고전 9:25 |
+| 환희의 관 | Crown of rejoicing | στέφανος καυχήσεως | **바울 / Paul** | 살전 2:19 |
+| 의의 관 | Crown of righteousness | στέφανος δικαιοσύνης | **바울 / Paul** | 딤후 4:8 |
+| 생명의 관 | Crown of life | στέφανος τῆς ζωῆς | **야고보·요한 / James·John** | 약 1:12, 계 2:10 |
+| **영광의 관** | **Crown of glory** | **στέφανον τῆς δόξης** | **베드로만 / Peter only** | **벧전 5:4** |
+
+> **TYPE-N 판정:** 바울은 3가지 면류관을 기록했으나 δόξα를 쓰지 않았다. 야고보와 요한은 ζωή(생명)를 썼다.
+> **오직 베드로만** 자기 죽음의 예언 어휘(δοξάζω)와 **동일 어근**의 면류관(δόξα)을 선택했다. 이것이 우연인가?
+>
+> **TYPE-N Verdict:** Paul recorded three crowns but never used δόξα. James and John used ζωή (life).
+> **Only Peter** chose the crown sharing the exact same root (δοξ-) as the verb in his own death prophecy (δοξάζω). Is this coincidence?
+
+---
+
+### 🏹 TYPE-I: 벧전서 내부 δόξα/δοξάζω 집중 빈도
+### (TYPE-I: Concentration of δόξα/δοξάζω Throughout 1 Peter)
+
+| 구절 / Verse | KJV 핵심부 / Key Phrase | 헬라어 | 주제 / Theme |
+|:---|:---|:---:|:---|
+| 벧전 1:7 | "praise and honour and **glory**" | δόξαν | 시험→영광 / Trial→Glory |
+| 벧전 1:11 | "sufferings of Christ, and the **glory**" | δόξας | 고난→영광 / Suffering→Glory |
+| 벧전 1:21 | "gave him **glory**" | δόξαν | 부활·영광 / Resurrection·Glory |
+| 벧전 4:11 | "God may be **glorified**" | δοξάζηται | 하나님을 영화롭게 / God be glorified |
+| 벧전 4:13 | "when his **glory** shall be revealed" | δόξης | 고난→영광 / Suffering→Glory |
+| 벧전 4:14 | "the spirit of **glory**" | δόξης | 영광의 영 / Spirit of glory |
+| **벧전 4:16** | **"let him glorify God"** | **δοξαζέτω** | **하나님을 영화롭게 하라 / Glorify God** |
+| **벧전 5:1** | **"partaker of the glory"** | **δόξης** | **영광에 참여하는 자 / Partaker of glory** |
+| **벧전 5:4** | **"crown of glory"** | **δόξης** | **영광의 면류관 / Crown of glory** |
+| 벧전 5:10 | "eternal **glory**" | δόξαν | 영원한 영광 / Eternal glory |
+
+> **결정적 발견 (Critical Finding):**
+> ```
+> 요 21:19 — 예수님이 베드로에게: "하나님을 영화롭게 할(δοξάσει) 것"
+> 벧전 4:16 — 베드로가 성도에게: "하나님을 영화롭게 하라(δοξαζέτω)"
+> 벧전 5:1 — 베드로 자신: "나도 영광(δόξης)에 참여하는 자"
+> 벧전 5:4 — 베드로가 기록: "영광(δόξης)의 면류관을 받으리라"
+> ```
+>
+> **TYPE-I 판정:** 벧전서 전체에 δόξα/δοξάζω가 **10회 이상** 집중된다. 특히 벧전 4:16의 δοξαζέτω는 요 21:19의 δοξάσει와 **동일 동사의 명령형**이다. 베드로는 자기가 받은 예언(δοξάζω로 죽는다)을 자기 서신서 전체에 **δόξα/δοξάζω로 직조(織造)해 넣은 것**이다.
+>
+> **TYPE-I Verdict:** δόξα/δοξάζω appears **over 10 times** concentrated in 1 Peter. Notably, δοξαζέτω (1 Pet 4:16) is the **imperative form of the same verb** as δοξάσει (John 21:19). Peter wove the vocabulary of his own death prophecy throughout his entire epistle.
+
+---
+
+### 🏹 TYPE-F: 요 13:7-9 예표 재확인 — "이후에 알리라" + 머리(κεφαλήν)
+### (TYPE-F: John 13:7-9 — "Hereafter" + Head [κεφαλήν])
+
+| 구절 / Verse | 사건 / Event | 연결 / Connection |
+|:---|:---|:---|
+| 요 13:7 | "이후에(μετὰ ταῦτα) 알리라" / "thou shalt know **hereafter**" | 십자가 이후 깨달음 / Understanding after the cross |
+| 요 13:9 | "발(πόδας)+손(χεῖρας)+**머리(κεφαλήν)**" / "feet+hands+**head**" | 십자가 상처 부위 + **면류관 부위** / Cross wounds + **crown location** |
+| 요 21:18 | "네 **손(χεῖρας)**을 펴리니" / "stretch forth thy **hands**" | 십자가 못 박힘 명시 / Crucifixion nails explicit |
+| 요 21:19 | "하나님을 **영화롭게(δοξάσει)**" / "**glorify** God" | δοξ- 어근 발동 / δοξ- root activated |
+| 벧전 5:4 | "**영광(δόξης)**의 면류관" / "crown of **glory**" | δοξ- 어근 → 머리에 씌워지는 관 / δοξ- root → crown on **head** |
+
+> **구조적 연결 (Structural Link):**
+> 요 13:9의 κεφαλήν(머리)은 요 21:18의 순교 예언에서 직접 언급되지 않았다.
+> 그러나 요 21:19의 δοξάσει → 벧전 5:4의 δόξης(영광의 면류관)으로 연결될 때,
+> **면류관은 머리에 씌워지는 것**이므로 요 13:9의 κεφαλήν이 이 체인의 **예표적 기점**으로 기능한다.
+>
+> John 13:9's κεφαλήν (head) is not explicitly mentioned in the martyrdom prophecy of John 21:18.
+> However, when John 21:19's δοξάσει connects to 1 Peter 5:4's δόξης (crown of glory),
+> and a crown is placed on the **head**, John 13:9's κεφαλήν functions as the **typological origin point** of this chain.
+
+---
+
+### 📊 COMBO-SN12 판정 / COMBO-SN12 Verdict: TYPE-S + TYPE-N + TYPE-I + TYPE-F
+
+```
+[체인 1 — TYPE-S: 어휘 브리지 / Lexical Bridge]
+  δοξάσει(요 21:19) ↔ δόξης(벧전 5:4) → 동일 어근 δοξ- ✅
+  "glorify" ↔ "glory" → same root δοξ- ✅
+
+[체인 2 — TYPE-N: 배타적 선택 / Exclusive Selection]
+  5가지 면류관 중 "crown of glory" 기록자 = 오직 베드로 ✅
+  "glorifying death" 예언 수신자 = 오직 베드로 ✅
+  Of five crowns, only Peter recorded "crown of glory" ✅
+  Of all apostles, only Peter received the "glorifying death" prophecy ✅
+
+[체인 3 — TYPE-I: 빈도 집중 / Frequency Concentration]
+  벧전서 전체에 δόξα/δοξάζω 10회+ 집중 ✅
+  벧전 4:16 δοξαζέτω = 요 21:19 δοξάσει 동일 동사 ✅
+  1 Peter saturated with δόξα/δοξάζω (10+ occurrences) ✅
+
+[체인 4 — TYPE-F: 예표 기점 / Typological Origin]
+  요 13:9 κεφαλήν(머리) → 면류관 부위 ✅
+  요 13:7 "이후에 알리라" → 십자가 이후 깨달음 ✅
+  John 13:9 κεφαλήν (head) → crown location ✅
+
+판정 / Verdict: COMBO-SN12 = 4개 독립 무기 동시 발화
+                Four independent weapons fired simultaneously
+                → ✅✅ CONFIRMED
+```
+
+---
+
+> [!NOTE]
+> **가시 면류관(Crown of Thorns) 가능성에 대하여 / On the Possibility of a Crown of Thorns:**
+>
+> 이 COMBO-SN12는 베드로의 "영화롭게 하는 죽음(δοξάζω)"과 "영광의 면류관(δόξα)"이
+> **동일 어근으로 연결된다**는 텍스트적 사실을 확정한다.
+>
+> 그러나 이것이 베드로가 물리적으로 **가시 면류관(στέφανος ἀκάνθινος)**을 쓰고 죽었음을 의미하는지,
+> 아니면 베드로의 영화로운 죽음 자체가 **"영광의 면류관"을 수여받는 행위**였는지는
+> KJV 텍스트가 명시적으로 확정하지 않는다.
+>
+> 가시 면류관의 **저주 대속적(Curse-bearing) 기능**은 오직 그리스도에게만 속하므로(갈 3:13),
+> 베드로의 경우 그것이 **고난을 통한 영광의 참여(벧전 4:13)**의 물리적 표현이었을
+> **가능성은 열려 있으나**, 현재 텍스트 범위 내에서는 **확정이 아닌 열린 질문(Open Question)**으로 남겨둔다.
+>
+> This COMBO-SN12 establishes the textual fact that Peter's "glorifying death" (δοξάζω)
+> and "crown of glory" (δόξα) are connected by the same Greek root.
+> Whether this means Peter physically wore a **crown of thorns (στέφανος ἀκάνθινος)** at his death,
+> or whether his glorious death itself constituted the act of **receiving the "crown of glory,"**
+> is not explicitly determined by the KJV text.
+> Since the **curse-bearing function** of the crown of thorns belongs exclusively to Christ (Gal 3:13),
+> the possibility remains **open but unconfirmed** within the current textual scope.
+
+---
+
+### 📊 벧전 5장 심층 분석: 순교 예언 어휘와 출발지의 밀집 구조
+### (1 Peter 5 Deep Analysis: Concentration of Martyrdom Prophecy Vocabulary and Departure Point)
+
+벧전 5장은 COMBO-SN12의 핵심 증거들이 **한 장 안에** 밀집되어 있는 유일한 장이다.
+1 Peter 5 is the only chapter where the core evidence of COMBO-SN12 is **concentrated within a single chapter**.
+
+| 절 / Verse | KJV 텍스트 / KJV Text | 헬라어 | 기능 / Function |
+|:---:|:---|:---:|:---|
+| **5:1** | "partaker of the **glory** that shall be revealed" | **δόξης** ① | 베드로 자신이 **영광에 참여** / Peter as partaker of glory |
+| **5:4** | "a **crown** of **glory** that fadeth not away" | **δόξης** ② + **στέφανος** | **영광의 면류관** / Crown of glory |
+| **5:10** | "called us unto his eternal **glory**" | **δόξαν** ③ | 영원한 **영광** / Eternal glory |
+| **5:11** | "To him be **glory** and dominion" | **δόξα** ④ | 그분께 **영광** / Glory to Him |
+| **5:12** | "**By Silvanus**... I have written" | Σιλουανός | 편지 **배송자** — 베드로에게서 편지를 받아 전달하려면 **바빌론에 함께 있어야** 한다 / Letter **carrier** — must be physically in Babylon with Peter |
+| **5:13** | "church at **Babylon**... **Marcus my son**" | **Βαβυλών** + Μᾶρκος | 출발지 확정 + 마가도 **바빌론에서** 문안 / Departure + Marcus greets **from** Babylon |
+
+> **한 장 안에: δόξα 4회 + 면류관(στέφανος) 1회 + 바빌론(Βαβυλών) 1회 + 동역자 2명(바빌론 동반 체류).**
+> **In one chapter: δόξα ×4 + crown ×1 + Babylon ×1 + 2 companions (physically present in Babylon).**
+>
+> **실루아노 = 편지 배송자 / Silvanus = Letter Carrier:**
+> "By Silvanus... I have written" = 실루아노가 이 서신을 물리적으로 운반하여 수신자에게 전달했다.
+> 편지를 받아 배달하려면 **발신지(바빌론)에 베드로와 함께 있어야** 한다.
+> 이것은 베드로의 바빌론 체류를 **물류적으로(logistically)** 확정하는 증거이다.
+> Silvanus physically carried this letter, meaning he was **with Peter in Babylon** to receive it.
+>
+> **"내 아들 마가" = 영적 아들 / "Marcus my son" = Spiritual Son:**
+> "my son(μου υἱός)"은 생물학적 아들이 아니다. 마가의 실제 어머니는 **마리아**(행 12:12)이다.
+> 바울이 디모데를 "나의 아들"(딤전 1:2)이라 부른 것과 동일한 **영적 제자/전도 관계**의 표현이다.
+> 핵심: 마가가 "바빌론에 있는 교회"와 함께 문안(saluteth)을 보내므로,
+> **마가도 이 시점에 바빌론에 물리적으로 체류**하고 있었다.
+> "My son" is spiritual (cf. Paul to Timothy, 1 Tim 1:2). Mark's mother is Mary (Acts 12:12).
+> Key: Marcus "saluteth you" alongside "the church at Babylon" = he was **physically in Babylon**.
+>
+> **헬라식 이름의 증거력 / Evidential Weight of Greek Names:**
+> 히브리인 베드로가 동역자들을 히브리식(시일라스, 요한 마가)이 아닌
+> **헬라/라틴식(실루아노, 마르코)**으로 기록 → **이방 지역**에서 기록되었음을 반영 →
+> 바빌론이 로마의 상징이 아닌 **동방의 실제 바빌론(이방 지역)**임을 뒷받침한다.
+> Peter used Greek-Latin names (Silvanus, Marcus) instead of Hebrew (Silas, John Mark),
+> supporting Babylon as the **literal Eastern Babylon**, not symbolic Rome.
+
+**요 21:18-19 순교 예언과의 대응 / Correspondence with John 21:18-19 Prophecy:**
+
+```
+요 21:18 φέρω(옮겨감, 장거리)    ← 출발지 = 바빌론 (벧전 5:13, 사실 기록)
+John 21:18 φέρω (carry, long distance) ← departure = Babylon (1 Pet 5:13, factual record)
+
+요 21:19 δοξάσει(영화롭게 함)    ← δόξα × 4 (벧전 5:1,4,10,11, 어휘 선택)
+John 21:19 δοξάσει (glorify)     ← δόξα × 4 (1 Pet 5:1,4,10,11, vocabulary choice)
+
+요 21:19 "나를 따르라"           ← 면류관 (벧전 5:4, 어휘 선택)
+John 21:19 "Follow me"          ← crown (1 Pet 5:4, vocabulary choice)
+```
+
+> **판정 / Verdict:** 바빌론(5:13)은 편지 발신지로서 **자연스러운 사실 기록**이다.
+> δόξα × 4와 면류관(5:1-11)은 베드로의 **의식적 어휘 선택**이다.
+> 이 사실(바빌론)과 어휘(δόξα/면류관)가 **한 장에서 만나는 구조**는,
+> 요 21:18-19의 순교 예언(φέρω 출발지 + δοξάσει 도착 행위)과 **정확히 대응**한다.
+> 베드로는 벧전 5장에 자신의 순교 여정의 출발지와 예언 어휘를 **동일 공간에 배치**한 것이다.
+>
+> Babylon (5:13) is a **natural factual record** as the letter's origin.
+> δόξα ×4 and crown (5:1-11) are Peter's **conscious vocabulary choices**.
+> The convergence of fact (Babylon) and vocabulary (δόξα/crown) **in one chapter**
+> corresponds exactly to the martyrdom prophecy of John 21:18-19 (φέρω departure + δοξάσει arrival).
+
+### 📊 바울-베드로 영적 아들 평행 구조: "바빌론 = 로마" 역가설 강화 기각
+### (Paul-Peter Spiritual Son Parallel: Strengthened Rejection of "Babylon = Rome")
+
+| | **바울 / Paul** | **베드로 / Peter** |
+|:---:|:---|:---|
+| 사역지 / Location | **로마 / Rome** (행 28:16,30; 딤후 1:17) | **바빌론 / Babylon** (벧전 5:13) |
+| 영적 아들 / Spiritual Son | **디모데 / Timothy** — "나의 참 아들" τέκνῳ (딤전 1:2) | **마가 / Marcus** — "나의 아들" υἱός (벧전 5:13) |
+| 동반 증거 / Evidence | 빌 1:1, 골 1:1, 몬 1:1 — **공동 발신자로 명시** | 벧전 5:13 — **바빌론에서 함께 문안** |
+| 편지 전달 / Letter Carrier | 두기고/Tychicus (엡 6:21, 골 4:7) — 별도 배송자 | **실루아노/Silvanus** (벧전 5:12) — 편지 배송자 |
+
+> **평행 판정:** 바울의 "로마"가 실제 도시이듯, 베드로의 "바빌론"도 **실제 도시**로 읽는 것이 평행 구조상 자연스럽다.
+> **Verdict:** Just as Paul's "Rome" is a literal city, Peter's "Babylon" should be read as a **literal city** by parallel structure.
+
+**"바빌론 = 로마" 역가설 대입 시 발생하는 모순 / Contradiction When "Babylon = Rome":**
+
+```
+서방(로마)                           동방(바빌론)
+├─ 바울 (사도)                        ├─ 베드로 (사도)
+├─ 디모데 (영적 아들)                  ├─ 마가 (영적 아들)
+├─ 서신: 빌, 골, 몬, 딤후              ├─ 서신: 벧전
+├─ 위치 명시: "로마" (딤후 1:17)        ├─ 위치 명시: "바빌론" (벧전 5:13)
+└─ 바울의 로마 서신에 베드로 ❌ 없음      └─ 벧전에 바울 ❌ 없음
+   → 다른 도시이므로 자연스럽다 ✅
+
+만약 바빌론 = 로마라면:
+  → 바울과 베드로가 같은 도시에 있는데 서로를 한 번도 언급하지 않음 ❌ 설명 불가
+```
+
+> **기각 근거:** 바울은 로마 옥중서신(빌, 골, 몬, 엡)에서 동역자를 **10명 이상** 이름으로 언급했으나
+> (디모데, 누가, 데마, 아리스다고, 마가, 에바브라, 유스도, 두기고, 오네시모 등),
+> 그 명단에 **베드로는 단 한 번도 등장하지 않는다.**
+> "바빌론 = 로마"라면 같은 도시에 있는 수석 사도를 완전히 무시한 것이 된다 → **설명 불가능.**
+> 반면 **바빌론 = 동방의 실제 바빌론**이라면 → 다른 도시이므로 **완벽히 자연스럽다.**
+>
+> Paul named **10+ co-workers** in his Roman prison epistles but **never mentioned Peter**.
+> If "Babylon = Rome," ignoring the chief apostle in the same city is **inexplicable**.
+> If Babylon = literal Eastern Babylon → different cities → **perfectly natural**.
+
+**실루아노의 편지 배송 — 이동의 함의 / Silvanus as Carrier — Implication of Movement:**
+
+> "By Silvanus... I have written" (벧전 5:12) = 실루아노가 바빌론에서 편지를 받아 수신자에게 **배달(이동)**했다.
+> 이것은 벧전 5장에 **이동(movement)의 물류적 증거**가 이미 내장되어 있음을 보여준다.
+> 바빌론에서 실루아노가 편지를 가지고 떠났듯이,
+> 베드로 자신도 바빌론에서 φέρω(옮겨감, 요 21:18)로 **떠나게 될 것**이다.
+> 벧전 5장은 출발지(바빌론) + 어휘(δόξα/면류관) + 이동(실루아노 배송) =
+> 순교 여정의 **출발·내용·이동**을 한 장에 모두 담고 있다.
+>
+> Silvanus departing Babylon with the letter embeds **evidence of movement** in 1 Peter 5.
+> Just as Silvanus left Babylon carrying the letter,
+> Peter himself would leave Babylon via φέρω (John 21:18).
+> 1 Peter 5 contains the **departure point** (Babylon) + **vocabulary** (δόξα/crown) + **movement** (Silvanus carrying) =
+> the full blueprint of the martyrdom journey in one chapter.
+
+---
+
 ## 3-3. 🔑 COMBO 조합
 ---
 
@@ -682,6 +961,7 @@
 | **COMBO-L7** (W+G) | 예언 이중 지평(순교 예언 실재) + ὅπου 장소 부사(물리적 장소 확정) | ✅✅ |
 | **COMBO-G7** (G+R) | 문법 차단(영적 해석 불가) + 오독 적발(천국 해석 자가모순) | ✅✅ |
 | **COMBO-E5** (F+W) | 예표 지리 수렴(갈보리) + 예언 시간축(순교 시점) | ✅✅ |
+| **COMBO-SN12** (S+N+I+F) | δοξάζω/δόξα 어휘 브리지 + 면류관 배타성(베드로만 "glory" 선택) + 빈도 집중 + 머리 예표 | ✅✅ |
 
 > [!IMPORTANT]
 > **4개의 독립 증명 체인이 동시에, 서로 다른 방향에서, 동일한 결론(갈보리)을 가리킨다.**
@@ -1274,9 +1554,10 @@ sequenceDiagram
 |:---:|:---:|:---:|:---|:---|:---:|
 | LB-01 | θέλω | will / would | 마 26:39 | 요 21:18 | ✅ 두 사람만 |
 | LB-02 | σημαίνων ποίῳ θανάτῳ | what death | 요 12:33, 18:32 | 요 21:19 | ✅ 3회 독점 |
-| LB-03 | ζώννυμι | gird | 요 13:4 | 요 21:18 | ✅ 사실상 두 사람만 |
+| LB-03 | ζώννυμι | gird / gird up | 요 13:4 | 요 21:18, **벧전 1:13** (ἀναζώννυμι) | ✅ 두 사람만 + 베드로 서신서 반복 |
 | LB-04 | ἀκολουθέω | follow | 요 13:36 | 요 21:19, 22 | ✅ 배타적 명령 |
 | LB-05 | χεῖρας | hands | — | 요 13:9 → 21:18 | ✅ 동일 단어 연결 |
+| LB-06 | δοξάζω / δόξα | glorify / glory | 요 12:33, 21:19 | 벧전 5:4 (crown of glory) | ✅ 베드로만 δόξα 면류관 기록 |
 
 ### RTM-3. 역가설 검증 추적 (Counter-Hypothesis Audit Trail)
 
