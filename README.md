@@ -87,6 +87,11 @@ The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'
 
 ---
 
+All materials provided here are free to use.
+If you have verified and understood the content, this wisdom and knowledge now belongs to you.
+You are free to disseminate these biblical mysteries and wisdom through sermons, documents, content creation, papers, etc.
+However, the sole purpose of such activities must be for Jesus Christ, who is God and our Savior.
+
 ## 📜 License & Copyright
 
 The code and system logic of this repository are distributed under a dual license: **MIT License** and **Apache License 2.0**.
