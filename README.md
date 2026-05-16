@@ -20,7 +20,7 @@ This system is the result of transplanting and evolving the rigorous logic of th
 ## 🚀 Quick Start & Usage Guide
 
 For detailed instructions on how to load this system into an AI and run audits in 5 minutes (including exact prompts), please refer to the main system guide:  
-👉 **[the-scripture-audit/README_AUDIT_SYSTEM.md](the-scripture-audit/README_AUDIT_SYSTEM.md)**
+👉 **[the-scripture-audit/BVCAP_User_Guide.md](the-scripture-audit/BVCAP_User_Guide.md)**
 
 ---
 

@@ -1030,7 +1030,7 @@ John 21:19 "Follow me"          ← crown (1 Pet 5:4, vocabulary choice)
 
 ## 🔬 [COMBO-VERIFY 종합 실증 — IRONCLAD 판결 근거 확정]
 
-> **이 섹션은 BVCAP_작전수행_파이프라인.md v2.8 COMBO-VERIFY 단계의 실체 검증 기록입니다.**
+> **이 섹션은 BVCAP_Pipeline.md v2.8 COMBO-VERIFY 단계의 실체 검증 기록입니다.**
 > 헤더의 IRONCLAD 선언이 단순 라벨이 아닌, 독립된 4개 증명 체인의 동시 수렴에 의한 것임을 본문으로 확정합니다.
 
 ---

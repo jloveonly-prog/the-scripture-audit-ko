@@ -8,6 +8,37 @@
 
 ---
 
+## 🌐 About Language — No Language Barriers for AI
+
+The documents in this system are a **mix of Korean and English**.
+Folder names, file names, and weapon codes (TYPE-A, COMBO, QUIVER, etc.) are in English, while some descriptions in core files (like `BVCAP_GHQ.md` and `BVCAP_Pipeline.md`) are written in Korean.
+
+You might wonder: **"Do I need to read Korean to use this system?"** The answer is no.
+
+> [!IMPORTANT]
+> **Modern LLMs have no language barriers.**
+>
+> GPT-4, Claude, Gemini and similar AIs, when prompted in **English**, will:
+> - Parse and analyze **Greek (κοινή)** vocabulary and syntax
+> - Dissect **Hebrew** narrative patterns and grammar structures
+> - Audit **KJV English** conjunctions, tenses, and punctuation with precision
+> - Output the final verdict **in English**
+>
+> The Korean sections in core files are fully understood and processed by the AI internally.
+> **You never need to type or read Korean to operate this system.**
+
+The English code names (TYPE-A, QUIVER, COMBO, etc.) are universal internal identifiers understood by the AI regardless of the prompt language.
+
+> [!TIP]
+> **Controlling Output Language**: By default, the system detects your prompt language and replies in kind.
+> - Prompt in English → Output in English ✅
+> - Add `[OUTPUT: EN]` at the end of any prompt to explicitly force English output
+> - Example: *"Verify John 21:18 using TYPE-P. [OUTPUT: EN]"*
+>
+> The depth of a biblical audit comes from **logical precision**, not language.
+
+---
+
 ## 🚀 Quick Start (Try it in 5 minutes)
 
 If you are a beginner, before studying the complex structure, **command the AI to run the system**. The operational method is excellent and simple.
@@ -20,7 +51,7 @@ Because this system is a massive framework consisting of over 30 files, uploadin
 3. Enter the following **two commands** in order into the AI prompt.
 
 > **💬 Prompt 1 (Loading the Engine):**
-> "Read all the documents in this folder, including `BVCAP_사령부.md` and `BVCAP_작전수행_파이프라인.md`, and perfectly equip them as your default audit system."
+> "Read all the documents in this folder, including `BVCAP_GHQ.md` and `BVCAP_Pipeline.md`, and perfectly equip them as your default audit system."
 
 > **💬 Prompt 2 (Executing an Audit):**
 > "Now, activate the BVCAP system and verify the hypothesis that 'Peter died at Mount Calvary'. Use TYPE skills and COMBOs to find contradictions in the counterfactual hypothesis and issue a final verdict."
@@ -34,9 +65,9 @@ By just entering this, you can immediately see the AI discarding cliché comment
 ```text
 the-scripture-audit/
 │
-├── 📋 README_AUDIT_SYSTEM.md        ← This document (System Map)
-├── ⚖️ BVCAP_사령부.md                  ← Hybrid Engine (GHQ - Mode/Verdict Criteria)
-├── 🧠 BVCAP_작전수행_파이프라인.md       ← Tactical Pipeline (Execution Procedures)
+├── 📋 BVCAP_User_Guide.md            ← This document (System Map)
+├── ⚖️ BVCAP_GHQ.md                  ← Hybrid Engine (GHQ - Mode/Verdict Criteria)
+├── 🧠 BVCAP_Pipeline.md       ← Tactical Pipeline (Execution Procedures)
 │
 ├── 🕊️ 01_MANDATE(작전명령)/                ← [Phase 1] Preparation — Persona + Philosophy Injection
 │   ├── IDENTITY_Scribe42.md         (Who am I? — 42nd Scribe + Integrity Philosophy)
@@ -265,7 +296,7 @@ Auxiliary modules activated after defense is complete to visualize results and p
 | **IMPORT-X** | External Data Import | Converts/integrates external data like images/Excel into the BVCAP timeline format. |
 | **ANALOGY-5** | Modern Analogy Creation | Generates analogies likening verdicts to military/legal concepts for 1-second comprehension. |
 | **LESSON-6** | Spiritual/Pastoral Lesson | Extracts God's spiritual providence and calling rather than stopping at mere logical victory. |
-| **BVCAP_2.0** | Final Verdict Output | Renders the final BALANCE VERDICT report format based on `BVCAP_사령부.md`. |
+| **BVCAP_2.0** | Final Verdict Output | Renders the final BALANCE VERDICT report format based on `BVCAP_GHQ.md`. |
 
 ---
 
@@ -275,12 +306,12 @@ This system consists of a **Multi-file Repository** rather than a single file. T
 
 ### 📌 STEP 0: AI Pre-training and System Loading (Mandatory)
 Before starting an analysis, enter the initialization prompt below in an Agentic AI environment that can read entire folders (Google Antigravity, Cursor, etc.).
-(If using a standard web AI, you must manually attach at least `BVCAP_사령부.md`, `README_AUDIT_SYSTEM.md`, and the `CALLING`, `DOCTRINE`, and `QUIVER` files to be used.)
+(If using a standard web AI, you must manually attach at least `BVCAP_GHQ.md`, `BVCAP_User_Guide.md`, and the `CALLING`, `DOCTRINE`, and `QUIVER` files to be used.)
 
 ```text
 "The files I have uploaded from now on are the core files of 'The Scripture Audit' system.
-First, read `README_AUDIT_SYSTEM.md` to perfectly understand the overall structure and the 4-phase pipeline (CALLING, DOCTRINE, CHRONICLE, QUIVER).
-Then, load `BVCAP_사령부.md` into your memory as the main engine, and reply only with: 'System loaded. Awaiting orders.'"
+First, read `BVCAP_User_Guide.md` to perfectly understand the overall structure and the 4-phase pipeline (CALLING, DOCTRINE, CHRONICLE, QUIVER).
+Then, load `BVCAP_GHQ.md` into your memory as the main engine, and reply only with: 'System loaded. Awaiting orders.'"
 ```
 
 ---
@@ -290,10 +321,10 @@ Then, load `BVCAP_사령부.md` into your memory as the main engine, and reply o
 ```text
 "Verify [Dilemma Content]. (Activate default MODE A)
 1. 01_MANDATE/IDENTITY_Scribe42.md — Load Persona
-2. BVCAP_작전수행_파이프라인.md — Check combat order
+2. BVCAP_Pipeline.md — Check combat order
 3. 03_WAR_LOG/ — Check same TYPE precedents
 4. 04_QUIVER/TYPE-X.md — Execute analysis with weapon
-5. BVCAP_사령부.md — Announce verdict after BALANCE verification
+5. BVCAP_GHQ.md — Announce verdict after BALANCE verification
 Save as a Masterpiece format in 05_REPORT/ when finished."
 ```
 
@@ -307,7 +338,7 @@ Items mapped to a TYPE in `_INBOX/Bible_Defense_List.md` can be specified direct
 "Verify [Dilemma] using weapon TYPE-[X]. (Or activate MODE B)
 1. Follow the procedure in QUIVER/TYPE-[X].md,
 2. Refer to CHRONICLE/[X]_[SimilarDilemma].md as a quality standard.
-3. Verify through the main engine BVCAP_사령부.md
+3. Verify through the main engine BVCAP_GHQ.md
 4. Save as a masterpiece report in 05_REPORT/."
 ```
 
@@ -317,7 +348,7 @@ Items mapped to a TYPE in `_INBOX/Bible_Defense_List.md` can be specified direct
 
 ```text
 "Open `_INBOX/Shabir_Ally_101_Contradictions.md` and verify 1 of the unchecked items.
-Conduct all verifications through the main engine `BVCAP_사령부.md`, let the AI self-select the optimal `QUIVER` weapon to defend, and save it as an individual report."
+Conduct all verifications through the main engine `BVCAP_GHQ.md`, let the AI self-select the optimal `QUIVER` weapon to defend, and save it as an individual report."
 ```
 
 ---
@@ -332,7 +363,7 @@ _INBOX/ → Bible_Defense_List or Shabir_Ally_101
   → "I am the 42nd Scribe. Quarantine academic consensus into H0."
     ↓
 [Load TACTICS] — Embody tactical manual and mandatory principles
-  BVCAP_작전수행_파이프라인.md → Load weapon usage order (Algorithm)
+  BVCAP_Pipeline.md → Load weapon usage order (Algorithm)
   ANCHOR_ThirdData.md → Enforce 3rd anchor verse collection rule
   DEOVERLAP_Serial.md → Enforce space-time overlap dismantling & serial placement
     ↓
