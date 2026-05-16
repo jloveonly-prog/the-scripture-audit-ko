@@ -43,6 +43,77 @@ For detailed instructions on how to load this system into an AI and run audits i
 
 ---
 
+## 🔄 BVCAP Algorithm Sequence (How It Works)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as 👤 User
+    participant AI as 🤖 AI Auditor
+    participant CALLING as 🕊️ CALLING<br/>(01_MANDATE)
+    participant DOCTRINE as 📖 DOCTRINE<br/>(02_TACTICS)
+    participant CHRONICLE as 📚 CHRONICLE<br/>(03_WAR_LOG)
+    participant QUIVER as 🏹 QUIVER<br/>(04_QUIVER)
+    participant VERDICT as ⚖️ VERDICT<br/>(05_REPORT)
+
+    User->>AI: Submit biblical thesis / counter-argument / audit request
+    Note over User,AI: "There is no explicit biblical statement that Peter died at Calvary"
+
+    rect rgb(210, 228, 252)
+        Note over AI,CALLING: ① PHASE 1 — CALLING (Bias Block & Identity Loading)
+        AI->>CALLING: Fire OVERRIDE-0
+        CALLING-->>AI: ✅ Academic bias quarantined<br/>KJV inerrancy defender identity loaded
+    end
+
+    rect rgb(210, 240, 220)
+        Note over AI,DOCTRINE: ② PHASE 2 — DOCTRINE (Hermeneutical Constitution Applied)
+        AI->>DOCTRINE: Collect ANCHOR-1 (3rd anchor verse)
+        DOCTRINE-->>AI: ✅ Third independent anchor secured<br/>DE-OVERLAP (time/space overlap dismantled)
+    end
+
+    rect rgb(252, 237, 210)
+        Note over AI,CHRONICLE: ③ PHASE 3 — CHRONICLE (Precedent Reference)
+        AI->>CHRONICLE: Query similar precedents
+        CHRONICLE-->>AI: ✅ Relevant S/A-grade cases returned<br/>Analysis quality baseline set
+    end
+
+    rect rgb(252, 215, 230)
+        Note over AI,QUIVER: ④ PHASE 4 — QUIVER (Precision Weapons Fired)
+        AI->>QUIVER: Analyze thesis → Select TYPE weapons
+
+        Note over QUIVER: 🔵 Hermeneutics Domain (Evidence Extraction)
+        QUIVER-->>AI: TYPE-G (Greek Grammar) fired<br/>TYPE-S (Lexical Bridge) fired<br/>TYPE-W (Retrospective Authorial Cognition) fired<br/>TYPE-AE (Inclusio) fired
+
+        Note over QUIVER: 🟢 Logic Domain (Conclusion Confirmation)
+        QUIVER-->>AI: TYPE-N (Exclusivity Eliminator) fired<br/>TYPE-AD (Abductive Reasoning) fired<br/>TYPE-AC (Counterfactual Test) fired<br/>TYPE-AJ (Cumulative Case) fired
+
+        Note over QUIVER: 🔴 Fallacy Detection Domain (Counter-Argument Neutralized)
+        QUIVER-->>AI: TYPE-T (Lexical Misreading)<br/>TYPE-AL (Equivocation Detection)<br/>TYPE-AN (Moving Goalposts Detection)
+
+        Note over QUIVER: ⚡ COMBO Fire (Cross-Domain Simultaneous Discharge)
+        QUIVER-->>AI: COMBO [G+S+W+N+AD]<br/>Hermeneutics + Logic simultaneous discharge<br/>Cannot be refuted by attacking a single domain
+    end
+
+    AI->>AI: STRESS-TEST-7<br/>(Simulate strongest counter-argument & self-verify)
+
+    alt All counter-arguments blocked
+        AI->>VERDICT: Generate IRONCLAD verdict
+        VERDICT-->>User: ✅ IRONCLAD<br/>Logical necessity confirmed<br/>Masterpiece report issued
+    else Partial evidence secured
+        AI->>VERDICT: Generate CONFIRMED verdict
+        VERDICT-->>User: ✅ CONFIRMED<br/>Internal scriptural grounds established
+    else Insufficient evidence
+        AI->>VERDICT: INSUFFICIENT verdict
+        VERDICT-->>User: ⚠️ Additional anchor verses required
+        VERDICT-->>AI: Loop back → Re-collect ANCHOR-1
+    end
+```
+
+> **3-Domain Pipeline Principle**: Hermeneutics (extract evidence) → Logic (confirm conclusion) → Fallacy Detection (neutralize counter-arguments).
+> COMBO = two or more domains fire simultaneously → opponent cannot refute the argument by attacking only one domain.
+
+---
+
 ## ⚡ 4-Phase Execution Pipeline
 
 The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'** verdict for any theological dilemma.

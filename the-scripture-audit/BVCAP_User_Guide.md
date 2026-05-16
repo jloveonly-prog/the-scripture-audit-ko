@@ -1,4 +1,4 @@
-﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+﻿﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **Version**: BVCAP v2.0 + AIDD Unified v2.7
@@ -305,6 +305,20 @@ The 30 precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUI
 | **TYPE-AA** | Ancient Law/Culture Anatomy | Defends ancient customs misread by Western standards like "Law of Agency." |
 | **TYPE-AB** | Spiritual Entity/Space Matrix | Refutes lumped attacks on fallen angels/devils and Hell/Lake of Fire using a space-time matrix. |
 | **TYPE-AC** ⭐ NEW | Counterfactual Test | Substitutes an opposing hypothesis into the text → Contradiction explosion. |
+| **TYPE-AD** ⚡ NEW | Abductive Reasoning | Adopts the hypothesis that best explains ALL evidence — Calvary: 8/8, Rome: 2/8 |
+| **TYPE-AE** ⚡ NEW | Inclusio (Bookend Structure) | 13:36 ἀκολουθήσεις ↔ 21:19 ἀκολούθει — confirms authorial intentional design |
+| **TYPE-AF** ⚡ NEW | Burden of Proof Transfer | Attacker must provide internal scriptural counter-evidence first — applied to Rome theory |
+| **TYPE-AG** ⚡ NEW | Argument from Silence | Rome theory = complete biblical silence — Acts, Peter's epistles, John: zero mention |
+| **TYPE-AH** ⚡ NEW | Redaction Criticism | What the author chose to record = intentional design — John 19:20 ὅπου selection |
+| **TYPE-AI** ⚡ NEW | Reductio ad Absurdum | Assume Rome theory is true → 4 logical consequences all fail inside Scripture |
+| **TYPE-AJ** ⚡ NEW | Cumulative Case Argument | Theoretical basis for COMBO — 8 independent converging evidences = IRONCLAD |
+| **TYPE-AK** ⚡ NEW | Occam's Razor | Calvary = Scripture-internal complete / Rome = requires external tradition → Razor favors Calvary |
+| **TYPE-AL** ⚡ NEW | Equivocation Detection | "Explicit" definition shifted 3× — consistent definition places Calvary in explicit category |
+| **TYPE-AM** ⚡ NEW | False Dichotomy Detection | "Explicit or inference" = false dichotomy — 4 actual categories; Calvary = category ② |
+| **TYPE-AN** ⚡ NEW | Moving Goalposts Detection | 3 goalpost shifts detected — original standard (internal scriptural ground) met by Calvary |
+| **TYPE-AO** ⚡ NEW | Canonical Criticism | John 13:36↔21:19 = canonical narrative unit — unresolved ὅπου destroys narrative closure |
+| **TYPE-AP** ⚡ NEW | Speech Act Theory | "Follow me" = physical co-location command — illocutionary act confirms Calvary destination |
+| **TYPE-AQ** ⚡ NEW | Audience Criticism | Original audience (disciples) understood ὅπου as physical location — confirmed by Peter's question in 13:36a |
 
 ---
 
