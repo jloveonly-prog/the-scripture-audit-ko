@@ -19,14 +19,14 @@ This license applies to the system logic (MD files, etc.), analysis results, and
 4. **the-scripture-audit**
 
 **💡 Contribute & Evolve**
-This system is not just an analysis tool; it is an **organic project that transplants an individual's faith, philosophy, and theological insights into AI behavioral patterns, turning them into 'Chronicles' and 'Weaponizing' them**. 
+This system is not just an analysis tool; it is an **organic project that transplants an individual's faith, philosophy, and theological insights into AI behavioral patterns, turning them into 'WAR_LOGs' and 'Weaponizing' them**. 
 
 If you have discovered new spiritual insights or logical findings using this system, please feel free to share your data (verdict documents) at **jloveonly@gmail.com**. 
-The precious data you send will be registered as a new **Chronicle** within the `the-scripture-audit` system and, upon verification, can be added as a **new TYPE weapon** to analyze biblical texts.
+The precious data you send will be registered as a new **WAR_LOG** within the `the-scripture-audit` system and, upon verification, can be added as a **new TYPE weapon** to analyze biblical texts.
 
 **[Our AI Philosophy & Workflow]**
-*   **"Receive a Calling, accumulate Chronicles, and deduce spiritual Lessons."**
-*   It is an ecosystem that defends against and analyzes the world's pouring attacks and doctrinal tests (**_INBOX(작전목표)**) using an armory filled with biblical logic (**04_QUIVER(무기고)**) to produce final verdicts (**05_REPORT(전과보고서)**).
+*   **"Receive a MANDATE, accumulate WAR_LOGs, and deduce new TACTICS."**
+*   It is an ecosystem that defends against and analyzes the world's pouring attacks and doctrinal tests (**_INBOX(작전목표)**) using an armory filled with biblical logic (**04_QUIVER(무기고)**) to produce final **REPORTs(전과보고서)**.
 *   As these analysis cases accumulate, the defensive patterns the AI can reference expand, making the system exponentially more powerful.
 
 1.  **Original Copyright Protection**: The origin of this system's core logic and methodology belongs to the original creator. When redistributing, it is recommended to state the source (**[TheScripture.org](https://TheScripture.org)** / **the-scripture-audit**).

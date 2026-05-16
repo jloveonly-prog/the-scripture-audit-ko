@@ -28,17 +28,18 @@ For detailed instructions on how to load this system into an AI and run audits i
 
 ```text
 .
-├── 🛡️ BVCAP/                # Early Analysis Tool (Foundation engine for biblical consistency)
-├── 🕋 QSP/                  # Quran Analysis Tool (The Quran Snare Program)
-├── 📖 QVCAP/                # Quran Analysis Tool (Quran Verse Contradiction Analysis Pipeline)
-├── 📚 docs/                 # Document storage for analysis targets and verdicts
-└── 🔍 the-scripture-audit/  # Biblical Audit System (Advanced forensic engine verifying biblical integrity)
-    ├── 🕊️ 01_MANDATE(작전명령)      # [Phase 1] Persona adoption & academic bias quarantine (OVERRIDE-0)
-    ├── 📖 02_TACTICS(전술)     # [Phase 2] Hermeneutical constitution & 7 tactical rules (ANCHOR-1, DE-OVERLAP)
-    ├── 📚 03_WAR_LOG(전투기록)    # [Phase 3] Library of past victorious precedents & S-rank cases
-    ├── 🏹 04_QUIVER(무기고)     # [Phase 4] 29 types of precision forensic weapons (TYPE-A ~ AB + TYPE-B-π)
-    ├── 📥 _INBOX(작전목표)    # [Input] Audit/defense targets waiting for resolution
-    └── 📁 05_REPORT(전과보고서)    # [Output] Final master reports of completed audits
+├── 🛡️ BVCAP/                           # Early Analysis Tool (Foundation engine for biblical consistency)
+├── 🕋 QSP/                             # Quran Analysis Tool (The Quran Snare Program)
+├── 📖 QVCAP/                           # Quran Analysis Tool (Quran Verse Contradiction Analysis Pipeline)
+├── 📚 docs/                            # Document storage for analysis targets and verdicts
+├── 📐 System_Architecture(시스템_설계원리)/  # Human-readable meta docs (AI design philosophy, limitations, changelog)
+└── 🔍 the-scripture-audit/             # Biblical Audit System (AI execution engine — only 01~05 loaded)
+    ├── 🕊️ 01_MANDATE(작전명령)          # [Phase 1] Persona adoption & academic bias quarantine (OVERRIDE-0)
+    ├── 📖 02_TACTICS(전술)              # [Phase 2] Hermeneutical constitution & 7 tactical rules (ANCHOR-1, DE-OVERLAP)
+    ├── 📚 03_WAR_LOG(전투기록)          # [Phase 3] Library of past victorious precedents & S-rank cases
+    ├── 🏹 04_QUIVER(무기고)             # [Phase 4] 30 types of precision forensic weapons (TYPE-A ~ AC + TYPE-B-π)
+    ├── 📥 _INBOX(작전목표)              # [Input] Audit/defense targets waiting for resolution
+    └── 📁 05_REPORT(전과보고서)          # [Output] Final master reports of completed audits
 ```
 
 ---
@@ -50,31 +51,31 @@ sequenceDiagram
     autonumber
     actor User as 👤 User
     participant AI as 🤖 AI Auditor
-    participant CALLING as 🕊️ CALLING<br/>(01_MANDATE)
-    participant DOCTRINE as 📖 DOCTRINE<br/>(02_TACTICS)
-    participant CHRONICLE as 📚 CHRONICLE<br/>(03_WAR_LOG)
+    participant MANDATE as 🕊️ MANDATE<br/>(01_MANDATE)
+    participant TACTICS as 📖 TACTICS<br/>(02_TACTICS)
+    participant WAR_LOG as 📚 WAR_LOG<br/>(03_WAR_LOG)
     participant QUIVER as 🏹 QUIVER<br/>(04_QUIVER)
-    participant VERDICT as ⚖️ VERDICT<br/>(05_REPORT)
+    participant REPORT as ⚖️ REPORT<br/>(05_REPORT)
 
     User->>AI: Submit biblical thesis / counter-argument / audit request
     Note over User,AI: "There is no explicit biblical statement that Peter died at Calvary"
 
     rect rgb(210, 228, 252)
-        Note over AI,CALLING: ① PHASE 1 — CALLING (Bias Block & Identity Loading)
-        AI->>CALLING: Fire OVERRIDE-0
-        CALLING-->>AI: ✅ Academic bias quarantined<br/>KJV inerrancy defender identity loaded
+        Note over AI,MANDATE: ① PHASE 1 — MANDATE (Bias Block & Identity Loading)
+        AI->>MANDATE: Fire OVERRIDE-0
+        MANDATE-->>AI: ✅ Academic bias quarantined<br/>KJV inerrancy defender identity loaded
     end
 
     rect rgb(210, 240, 220)
-        Note over AI,DOCTRINE: ② PHASE 2 — DOCTRINE (Hermeneutical Constitution Applied)
-        AI->>DOCTRINE: Collect ANCHOR-1 (3rd anchor verse)
-        DOCTRINE-->>AI: ✅ Third independent anchor secured<br/>DE-OVERLAP (time/space overlap dismantled)
+        Note over AI,TACTICS: ② PHASE 2 — TACTICS (Hermeneutical Constitution Applied)
+        AI->>TACTICS: Collect ANCHOR-1 (3rd anchor verse)
+        TACTICS-->>AI: ✅ Third independent anchor secured<br/>DE-OVERLAP (time/space overlap dismantled)
     end
 
     rect rgb(252, 237, 210)
-        Note over AI,CHRONICLE: ③ PHASE 3 — CHRONICLE (Precedent Reference)
-        AI->>CHRONICLE: Query similar precedents
-        CHRONICLE-->>AI: ✅ Relevant S/A-grade cases returned<br/>Analysis quality baseline set
+        Note over AI,WAR_LOG: ③ PHASE 3 — WAR_LOG (Precedent Reference)
+        AI->>WAR_LOG: Query similar precedents
+        WAR_LOG-->>AI: ✅ Relevant S/A-grade cases returned<br/>Analysis quality baseline set
     end
 
     rect rgb(252, 215, 230)
@@ -97,15 +98,15 @@ sequenceDiagram
     AI->>AI: STRESS-TEST-7<br/>(Simulate strongest counter-argument & self-verify)
 
     alt All counter-arguments blocked
-        AI->>VERDICT: Generate IRONCLAD verdict
-        VERDICT-->>User: ✅ IRONCLAD<br/>Logical necessity confirmed<br/>Masterpiece report issued
+        AI->>REPORT: Generate IRONCLAD verdict
+        REPORT-->>User: ✅ IRONCLAD<br/>Logical necessity confirmed<br/>Masterpiece report issued
     else Partial evidence secured
-        AI->>VERDICT: Generate CONFIRMED verdict
-        VERDICT-->>User: ✅ CONFIRMED<br/>Internal scriptural grounds established
+        AI->>REPORT: Generate CONFIRMED verdict
+        REPORT-->>User: ✅ CONFIRMED<br/>Internal scriptural grounds established
     else Insufficient evidence
-        AI->>VERDICT: INSUFFICIENT verdict
-        VERDICT-->>User: ⚠️ Additional anchor verses required
-        VERDICT-->>AI: Loop back → Re-collect ANCHOR-1
+        AI->>REPORT: INSUFFICIENT verdict
+        REPORT-->>User: ⚠️ Additional anchor verses required
+        REPORT-->>AI: Loop back → Re-collect ANCHOR-1
     end
 ```
 
@@ -118,9 +119,9 @@ sequenceDiagram
 
 The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'** verdict for any theological dilemma.
 
-1.  **CALLING**: Quarantines liberal academic bias and adopts the identity of the '42nd Writer' to defend the inerrancy of the KJV Bible.
-2.  **DOCTRINE**: Aligns thought circuits by collecting a "third anchor verse (ANCHOR-1)" and applying the "time/space overlap dismantling (DE-OVERLAP)" rule.
-3.  **CHRONICLE**: Sets the quality standard for analysis by referencing successful precedents of similar dilemmas.
+1.  **MANDATE**: Quarantines liberal academic bias and adopts the identity of the '42nd Writer' to defend the inerrancy of the KJV Bible.
+2.  **TACTICS**: Aligns thought circuits by collecting a "third anchor verse (ANCHOR-1)" and applying the "time/space overlap dismantling (DE-OVERLAP)" rule.
+3.  **WAR_LOG**: Sets the quality standard for analysis by referencing successful precedents of similar dilemmas.
 4.  **QUIVER**: Selects the appropriate TYPE among 29 precision weapons to precisely strike the logical contradictions of the opposition.
 
 ---
