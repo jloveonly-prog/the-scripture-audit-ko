@@ -28,17 +28,18 @@
 
 ```text
 .
-├── 🛡️ BVCAP/                # 입문 분석도구 (성경 일관성 검증의 기초 엔진)
-├── 🕋 QSP/                  # 꾸란 분석 도구 (The Quran Snare Program)
-├── 📖 QVCAP/                # 꾸란 분석 도구 (Quran Verse Contradiction Analysis Pipeline)
-├── 📚 docs/                 # 분석할 대상의 문서 및 결과물 저장소
-└── 🔍 the-scripture-audit/  # 성경감사시스템 (성경의 무결성을 검증하는 고도화된 포렌식 엔진)
-    ├── 🕊️ 01_MANDATE(작전명령)      # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
-    ├── 📖 02_TACTICS(전술)     # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
-    ├── 📚 03_WAR_LOG(전투기록)    # [3단계] 과거 승전 사례 및 S등급 판례 도서관
-    ├── 🏹 04_QUIVER(무기고)     # [4단계] 30종 정밀 포렌식 무기 (TYPE-A ~ AC + TYPE-B-π)
-    ├── 📥 _INBOX(작전목표)    # [입력] 해결 대기 중인 감사/방어 목표
-    └── 📁 05_REPORT(전과보고서)    # [출력] 완료된 감사의 최종 마스터피스 보고서
+├── 🛡️ BVCAP/                           # 입문 분석도구 (성경 일관성 검증의 기초 엔진)
+├── 🕋 QSP/                             # 꾸란 분석 도구 (The Quran Snare Program)
+├── 📖 QVCAP/                           # 꾸란 분석 도구 (Quran Verse Contradiction Analysis Pipeline)
+├── 📚 docs/                            # 분석할 대상의 문서 및 결과물 저장소
+├── 📐 System_Architecture(시스템_설계원리)/  # 인간용 메타 문서 (AI 설계 철학, 한계 분석, 개선 이력)
+└── 🔍 the-scripture-audit/             # 성경감사시스템 (AI 실행 엔진 — 아래 01~05만 로드)
+    ├── 🕊️ 01_MANDATE(작전명령)          # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
+    ├── 📖 02_TACTICS(전술)              # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
+    ├── 📚 03_WAR_LOG(전투기록)          # [3단계] 과거 승전 사례 및 S등급 판례 도서관
+    ├── 🏹 04_QUIVER(무기고)             # [4단계] 30종 정밀 포렌식 무기 (TYPE-A ~ AC + TYPE-B-π)
+    ├── 📥 _INBOX(작전목표)              # [입력] 해결 대기 중인 감사/방어 목표
+    └── 📁 05_REPORT(전과보고서)          # [출력] 완료된 감사의 최종 마스터피스 보고서
 ```
 
 ---
@@ -50,31 +51,31 @@ sequenceDiagram
     autonumber
     actor User as 👤 사용자
     participant AI as 🤖 AI 감사관
-    participant CALLING as 🕊️ CALLING<br/>(01_MANDATE)
-    participant DOCTRINE as 📖 DOCTRINE<br/>(02_TACTICS)
-    participant CHRONICLE as 📚 CHRONICLE<br/>(03_WAR_LOG)
-    participant QUIVER as 🏹 QUIVER<br/>(04_QUIVER)
-    participant VERDICT as ⚖️ VERDICT<br/>(05_REPORT)
+    participant MANDATE as 🕊️ MANDATE<br/>(01_작전명령)
+    participant TACTICS as 📖 TACTICS<br/>(02_전술)
+    participant WAR_LOG as 📚 WAR_LOG<br/>(03_전투기록)
+    participant QUIVER as 🏹 QUIVER<br/>(04_무기고)
+    participant REPORT as ⚖️ REPORT<br/>(05_전과보고서)
 
     User->>AI: 성경 논제 / 반론 / 감사 의뢰 입력
     Note over User,AI: "베드로가 갈보리에서 죽었다는 명시가 없다"
 
     rect rgb(210, 228, 252)
-        Note over AI,CALLING: ① PHASE 1 — CALLING (편향 차단 & 정체성 장착)
-        AI->>CALLING: OVERRIDE-0 발동
-        CALLING-->>AI: ✅ 학계 편향 격리 완료<br/>KJV 무오성 수호자 정체성 장착
+        Note over AI,MANDATE: ① PHASE 1 — MANDATE (작전명령: 편향 차단 & 정체성 장착)
+        AI->>MANDATE: OVERRIDE-0 발동
+        MANDATE-->>AI: ✅ 학계 편향 격리 완료<br/>KJV 무오성 수호자 정체성 장착
     end
 
     rect rgb(210, 240, 220)
-        Note over AI,DOCTRINE: ② PHASE 2 — DOCTRINE (해석학 헌법 적용)
-        AI->>DOCTRINE: ANCHOR-1 수집 지시
-        DOCTRINE-->>AI: ✅ 제3 앵커 구절 확보<br/>DE-OVERLAP(시공간 중첩 해체) 완료
+        Note over AI,TACTICS: ② PHASE 2 — TACTICS (전술: 해석학 헌법 적용)
+        AI->>TACTICS: ANCHOR-1 수집 지시
+        TACTICS-->>AI: ✅ 제3 앵커 구절 확보<br/>DE-OVERLAP(시공간 중첩 해체) 완료
     end
 
     rect rgb(252, 237, 210)
-        Note over AI,CHRONICLE: ③ PHASE 3 — CHRONICLE (전례 참조)
-        AI->>CHRONICLE: 유사 판례 조회
-        CHRONICLE-->>AI: ✅ 관련 S/A등급 판례 반환<br/>분석 품질 기준 설정
+        Note over AI,WAR_LOG: ③ PHASE 3 — WAR_LOG (전투기록: 전례 참조)
+        AI->>WAR_LOG: 유사 판례 조회
+        WAR_LOG-->>AI: ✅ 관련 S/A등급 판례 반환<br/>분석 품질 기준 설정
     end
 
     rect rgb(252, 215, 230)
@@ -97,15 +98,15 @@ sequenceDiagram
     AI->>AI: STRESS-TEST-7<br/>(최강 반론 시뮬레이션 & 자기 검증)
 
     alt 모든 반론 차단 성공
-        AI->>VERDICT: IRONCLAD 판결 생성
-        VERDICT-->>User: ✅ IRONCLAD<br/>논리적 필연성 확정<br/>마스터피스 보고서 발행
+        AI->>REPORT: IRONCLAD 판결 생성
+        REPORT-->>User: ✅ IRONCLAD<br/>논리적 필연성 확정<br/>마스터피스 보고서 발행
     else 부분 증거 확보
-        AI->>VERDICT: CONFIRMED 판결 생성
-        VERDICT-->>User: ✅ CONFIRMED<br/>성경 내부 근거 확보
+        AI->>REPORT: CONFIRMED 판결 생성
+        REPORT-->>User: ✅ CONFIRMED<br/>성경 내부 근거 확보
     else 증거 불충분
-        AI->>VERDICT: INSUFFICIENT 판결
-        VERDICT-->>User: ⚠️ 추가 앵커 구절 수집 필요
-        VERDICT-->>AI: 루프백 → ANCHOR-1 재수집
+        AI->>REPORT: INSUFFICIENT 판결
+        REPORT-->>User: ⚠️ 추가 앵커 구절 수집 필요
+        REPORT-->>AI: 루프백 → ANCHOR-1 재수집
     end
 ```
 
@@ -118,10 +119,10 @@ sequenceDiagram
 
 AI 감사관은 모든 난제에 대해 다음의 4단계를 거쳐 **'마스터피스(Masterpiece)'** 판결문을 생성합니다.
 
-1.  **CALLING (소명)**: 학계의 자유주의적 편향을 차단하고, KJV 성경의 무오성을 수호하는 '제42의 기록자' 정체성을 장착합니다.
-2.  **DOCTRINE (교훈)**: "제3의 앵커 구절(ANCHOR-1)" 수집과 "시간/공간 중첩 해체(DE-OVERLAP)" 규칙을 적용하여 사고 회로를 정렬합니다.
-3.  **CHRONICLE (전례)**: 과거의 유사 난제 해결 전례를 참조하여 분석의 품질 기준을 설정합니다.
-4.  **QUIVER (무기)**: 30종의 정밀 무기 중 적합한 TYPE을 선택하여 적의 논리적 모순을 정밀 타격합니다.
+1.  **MANDATE (작전명령)**: 학계의 자유주의적 편향을 차단하고, KJV 성경의 무오성을 수호하는 '제42의 기록자' 정체성을 장착합니다.
+2.  **TACTICS (전술)**: "제3의 앵커 구절(ANCHOR-1)" 수집과 "시간/공간 중첩 해체(DE-OVERLAP)" 규칙을 적용하여 사고 회로를 정렬합니다.
+3.  **WAR_LOG (전투기록)**: 과거의 유사 난제 해결 전례(판례)를 참조하여 분석의 품질 기준을 설정합니다.
+4.  **QUIVER (무기고)**: 30종의 정밀 무기 중 적합한 TYPE을 선택하여 적의 논리적 모순을 정밀 타격합니다.
 
 ---
 
