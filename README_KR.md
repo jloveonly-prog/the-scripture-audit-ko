@@ -43,6 +43,77 @@
 
 ---
 
+## 🔄 BVCAP 알고리즘 동작 시퀀스 (How It Works)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as 👤 사용자
+    participant AI as 🤖 AI 감사관
+    participant CALLING as 🕊️ CALLING<br/>(01_MANDATE)
+    participant DOCTRINE as 📖 DOCTRINE<br/>(02_TACTICS)
+    participant CHRONICLE as 📚 CHRONICLE<br/>(03_WAR_LOG)
+    participant QUIVER as 🏹 QUIVER<br/>(04_QUIVER)
+    participant VERDICT as ⚖️ VERDICT<br/>(05_REPORT)
+
+    User->>AI: 성경 논제 / 반론 / 감사 의뢰 입력
+    Note over User,AI: "베드로가 갈보리에서 죽었다는 명시가 없다"
+
+    rect rgb(210, 228, 252)
+        Note over AI,CALLING: ① PHASE 1 — CALLING (편향 차단 & 정체성 장착)
+        AI->>CALLING: OVERRIDE-0 발동
+        CALLING-->>AI: ✅ 학계 편향 격리 완료<br/>KJV 무오성 수호자 정체성 장착
+    end
+
+    rect rgb(210, 240, 220)
+        Note over AI,DOCTRINE: ② PHASE 2 — DOCTRINE (해석학 헌법 적용)
+        AI->>DOCTRINE: ANCHOR-1 수집 지시
+        DOCTRINE-->>AI: ✅ 제3 앵커 구절 확보<br/>DE-OVERLAP(시공간 중첩 해체) 완료
+    end
+
+    rect rgb(252, 237, 210)
+        Note over AI,CHRONICLE: ③ PHASE 3 — CHRONICLE (전례 참조)
+        AI->>CHRONICLE: 유사 판례 조회
+        CHRONICLE-->>AI: ✅ 관련 S/A등급 판례 반환<br/>분석 품질 기준 설정
+    end
+
+    rect rgb(252, 215, 230)
+        Note over AI,QUIVER: ④ PHASE 4 — QUIVER (정밀 무기 발동)
+        AI->>QUIVER: 논제 분석 → TYPE 무기 선택
+
+        Note over QUIVER: 🔵 해석학 도메인 (본문 증거 추출)
+        QUIVER-->>AI: TYPE-G (원어 문법) 발동<br/>TYPE-S (어휘 교차) 발동<br/>TYPE-W (회고적 기술) 발동<br/>TYPE-AE (수미상관) 발동
+
+        Note over QUIVER: 🟢 논리학 도메인 (결론 확정)
+        QUIVER-->>AI: TYPE-N (배타성 소거) 발동<br/>TYPE-AD (귀추법) 발동<br/>TYPE-AC (반사실적 모순) 발동<br/>TYPE-AJ (누적 사례) 발동
+
+        Note over QUIVER: 🔴 오류학 도메인 (반론 무력화)
+        QUIVER-->>AI: TYPE-T (어휘 오독 적발)<br/>TYPE-AL (어의 중의성 적발)<br/>TYPE-AN (목표대 이동 적발)
+
+        Note over QUIVER: ⚡ COMBO 발동 (도메인 교차 동시 발화)
+        QUIVER-->>AI: COMBO [G+S+W+N+AD]<br/>해석학 + 논리학 동시 발화<br/>단일 도메인 공격으로 기각 불가
+    end
+
+    AI->>AI: STRESS-TEST-7<br/>(최강 반론 시뮬레이션 & 자기 검증)
+
+    alt 모든 반론 차단 성공
+        AI->>VERDICT: IRONCLAD 판결 생성
+        VERDICT-->>User: ✅ IRONCLAD<br/>논리적 필연성 확정<br/>마스터피스 보고서 발행
+    else 부분 증거 확보
+        AI->>VERDICT: CONFIRMED 판결 생성
+        VERDICT-->>User: ✅ CONFIRMED<br/>성경 내부 근거 확보
+    else 증거 불충분
+        AI->>VERDICT: INSUFFICIENT 판결
+        VERDICT-->>User: ⚠️ 추가 앵커 구절 수집 필요
+        VERDICT-->>AI: 루프백 → ANCHOR-1 재수집
+    end
+```
+
+> **3도메인 파이프라인 원리**: 해석학(증거 추출) → 논리학(결론 확정) → 오류학(반론 무력화) 순으로 실행.
+> COMBO 발동 = 두 도메인 이상 동시 발화 → 상대가 단일 도메인만 공격해서는 논증 전체를 기각 불가.
+
+---
+
 ## ⚡ 4단계 감사 파이프라인 (Execution Pipeline)
 
 AI 감사관은 모든 난제에 대해 다음의 4단계를 거쳐 **'마스터피스(Masterpiece)'** 판결문을 생성합니다.

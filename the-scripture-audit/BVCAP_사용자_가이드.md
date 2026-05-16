@@ -1,4 +1,4 @@
-﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+﻿﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **버전**: BVCAP v2.0 + AIDD Unified v2.7
@@ -303,6 +303,20 @@ BVCAP의 30개 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 | **TYPE-AA** | 고대 법·문화 해부 | "대리인법", "히브리 과장법" 등 서구적 잣대로 오독된 고대 관습 방어 |
 | **TYPE-AB** | 영적 존재/공간 매트릭스 | 타락천사/마귀/사탄 및 지옥/음부/불못을 뭉뚱그린 공격을 시공간 매트릭스로 논파 |
 | **TYPE-AC** ⭐ NEW | 역가설 대입 검증 (귀류법) | 내 주장의 반대 가설을 세워 성경 본문에 대입 → 모순 폭발 → 유일 진리 확정. STEP 6 양도논법 최후통첩 포함 |
+| **TYPE-AD** ⚡ NEW | 귀추법 (Abductive Reasoning) | 모든 증거를 가장 잘 설명하는 가설 채택 — 갈보리설 8/8 증거 설명 |
+| **TYPE-AE** ⚡ NEW | 수미상관 (Inclusio) | 13:36 ἀκολουθήσεις ↔ 21:19 ἀκολούθει — 저자 의도 설계 확정 |
+| **TYPE-AF** ⚡ NEW | 입증 책임 전가 (Burden of Proof) | 공격자가 먼저 성경 내부 반증 제시 의무 — 로마설에 적용 |
+| **TYPE-AG** ⚡ NEW | 침묵 논증 (Argument from Silence) | 로마설 = 성경의 완전한 침묵 — 사도행전·베드로서 전체 무언급 |
+| **TYPE-AH** ⚡ NEW | 편집비평 (Redaction Criticism) | 저자가 선택해서 기록한 것 = 의도적 설계 — 요 19:20 ὅπου 선택 |
+| **TYPE-AI** ⚡ NEW | 귀류법 (Reductio ad Absurdum) | 상대 가설(로마설)을 참으로 가정 → 4개 귀결 모두 성경 내부 불성립 |
+| **TYPE-AJ** ⚡ NEW | 누적 사례 논증 (Cumulative Case) | COMBO 이론 기초 — 8개 독립 증거 수렴 = IRONCLAD |
+| **TYPE-AK** ⚡ NEW | 오컴의 면도날 (Occam's Razor) | 갈보리설 = 성경 내부 완결 / 로마설 = 외부 전통 필요 → 면도날 기준 갈보리설 우선 |
+| **TYPE-AL** ⚡ NEW | 어의 중의성 적발 (Equivocation) | "명시" 정의 이동 3회 적발 — 일관된 정의로 갈보리설 명시 범주 확정 |
+| **TYPE-AM** ⚡ NEW | 거짓 이분법 적발 (False Dichotomy) | "명시 아니면 추론" = 거짓 이분법 — 실제 4범주 중 갈보리설은 ②해당 |
+| **TYPE-AN** ⚡ NEW | 목표대 이동 적발 (Moving Goalposts) | 기준 3회 이동 적발 — 최초 기준(성경 내부 근거) 충족으로 갈보리설 성립 |
+| **TYPE-AO** ⚡ NEW | 정경비평 (Canonical Criticism) | 요 13:36↔21:19 = 정경 서사 단위 — ὅπου 미확정 시 서사 파괴 |
+| **TYPE-AP** ⚡ NEW | 화행이론 (Speech Act Theory) | "나를 따르라" = 물리적 장소 동행 명령 확정 — 예언 실행 명령 |
+| **TYPE-AQ** ⚡ NEW | 청중비평 (Audience Criticism) | 원래 청중(제자들)이 ὅπου를 물리적 장소로 이해 — 13:36a 베드로 질문으로 직접 확인 |
 
 ---
 
