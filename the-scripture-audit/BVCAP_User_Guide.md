@@ -1,4 +1,4 @@
-# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **Version**: BVCAP v2.0 + AIDD Unified v2.7
@@ -205,6 +205,66 @@ The 4 fundamental laws enforced by the BVCAP engine before pulling out a weapon 
 
 ---
 
+## 🧬 Academic Architecture of BVCAP — 3-Domain Hybrid System
+
+The 30 TYPE weapons in BVCAP are not merely Bible citation tools.
+They are an integration of **three independent academic domains** into a single forensic pipeline:
+**Hermeneutics · Logic · Fallacy Detection**.
+
+### 📊 3-Domain Classification
+
+| Domain | Definition | Role in BVCAP | TYPE Weapons |
+|:---:|:---|:---|:---|
+| **Hermeneutics** | *How do we read the text?* — Methodology of meaning interpretation | **Extraction** tools: retrieve evidence from Scripture | F, G, W, S, T, R |
+| **Logic / Argumentation** | *How do we construct and verify arguments?* | **Confirmation** tools: lock the conclusion from the evidence | N, P, L, AC, E |
+| **Fallacy Detection** | *How do we locate the logical flaws in opposing arguments?* | **Neutralization** tools: dismantle counter-arguments | T, R, P (applied) |
+
+### 🔑 Why This Structure Matters
+
+> **Hermeneutics alone** can read the text — but cannot confirm a conclusion.
+> **Logic alone** can confirm conclusions — but has no textual grounding.
+> **Fallacy Detection alone** can dismiss counter-arguments — but cannot propose alternatives.
+
+**BVCAP executes all three domains in a sequential pipeline:**
+
+`
+[Phase 1] HERMENEUTICS — Extract evidence from the text
+  TYPE-G (Greek Grammar) / TYPE-S (Lexical Bridge) / TYPE-W (Prophetic Perspective + Retrospective Authorial Cognition)
+    ↓
+[Phase 2] LOGIC — Confirm conclusion from the evidence
+  TYPE-N (Exclusivity Eliminator) / TYPE-L (Chain Reasoning) / TYPE-AC (Counterfactual Contradiction Test)
+    ↓
+[Phase 3] FALLACY DETECTION — Neutralize counter-arguments
+  TYPE-T (Lexical Misreading Detection) / TYPE-R (Referent Misreading) / TYPE-P (Retorsion)
+    ↓
+[VERDICT] IRONCLAD / CONFIRMED / REFUTED
+`
+
+### 📌 TYPE Weapon Domain Mapping
+
+| TYPE | Weapon Name | Domain |
+|:---:|:---|:---:|
+| **F** | Typology / Foreshadowing | Hermeneutics |
+| **G** | Greek/Hebrew Grammar | Linguistics + Hermeneutics |
+| **W** | Prophetic Perspective + Retrospective Authorial Cognition | Hermeneutics |
+| **S** | Lexical Cross-Connection | Hermeneutics |
+| **T** | Lexical Misreading Detection | Linguistics + Fallacy Detection |
+| **R** | Referent Misreading Detection | Hermeneutics + Fallacy Detection |
+| **N** | Exclusivity / Narrowing Pressure | Logic |
+| **P** | Retorsion / Reverse Logic | Logic |
+| **L** | Chain Reasoning | Logic |
+| **AC** | Counterfactual Contradiction Test | Logic |
+| **E** | Competing Model Elimination | Logic |
+| **I** | Frequency / Concentration Analysis | Textual Analysis |
+
+> [!NOTE]
+> **Why COMBOs generate IRONCLAD verdicts:**
+> A single TYPE = one domain's weapon.
+> A COMBO = **Hermeneutics + Logic firing simultaneously** → An argument cannot be dismantled by attacking only one domain.
+> This is the structural reason COMBO-S3, COMBO-GN14, and other multi-weapon combinations achieve IRONCLAD status —
+> they require a challenger to simultaneously defeat evidence extraction, logical confirmation, AND fallacy detection.
+
+---
 ## 📊 QUIVER Quick Reference Map (30 TYPE Weapons)
 
 The 30 precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER` folder.
