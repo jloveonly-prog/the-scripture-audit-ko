@@ -645,7 +645,7 @@
 
 ---
 
-*Engine: BVCAP_사령부.md (판결 양식) + BVCAP_작전수행_파이프라인.md v1.0 (실행 엔진)*
+*Engine: BVCAP_GHQ.md (판결 양식) + BVCAP_Pipeline.md v1.0 (실행 엔진)*
 *사건 번호: BVCAP-SAUL-001*
 *변호인 문서: saul1.md | 검찰 문서: saul2.md*
 *교차 심리 쟁점: 6건 | 변호인 종합 46 : 검찰 15*

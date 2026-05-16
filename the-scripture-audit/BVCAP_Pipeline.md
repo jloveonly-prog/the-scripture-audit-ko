@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > ## 📋 전술 교범 (Tactical Manual — 실행 절차서)
 > **이 문서가 하는 일**: FULL SCAN 실행 순서 · TYPE 30종 발동 · COMBO 검증 · STRESS-TEST · 출력
-> **짝꿍 문서**: `BVCAP_사령부.md` (사령부 — MODE/판결 기준 정의)
+> **짝꿍 문서**: `BVCAP_GHQ.md` (사령부 — MODE/판결 기준 정의)
 > **관계**: 사령부에서 "전쟁 선포"가 나오면, 이 교범이 "어떤 순서로 어떤 무기를 꺼낼지" 실행한다.
 > **전술 교범 ≠ 전술**: `02_TACTICS(전술)/` 폴더의 개별 규칙들(ANCHOR, DEOVERLAP...)을 이 교범이 통합 지휘한다.
 
