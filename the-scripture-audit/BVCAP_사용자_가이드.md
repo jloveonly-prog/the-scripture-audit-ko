@@ -1,4 +1,4 @@
-﻿﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **버전**: BVCAP v2.0 + AIDD Unified v2.7
@@ -85,7 +85,7 @@ the-scripture-audit/
 ├── 📚 03_WAR_LOG(전투기록)/              ← [3단계] 시청각 교육 — 과거 전투 기록
 │   (상세 인덱스는 아래 📚 전례 인덱스 표 참조)
 │
-├── 🏹 04_QUIVER(무기고)/               ← [4단계] 전쟁터에 들고 가는 무기만 (TYPE 30종)
+├── 🏹 04_QUIVER(무기고)/               ← [4단계] 전쟁터에 들고 가는 무기만 (QUIVER 전종)
 │   ├── TYPE-A_Chronological.md      (연대기 직렬 역산)
 │   ├── TYPE-B_Sequential.md         (사건 순차 병렬 통합)
 │   ├── TYPE-B-pi_PerceptionFilter.md (지각 필터 - 부활아침 전례)
@@ -115,7 +115,8 @@ the-scripture-audit/
 │   ├── TYPE-Z_TheodicyDefense.md    ⭐ NEW (신정론적 방어)
 │   ├── TYPE-AA_AncientLaw.md        ⭐ NEW (고대 법·문화 해부)
 │   ├── TYPE-AB_EntitySpaceMatrix.md ⭐ NEW (영적 존재/공간 매트릭스)
-│   └── TYPE-AC_CounterfactualTest.md ⭐ NEW (역가설 대입 검증 — 귀류법 최후통첩)
+│   ├── TYPE-AC_CounterfactualTest.md ⭐ NEW (역가설 대입 검증 — 귀류법 최후통첩)
+│   └── TYPE-AD ~ AQ ...         ⚡ NEW (추가 확장 무기 — 상세 목록은 아래 QUIVER 맵 참조)
 │
 ├── 📥 _INBOX(작전목표)/              ← [입력] 해결할 성경 검증/방어 대상 목록
 │   ├── Bible_Defense_List.md        (30가지 난제 + TYPE 매핑)
@@ -170,7 +171,7 @@ the-scripture-audit/
 | **CHRONICLE_사울의구원논쟁_침묵의타임라인역전** | A + B | 무당 추방 + 하나님 먼저 물음 → 회개 전무 기각 | ✅ |
 
 ### 🏹 [4단계] QUIVER (무기고 & 실전 타격)
-*   **개념:** "어떤 무기로 적의 논리를 타격할 것인가?"를 결정하는 30종의 정밀 포렌식 무기들입니다.
+*   **개념:** "어떤 무기로 적의 논리를 타격할 것인가?"를 결정하는 정밀 포렌식 무기들입니다.
 *   **역할:** 모든 훈련(소명, 교훈, 전례)이 끝나고 실전 법정(BVCAP 2.0)에 섰을 때, 적재적소에 꺼내어 적의 모순을 박살내는 **실행 파일(Executables)**입니다. (근거: 시 127:5 "His quiver")
 
 ---
@@ -207,7 +208,7 @@ the-scripture-audit/
 
 ## 🧬 BVCAP 무기 체계의 학문적 구조 — 3도메인 하이브리드
 
-BVCAP의 30개 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
+BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 **해석학 · 논리학 · 오류 분석** — 세 개의 독립 학문 영역이 하나의 포렌식 파이프라인으로 통합된 구조입니다.
 
 ### 📊 3도메인 분류
@@ -263,9 +264,9 @@ BVCAP의 30개 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 > 이것이 COMBO-S3, COMBO-GN14 같은 복합 발화가 IRONCLAD를 만드는 구조적 이유입니다.
 
 ---
-## 📊 무기고(QUIVER) 빠른 참조 맵 (30종 TYPE 무기)
+## 📊 무기고(QUIVER) 빠른 참조 맵
 
-실제 `QUIVER` 폴더에 `TYPE-*.md` 파일로 탑재되어 있는 30종의 정밀 포렌식 무기입니다.
+실제 `QUIVER` 폴더에 `TYPE-*.md` 파일로 탑재되어 있는 정밀 포렌식 무기입니다.
 
 > [!NOTE]
 > **v2.0 확장**: `TYPE-B-π` (지각 필터) 신규 추가. 무덤사건 S등급 전례([B]_무덤사건_부활아침_순차통합)에서 "봤으나 처리 불가" 제3 상태 발견으로 도출됨.
@@ -453,7 +454,7 @@ _INBOX(작전목표)/ → Bible_Defense_List or Shabir_Ally_101
   ANCHOR_ThirdData.md → 제3 앵커 구절 수집 규칙 강제
   DEOVERLAP_Serial.md → 시공간 중첩 해체 및 직렬 배치 규칙 강제
     ↓
-[QUIVER 실행] — 30종 정밀 무기(TYPE-A ~ TYPE-AC + TYPE-B-π) 전수 스캔
+[QUIVER 실행] — QUIVER 전종 정밀 무기 전수 스캔
   SUSPECT_Anomaly  → "왜 이것만 다른가?" 의심 감지 (TYPE-M)
   발동된 TYPE → 메모리 보관
   미발동 TYPE → 스킵
@@ -476,7 +477,7 @@ _INBOX(작전목표)/ → Bible_Defense_List or Shabir_Ally_101
 
 ## 📚 부록(Appendix): 고대 유대교 해석학 세부 규칙과 BVCAP 매핑
 
-본 시스템의 무기고(QUIVER)는 고대 랍비들의 성경 해석학을 계승합니다. 랍비 힐렐의 7대 규칙을 확장한 **이스마엘의 13대 규칙(할라하적 방어)**과 **엘리에제르의 32대 규칙(아가다적 방어)**이 어떻게 30종 무기로 이식되었는지 매핑한 표입니다.
+본 시스템의 무기고(QUIVER)는 고대 랍비들의 성경 해석학을 계승합니다. 랍비 힐렐의 7대 규칙을 확장한 **이스마엘의 13대 규칙(할라하적 방어)**과 **엘리에제르의 32대 규칙(아가다적 방어)**이 어떻게 QUIVER 무기로 이식되었는지 매핑한 표입니다.
 
 ### 📜 [부록 1] 랍비 이스마엘의 13대 규칙 (할라하/논리적 변증)
 
