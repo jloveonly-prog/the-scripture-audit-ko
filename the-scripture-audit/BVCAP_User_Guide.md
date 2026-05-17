@@ -1,4 +1,4 @@
-﻿﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **Version**: BVCAP v2.0 + AIDD Unified v2.7
@@ -85,7 +85,7 @@ the-scripture-audit/
 ├── 📚 03_WAR_LOG(전투기록)/              ← [Phase 3] Audiovisual Education — Past Battle Records
 │   (See the Precedents Index Table below for details)
 │
-├── 🏹 04_QUIVER(무기고)/               ← [Phase 4] Weapons for the Battlefield (30 TYPEs)
+├── 🏹 04_QUIVER(무기고)/               ← [Phase 4] Weapons for the Battlefield (QUIVER TYPEs)
 │   ├── TYPE-A_Chronological.md      (Chronological Serial Dismantling)
 │   ├── TYPE-B_Sequential.md         (Event Sequential Parallel Integration)
 │   ├── TYPE-B-pi_PerceptionFilter.md (Perception Filter)
@@ -115,7 +115,8 @@ the-scripture-audit/
 │   ├── TYPE-Z_TheodicyDefense.md    ⭐ NEW (Theodicy Defense)
 │   ├── TYPE-AA_AncientLaw.md        ⭐ NEW (Ancient Law/Culture Anatomy)
 │   ├── TYPE-AB_EntitySpaceMatrix.md ⭐ NEW (Spiritual Entity/Space Matrix)
-│   └── TYPE-AC_CounterfactualTest.md ⭐ NEW (Counterfactual Substitution Test)
+│   ├── TYPE-AC_CounterfactualTest.md ⭐ NEW (Counterfactual Substitution Test)
+│   └── TYPE-AD ~ AQ ...         ⚡ NEW (Extended weapons — see QUIVER Map below)
 │
 ├── 📥 _INBOX(작전목표)/              ← [Input] Target list for biblical verification/defense
 │   ├── Bible_Defense_List.md        (30 Dilemmas + TYPE Mapping)
@@ -170,7 +171,7 @@ The folder structure of this repository is not a simple file classification. It 
 | **CHRONICLE_SaulSalvation_TimelineReversal** | A + B | Witch expulsion + God inquired first → zero repentance rejected | ✅ |
 
 ### 🏹 [Phase 4] QUIVER (Weapons & Live Combat)
-*   **Concept:** The 30 precision forensic weapons deciding "With which weapon will we strike the enemy's logic?"
+*   **Concept:** The precision forensic weapons deciding "With which weapon will we strike the enemy's logic?"
 *   **Role:** After all training (Calling, Doctrine, Chronicle), these are the **Executables** pulled out at the right place and time in the live courtroom (BVCAP 2.0) to shatter the enemy's contradictions. (Reference: Psalm 127:5 "His quiver")
 
 ---
@@ -186,7 +187,7 @@ The folder structure of this repository is not a simple file classification. It 
 This system branches into two modes depending on the nature of the dilemma. It switches within the single BVCAP 2.0 engine, and **defaults to 'MODE A (Shield Mode)' if not specified.**
 
 | Engine Mode | Purpose & Characteristics | Premise & Roleplaying |
-|:---:|:---|:---|
+|:---:|:---|:---:|
 | **MODE A (Shield Mode)** <br> 🌟 **[Default]** | **Apologetics / External Defense** <br> Used to defend against external critics' (Islam, atheists) attacks on "inerrancy/contradictions of the Bible itself." | **Critic (Attack) vs Analyst (Defense)** <br> Focuses on proving the consistency and coherence of the Bible. |
 | **MODE B (Court Mode)** | **Forensic Court / Internal Doctrinal Verification** <br> Used to handle conflicting interpretations or doctrinal debates within the Bible (e.g., King Saul's salvation, the Millennium). | **Plaintiff (Prosecutor) vs Defendant (Defense Attorney)** <br> Both sides believe in biblical inerrancy, deriving a single truth through fierce legal battles. |
 
@@ -197,7 +198,7 @@ This system branches into two modes depending on the nature of the dilemma. It s
 The 4 fundamental laws enforced by the BVCAP engine before pulling out a weapon (TYPE).
 
 | Protocol | Name | Function & Purpose |
-|:---:|:---|:---|
+|:---:|:---|:---:|
 | **OVERRIDE-0** | AI Bias Rejection | Quarantines academic consensus as Hypothesis-0, zero-targeting solely using the KJV original text. |
 | **ANCHOR-1** | 3rd Anchor Collection | Operations will not start unless a 3rd independent data point is collected beyond the two conflicting verses. |
 | **DE-OVERLAP** | Overlap Dismantling | The time and space of events must never overlap and are unconditionally separated in a 'Sequential' arrangement. |
@@ -207,7 +208,7 @@ The 4 fundamental laws enforced by the BVCAP engine before pulling out a weapon 
 
 ## 🧬 Academic Architecture of BVCAP — 3-Domain Hybrid System
 
-The 30 TYPE weapons in BVCAP are not merely Bible citation tools.
+The TYPE weapons in BVCAP are not merely Bible citation tools.
 They are an integration of **three independent academic domains** into a single forensic pipeline:
 **Hermeneutics · Logic · Fallacy Detection**.
 
@@ -265,9 +266,9 @@ They are an integration of **three independent academic domains** into a single 
 > they require a challenger to simultaneously defeat evidence extraction, logical confirmation, AND fallacy detection.
 
 ---
-## 📊 QUIVER Quick Reference Map (30 TYPE Weapons)
+## 📊 QUIVER Quick Reference Map
 
-The 30 precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER` folder.
+The precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER` folder.
 
 > [!NOTE]
 > **v2.0 Expansion**: `TYPE-B-π` (Perception Filter) newly added. Derived from the Tomb Incident S-grade precedent discovering a third state of "saw but could not process."
@@ -305,20 +306,20 @@ The 30 precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUI
 | **TYPE-AA** | Ancient Law/Culture Anatomy | Defends ancient customs misread by Western standards like "Law of Agency." |
 | **TYPE-AB** | Spiritual Entity/Space Matrix | Refutes lumped attacks on fallen angels/devils and Hell/Lake of Fire using a space-time matrix. |
 | **TYPE-AC** ⭐ NEW | Counterfactual Test | Substitutes an opposing hypothesis into the text → Contradiction explosion. |
-| **TYPE-AD** ⚡ NEW | Abductive Reasoning | Adopts the hypothesis that best explains ALL evidence — Calvary: 8/8, Rome: 2/8 |
-| **TYPE-AE** ⚡ NEW | Inclusio (Bookend Structure) | 13:36 ἀκολουθήσεις ↔ 21:19 ἀκολούθει — confirms authorial intentional design |
-| **TYPE-AF** ⚡ NEW | Burden of Proof Transfer | Attacker must provide internal scriptural counter-evidence first — applied to Rome theory |
-| **TYPE-AG** ⚡ NEW | Argument from Silence | Rome theory = complete biblical silence — Acts, Peter's epistles, John: zero mention |
-| **TYPE-AH** ⚡ NEW | Redaction Criticism | What the author chose to record = intentional design — John 19:20 ὅπου selection |
-| **TYPE-AI** ⚡ NEW | Reductio ad Absurdum | Assume Rome theory is true → 4 logical consequences all fail inside Scripture |
-| **TYPE-AJ** ⚡ NEW | Cumulative Case Argument | Theoretical basis for COMBO — 8 independent converging evidences = IRONCLAD |
-| **TYPE-AK** ⚡ NEW | Occam's Razor | Calvary = Scripture-internal complete / Rome = requires external tradition → Razor favors Calvary |
-| **TYPE-AL** ⚡ NEW | Equivocation Detection | "Explicit" definition shifted 3× — consistent definition places Calvary in explicit category |
-| **TYPE-AM** ⚡ NEW | False Dichotomy Detection | "Explicit or inference" = false dichotomy — 4 actual categories; Calvary = category ② |
-| **TYPE-AN** ⚡ NEW | Moving Goalposts Detection | 3 goalpost shifts detected — original standard (internal scriptural ground) met by Calvary |
-| **TYPE-AO** ⚡ NEW | Canonical Criticism | John 13:36↔21:19 = canonical narrative unit — unresolved ὅπου destroys narrative closure |
-| **TYPE-AP** ⚡ NEW | Speech Act Theory | "Follow me" = physical co-location command — illocutionary act confirms Calvary destination |
-| **TYPE-AQ** ⚡ NEW | Audience Criticism | Original audience (disciples) understood ὅπου as physical location — confirmed by Peter's question in 13:36a |
+| **TYPE-AD** ⚡ NEW | Abductive Reasoning | Adopts the hypothesis that best explains ALL evidence. |
+| **TYPE-AE** ⚡ NEW | Inclusio (Bookend Structure) | Confirms authorial intentional design. |
+| **TYPE-AF** ⚡ NEW | Burden of Proof Transfer | Attacker must provide internal scriptural counter-evidence first. |
+| **TYPE-AG** ⚡ NEW | Argument from Silence | Absence of evidence is not evidence of absence. |
+| **TYPE-AH** ⚡ NEW | Redaction Criticism | Analyzes intentional design in recording choices. |
+| **TYPE-AI** ⚡ NEW | Reductio ad Absurdum | Pushes an opposing hypothesis to its logical contradiction. |
+| **TYPE-AJ** ⚡ NEW | Cumulative Case Argument | Theoretical basis for COMBOs. |
+| **TYPE-AK** ⚡ NEW | Occam's Razor | Favoring the simplest explanation consistent with all data. |
+| **TYPE-AL** ⚡ NEW | Equivocation Detection | Detects shifts in definition across records. |
+| **TYPE-AM** ⚡ NEW | False Dichotomy Detection | Identifies forced choice fallacies. |
+| **TYPE-AN** ⚡ NEW | Moving Goalposts Detection | Tracks and neutralizes goalpost shifts. |
+| **TYPE-AO** ⚡ NEW | Canonical Criticism | Audits narrative units for structural integrity. |
+| **TYPE-AP** ⚡ NEW | Speech Act Theory | Interprets illocutionary force in divine commands. |
+| **TYPE-AQ** ⚡ NEW | Audience Criticism | Analyzes how the original audience understood the text. |
 
 ---
 
@@ -441,7 +442,7 @@ _INBOX/ → Bible_Defense_List or Shabir_Ally_101
   ANCHOR_ThirdData.md → Enforce 3rd anchor verse collection rule
   DEOVERLAP_Serial.md → Enforce space-time overlap dismantling & serial placement
     ↓
-[Execute QUIVER] — Full scan of 30 precision weapons
+[Execute QUIVER] — Full scan of all QUIVER weapons
   SUSPECT_Anomaly  → Detect "Why is only this different?" (TYPE-M)
   Activated TYPEs → Keep in memory
   Unactivated TYPEs → Skip
@@ -464,7 +465,7 @@ _INBOX/ → Bible_Defense_List or Shabir_Ally_101
 
 ## 📚 Appendix: Ancient Jewish Hermeneutics Rules & BVCAP Mapping
 
-The QUIVER of this system inherits the biblical hermeneutics of ancient rabbis. This mapping table shows how **Rabbi Ishmael's 13 Rules (Halakhic Defense)** and **Rabbi Eliezer's 32 Rules (Aggadic Defense)**, which expanded Hillel's 7 Rules, were transplanted into the 30 weapon types.
+The QUIVER of this system inherits the biblical hermeneutics of ancient rabbis. This mapping table shows how **Rabbi Ishmael's 13 Rules (Halakhic Defense)** and **Rabbi Eliezer's 32 Rules (Aggadic Defense)**, which expanded Hillel's 7 Rules, were transplanted into the QUIVER weapon types.
 
 ### 📜 [Appendix 1] Rabbi Ishmael's 13 Rules (Halakhic/Logical Defense)
 
