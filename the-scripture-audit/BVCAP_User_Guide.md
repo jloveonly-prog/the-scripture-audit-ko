@@ -262,7 +262,7 @@ They are an integration of **three independent academic domains** into a single 
 > **Why COMBOs generate IRONCLAD verdicts:**
 > A single TYPE = one domain's weapon.
 > A COMBO = **Hermeneutics + Logic firing simultaneously** → An argument cannot be dismantled by attacking only one domain.
-> This is the structural reason COMBO-S3, COMBO-GN14, and other multi-weapon combinations achieve IRONCLAD status —
+> This is the structural reason COMBO-S3(N+F+L), COMBO-GN14(G+N+F), COMBO-WAE(W+AE), and other multi-weapon combinations achieve IRONCLAD status —
 > they require a challenger to simultaneously defeat evidence extraction, logical confirmation, AND fallacy detection.
 
 ---
