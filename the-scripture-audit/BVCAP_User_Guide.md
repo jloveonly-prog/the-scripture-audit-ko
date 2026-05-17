@@ -1,4 +1,4 @@
-﻿# 🏛️ THE SCRIPTURE AUDIT SYSTEM
+# 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
 > **Version**: BVCAP v2.0 + AIDD Unified v2.7
@@ -101,22 +101,22 @@ the-scripture-audit/
 │   ├── TYPE-L_Chain.md              (Inductive Chain Reasoning)
 │   ├── TYPE-M_SUSPECT.md            (Suspicion Detection + Submodule TYPE-M-ξ)
 │   ├── TYPE-N_Exclusivity.md        (Exclusivity Total Investigation)
-│   ├── TYPE-O_PhysicalMarker.md     ⭐ NEW (Physical Marker Absence Verification)
-│   ├── TYPE-P_Retorsion.md          ⭐ NEW (Retorsion / Boomerang Argument)
-│   ├── TYPE-Q_LanguageQuantifier.md ⭐ NEW (Biblical Language Quantification Constraints)
-│   ├── TYPE-R_SyntaxConfusion.md    ⭐ NEW (Syntax/Subject Confusion Detection)
-│   ├── TYPE-S_LexicalBridge.md      ⭐ NEW (Lexical Cross-Connection — Gezerah Shavah)
-│   ├── TYPE-T_TenseAndLexical.md    ⭐ NEW (Tense and Lexical Misinterpretation Detection)
-│   ├── TYPE-U_FirstMention.md       ⭐ NEW (Law of First Mention)
-│   ├── TYPE-V_Gematria.md           ⭐ NEW (Gematria and Numerology)
-│   ├── TYPE-W_PropheticForeshortening.md ⭐ NEW (Prophetic Foreshortening)
-│   ├── TYPE-X_ChiasticStructure.md  ⭐ NEW (Chiastic Symmetrical Structure)
-│   ├── TYPE-Y_WitnessPerspective.md ⭐ NEW (Multiple Witness Testimony Theory)
-│   ├── TYPE-Z_TheodicyDefense.md    ⭐ NEW (Theodicy Defense)
-│   ├── TYPE-AA_AncientLaw.md        ⭐ NEW (Ancient Law/Culture Anatomy)
-│   ├── TYPE-AB_EntitySpaceMatrix.md ⭐ NEW (Spiritual Entity/Space Matrix)
-│   ├── TYPE-AC_CounterfactualTest.md ⭐ NEW (Counterfactual Substitution Test)
-│   └── TYPE-AD ~ AQ ...         ⚡ NEW (Extended weapons — see QUIVER Map below)
+│   ├── TYPE-O_PhysicalMarker.md     (Physical Marker Absence Verification)
+│   ├── TYPE-P_Retorsion.md          (Retorsion / Boomerang Argument)
+│   ├── TYPE-Q_LanguageQuantifier.md (Biblical Language Quantification Constraints)
+│   ├── TYPE-R_SyntaxConfusion.md    (Syntax/Subject Confusion Detection)
+│   ├── TYPE-S_LexicalBridge.md      (Lexical Cross-Connection — Gezerah Shavah)
+│   ├── TYPE-T_TenseAndLexical.md    (Tense and Lexical Misinterpretation Detection)
+│   ├── TYPE-U_FirstMention.md       (Law of First Mention)
+│   ├── TYPE-V_Gematria.md           (Gematria and Numerology)
+│   ├── TYPE-W_PropheticForeshortening.md (Prophetic Foreshortening)
+│   ├── TYPE-X_ChiasticStructure.md  (Chiastic Symmetrical Structure)
+│   ├── TYPE-Y_WitnessPerspective.md (Multiple Witness Testimony Theory)
+│   ├── TYPE-Z_TheodicyDefense.md    (Theodicy Defense)
+│   ├── TYPE-AA_AncientLaw.md        (Ancient Law/Culture Anatomy)
+│   ├── TYPE-AB_EntitySpaceMatrix.md (Spiritual Entity/Space Matrix)
+│   ├── TYPE-AC_CounterfactualTest.md (Counterfactual Substitution Test)
+│   └── TYPE-AD ~ AQ ...         (Extended weapons — see QUIVER Map below)
 │
 ├── 📥 _INBOX(작전목표)/              ← [Input] Target list for biblical verification/defense
 │   ├── Bible_Defense_List.md        (30 Dilemmas + TYPE Mapping)
@@ -271,14 +271,14 @@ They are an integration of **three independent academic domains** into a single 
 The precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER` folder.
 
 > [!NOTE]
-> **v2.0 Expansion**: `TYPE-B-π` (Perception Filter) newly added. Derived from the Tomb Incident S-grade precedent discovering a third state of "saw but could not process."
+> `TYPE-B-π` (Perception Filter): Derived from the Tomb Incident S-grade precedent discovering a third state of "saw but could not process."
 > Subtypes of TYPE-B (TYPE-B-ψ psychological time gap, TYPE-B-μ micro-posture change) are managed internally within `TYPE-B_Sequential.md`.
 
 | Weapon (TYPE) | Name | One-line Summary |
 |:---:|:---|:---|
 | **TYPE-A** | Chronological Serial Dismantling | Reverse-calculates hidden years by lining up numbers sequentially. |
 | **TYPE-B** | Event Sequential Parallel Integration | Fits two records into a timeline to merge them into a single narrative. |
-| **TYPE-B-π** ⭐ NEW | Perception Filter | Identifies witnesses in a "saw but could not process" state — SHOCK/GRIEF/DIVINE. |
+| **TYPE-B-π** | Perception Filter | Identifies witnesses in a "saw but could not process" state — SHOCK/GRIEF/DIVINE. |
 | **TYPE-C** | Functional Category Separation | Dissects how the same word refers to different scales/functions. |
 | **TYPE-D** | Hebrew Narrative Customs | Resolves contradictions using priority listing & genealogical formulas. |
 | **TYPE-E** | Competing Model Total Rejection | Lists all alternatives, rejects them one by one, and adopts the surviving model. |
@@ -305,25 +305,25 @@ The precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER
 | **TYPE-Z** | Theodicy Defense | Defends against attacks on God's character by expanding the timeline rather than text errors. |
 | **TYPE-AA** | Ancient Law/Culture Anatomy | Defends ancient customs misread by Western standards like "Law of Agency." |
 | **TYPE-AB** | Spiritual Entity/Space Matrix | Refutes lumped attacks on fallen angels/devils and Hell/Lake of Fire using a space-time matrix. |
-| **TYPE-AC** ⭐ NEW | Counterfactual Test | Substitutes an opposing hypothesis into the text → Contradiction explosion. |
-| **TYPE-AD** ⚡ NEW | Abductive Reasoning | Adopts the hypothesis that best explains ALL evidence. |
-| **TYPE-AE** ⚡ NEW | Inclusio (Bookend Structure) | Confirms authorial intentional design. |
-| **TYPE-AF** ⚡ NEW | Burden of Proof Transfer | Attacker must provide internal scriptural counter-evidence first. |
-| **TYPE-AG** ⚡ NEW | Argument from Silence | Absence of evidence is not evidence of absence. |
-| **TYPE-AH** ⚡ NEW | Redaction Criticism | Analyzes intentional design in recording choices. |
-| **TYPE-AI** ⚡ NEW | Reductio ad Absurdum | Pushes an opposing hypothesis to its logical contradiction. |
-| **TYPE-AJ** ⚡ NEW | Cumulative Case Argument | Theoretical basis for COMBOs. |
-| **TYPE-AK** ⚡ NEW | Occam's Razor | Favoring the simplest explanation consistent with all data. |
-| **TYPE-AL** ⚡ NEW | Equivocation Detection | Detects shifts in definition across records. |
-| **TYPE-AM** ⚡ NEW | False Dichotomy Detection | Identifies forced choice fallacies. |
-| **TYPE-AN** ⚡ NEW | Moving Goalposts Detection | Tracks and neutralizes goalpost shifts. |
-| **TYPE-AO** ⚡ NEW | Canonical Criticism | Audits narrative units for structural integrity. |
-| **TYPE-AP** ⚡ NEW | Speech Act Theory | Interprets illocutionary force in divine commands. |
-| **TYPE-AQ** ⚡ NEW | Audience Criticism | Analyzes how the original audience understood the text. |
+| **TYPE-AC** | Counterfactual Test | Substitutes an opposing hypothesis into the text → Contradiction explosion. |
+| **TYPE-AD** | Abductive Reasoning | Adopts the hypothesis that best explains ALL evidence. |
+| **TYPE-AE** | Inclusio (Bookend Structure) | Confirms authorial intentional design. |
+| **TYPE-AF** | Burden of Proof Transfer | Attacker must provide internal scriptural counter-evidence first. |
+| **TYPE-AG** | Argument from Silence | Absence of evidence is not evidence of absence. |
+| **TYPE-AH** | Redaction Criticism | Analyzes intentional design in recording choices. |
+| **TYPE-AI** | Reductio ad Absurdum | Pushes an opposing hypothesis to its logical contradiction. |
+| **TYPE-AJ** | Cumulative Case Argument | Theoretical basis for COMBOs. |
+| **TYPE-AK** | Occam's Razor | Favoring the simplest explanation consistent with all data. |
+| **TYPE-AL** | Equivocation Detection | Detects shifts in definition across records. |
+| **TYPE-AM** | False Dichotomy Detection | Identifies forced choice fallacies. |
+| **TYPE-AN** | Moving Goalposts Detection | Tracks and neutralizes goalpost shifts. |
+| **TYPE-AO** | Canonical Criticism | Audits narrative units for structural integrity. |
+| **TYPE-AP** | Speech Act Theory | Interprets illocutionary force in divine commands. |
+| **TYPE-AQ** | Audience Criticism | Analyzes how the original audience understood the text. |
 
 ---
 
-## 🏆 CHRONICLE Grade System — v2.0 New
+## 🏆 CHRONICLE Grade System
 
 > **Source**: Systematized from `[B]_TombIncident_ResurrectionMorning.md` (S-Grade precedent).
 > When analyzing a new case, first refer to precedents of the same grade or higher to secure analysis quality.
@@ -339,7 +339,7 @@ The precision forensic weapons loaded as `TYPE-*.md` files in the actual `QUIVER
 
 ---
 
-## 🔀 CASE-MULTI: Multi-Character Simultaneous On-site Branching Event Type — v2.0 New
+## 🔀 CASE-MULTI: Multi-Character Simultaneous On-site Branching Event Type
 
 > **Source**: Derived from analyzing the failure cause of standalone TYPE-B processing in the S-grade Tomb Incident.
 

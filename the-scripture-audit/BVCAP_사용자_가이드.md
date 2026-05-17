@@ -101,22 +101,22 @@ the-scripture-audit/
 │   ├── TYPE-L_Chain.md              (귀납적 연쇄 추론 — 체인 완성)
 │   ├── TYPE-M_SUSPECT.md            (의심 감지 + 서브모듈 TYPE-M-ξ 포함)
 │   ├── TYPE-N_Exclusivity.md        (배타성 전수 조사)
-│   ├── TYPE-O_PhysicalMarker.md     ⭐ NEW (물리적 흔적 부재 검증)
-│   ├── TYPE-P_Retorsion.md          ⭐ NEW (역논법 / 부메랑 논증)
-│   ├── TYPE-Q_LanguageQuantifier.md ⭐ NEW (성경적 언어 수량화 제약)
-│   ├── TYPE-R_SyntaxConfusion.md    ⭐ NEW (구문/주어 혼동 적발)
-│   ├── TYPE-S_LexicalBridge.md      ⭐ NEW (어휘 교차 연결 — 게제라 샤바)
-│   ├── TYPE-T_TenseAndLexical.md    ⭐ NEW (시제 및 어휘 오독 적발)
-│   ├── TYPE-U_FirstMention.md       ⭐ NEW (첫 언급의 법칙)
-│   ├── TYPE-V_Gematria.md           ⭐ NEW (게마트리아와 수비학)
-│   ├── TYPE-W_PropheticForeshortening.md ⭐ NEW (예언적 원근법)
-│   ├── TYPE-X_ChiasticStructure.md  ⭐ NEW (교차 대칭 구조)
-│   ├── TYPE-Y_WitnessPerspective.md ⭐ NEW (다중 목격자 증언론)
-│   ├── TYPE-Z_TheodicyDefense.md    ⭐ NEW (신정론적 방어)
-│   ├── TYPE-AA_AncientLaw.md        ⭐ NEW (고대 법·문화 해부)
-│   ├── TYPE-AB_EntitySpaceMatrix.md ⭐ NEW (영적 존재/공간 매트릭스)
-│   ├── TYPE-AC_CounterfactualTest.md ⭐ NEW (역가설 대입 검증 — 귀류법 최후통첩)
-│   └── TYPE-AD ~ AQ ...         ⚡ NEW (추가 확장 무기 — 상세 목록은 아래 QUIVER 맵 참조)
+│   ├── TYPE-O_PhysicalMarker.md     (물리적 흔적 부재 검증)
+│   ├── TYPE-P_Retorsion.md          (역논법 / 부메랑 논증)
+│   ├── TYPE-Q_LanguageQuantifier.md (성경적 언어 수량화 제약)
+│   ├── TYPE-R_SyntaxConfusion.md    (구문/주어 혼동 적발)
+│   ├── TYPE-S_LexicalBridge.md      (어휘 교차 연결 — 게제라 샤바)
+│   ├── TYPE-T_TenseAndLexical.md    (시제 및 어휘 오독 적발)
+│   ├── TYPE-U_FirstMention.md       (첫 언급의 법칙)
+│   ├── TYPE-V_Gematria.md           (게마트리아와 수비학)
+│   ├── TYPE-W_PropheticForeshortening.md (예언적 원근법)
+│   ├── TYPE-X_ChiasticStructure.md  (교차 대칭 구조)
+│   ├── TYPE-Y_WitnessPerspective.md (다중 목격자 증언론)
+│   ├── TYPE-Z_TheodicyDefense.md    (신정론적 방어)
+│   ├── TYPE-AA_AncientLaw.md        (고대 법·문화 해부)
+│   ├── TYPE-AB_EntitySpaceMatrix.md (영적 존재/공간 매트릭스)
+│   ├── TYPE-AC_CounterfactualTest.md (역가설 대입 검증 — 귀류법 최후통첩)
+│   └── TYPE-AD ~ AQ ...         (추가 확장 무기 — 상세 목록은 아래 QUIVER 맵 참조)
 │
 ├── 📥 _INBOX(작전목표)/              ← [입력] 해결할 성경 검증/방어 대상 목록
 │   ├── Bible_Defense_List.md        (30가지 난제 + TYPE 매핑)
@@ -269,14 +269,14 @@ BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 실제 `QUIVER` 폴더에 `TYPE-*.md` 파일로 탑재되어 있는 정밀 포렌식 무기입니다.
 
 > [!NOTE]
-> **v2.0 확장**: `TYPE-B-π` (지각 필터) 신규 추가. 무덤사건 S등급 전례([B]_무덤사건_부활아침_순차통합)에서 "봤으나 처리 불가" 제3 상태 발견으로 도출됨.
+> `TYPE-B-π` (지각 필터): 무덤사건 S등급 전례([B]_무덤사건_부활아침_순차통합)에서 "봤으나 처리 불가" 제3 상태 발견으로 도출됨.
 > TYPE-B의 서브타입(TYPE-B-ψ 심리적 시간차, TYPE-B-μ 미시 자세 변화)은 `TYPE-B_Sequential.md` 내부 확장으로 관리됨.
 
 | 무기 (TYPE) | 이름 | 한 줄 요약 |
 |:---:|:---|:---|
 | **TYPE-A** | 연대기 직렬 분해 | 숫자를 순서대로 줄 세워 숨겨진 연수를 역산 |
 | **TYPE-B** | 사건 순차 병렬 통합 | 두 기록을 타임라인으로 끼워 맞춰 단일 서사로 통합 |
-| **TYPE-B-π** ⭐ NEW | 지각 필터 (Perception Filter) | 증인이 "봤으나 처리 불가" 상태임을 식별 — SHOCK/GRIEF/CULTURAL/DIVINE 분류 |
+| **TYPE-B-π** | 지각 필터 (Perception Filter) | 증인이 "봤으나 처리 불가" 상태임을 식별 — SHOCK/GRIEF/CULTURAL/DIVINE 분류 |
 | **TYPE-C** | 기능적 범주 분리 | 같은 단어가 다른 규모/기능을 가리킴을 분해 |
 | **TYPE-D** | 히브리 서사 관습 역이용 | 중요도 우선 나열·족보 공식으로 모순 해소 |
 | **TYPE-E** | 경쟁 모델 전수 기각 | 모든 대안을 나열하고 하나씩 기각, 생존 모델 채택 |
@@ -303,25 +303,25 @@ BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 | **TYPE-Z** | 신정론적 방어 | 텍스트 오류가 아닌 '악의 허용' 등 하나님의 성품 공격을 시간선 확장으로 방어 |
 | **TYPE-AA** | 고대 법·문화 해부 | "대리인법", "히브리 과장법" 등 서구적 잣대로 오독된 고대 관습 방어 |
 | **TYPE-AB** | 영적 존재/공간 매트릭스 | 타락천사/마귀/사탄 및 지옥/음부/불못을 뭉뚱그린 공격을 시공간 매트릭스로 논파 |
-| **TYPE-AC** ⭐ NEW | 역가설 대입 검증 (귀류법) | 내 주장의 반대 가설을 세워 성경 본문에 대입 → 모순 폭발 → 유일 진리 확정. STEP 6 양도논법 최후통첩 포함 |
-| **TYPE-AD** ⚡ NEW | 귀추법 (Abductive Reasoning) | 모든 증거를 가장 잘 설명하는 가설 채택 — 갈보리설 8/8 증거 설명 |
-| **TYPE-AE** ⚡ NEW | 수미상관 (Inclusio) | 13:36 ἀκολουθήσεις ↔ 21:19 ἀκολούθει — 저자 의도 설계 확정 |
-| **TYPE-AF** ⚡ NEW | 입증 책임 전가 (Burden of Proof) | 공격자가 먼저 성경 내부 반증 제시 의무 — 로마설에 적용 |
-| **TYPE-AG** ⚡ NEW | 침묵 논증 (Argument from Silence) | 로마설 = 성경의 완전한 침묵 — 사도행전·베드로서 전체 무언급 |
-| **TYPE-AH** ⚡ NEW | 편집비평 (Redaction Criticism) | 저자가 선택해서 기록한 것 = 의도적 설계 — 요 19:20 ὅπου 선택 |
-| **TYPE-AI** ⚡ NEW | 귀류법 (Reductio ad Absurdum) | 상대 가설(로마설)을 참으로 가정 → 4개 귀결 모두 성경 내부 불성립 |
-| **TYPE-AJ** ⚡ NEW | 누적 사례 논증 (Cumulative Case) | COMBO 이론 기초 — 8개 독립 증거 수렴 = IRONCLAD |
-| **TYPE-AK** ⚡ NEW | 오컴의 면도날 (Occam's Razor) | 갈보리설 = 성경 내부 완결 / 로마설 = 외부 전통 필요 → 면도날 기준 갈보리설 우선 |
-| **TYPE-AL** ⚡ NEW | 어의 중의성 적발 (Equivocation) | "명시" 정의 이동 3회 적발 — 일관된 정의로 갈보리설 명시 범주 확정 |
-| **TYPE-AM** ⚡ NEW | 거짓 이분법 적발 (False Dichotomy) | "명시 아니면 추론" = 거짓 이분법 — 실제 4범주 중 갈보리설은 ②해당 |
-| **TYPE-AN** ⚡ NEW | 목표대 이동 적발 (Moving Goalposts) | 기준 3회 이동 적발 — 최초 기준(성경 내부 근거) 충족으로 갈보리설 성립 |
-| **TYPE-AO** ⚡ NEW | 정경비평 (Canonical Criticism) | 요 13:36↔21:19 = 정경 서사 단위 — ὅπου 미확정 시 서사 파괴 |
-| **TYPE-AP** ⚡ NEW | 화행이론 (Speech Act Theory) | "나를 따르라" = 물리적 장소 동행 명령 확정 — 예언 실행 명령 |
-| **TYPE-AQ** ⚡ NEW | 청중비평 (Audience Criticism) | 원래 청중(제자들)이 ὅπου를 물리적 장소로 이해 — 13:36a 베드로 질문으로 직접 확인 |
+| **TYPE-AC** | 역가설 대입 검증 (귀류법) | 내 주장의 반대 가설을 세워 성경 본문에 대입 → 모순 폭발 → 유일 진리 확정. STEP 6 양도논법 최후통첩 포함 |
+| **TYPE-AD** | 귀추법 (Abductive Reasoning) | 모든 증거를 가장 잘 설명하는 가설 채택 — 갈보리설 8/8 증거 설명 |
+| **TYPE-AE** | 수미상관 (Inclusio) | 13:36 ἀκολουθήσεις ↔ 21:19 ἀκολούθει — 저자 의도 설계 확정 |
+| **TYPE-AF** | 입증 책임 전가 (Burden of Proof) | 공격자가 먼저 성경 내부 반증 제시 의무 — 로마설에 적용 |
+| **TYPE-AG** | 침묵 논증 (Argument from Silence) | 로마설 = 성경의 완전한 침묵 — 사도행전·베드로서 전체 무언급 |
+| **TYPE-AH** | 편집비평 (Redaction Criticism) | 저자가 선택해서 기록한 것 = 의도적 설계 — 요 19:20 ὅπου 선택 |
+| **TYPE-AI** | 귀류법 (Reductio ad Absurdum) | 상대 가설(로마설)을 참으로 가정 → 4개 귀결 모두 성경 내부 불성립 |
+| **TYPE-AJ** | 누적 사례 논증 (Cumulative Case) | COMBO 이론 기초 — 8개 독립 증거 수렴 = IRONCLAD |
+| **TYPE-AK** | 오컴의 면도날 (Occam's Razor) | 갈보리설 = 성경 내부 완결 / 로마설 = 외부 전통 필요 → 면도날 기준 갈보리설 우선 |
+| **TYPE-AL** | 어의 중의성 적발 (Equivocation) | "명시" 정의 이동 3회 적발 — 일관된 정의로 갈보리설 명시 범주 확정 |
+| **TYPE-AM** | 거짓 이분법 적발 (False Dichotomy) | "명시 아니면 추론" = 거짓 이분법 — 실제 4범주 중 갈보리설은 ②해당 |
+| **TYPE-AN** | 목표대 이동 적발 (Moving Goalposts) | 기준 3회 이동 적발 — 최초 기준(성경 내부 근거) 충족으로 갈보리설 성립 |
+| **TYPE-AO** | 정경비평 (Canonical Criticism) | 요 13:36↔21:19 = 정경 서사 단위 — ὅπου 미확정 시 서사 파괴 |
+| **TYPE-AP** | 화행이론 (Speech Act Theory) | "나를 따르라" = 물리적 장소 동행 명령 확정 — 예언 실행 명령 |
+| **TYPE-AQ** | 청중비평 (Audience Criticism) | 원래 청중(제자들)이 ὅπου를 물리적 장소로 이해 — 13:36a 베드로 질문으로 직접 확인 |
 
 ---
 
-## 🏆 전례 등급 체계 (CHRONICLE Grade System) — v2.0 신규
+## 🏆 전례 등급 체계 (CHRONICLE Grade System)
 
 > **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례)에서 체계화됨.
 > 새 사건 분석 시 동일 등급 이상의 전례를 우선 참고하여 분석 품질 기준을 확보한다.
@@ -337,7 +337,7 @@ BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 
 ---
 
-## 🔀 CASE-MULTI: 다중 인물 동시 현장 분기 사건 유형 — v2.0 신규
+## 🔀 CASE-MULTI: 다중 인물 동시 현장 분기 사건 유형
 
 > **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례) — 기존 TYPE-B 단독 처리 실패 원인 분석으로 도출됨.
 
