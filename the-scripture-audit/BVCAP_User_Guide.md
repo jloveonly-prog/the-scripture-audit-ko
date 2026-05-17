@@ -1,7 +1,7 @@
 # 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
-> **Version**: BVCAP v2.0 + AIDD Unified v2.7
+> **Version**: BVCAP v2.0
 > **Status**: FULLY OPERATIONAL
 > **Core Philosophy**: The AI does not search commentaries. It dissects the original text, reverse-engineers numbers, and completes the chain.
 > **BVCAP = BALANCE** — *"Thou art weighed in the balances"* Dan 5:27
@@ -116,7 +116,20 @@ the-scripture-audit/
 │   ├── TYPE-AA_AncientLaw.md        (Ancient Law/Culture Anatomy)
 │   ├── TYPE-AB_EntitySpaceMatrix.md (Spiritual Entity/Space Matrix)
 │   ├── TYPE-AC_CounterfactualTest.md (Counterfactual Substitution Test)
-│   └── TYPE-AD ~ AQ ...         (Extended weapons — see QUIVER Map below)
+│   ├── TYPE-AD_AbductiveReasoning.md (Abductive Reasoning)
+│   ├── TYPE-AE_Inclusio.md           (Inclusio / Bookend Structure)
+│   ├── TYPE-AF_BurdenOfProof.md      (Burden of Proof Transfer)
+│   ├── TYPE-AG_ArgumentFromSilence.md (Argument from Silence)
+│   ├── TYPE-AH_RedactionCriticism.md  (Redaction Criticism)
+│   ├── TYPE-AI_ReductioAdAbsurdum.md  (Reductio ad Absurdum)
+│   ├── TYPE-AJ_CumulativeCase.md      (Cumulative Case Argument)
+│   ├── TYPE-AK_OccamsRazor.md         (Occam's Razor)
+│   ├── TYPE-AL_EquivocationDetection.md (Equivocation Detection)
+│   ├── TYPE-AM_FalseDichotomy.md      (False Dichotomy Detection)
+│   ├── TYPE-AN_MovingGoalposts.md     (Moving Goalposts Detection)
+│   ├── TYPE-AO_CanonicalCriticism.md  (Canonical Criticism)
+│   ├── TYPE-AP_SpeechActTheory.md     (Speech Act Theory)
+│   └── TYPE-AQ_AudienceCriticism.md   (Audience Criticism)
 │
 ├── 📥 _INBOX(작전목표)/              ← [Input] Target list for biblical verification/defense
 │   ├── Bible_Defense_List.md        (30 Dilemmas + TYPE Mapping)
@@ -368,9 +381,9 @@ Auxiliary modules activated after defense is complete to visualize results and p
 
 | Module Name | Name | Function & Purpose |
 |:---:|:---|:---|
-| **IMPORT-X** | External Data Import | Converts/integrates external data like images/Excel into the BVCAP timeline format. |
 | **ANALOGY-5** | Modern Analogy Creation | Generates analogies likening verdicts to military/legal concepts for 1-second comprehension. |
 | **LESSON-6** | Spiritual/Pastoral Lesson | Extracts God's spiritual providence and calling rather than stopping at mere logical victory. |
+| **STRESS-TEST-7** | Maximum-Range Adversary Simulation | Re-executes each activated TYPE at full range; IRONCLAD cannot be declared without passing this gate. |
 | **BVCAP_2.0** | Final Verdict Output | Renders the final BALANCE VERDICT report format based on `BVCAP_GHQ.md`. |
 
 ---
