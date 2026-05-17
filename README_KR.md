@@ -37,7 +37,7 @@
     ├── 🕊️ 01_MANDATE(작전명령)          # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
     ├── 📖 02_TACTICS(전술)              # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
     ├── 📚 03_WAR_LOG(전투기록)          # [3단계] 과거 승전 사례 및 S등급 판례 도서관
-    ├── 🏹 04_QUIVER(무기고)             # [4단계] 30종 정밀 포렌식 무기 (TYPE-A ~ AC + TYPE-B-π)
+    ├── 🏹 04_QUIVER(무기고)             # [4단계] 전종 정밀 포렌식 무기 (TYPE-A ~ AQ + TYPE-B-π)
     ├── 📥 _INBOX(작전목표)              # [입력] 해결 대기 중인 감사/방어 목표
     └── 📁 05_REPORT(전과보고서)          # [출력] 완료된 감사의 최종 마스터피스 보고서
 ```
@@ -51,36 +51,40 @@ sequenceDiagram
     autonumber
     actor User as 👤 사용자
     participant AI as 🤖 AI 감사관
-    participant MANDATE as 🕊️ MANDATE<br/>(01_작전명령)
-    participant TACTICS as 📖 TACTICS<br/>(02_전술)
-    participant WAR_LOG as 📚 WAR_LOG<br/>(03_전투기록)
+    participant PIPELINE as 🎯 PIPELINE<br/>(GATE 0~5)
     participant QUIVER as 🏹 QUIVER<br/>(04_무기고)
     participant REPORT as ⚖️ REPORT<br/>(05_전과보고서)
 
     User->>AI: 성경 논제 / 반론 / 감사 의뢰 입력
     Note over User,AI: "베드로가 갈보리에서 죽었다는 명시가 없다"
 
-    rect rgb(210, 228, 252)
-        Note over AI,MANDATE: ① PHASE 1 — MANDATE (작전명령: 편향 차단 & 정체성 장착)
-        AI->>MANDATE: OVERRIDE-0 발동
-        MANDATE-->>AI: ✅ 학계 편향 격리 완료<br/>KJV 무오성 수호자 정체성 장착
+    rect rgb(230, 230, 250)
+        Note over AI,PIPELINE: GATE 0 — C-Code 분류 (난제 유형 결정)
+        AI->>PIPELINE: 난제 성격 분류
+        PIPELINE-->>AI: ✅ C-10 (예표적 성취 논쟁) 배정
     end
 
     rect rgb(210, 240, 220)
-        Note over AI,TACTICS: ② PHASE 2 — TACTICS (전술: 해석학 헌법 적용)
-        AI->>TACTICS: ANCHOR-1 수집 지시
-        TACTICS-->>AI: ✅ 제3 앵커 구절 확보<br/>DE-OVERLAP(시공간 중첩 해체) 완료
+        Note over AI,PIPELINE: GATE 1 — 관련 구절 전체 수집 (앵커 필수)
+        AI->>PIPELINE: ANCHOR-1 수집 실행
+        PIPELINE-->>AI: ✅ 충돌 구절 + 병행 구절 + 제3의 앵커 확보
     end
 
-    rect rgb(252, 237, 210)
-        Note over AI,WAR_LOG: ③ PHASE 3 — WAR_LOG (전투기록: 전례 참조)
-        AI->>WAR_LOG: 유사 판례 조회
-        WAR_LOG-->>AI: ✅ 관련 S/A등급 판례 반환<br/>분석 품질 기준 설정
+    rect rgb(210, 228, 252)
+        Note over AI,PIPELINE: GATE 2 — 편향 차단 (학계 주석 검색 금지)
+        AI->>PIPELINE: OVERRIDE-0 발동
+        PIPELINE-->>AI: ✅ 학계 편향 격리 완료<br/>KJV 원문 직접 독해만 허용
+    end
+
+    rect rgb(255, 243, 220)
+        Note over AI,PIPELINE: [전처리] 프로토콜 장착 (1회)
+        AI->>PIPELINE: ANCHOR-1 + DE-OVERLAP + MATRIX-3 로드
+        PIPELINE-->>AI: ✅ 시공간 직렬/분리 7원칙 장착 완료
     end
 
     rect rgb(252, 215, 230)
-        Note over AI,QUIVER: ④ PHASE 4 — QUIVER (정밀 무기 발동)
-        AI->>QUIVER: 논제 분석 → TYPE 무기 선택
+        Note over AI,QUIVER: GATE 3 — FULL SCAN (메인 엔진)
+        AI->>QUIVER: C-Code 권장 TYPE 우선 실행
 
         Note over QUIVER: 🔵 해석학 도메인 (본문 증거 추출)
         QUIVER-->>AI: TYPE-G (원어 문법) 발동<br/>TYPE-S (어휘 교차) 발동<br/>TYPE-W (회고적 기술) 발동<br/>TYPE-AE (수미상관) 발동
@@ -93,52 +97,78 @@ sequenceDiagram
 
         Note over QUIVER: ⚡ COMBO 발동 (도메인 교차 동시 발화)
         QUIVER-->>AI: COMBO [G+S+W+N+AD]<br/>해석학 + 논리학 동시 발화<br/>단일 도메인 공격으로 기각 불가
+
+        AI->>AI: STRESS-TEST-7<br/>(최강 반론 시뮬레이션 & 자기 검증)
     end
 
-    AI->>AI: STRESS-TEST-7<br/>(최강 반론 시뮬레이션 & 자기 검증)
+    rect rgb(220, 245, 220)
+        Note over AI,PIPELINE: GATE 4 — 역산 교차 검증 (루프)
+        AI->>PIPELINE: 각 TYPE 결론을 독립 데이터로 역검증
+        alt 정합 ✅
+            PIPELINE-->>AI: 결론 확정 → GATE 5로
+        else 불정합 ❌
+            PIPELINE-->>AI: 루프백 → GATE 1 앵커 추가 수집
+        end
+    end
 
-    alt 모든 반론 차단 성공
-        AI->>REPORT: IRONCLAD 판결 생성
-        REPORT-->>User: ✅ IRONCLAD<br/>논리적 필연성 확정<br/>마스터피스 보고서 발행
-    else 부분 증거 확보
-        AI->>REPORT: CONFIRMED 판결 생성
-        REPORT-->>User: ✅ CONFIRMED<br/>성경 내부 근거 확보
-    else 증거 불충분
-        AI->>REPORT: INSUFFICIENT 판결
-        REPORT-->>User: ⚠️ 추가 앵커 구절 수집 필요
-        REPORT-->>AI: 루프백 → ANCHOR-1 재수집
+    rect rgb(245, 235, 250)
+        Note over AI,REPORT: GATE 5 — 마스터피스 보고서 출력
+        alt IRONCLAD (COMBO 3종+ & STRESS-TEST 통과)
+            AI->>REPORT: IRONCLAD 판결 생성
+            REPORT-->>User: ✅ IRONCLAD<br/>논리적 필연성 확정<br/>마스터피스 보고서 발행
+        else CONFIRMED (COMBO 2종)
+            AI->>REPORT: CONFIRMED 판결 생성
+            REPORT-->>User: ✅ CONFIRMED<br/>성경 내부 근거 확보
+        else CONSISTENT (단일 TYPE)
+            AI->>REPORT: CONSISTENT 판결 생성
+            REPORT-->>User: ✅ CONSISTENT<br/>일관성 확인
+        end
     end
 ```
 
-> **3도메인 파이프라인 원리**: 해석학(증거 추출) → 논리학(결론 확정) → 오류학(반론 무력화) 순으로 실행.
+> **GATE 기반 파이프라인**: GATE 0(분류) → GATE 1(수집) → GATE 2(편향 차단) → GATE 3(FULL SCAN) → GATE 4(역산 검증) → GATE 5(보고서).
 > COMBO 발동 = 두 도메인 이상 동시 발화 → 상대가 단일 도메인만 공격해서는 논증 전체를 기각 불가.
 
 ---
 
-## ⚡ 4단계 감사 파이프라인 (Execution Pipeline)
+## ⚡ 4단계 감사 파이프라인 — 시스템 구조와 각 폴더의 역할
 
 AI 감사관은 모든 난제에 대해 다음의 4단계를 거쳐 **'마스터피스(Masterpiece)'** 판결문을 생성합니다.
 
 1.  **MANDATE (작전명령)**: 학계의 자유주의적 편향을 차단하고, KJV 성경의 무오성을 수호하는 '제42의 기록자' 정체성을 장착합니다.
 2.  **TACTICS (전술)**: "제3의 앵커 구절(ANCHOR-1)" 수집과 "시간/공간 중첩 해체(DE-OVERLAP)" 규칙을 적용하여 사고 회로를 정렬합니다.
 3.  **WAR_LOG (전투기록)**: 과거의 유사 난제 해결 전례(판례)를 참조하여 분석의 품질 기준을 설정합니다.
-4.  **QUIVER (무기고)**: 30종의 정밀 무기 중 적합한 TYPE을 선택하여 적의 논리적 모순을 정밀 타격합니다.
+4.  **QUIVER (무기고)**: 전종 정밀 무기 중 적합한 TYPE을 선택하여 적의 논리적 모순을 정밀 타격합니다.
 
 ---
 
-## 🏹 30종 정밀 포렌식 무기 (The QUIVER)
+## 🎯 GATE 기반 실행 파이프라인 — AI가 실제로 따르는 실행 순서
+
+> 위의 4단계가 "각 폴더가 무엇을 하는가"라면, 아래는 **AI가 난제를 받았을 때 실제로 밟는 실행 순서**입니다.
+
+0.  **GATE 0 (C-Code 분류)**: 난제의 유형을 13개 C-Code(C-01~C-13)로 분류하여 분석 방향을 설정합니다.
+1.  **GATE 1 (구절 수집)**: 충돌 구절 + 병행 구절 + **제3의 앵커 구절**을 의무 수집합니다. → `02_TACTICS` 참조
+2.  **GATE 2 (편향 차단)**: 학계 통설을 가설(H0)로 격리하고, KJV 원문 직접 독해만으로 분석합니다. → `01_MANDATE` 참조
+3.  **GATE 3 (FULL SCAN)**: 전종 무기(TYPE-A~AQ)를 순차 발동하고, COMBO 검증 및 STRESS-TEST-7을 실행합니다. → `04_QUIVER` + `03_WAR_LOG` 참조
+4.  **GATE 4 (역산 검증)**: 각 TYPE의 결론을 제3의 독립 데이터로 역산 교차 검증합니다. 불정합 시 GATE 1로 회귀합니다.
+5.  **GATE 5 (보고서 출력)**: Phase 1~6 마스터피스 양식으로 최종 판결을 출력합니다. → `05_REPORT` 출력
+
+---
+
+## 🏹 전종 정밀 포렌식 무기 (The QUIVER)
 
 | TYPE | 이름 | 핵심 작동 원리 |
 |:---:|:---|:---|
 | **TYPE-A** | 연대기 직렬 분해 | 숫자를 겹치지 않고 순서대로 줄 세워 숨겨진 연수를 역산 |
 | **TYPE-B** | 사건 순차 병렬 통합 | 두 기록을 타임라인으로 끼워 맞춰 단일 서사로 통합 |
-| **TYPE-B-π** ⭐ v2.9 | 지각 필터 (Perception Filter) | 증인이 "보았으나 처리 불가" 상태 탐지 — SHOCK/GRIEF/CULTURAL/DIVINE 분류 |
+| **TYPE-B-π** | 지각 필터 (Perception Filter) | 증인이 "보았으나 처리 불가" 상태 탐지 — SHOCK/GRIEF/CULTURAL/DIVINE 분류 |
 | **TYPE-C** | 기능적 범주 분리 | 같은 단어가 가리키는 다른 기능/규모/단위를 분해 |
 | **TYPE-G** | KJV 문법 구조 해부 | 콤마, 접속사, 관사 구조 분석을 통한 텍스트 삭제 불가성 증명 |
 | **TYPE-L** | 귀납적 연쇄 추론 | "왜?"를 반복하며 단서 체인을 연결하여 전체 설계도 도출 |
-| **TYPE-X** | 교차 대칭 구조 | 카이아즘 구조 투시를 통해 주변부 공격을 파쇄하고 핵심 도출 |
-| **TYPE-AC** ⭐ v3.0 | 역가설 대입 검증 (귀류법) | 반대 가설을 세워 성경 본문에 대입 → 모순 폭발 → 유일 진리 확정 |
-| ... | (총 30종) | 상세 내용은 `the-scripture-audit/04_QUIVER(무기고)/` 참조 |
+| **TYPE-N** | 배타성 검증 | 패턴이 오직 이 한 대상에만 적용됨을 전수 조사로 확정 |
+| **TYPE-AC** | 역가설 대입 검증 (귀류법) | 반대 가설을 세워 성경 본문에 대입 → 모순 폭발 → 유일 진리 확정 |
+| **TYPE-AQ** | 청중비평 (Audience Criticism) | 원래 청중이 어떻게 이해했는지를 텍스트 내에서 직접 확인 |
+| ... | **(전종)** | 상세 내용은 `the-scripture-audit/04_QUIVER(무기고)/` 참조 |
 
 ---
 

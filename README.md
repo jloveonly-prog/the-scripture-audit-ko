@@ -37,7 +37,7 @@ For detailed instructions on how to load this system into an AI and run audits i
     ├── 🕊️ 01_MANDATE(작전명령)          # [Phase 1] Persona adoption & academic bias quarantine (OVERRIDE-0)
     ├── 📖 02_TACTICS(전술)              # [Phase 2] Hermeneutical constitution & 7 tactical rules (ANCHOR-1, DE-OVERLAP)
     ├── 📚 03_WAR_LOG(전투기록)          # [Phase 3] Library of past victorious precedents & S-rank cases
-    ├── 🏹 04_QUIVER(무기고)             # [Phase 4] 30 types of precision forensic weapons (TYPE-A ~ AC + TYPE-B-π)
+    ├── 🏹 04_QUIVER(무기고)             # [Phase 4] Full arsenal of precision forensic weapons (TYPE-A ~ AQ + TYPE-B-π)
     ├── 📥 _INBOX(작전목표)              # [Input] Audit/defense targets waiting for resolution
     └── 📁 05_REPORT(전과보고서)          # [Output] Final master reports of completed audits
 ```
@@ -51,36 +51,40 @@ sequenceDiagram
     autonumber
     actor User as 👤 User
     participant AI as 🤖 AI Auditor
-    participant MANDATE as 🕊️ MANDATE<br/>(01_MANDATE)
-    participant TACTICS as 📖 TACTICS<br/>(02_TACTICS)
-    participant WAR_LOG as 📚 WAR_LOG<br/>(03_WAR_LOG)
+    participant PIPELINE as 🎯 PIPELINE<br/>(GATE 0~5)
     participant QUIVER as 🏹 QUIVER<br/>(04_QUIVER)
     participant REPORT as ⚖️ REPORT<br/>(05_REPORT)
 
     User->>AI: Submit biblical thesis / counter-argument / audit request
     Note over User,AI: "There is no explicit biblical statement that Peter died at Calvary"
 
-    rect rgb(210, 228, 252)
-        Note over AI,MANDATE: ① PHASE 1 — MANDATE (Bias Block & Identity Loading)
-        AI->>MANDATE: Fire OVERRIDE-0
-        MANDATE-->>AI: ✅ Academic bias quarantined<br/>KJV inerrancy defender identity loaded
+    rect rgb(230, 230, 250)
+        Note over AI,PIPELINE: GATE 0 — C-Code Classification (Determine Dilemma Type)
+        AI->>PIPELINE: Classify dilemma type
+        PIPELINE-->>AI: ✅ C-10 (Typological Fulfillment Dispute) assigned
     end
 
     rect rgb(210, 240, 220)
-        Note over AI,TACTICS: ② PHASE 2 — TACTICS (Hermeneutical Constitution Applied)
-        AI->>TACTICS: Collect ANCHOR-1 (3rd anchor verse)
-        TACTICS-->>AI: ✅ Third independent anchor secured<br/>DE-OVERLAP (time/space overlap dismantled)
+        Note over AI,PIPELINE: GATE 1 — Collect All Related Verses (Anchor Required)
+        AI->>PIPELINE: Execute ANCHOR-1 collection
+        PIPELINE-->>AI: ✅ Conflict verses + parallel texts + 3rd anchor secured
     end
 
-    rect rgb(252, 237, 210)
-        Note over AI,WAR_LOG: ③ PHASE 3 — WAR_LOG (Precedent Reference)
-        AI->>WAR_LOG: Query similar precedents
-        WAR_LOG-->>AI: ✅ Relevant S/A-grade cases returned<br/>Analysis quality baseline set
+    rect rgb(210, 228, 252)
+        Note over AI,PIPELINE: GATE 2 — Bias Block (Academic Commentary Banned)
+        AI->>PIPELINE: Fire OVERRIDE-0
+        PIPELINE-->>AI: ✅ Academic bias quarantined<br/>KJV direct reading only
+    end
+
+    rect rgb(255, 243, 220)
+        Note over AI,PIPELINE: [Pre-Processing] Protocol Loading (Once)
+        AI->>PIPELINE: Load ANCHOR-1 + DE-OVERLAP + MATRIX-3
+        PIPELINE-->>AI: ✅ Time/Space serial/separation 7-rules loaded
     end
 
     rect rgb(252, 215, 230)
-        Note over AI,QUIVER: ④ PHASE 4 — QUIVER (Precision Weapons Fired)
-        AI->>QUIVER: Analyze thesis → Select TYPE weapons
+        Note over AI,QUIVER: GATE 3 — FULL SCAN (Main Engine)
+        AI->>QUIVER: Execute C-Code recommended TYPEs first
 
         Note over QUIVER: 🔵 Hermeneutics Domain (Evidence Extraction)
         QUIVER-->>AI: TYPE-G (Greek Grammar) fired<br/>TYPE-S (Lexical Bridge) fired<br/>TYPE-W (Retrospective Authorial Cognition) fired<br/>TYPE-AE (Inclusio) fired
@@ -93,51 +97,78 @@ sequenceDiagram
 
         Note over QUIVER: ⚡ COMBO Fire (Cross-Domain Simultaneous Discharge)
         QUIVER-->>AI: COMBO [G+S+W+N+AD]<br/>Hermeneutics + Logic simultaneous discharge<br/>Cannot be refuted by attacking a single domain
+
+        AI->>AI: STRESS-TEST-7<br/>(Simulate strongest counter-argument & self-verify)
     end
 
-    AI->>AI: STRESS-TEST-7<br/>(Simulate strongest counter-argument & self-verify)
+    rect rgb(220, 245, 220)
+        Note over AI,PIPELINE: GATE 4 — Reverse Cross-Verification (Loop)
+        AI->>PIPELINE: Verify each TYPE conclusion with independent data
+        alt Pass ✅
+            PIPELINE-->>AI: Conclusion confirmed → proceed to GATE 5
+        else Fail ❌
+            PIPELINE-->>AI: Loop back → GATE 1 for additional anchors
+        end
+    end
 
-    alt All counter-arguments blocked
-        AI->>REPORT: Generate IRONCLAD verdict
-        REPORT-->>User: ✅ IRONCLAD<br/>Logical necessity confirmed<br/>Masterpiece report issued
-    else Partial evidence secured
-        AI->>REPORT: Generate CONFIRMED verdict
-        REPORT-->>User: ✅ CONFIRMED<br/>Internal scriptural grounds established
-    else Insufficient evidence
-        AI->>REPORT: INSUFFICIENT verdict
-        REPORT-->>User: ⚠️ Additional anchor verses required
-        REPORT-->>AI: Loop back → Re-collect ANCHOR-1
+    rect rgb(245, 235, 250)
+        Note over AI,REPORT: GATE 5 — Masterpiece Report Output
+        alt IRONCLAD (3+ COMBOs & STRESS-TEST passed)
+            AI->>REPORT: Generate IRONCLAD verdict
+            REPORT-->>User: ✅ IRONCLAD<br/>Logical necessity confirmed<br/>Masterpiece report issued
+        else CONFIRMED (2 COMBOs)
+            AI->>REPORT: Generate CONFIRMED verdict
+            REPORT-->>User: ✅ CONFIRMED<br/>Internal scriptural grounds established
+        else CONSISTENT (Single TYPE)
+            AI->>REPORT: Generate CONSISTENT verdict
+            REPORT-->>User: ✅ CONSISTENT<br/>Consistency verified
+        end
     end
 ```
 
-> **3-Domain Pipeline Principle**: Hermeneutics (extract evidence) → Logic (confirm conclusion) → Fallacy Detection (neutralize counter-arguments).
+> **GATE-Based Pipeline**: GATE 0 (Classify) → GATE 1 (Collect) → GATE 2 (Bias Block) → GATE 3 (FULL SCAN) → GATE 4 (Reverse Verify) → GATE 5 (Report).
 > COMBO = two or more domains fire simultaneously → opponent cannot refute the argument by attacking only one domain.
 
 ---
 
-## ⚡ 4-Phase Execution Pipeline
+## ⚡ 4-Phase System Structure — What Each Folder Does
 
 The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'** verdict for any theological dilemma.
 
 1.  **MANDATE**: Quarantines liberal academic bias and adopts the identity of the '42nd Writer' to defend the inerrancy of the KJV Bible.
 2.  **TACTICS**: Aligns thought circuits by collecting a "third anchor verse (ANCHOR-1)" and applying the "time/space overlap dismantling (DE-OVERLAP)" rule.
 3.  **WAR_LOG**: Sets the quality standard for analysis by referencing successful precedents of similar dilemmas.
-4.  **QUIVER**: Selects the appropriate TYPE among 29 precision weapons to precisely strike the logical contradictions of the opposition.
+4.  **QUIVER**: Selects the appropriate TYPE from the full arsenal of precision weapons to precisely strike the logical contradictions of the opposition.
 
 ---
 
-## 🏹 29 Precision Forensic Weapons (The QUIVER)
+## 🎯 GATE-Based Execution Pipeline — The Actual AI Execution Order
+
+> While the 4 phases above describe "what each folder does", the following shows the **actual execution order the AI follows** when it receives a dilemma.
+
+0.  **GATE 0 (C-Code Classification)**: Classifies the dilemma into 13 C-Codes (C-01~C-13) to set the analysis direction.
+1.  **GATE 1 (Verse Collection)**: Collects conflict verses + parallel texts + **3rd anchor verses** as mandatory. → References `02_TACTICS`
+2.  **GATE 2 (Bias Block)**: Quarantines academic consensus as hypothesis (H0), analyzing only through direct KJV reading. → References `01_MANDATE`
+3.  **GATE 3 (FULL SCAN)**: Fires all weapons (TYPE-A~AQ) sequentially, runs COMBO verification and STRESS-TEST-7. → References `04_QUIVER` + `03_WAR_LOG`
+4.  **GATE 4 (Reverse Verification)**: Cross-verifies each TYPE's conclusion with independent 3rd-party data. Loops back to GATE 1 on failure.
+5.  **GATE 5 (Report Output)**: Outputs the final verdict in Phase 1~6 Masterpiece format. → Outputs to `05_REPORT`
+
+---
+
+## 🏹 Full Arsenal of Precision Forensic Weapons (The QUIVER)
 
 | TYPE | Name | Core Mechanism |
 |:---:|:---|:---|
 | **TYPE-A** | Chronological Serial Dismantling | Reverse-calculates hidden years by arranging numbers sequentially without overlap |
 | **TYPE-B** | Event Sequential Parallel Integration | Merges two separate records into a single timeline and narrative |
-| **TYPE-B-π** ⭐ v2.9 | Perception Filter | Detects witnesses in a "saw but could not process" state — SHOCK/GRIEF/CULTURAL/DIVINE classification |
+| **TYPE-B-π** | Perception Filter | Detects witnesses in a "saw but could not process" state — SHOCK/GRIEF/CULTURAL/DIVINE classification |
 | **TYPE-C** | Functional Category Separation | Breaks down different functions/scales/units referred to by the same word |
 | **TYPE-G** | KJV Grammatical Structure Anatomy | Proves the text cannot be deleted by analyzing commas, conjunctions, and articles |
 | **TYPE-L** | Inductive Chain Reasoning | Repeats "Why?" to connect clue chains and deduce the grand blueprint |
-| **TYPE-X** | Chiasmic Symmetrical Structure | Sees through chiasmic structures to crush peripheral attacks and extract the core |
-| ... | (Total 29 Types) | See `the-scripture-audit/04_QUIVER(무기고)/` for details |
+| **TYPE-N** | Exclusivity Verification | Confirms the pattern applies to only one target through exhaustive survey |
+| **TYPE-AC** | Counterfactual Hypothesis Test (Reductio) | Inserts the opposite hypothesis into scripture → contradiction explosion → sole truth confirmed |
+| **TYPE-AQ** | Audience Criticism | Verifies how the original audience understood the text directly from within scripture |
+| ... | **(Full Arsenal)** | See `the-scripture-audit/04_QUIVER(무기고)/` for details |
 
 ---
 
