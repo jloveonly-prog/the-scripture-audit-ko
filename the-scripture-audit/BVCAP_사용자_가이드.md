@@ -1,7 +1,7 @@
 # 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
-> **버전**: BVCAP v2.0 + AIDD Unified v2.7
+> **버전**: BVCAP v2.0
 > **상태**: FULLY OPERATIONAL
 > **핵심 철학**: AI는 주석서를 검색하지 않는다. 원문을 분해하고, 숫자를 역산하고, 체인을 완성한다.
 > **BVCAP = BALANCE(저울)** — *"Thou art weighed in the balances"* Dan 5:27
@@ -116,7 +116,20 @@ the-scripture-audit/
 │   ├── TYPE-AA_AncientLaw.md        (고대 법·문화 해부)
 │   ├── TYPE-AB_EntitySpaceMatrix.md (영적 존재/공간 매트릭스)
 │   ├── TYPE-AC_CounterfactualTest.md (역가설 대입 검증 — 귀류법 최후통첩)
-│   └── TYPE-AD ~ AQ ...         (추가 확장 무기 — 상세 목록은 아래 QUIVER 맵 참조)
+│   ├── TYPE-AD_AbductiveReasoning.md (귀추법)
+│   ├── TYPE-AE_Inclusio.md           (수미상관)
+│   ├── TYPE-AF_BurdenOfProof.md      (입증 책임 전가)
+│   ├── TYPE-AG_ArgumentFromSilence.md (침묵 논증)
+│   ├── TYPE-AH_RedactionCriticism.md  (편집비평)
+│   ├── TYPE-AI_ReductioAdAbsurdum.md  (귀류법)
+│   ├── TYPE-AJ_CumulativeCase.md      (누적 사례 논증)
+│   ├── TYPE-AK_OccamsRazor.md         (오컴의 면도날)
+│   ├── TYPE-AL_EquivocationDetection.md (어의 중의성 적발)
+│   ├── TYPE-AM_FalseDichotomy.md      (거짓 이분법 적발)
+│   ├── TYPE-AN_MovingGoalposts.md     (목표대 이동 적발)
+│   ├── TYPE-AO_CanonicalCriticism.md  (정경비평)
+│   ├── TYPE-AP_SpeechActTheory.md     (화행이론)
+│   └── TYPE-AQ_AudienceCriticism.md   (청중비평)
 │
 ├── 📥 _INBOX(작전목표)/              ← [입력] 해결할 성경 검증/방어 대상 목록
 │   ├── Bible_Defense_List.md        (30가지 난제 + TYPE 매핑)
@@ -366,9 +379,9 @@ BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 
 | 모듈명 | 이름 | 기능 및 목적 |
 |:---:|:---|:---|
-| **IMPORT-X** | 외부 데이터 이식 | 이미지·엑셀 등 외부 자료를 BVCAP 타임라인 양식으로 변환/통합 |
 | **ANALOGY-5** | 현대 비유 창작 | 최종 판결을 군사·법률·일상 개념에 빗대어 1초 만에 이해시키는 비유 생성 |
 | **LESSON-6** | 영적/목회적 교훈 도출 | 단순 논리적 승리에 그치지 않고, 성경 난제가 주는 하나님의 영적 섭리와 소명을 추출 |
+| **STRESS-TEST-7** | 적 최강 반격 시뮬레이션 | 활성화된 각 TYPE 무기를 최대 사거리 전수 탐색으로 재실행. IRONCLAD 선언 전 필수 통과 검문소 |
 | **BVCAP_2.0** | 최종 판결문 출력 | 루트의 `BVCAP_GHQ.md` 기준에 맞춰 최종 BALANCE VERDICT 보고서 양식으로 렌더링 |
 
 ---
