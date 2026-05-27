@@ -202,6 +202,36 @@
 
 ---
 
+### [PRE-GATE 3] 복잡도 자동 판별 — COMPLEXITY TIER 결정
+
+> **왜 필요한가**: 난제의 복잡도에 따라 TYPE 실행 전략을 최적화한다.
+> FULL SCAN 순서는 동일하되, 복잡도에 따라 실행 우선순위와 STRESS-TEST 발동 여부가 달라진다.
+
+```
+🎯 [COMPLEXITY TIER 판별 — GATE 3 진입 전 1회 실행]
+
+  TIER 판별 기준:
+    TIER-1 (Simple):   충돌 구절 2개 / 앵커 1~2개 / 단일 C-Code
+    TIER-2 (Standard): 충돌 구절 3~5개 / 앵커 3~5개 / C-Code 1~2개 혼합
+    TIER-3 (Complex):  충돌 구절 6개+ / 앵커 6개+ / C-Code 3개+ 혼합 / 다중 인물 교차
+
+  C-Code별 기본 TIER 배정:
+    TIER-1: C-01, C-07 (숫자·연대기 — 구조 단순)
+    TIER-2: C-02, C-03, C-04, C-05, C-06, C-08 (역사·신학·논리·관점·문화)
+    TIER-3: C-09, C-10, C-11, C-12, C-13 (다중 좌표·예표·병렬·사본·영적 공간)
+
+  TIER별 FULL SCAN 전략:
+    TIER-1: C-Code 권장 TYPE(필수) → 오류학 3종(R/T/AL) → COMBO-VERIFY
+    TIER-2: C-Code 권장 TYPE(필수) → 해석학 전종 → 논리학 전종 → 오류학 전종 → COMBO-VERIFY
+    TIER-3: TIER-2 전종 + STRESS-TEST-7 의무 + Cross-model escalation 권고
+
+  ⚠️ 주의: TIER는 실행 우선순위만 결정한다.
+           TIER-1이라도 TYPE-M 이상 감지 시 즉시 TIER 상향한다.
+           TIER-1도 FULL SCAN 생략은 금지 — 스캔 후 '결과 없음'으로 기록하라.
+```
+
+---
+
 ### [GATE 3] FULL SCAN 실행 (메인 엔진)
 
 > **왜 필요한가**: GATE 0에서 C-Code를 분류했지만,
@@ -238,6 +268,17 @@
 > 이것이 MATRIX-3의 핵심: **순방향 + 역방향 모두 성립해야 확정.**
 
 ```
+⏱️ [루프 상한 카운터 — Loop Ceiling Rule]
+  → GATE 4에 진입할 때마다 CYCLE_COUNT를 1씩 증가시킨다.
+  → CYCLE_COUNT > 3 이면:
+     ① 추가 앵커 수집을 강제 중단한다.
+     ② STATUS = ⚠️ UNRESOLVED (데이터 불충분)으로 강제 격상한다.
+     ③ 미해결 TYPE 목록 + 루프 이유를 GATE 5 보고서 Phase 1에 명시한다.
+     ④ GATE 5로 즉시 이동한다.
+  → "영원히 흔들리는 저울은 저울이 아니다." — 분석 중단 자체가 판결의 일부다.
+  → 근거: 마태복음 18:16 "두세 증인의 입으로 말마다 확정"
+          앵커 수집 3회 후에도 정합 불가 = 현재 데이터로는 판결 불가 = 그것이 판결이다.
+
 FOR 각 "결과 있음" TYPE:
 
   [검증] 이 TYPE의 결론이 맞다면,
@@ -537,6 +578,76 @@ END FOR
 
   → 위 항목 중 하나라도 미확인이면: 해당 TYPE을 "사거리 확장" 후 재실행한다.
   → 모두 통과하면: IRONCLAD 유지. 미통과 항목이 있으면: STATUS를 PROBABLE로 하향 후 LESSON-6으로 진행.
+
+[STEP 6] Cross-model Adversarial Review (교차 모델 적대적 검토)
+  발동 조건: COMPLEXITY TIER-3 케이스 AND IRONCLAD 후보 판결
+  성격: 의무(TIER-3) / 선택(TIER-1~2)
+
+  ━━━ [환경 감지 — 실행 전 필수 분기] ━━━
+
+  → 먼저 현재 실행 환경을 판별한다:
+     □ 사용자가 다른 AI 아키텍처(Claude ↔ GPT ↔ Gemini 등)에 접근 가능한가?
+        YES → [경로 A] Cross-model Review 실행
+        NO  → [경로 B] Self-adversarial Fallback 실행
+             ⚠️ 단일 LLM이 자신을 그대로 검토하는 것은 금지다.
+                같은 모델의 자기 검토 = 같은 편향의 재확인 = 검증 무효.
+                반드시 경로 B의 절차(페르소나 전환)를 따른다.
+
+  ─── [경로 A] Cross-model Review (다중 AI 환경) ─────────────────
+
+  실행 방법:
+    1. 핵심 artifact 구성 (사용자가 다른 AI 세션에 전달):
+       - 충돌 구절 + 앵커 목록 + FULL SCAN 결과 요약 + 잠정 판결
+    2. 다른 아키텍처 AI에게 아래 Contract와 함께 전달:
+
+       [Cross-model Review Contract]
+       "이 분석의 IRONCLAD 판결에 대해 adversarial reviewer로서 검토하라.
+        당신의 임무는 이 판결이 틀렸음을 증명하는 것이다.
+        성경 내부 데이터만으로 반박하라. 외부 학계 견해 사용 금지."
+
+    3. 판정:
+       → 반박 격퇴 성공: IRONCLAD [Cross-model ✓] 태그 부여
+       → 반박 격퇴 실패: IRONCLAD 취소 → PROBABLE 하향
+                         미격퇴 반박 내용을 GATE 5 보고서에 기재
+
+  ─── [경로 B] Self-adversarial Fallback (단일 LLM 환경) ──────────
+
+  ⚠️ 이 경로는 Cross-model의 완전한 대체가 아니다.
+     편향 맹점 탐지 효과는 Cross-model보다 낮다. 한계를 태그에 명시한다.
+
+  실행 방법:
+    1. AI는 즉시 페르소나를 전환한다:
+       선언문: "나는 지금부터 이 분석의 결론이 틀렸음을 증명하는
+               적대적 비평가(Adversarial Critic) 역할을 수행한다.
+               나의 목표는 성경 내부 데이터만으로 IRONCLAD를 기각하는 것이다."
+
+    2. 페르소나 전환 상태에서 아래 3가지를 의무 실행한다:
+       □ 기존 FULL SCAN에서 사용된 모든 TYPE의 논리에 반박을 시도한다
+       □ 각 COMBO의 약한 연결고리를 찾아 끊으려 시도한다
+       □ STRESS-TEST-7에서 격퇴된 반격을 다시 꺼내 재강화한다
+
+    3. Adversarial Critic 역할에서 원래 역할로 복귀:
+       선언문: "페르소나 전환 종료. 비평가가 생성한 반박을 평가한다."
+
+    4. 판정:
+       → 모든 반박 격퇴 성공: IRONCLAD [Self-adv ✓] 태그 부여
+       → 일부 격퇴 실패: PROBABLE [Self-adv 미완] 태그 + 미격퇴 항목 기재
+
+  ─── [태그 체계 — 3단계 신뢰도 표시] ─────────────────────────────
+
+  태그 체계:
+    ✅✅✅ IRONCLAD [Cross-model ✓]     — 다른 아키텍처 모델 반박 격퇴 (최고 신뢰도)
+    ✅✅✅ IRONCLAD [Self-adv ✓]        — 단일 모델 페르소나 전환 격퇴 (표준 신뢰도)
+    ✅✅✅ IRONCLAD                      — STRESS-TEST-7만 통과 (기본 신뢰도)
+    ⚠️ PROBABLE [Cross-model 반박 존재]  — 교차 모델이 격퇴 못 한 반박 존재
+    ⚠️ PROBABLE [Self-adv 미완]          — 단일 모델 자기 검토에서 미격퇴 반박 존재
+
+  근거: 마태복음 18:16 "두세 증인의 입으로 말마다 확정"
+  → 한 모델(한 증인)의 확신은 IRONCLAD의 충분조건이 아니다.
+  → 다른 아키텍처 모델(다른 증인)이 반박을 격퇴할 때 IRONCLAD는 더 강해진다.
+  → 같은 아키텍처는 같은 학습 편향을 가진다. 편향의 맹점은 다른 편향만이 찾을 수 있다.
+  → 단일 LLM 환경에서는 Self-adversarial Fallback이 차선이지만, 무검토보다 낫다.
+
 
 [ANALOGY-5 — 의무 실행]
   → 도출된 결론을 현대 군사·법률·일상 체계에 빗대어
