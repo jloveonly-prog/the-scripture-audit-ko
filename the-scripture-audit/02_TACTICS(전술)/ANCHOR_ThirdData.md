@@ -1,8 +1,11 @@
 # 🔗 ANCHOR — 제3 앵커 수집 + MATRIX 역산 프로토콜
 **"In the mouth of two or three witnesses every word shall be established." — 2 Corinthians 13:1 KJV**
+**"For precept must be upon precept... here a little, and there a little." — Isaiah 28:10 KJV**
 
 > **핵심 원칙**: 충돌하는 두 구절만 비교하면 영원히 답이 나오지 않는다.
 > 반드시 제3의 독립 데이터 포인트를 찾아야 퍼즐이 완성된다.
+> **"여기서 조금, 저기서 조금"** — 한 곳에서 모든 답이 나오지 않는다.
+> 여러 곳에서 조금씩 모아야 전체 설계가 드러난다. 이것이 ANCHOR-1의 성경적 뿌리다.
 
 ---
 
