@@ -251,7 +251,7 @@ They are an integration of **three independent academic domains** into a single 
 [Phase 3] FALLACY DETECTION — Neutralize counter-arguments
   TYPE-T (Lexical Misreading Detection) / TYPE-R (Referent Misreading) / TYPE-P (Retorsion)
     ↓
-[VERDICT] IRONCLAD / CONFIRMED / REFUTED
+[VERDICT] IRONCLAD / STRONG / REFUTED
 `
 
 ### 📌 TYPE Weapon Domain Mapping

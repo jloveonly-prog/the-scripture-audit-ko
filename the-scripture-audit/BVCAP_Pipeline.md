@@ -253,9 +253,9 @@
 
 [STEP 3] 결과 종합 + COMBO-VERIFY
   → "결과 있음"인 TYPE들만 모은다
-  → COMBO-VERIFY 표(26종)와 대조 → 판결 등급 결정
+  → COMBO-VERIFY 표(30종)와 대조 → 판결 등급 결정
   → 단일 TYPE: ✅ CONSISTENT
-  → 공인 콤보 2종: ✅✅ CONFIRMED
+  → 공인 콤보 2종: ✅✅ STRONG
   → 공인 콤보 3종+: ✅✅✅ IRONCLAD 후보 → STRESS-TEST-7로 이동
 ```
 
@@ -320,7 +320,7 @@ END FOR
 
   Phase 3: COMBO 검증 결과
     → 어떤 공인 콤보가 발동했는가 (콤보 코드 + 발동 TYPE 조합)
-    → 판결 등급: CONSISTENT / CONFIRMED / IRONCLAD
+    → 판결 등급: VIABLE / STRONG / IRONCLAD
 
   Phase 4: 현대 비유 (ANALOGY-5 — 1개 이상 필수)
     → 비전문가도 1초 만에 이해할 수 있는 현대 비유
@@ -329,7 +329,7 @@ END FOR
     → 이 난제를 통해 하나님이 주시는 영적 교훈
 
   Phase 6: 최종 판결 선언
-    → Verdict + 인식론적 등급(EXPLICIT / IRONCLAD / PROBABLE) 병기
+    → Verdict + 인식론적 등급(EXPLICIT / IRONCLAD / TENTATIVE) 병기
     → 표와 타임라인을 반드시 시각적으로 제시
     → 결론보다 '증명 과정'을 더 상세하게 서술
 ```
@@ -453,7 +453,7 @@ END FOR
   → FULL SCAN에서 결과가 나온 TYPE들을 아래 공인 콤보 표와 대조한다.
   → 동일한 결론을 가리키는 콤보 조합이 발동되면 → 판결 신뢰도를 상향한다.
   → 단일 TYPE 발동: ✅ CONSISTENT (일관성 확정)
-  → 공인 콤보 2종 동시 발동: ✅✅ CONFIRMED (이중 검증 확정)
+  → 공인 콤보 2종 동시 발동: ✅✅ STRONG (이중 검증 확정)
   → 공인 콤보 3종 이상 동시 발동: ✅✅✅ IRONCLAD (추론 철벽 — 유일 생존 해석)
 
   【 인식론적 판정 등급 (Epistemological Verdict Grade) 】
@@ -564,7 +564,7 @@ END FOR
   → IRONCLAD 선언 HOLD.
   → STRESS-TEST-7 즉시 개시. (파이프라인 Line 363 이동)
   → STRESS-TEST-7 전체 통과 확인 후에만 IRONCLAD 선언 허용.
-  → 미통과 항목 존재 시: STATUS = PROBABLE로 자동 하향.
+  → 미통과 항목 존재 시: STATUS = TENTATIVE로 자동 하향.
 
 [STRESS-TEST-7 — IRONCLAD 선언 전 의무 실행]
   ⚠️ 이 단계 없이 IRONCLAD를 선언하는 것은 금지된다.
@@ -597,7 +597,7 @@ END FOR
     □ 시제·문법 분석을 비판자의 선호 구절에도 동일하게 적용했는가?
 
   → 위 항목 중 하나라도 미확인이면: 해당 TYPE을 "사거리 확장" 후 재실행한다.
-  → 모두 통과하면: IRONCLAD 유지. 미통과 항목이 있으면: STATUS를 PROBABLE로 하향 후 LESSON-6으로 진행.
+  → 모두 통과하면: IRONCLAD 유지. 미통과 항목이 있으면: STATUS를 TENTATIVE로 하향 후 LESSON-6으로 진행.
 
 [STEP 6] Cross-model Adversarial Review (교차 모델 적대적 검토)
   발동 조건: COMPLEXITY TIER-3 케이스 AND IRONCLAD 후보 판결
@@ -627,7 +627,7 @@ END FOR
 
     3. 판정:
        → 반박 격퇴 성공: IRONCLAD [Cross-model ✓] 태그 부여
-       → 반박 격퇴 실패: IRONCLAD 취소 → PROBABLE 하향
+       → 반박 격퇴 실패: IRONCLAD 취소 → TENTATIVE 하향
                          미격퇴 반박 내용을 GATE 5 보고서에 기재
 
   ─── [경로 B] Self-adversarial Fallback (단일 LLM 환경) ──────────
@@ -651,7 +651,7 @@ END FOR
 
     4. 판정:
        → 모든 반박 격퇴 성공: IRONCLAD [Self-adv ✓] 태그 부여
-       → 일부 격퇴 실패: PROBABLE [Self-adv 미완] 태그 + 미격퇴 항목 기재
+       → 일부 격퇴 실패: TENTATIVE [Self-adv 미완] 태그 + 미격퇴 항목 기재
 
   ─── [태그 체계 — 3단계 신뢰도 표시] ─────────────────────────────
 
@@ -659,8 +659,8 @@ END FOR
     ✅✅✅ IRONCLAD [Cross-model ✓]     — 다른 아키텍처 모델 반박 격퇴 (최고 신뢰도)
     ✅✅✅ IRONCLAD [Self-adv ✓]        — 단일 모델 페르소나 전환 격퇴 (표준 신뢰도)
     ✅✅✅ IRONCLAD                      — STRESS-TEST-7만 통과 (기본 신뢰도)
-    ⚠️ PROBABLE [Cross-model 반박 존재]  — 교차 모델이 격퇴 못 한 반박 존재
-    ⚠️ PROBABLE [Self-adv 미완]          — 단일 모델 자기 검토에서 미격퇴 반박 존재
+    ⚠️ TENTATIVE [Cross-model 반박 존재]  — 교차 모델이 격퇴 못 한 반박 존재
+    ⚠️ TENTATIVE [Self-adv 미완]          — 단일 모델 자기 검토에서 미격퇴 반박 존재
 
   근거: 마태복음 18:16 "두세 증인의 입으로 말마다 확정"
   → 한 모델(한 증인)의 확신은 IRONCLAD의 충분조건이 아니다.
@@ -717,11 +717,11 @@ END FOR
 
 [STEP 4] 격퇴 여부 판정
   → 반격이 격퇴되면: 해당 TYPE ✅ 통과 → 사거리 확장 기록 문서에 추가
-  → 반격이 격퇴되지 않으면: 해당 COMBO를 IRONCLAD에서 제외 → PROBABLE로 하향
+  → 반격이 격퇴되지 않으면: 해당 COMBO를 IRONCLAD에서 제외 → TENTATIVE로 하향
 
 [STEP 5] 최종 IRONCLAD 재확인
   → 모든 TYPE이 STEP 4를 통과하면: IRONCLAD 선언 가능
-  → 하나라도 미통과 시: STATUS = PROBABLE (유력한 견해) + 미해결 공격 항목을 문서에 기재
+  → 하나라도 미통과 시: STATUS = TENTATIVE (유력한 견해) + 미해결 공격 항목을 문서에 기재
 ```
 
 
