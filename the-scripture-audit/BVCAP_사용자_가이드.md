@@ -250,7 +250,7 @@ BVCAP의 TYPE 무기는 단순한 성경 인용 도구가 아닙니다.
 [3단계] 오류 분석 발동 — 반론 무력화
   TYPE-T (어휘 오독 적발) / TYPE-R (지시 오독 적발) / TYPE-P (역논법)
     ↓
-[판결] IRONCLAD / CONFIRMED / REFUTED
+[판결] IRONCLAD / STRONG / REFUTED
 `
 
 ### 📌 TYPE 무기별 도메인 매핑
