@@ -245,7 +245,7 @@
   → 예: C-01 → TYPE-A, TYPE-C, TYPE-H, TYPE-J 먼저
 
 [STEP 2] 나머지 TYPE 전종 순차 실행 (반복 처리)
-  → STEP 1에서 실행하지 않은 나머지 TYPE을 A→AQ 순서로 하나씩 실행한다.
+  → STEP 1에서 실행하지 않은 나머지 TYPE을 A→AU 순서로 하나씩 실행한다.
   → 각 TYPE마다:
      해당 TYPE의 조건이 수집된 데이터에 적용되는가?
      → 적용됨 → SKILL 상세 절차 실행 → "결과 있음" 기록
@@ -384,7 +384,7 @@ END FOR
   → 수치와 맥락이 100% 정합할 때까지 내부 연산을 반복한다
   → 정합이 되지 않으면 앵커 데이터를 추가 수집하여 재시도한다
 
-[FULL SCAN: TYPE A → AQ 순서 실행]
+[FULL SCAN: TYPE A → AU 순서 실행]
   TYPE-A: 숫자 직렬 역산 시도 → 결과 있음/없음
   TYPE-B: 두 기록 순차 통합 시도 → 결과 있음/없음
   TYPE-B-π: 증인의 지각 필터(봤으나 처리 불가) 탐지 → 해당 없음/SHOCK·GRIEF·CULTURAL·DIVINE 분류
@@ -730,7 +730,7 @@ END FOR
 ## 🗺️ [TYPE 전체 맵 — v2.0 (QUIVER 전종 실전 무기)]
 
 > **아래 목록이 실제 04_QUIVER(무기고) 파일로 존재하는 포렌식 무기입니다.**
-> FULL SCAN 실행 시 TYPE-M부터 TYPE-AQ까지, 그리고 TYPE-B-π를 순서대로 점검합니다.
+> FULL SCAN 실행 시 TYPE-M부터 TYPE-AU까지, 그리고 TYPE-B-π를 순서대로 점검합니다.
 
 | TYPE | 이름 | 한 줄 요약 |
 |:---:|:---|:---|

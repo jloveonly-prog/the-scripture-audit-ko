@@ -166,7 +166,7 @@ The folder structure of this repository is not a simple file classification. It 
 |:---|:---:|:---|:---:|
 | 🏆 **[B]_TombIncident_ResurrectionMorning** | B + B-π | 5 character groups × 4 Gospels CASE-MULTI handling, Perception Filter applied | ✅ |
 | **[F+E+G+N+P+I+T+S]_Peter_CalvaryMartyrdom** | F+E+G+N+P+I+T+S | 7-fold typology + COMBO-SF11 (θέλω blocker) → IRONCLAD | ✅✅✅ |
-| **[G+H+I]_1John_Comma** | G + H + I | Greek Gender collapse (G) + 4 independent sources reversal (H) + 22-word design (I) | ✅ Probable |
+| **[G+H+I]_1John_Comma** | G + H + I | Greek Gender collapse (G) + 4 independent sources reversal (H) + 22-word design (I) | ✅ Tentative |
 | **[O+P+Q]_Millennium_LittleSeason** | O + P + Q | Physical marker absence + Retorsion + Language quantification constraint 3-fold defense | ✅ |
 | **[A]_Ahaziah_42vs22** | A + E | 32+8+2=42 serial reverse calc, Ben idiom | ✅ |
 | **[A]_Terah_AbramBirth** | A + D | 205-75=130 reverse calc, Hebrew genealogy formula | ✅ |
