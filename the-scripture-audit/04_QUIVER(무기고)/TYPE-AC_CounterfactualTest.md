@@ -1,4 +1,4 @@
-# 🔬 SKILL-30: TYPE-AC — 역가설 대입 검증 (Counterfactual Contradiction Test)
+﻿# 🔬 SKILL-30: TYPE-AC — 역가설 대입 검증 (Counterfactual Contradiction Test)
 **"역으로 대입하면 성경이 스스로 붕괴한다"**
 
 > **언제 발동하는가**: 주장을 **직접 증명하기 어려울 때**, 또는 증명을 **철벽으로 확정**하고 싶을 때.
@@ -131,7 +131,7 @@
   → A(베드로 = 갈보리) IRONCLAD 확정
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md` — 섹션 3-4, 3-5
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md` — 섹션 3-4, 3-5
 
 ---
 
@@ -166,5 +166,5 @@ TYPE-AC (역가설 대입 검증)
   → 새로운 해석이 등장해도 동일한 검증 파이프라인에 통과시킨다.
 ```
 
-*TYPE-AC v1.0 — 베드로 갈보리 순교 역가설 검증 전례 통합*
+*TYPE-AC v1.0 — 베드로 갈보리 순교 역가설 검증 전투기록 통합*
 *"If the opposite were true, Scripture itself would collapse." — BVCAP Forensic Principle*

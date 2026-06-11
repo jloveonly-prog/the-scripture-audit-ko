@@ -1,4 +1,4 @@
-# 🔀 SKILL-48: TYPE-AU — 구조적 등가 평행 (Structural Isomorphism)
+﻿# 🔀 SKILL-48: TYPE-AU — 구조적 등가 평행 (Structural Isomorphism)
 **"The thing that hath been, it is that which shall be" — Ecclesiastes 1:9 KJV**
 
 > **언제 발동하는가**: 서로 다른 두 사건/인물이 놀라울 정도로 **동일한 구조적 패턴**을 보일 때.
@@ -88,7 +88,7 @@
   → 원칙 IRONCLAD 확정
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-7a
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-7a
 
 ---
 
@@ -146,5 +146,5 @@ TYPE-AU (구조적 등가 평행)
 
 ---
 
-*TYPE-AU v1.0 — 멜키세덱 보고서 §3-7a 선악과 평행 구조 전례 통합*
+*TYPE-AU v1.0 — 멜키세덱 보고서 §3-7a 선악과 평행 구조 전투기록 통합*
 *"The thing that hath been, it is that which shall be." — Ecclesiastes 1:9 KJV*

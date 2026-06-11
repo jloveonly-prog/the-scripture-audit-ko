@@ -1,4 +1,4 @@
-# 🗡️ TYPE-T : 시제 및 어휘 오독 적발 (Tense & Lexical Forensics)
+﻿# 🗡️ TYPE-T : 시제 및 어휘 오독 적발 (Tense & Lexical Forensics)
 
 > **"적의 가장 거창한 신학적 공격은, 종종 기초적인 시제(Tense)와 단어의 사전적 의미(Lexicon)에 대한 무지 위에 세워져 있다."**
 
@@ -66,7 +66,7 @@
 → 어휘+시제+부사 3층위 동시 오독 적발 ✅
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md`
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md`
 
 ---
 *Status: ARMED & READY — v1.1 타임라인 앵커링 탐지 패턴 추가*

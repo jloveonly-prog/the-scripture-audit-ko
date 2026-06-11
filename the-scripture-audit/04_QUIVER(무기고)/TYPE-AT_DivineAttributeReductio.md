@@ -1,4 +1,4 @@
-# 🔥 SKILL-47: TYPE-AT — 신성 속성 귀류법 (Divine Attribute Reductio)
+﻿# 🔥 SKILL-47: TYPE-AT — 신성 속성 귀류법 (Divine Attribute Reductio)
 **"온갖 좋은 선물과 완전한 은사는 위로부터 내려오나니 곧 빛들의 아버지께로부터라" — James 1:17 KJV**
 
 > **언제 발동하는가**: "하나님이 X를 직접 창조/행하셨다"는 주장이 제기될 때,
@@ -102,7 +102,7 @@
   → ∴ 하나님의 속성 완전 보전 ✅
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-5
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-5
 
 ---
 
@@ -134,5 +134,5 @@ TYPE-AT (신성 속성 귀류법)
 
 ---
 
-*TYPE-AT v1.0 — 멜키세덱 보고서 §3-5 마귀 종류의 신성 속성 충돌 전례 통합*
+*TYPE-AT v1.0 — 멜키세덱 보고서 §3-5 마귀 종류의 신성 속성 충돌 전투기록 통합*
 *"Every good gift and every perfect gift is from above." — James 1:17 KJV*

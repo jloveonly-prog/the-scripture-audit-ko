@@ -1,4 +1,4 @@
-# ⚡ SKILL-46: TYPE-AS — 권능 위계 분석 (Authority Hierarchy Analysis)
+﻿# ⚡ SKILL-46: TYPE-AS — 권능 위계 분석 (Authority Hierarchy Analysis)
 **"The heaven, even the heavens, are the LORD'S: but the earth hath he given to the children of men." — Psalm 115:16 KJV**
 
 > **언제 발동하는가**: "하나님만 하실 수 있는 행위"와 "피조물도 할 수 있는 행위"의 **구분이 쟁점**일 때.
@@ -100,7 +100,7 @@
     → 첫 세상의 아들들 = 합법적 위임 하에 형성 → 가능
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-3
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-3
 
 ---
 
@@ -132,5 +132,5 @@ TYPE-AS (권능 위계 분석)
 
 ---
 
-*TYPE-AS v1.0 — 멜키세덱 보고서 §3-3 Bara/Asah/Yatsar 분리 전례 통합*
+*TYPE-AS v1.0 — 멜키세덱 보고서 §3-3 Bara/Asah/Yatsar 분리 전투기록 통합*
 *"The earth hath he given to the children of men." — Psalm 115:16 KJV*

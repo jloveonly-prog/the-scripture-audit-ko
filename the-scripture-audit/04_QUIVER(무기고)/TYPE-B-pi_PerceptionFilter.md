@@ -1,10 +1,10 @@
-# 🔬 SKILL-02π: TYPE-B-π — 지각 필터 (Perception Filter / Witness Capacity Limit)
+﻿# 🔬 SKILL-02π: TYPE-B-π — 지각 필터 (Perception Filter / Witness Capacity Limit)
 
 > **언제 발동하는가**: 증인이 사건 현장에 있었고, 물리적으로 보거나 들었으나, 심리·신체·환경적 이유로 정보를 **정상적으로 처리하지 못한** 경우.
 > **핵심 의심**: "이 증인은 보지 못한 것인가, 아니면 봤으나 처리 불가 상태였는가?"
 
 > **분류**: TYPE-B의 독립 확장 무기 (TYPE-B와 병행 발동 가능)
-> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전례) 도출
+> **출처**: [B]_무덤사건_부활아침_순차통합.md (S등급 전투기록) 도출
 
 ---
 
@@ -122,13 +122,13 @@ CASE-MULTI 발동 시 TYPE-B-π 체크리스트:
 
 ---
 
-## 📌 CHRONICLE 기준 전례
+## 📌 CHRONICLE 기준 전투기록
 
-- **S등급 전례**: `03_WAR_LOG(전투기록)/[B]_무덤사건_부활아침_순차통합.md`
+- **S등급 전투기록**: `03_WAR_LOG(전투기록)/[B]_무덤사건_부활아침_순차통합.md`
   - 막달라의 지각 필터 (GRIEF), 엠마오 제자의 지각 필터 (DIVINE) 모두 실전 적용됨.
 
 ---
 
 *BVCAP QUIVER TYPE-B-π_PerceptionFilter v1.0*
-*도출 근거: [B]_무덤사건_부활아침_순차통합.md (S등급 전례 분석)*
+*도출 근거: [B]_무덤사건_부활아침_순차통합.md (S등급 전투기록 분석)*
 *STATUS: OPERATIONAL | 독립 무기 등급: TYPE-B 확장 (병행 발동형)*

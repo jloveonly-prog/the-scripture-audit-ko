@@ -1,4 +1,4 @@
-# ⏱️ SKILL-17: TYPE-Q — 성경적 언어 수량화 제약 파이프라인
+﻿# ⏱️ SKILL-17: TYPE-Q — 성경적 언어 수량화 제약 파이프라인
 **"One day is with the Lord as a thousand years." — 2 Peter 3:8 KJV**
 
 > **언제 발동하는가**: 상대방이 성경의 **질적/형용사적 시간 언어**("잠시", "속히", "곧", "가까이")에 **임의의 구체적 숫자**를 배정할 때.
@@ -118,5 +118,5 @@ TYPE-Q (언어 수량화 제약)
 
 ---
 
-*TYPE-Q v1.0 — 천년왕국 "잠시=250년" 기각 케이스 전례 통합*
+*TYPE-Q v1.0 — 천년왕국 "잠시=250년" 기각 케이스 전투기록 통합*
 *"One day is with the Lord as a thousand years." — 2 Peter 3:8 KJV*
