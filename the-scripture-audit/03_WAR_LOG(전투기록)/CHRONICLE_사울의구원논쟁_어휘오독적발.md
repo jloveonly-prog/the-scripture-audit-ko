@@ -1,4 +1,4 @@
-# 📖 [CHRONICLE 전례] 사울의 구원 논쟁 — TYPE-T (어휘 오독 및 시제) 적발 사건
+﻿# 📖 [CHRONICLE 전투기록] 사울의 구원 논쟁 — TYPE-T (어휘 오독 및 시제) 적발 사건
 
 > **사건 번호:** BVCAP-SAUL-002
 > **사용된 무기:** TYPE-T (Tense & Lexical Forensics)

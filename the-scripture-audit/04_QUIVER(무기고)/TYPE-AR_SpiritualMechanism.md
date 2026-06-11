@@ -1,4 +1,4 @@
-# 🌀 SKILL-45: TYPE-AR — 영적 메커니즘 분석 (Spiritual Mechanism Analysis)
+﻿# 🌀 SKILL-45: TYPE-AR — 영적 메커니즘 분석 (Spiritual Mechanism Analysis)
 **"이런 종류(this kind)는 기도와 금식 외에는 나오지 아니하느니라" — Mark 9:29 KJV**
 
 > **언제 발동하는가**: 영적 존재(마귀, 천사, 사탄)의 **행동 양식**이 쟁점일 때.
@@ -110,7 +110,7 @@
   → 마귀 ≠ 사람의 혼 → 존재론적 범주 분리 확정 ✅
 ```
 
-**전례 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-5
+**전투기록 파일**: `03_WAR_LOG(전투기록)/[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md` — §3-5
 
 ---
 
@@ -150,5 +150,5 @@ TYPE-AR (영적 메커니즘 분석)
 
 ---
 
-*TYPE-AR v1.0 — 멜키세덱 보고서 §3-5 영의 분할·융합 메커니즘 전례 통합*
+*TYPE-AR v1.0 — 멜키세덱 보고서 §3-5 영의 분할·융합 메커니즘 전투기록 통합*
 *"This kind can come forth by nothing, but by prayer and fasting." — Mark 9:29 KJV*

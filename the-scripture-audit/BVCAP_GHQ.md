@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+﻿> [!IMPORTANT]
 > ## 🏛️ 사령부 (GHQ — General Headquarters)
 > **이 문서가 하는 일**: MODE 결정 · 역할 배분 · 판결 기준 · 출력 양식 정의
 > **짝꿍 문서**: `BVCAP_Pipeline.md` (전술 교범 — 실제 실행 절차)
@@ -358,7 +358,7 @@ Mermaid sequenceDiagram 형식 또는 텍스트 기반 화살표 다이어그램
 **1. 파이프라인 검증 가동 (BVCAP_Pipeline.md 실행)**
   - `01_MANDATE(작전명령)` 및 `02_TACTICS(전술)` 룰셋 장착
   - `04_QUIVER` 무기고의 전종 무기(TYPE-A~AU + TYPE-B-π) FULL SCAN 실행
-  - `03_WAR_LOG` 전례 참고 및 E-Code 회피논법 탐지/기각
+  - `03_WAR_LOG` 전투기록 참고 및 E-Code 회피논법 탐지/기각
 
 **2. 마스터피스 양식 출력 (BVCAP_GHQ.md 기준)**
   - 파이프라인 작전에서 도출된 결과를 바탕으로 이 문서의 **[PHASE 5: 최종 출력 양식 — Masterpiece Report]**을 가동한다.

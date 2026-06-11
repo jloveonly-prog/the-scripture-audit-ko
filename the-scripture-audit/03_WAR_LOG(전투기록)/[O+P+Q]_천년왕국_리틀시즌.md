@@ -1,10 +1,10 @@
 # 📖 CHRONICLE — [O+P+Q]_천년왕국_리틀시즌.md
-**과거 성취론(Preterism) 계열 방어 표준 전례**
+**과거 성취론(Preterism) 계열 방어 표준 전투기록**
 *"Weigh the evidence. The scales do not lie." — BVCAP Motto*
 
 > **주요 TYPE**: TYPE-O (물리적 흔적 부재) + TYPE-P (역논법/부메랑) + TYPE-Q (언어 수량화 제약)
 > **케이스 등급**: ★★★ (3중 복합 무기 발동 / 과거 성취론 전수 방어)
-> **참고 가치**: 과거 성취론(Preterism), 음모론적 역사 수정주의, 이단 타임라인 주장 반박의 표준 전례
+> **참고 가치**: 과거 성취론(Preterism), 음모론적 역사 수정주의, 이단 타임라인 주장 반박의 표준 전투기록
 
 ---
 

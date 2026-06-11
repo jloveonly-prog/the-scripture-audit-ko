@@ -1,4 +1,4 @@
-# 🏔️ SKILL-15: TYPE-O — 물리적 흔적 부재 검증 파이프라인
+﻿# 🏔️ SKILL-15: TYPE-O — 물리적 흔적 부재 검증 파이프라인
 **"By their fruits ye shall know them." — Matthew 7:20 KJV**
 
 > **[주 발동 조건]** 상대방이 **"성경의 X 사건이 과거에 이미 성취되었다"**고 주장할 때.
@@ -134,5 +134,5 @@ TYPE-O (물리적 흔적 부재 검증)
 
 ---
 
-*TYPE-O v1.0 — 천년왕국 과거 성취설 케이스 전례 통합*
+*TYPE-O v1.0 — 천년왕국 과거 성취설 케이스 전투기록 통합*
 *"Where are they? Show me the Bible." — BVCAP Standard Closing*
