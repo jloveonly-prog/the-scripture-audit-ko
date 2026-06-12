@@ -190,10 +190,51 @@ The AI Auditor goes through the following 4 phases to generate a **'Masterpiece'
 
 ---
 
+## 🛠️ Developer's Preface
+
+Jesus is the Word — WORD. We communicate through language, which is combinations of words. Computer programs, too, are developed through source code — combinations of words.
+
+When I discovered that there exists a more complete Bible with no "missing" verses, the way I saw Scripture changed entirely.
+As a software developer, I now wonder: was I, without realizing it, reading and studying the Bible like a perfect source code?
+
+As the AI era arrived and learning AI was no longer optional, I began applying it in real-world situations — at work, at home.
+It started in earnest with analyzing errors in the Islamic Quran. I then applied that same methodology in reverse — to prove that the Bible contains no contradictions — but the results fell far short of expectations.
+It was no better than a basic GPT search result.
+
+Biblical analysis required an entirely different design.
+Large Language Models (LLM / AI) have already been trained on the vast knowledge and wisdom accumulated by faithful predecessors and theologians — truth embedded in their very weights.
+BVCAP does not create new truth. It was designed to trace the truth already present in Scripture — but not yet connected — all the way to its conclusion — to find the result (inference).
+
+Operating from the standpoint of a believer who trusts Scripture as truth **(Identity)**,  
+applying diverse textual analysis methods **(Strategy & Tactics)**,  
+drawing on real-world combat experience **(War Log)**,  
+armed with a full arsenal of logical tools **(Quiver)**,  
+deploying them sequentially, in combo strikes, or as preemptive counter-refutation **(Pipeline)** — this is how it works.
+
+When examining any doctrine, objection, or apparent contradiction in Scripture, BVCAP produces a depth of analysis that would be difficult to reach alone.
+It is as though the wisdom and knowledge of trusted, capable faith predecessors stand behind you.
+
+Analysis results are output as reports. **(After-Action Report)**  
+If a report produces a previously unrecorded logic or method, it is loaded into the War Log and Quiver **(Virtuous Cycle)** — ready to be deployed in the next analysis.
+The arsenal now exceeds 40 weapons, integrating disciplines such as logic, hermeneutics, theology, and IT.
+
+However, BVCAP's reports are not 100% correct. It does produce wrong answers.
+It is also true that when faced with a problem, one is driven to pray and seek God's wisdom.
+
+I cannot personally claim 100% confidence in every report. I am a software developer, not a theologian.
+I believe the final verification must be entrusted to capable theologians.
+
+Is the Bible truth?  
+Then why do hard questions exist?  
+Could it be that God permitted the BVCAP program?
+
+
+---
+
 All materials provided here are free to use.
+We simply ask that the purpose of such use be for the glory of Jesus Christ, who is God and our Savior.
 If you have verified and understood the content, this wisdom and knowledge now belongs to you.
-You are free to disseminate these biblical mysteries and wisdom through sermons, documents, content creation, papers, etc.
-However, the sole purpose of such activities must be for Jesus Christ, who is God and our Savior.
+You are free to disseminate these biblical mysteries and wisdom through sermons, documents, content creation, papers, and more.
 
 ## 📜 License & Copyright
 
@@ -209,7 +250,7 @@ This license applies to the system logic (MD files, etc.), analysis results, and
 4. **the-scripture-audit**
 
 **💡 Contribute & Evolve**
-This system is not just an analysis tool; it is an **organic project that transplants an individual's faith, philosophy, and theological insights into AI behavioral patterns, turning them into 'Chronicles' and 'Weaponizing' them**. 
+This system is not just an analysis tool; it is an **organic project that transplants an individual's faith and real-world analytical experience into AI behavioral patterns, turning them into 'Chronicles' and 'Weaponizing' them**. 
 
 If you have discovered new spiritual insights or logical findings using this system, please feel free to share your data (verdict documents) at **jloveonly@gmail.com**. 
 The precious data you send will be registered as a new **Chronicle** within the `the-scripture-audit` system and, upon verification, can be added as a **new TYPE weapon** to analyze biblical texts.
