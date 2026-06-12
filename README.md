@@ -231,10 +231,12 @@ Could it be that God permitted the BVCAP program?
 
 ---
 
-All materials provided here are free to use.
+All materials in this repository are free to use — with no conditions whatsoever. (github.com/jloveonly-prog/the-scripture-audit)
 We simply ask that the purpose of such use be for the glory of Jesus Christ, who is God and our Savior.
 If you have verified and understood the content, this wisdom and knowledge now belongs to you.
 You are free to disseminate these biblical mysteries and wisdom through sermons, documents, content creation, papers, and more.
+
+None of the reports here are closed, finished products. Whenever new light is discovered, they will be continuously updated (added, revised, or removed).
 
 ## 📜 License & Copyright
 
