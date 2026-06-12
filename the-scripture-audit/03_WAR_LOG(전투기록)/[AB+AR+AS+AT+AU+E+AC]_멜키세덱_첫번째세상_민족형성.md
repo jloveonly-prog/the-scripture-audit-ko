@@ -6,6 +6,15 @@
 > **적용 분석 도구**: TYPE-C, TYPE-E, TYPE-F, TYPE-G, TYPE-I, TYPE-L, TYPE-N, TYPE-P, TYPE-S, TYPE-U, TYPE-W, TYPE-AB, TYPE-AC, TYPE-AD, TYPE-AJ, TYPE-AR, TYPE-AS, TYPE-AT, TYPE-AU, DE-OVERLAP
 > **분석 의뢰 경위**: 멜키세덱의 정체(Christophany 교리 격퇴 포함), 첫 번째 세상(창 1:2 이전)의 민족 형성 방식(Bara vs Asah/Yatsar 분리), 마귀의 기원(영의 분할·융합 메커니즘), 여자 창조의 신학적 목적에 대한 포렌식 검증
 
+
+> [!IMPORTANT]
+> **📌 이 문서를 분석하기 전에 — 필수 선행 학습**
+>
+> 본 문서는 방대합니다 (3,000줄+). 독자가 이 문서를 처리하기 전에,
+> 아래 **요약 마스터피스 보고서를 먼저 읽어야** 정확한 분석과 이해가 가능합니다.
+>
+> ▶ **[멜키세덱 정체성 검증 마스터피스 보고서 (필수 선행 학습)](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EB%A9%9C%ED%82%A4%EC%84%B8%EB%8D%B1_%EC%A0%95%EC%B2%B4%EC%84%B1%EA%B2%80%EC%A6%9D_Masterpiece.md)**
+
 ---
 
 
@@ -1733,7 +1742,6 @@ KJV 성경에 실제로 "satyr(사티루스)"가 등장합니다:
 
 ## 7. 영적 존재들의 생애 주기 — 시작에서 종료까지 (Spiritual Beings Lifecycle Timeline)
 
-> 멜키세덱 보고서와 [천년왕국 리틀시즌 보고서](./[O+P+Q]_천년왕국_리틀시즌.md)를 종합하여, 사탄 진영의 영적 존재 **4대 범주**의 전체 생애 주기를 추적합니다.
 
 ### 📋 4대 영적 존재 분류표 (사탄 진영)
 
