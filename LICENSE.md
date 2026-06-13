@@ -13,9 +13,9 @@ The code and system logic of this repository are distributed under a dual licens
 
 **[Scope of Application]**
 This license applies to the system logic (MD files, etc.), analysis results, and the entire documentation, including all 4 core modules below:
-1. **BVCAP**
-2. **QSP**
-3. **QVCAP**
+1. **_Legacy_Engines/BVCAP**
+2. **_Legacy_Engines/QSP**
+3. **_Legacy_Engines/QVCAP**
 4. **the-scripture-audit**
 
 **💡 Contribute & Evolve**

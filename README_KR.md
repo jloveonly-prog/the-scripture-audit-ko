@@ -28,9 +28,10 @@
 
 ```text
 .
-├── 🛡️ BVCAP/                           # 입문 분석도구 (성경 일관성 검증의 기초 엔진)
-├── 🕋 QSP/                             # 꾸란 분석 도구 (The Quran Snare Program)
-├── 📖 QVCAP/                           # 꾸란 분석 도구 (Quran Verse Contradiction Analysis Pipeline)
+├── 🗄️ _Legacy_Engines/                 # 과거 분석 엔진 보관소 (구형 룰셋)
+│   ├── 🛡️ BVCAP/                       # 입문 분석도구 (성경 일관성 검증의 기초 엔진)
+│   ├── 🕋 QSP/                         # 꾸란 분석 도구 (The Quran Snare Program)
+│   └── 📖 QVCAP/                       # 꾸란 분석 도구 (Quran Verse Contradiction Analysis Pipeline)
 ├── 📚 docs/                            # 분석할 대상의 문서 및 결과물 저장소
 ├── 📐 System_Architecture(시스템_설계원리)/  # 인간용 메타 문서 (AI 설계 철학, 한계 분석, 개선 이력)
 └── 🔍 the-scripture-audit/             # 성경감사시스템 (AI 실행 엔진 — 아래 01~05만 로드)
