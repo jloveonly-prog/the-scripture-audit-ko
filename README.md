@@ -28,9 +28,10 @@ For detailed instructions on how to load this system into an AI and run audits i
 
 ```text
 .
-├── 🛡️ BVCAP/                           # Early Analysis Tool (Foundation engine for biblical consistency)
-├── 🕋 QSP/                             # Quran Analysis Tool (The Quran Snare Program)
-├── 📖 QVCAP/                           # Quran Analysis Tool (Quran Verse Contradiction Analysis Pipeline)
+├── 🗄️ _Legacy_Engines/                 # Archives of past analysis engines
+│   ├── 🛡️ BVCAP/                       # Early Analysis Tool (Foundation engine for biblical consistency)
+│   ├── 🕋 QSP/                         # Quran Analysis Tool (The Quran Snare Program)
+│   └── 📖 QVCAP/                       # Quran Analysis Tool (Quran Verse Contradiction Analysis Pipeline)
 ├── 📚 docs/                            # Document storage for analysis targets and verdicts
 ├── 📐 System_Architecture(시스템_설계원리)/  # Human-readable meta docs (AI design philosophy, limitations, changelog)
 └── 🔍 the-scripture-audit/             # Biblical Audit System (AI execution engine — only 01~05 loaded)

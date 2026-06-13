@@ -13,9 +13,9 @@
 
 **[적용 대상]**
 본 라이선스는 시스템 로직(MD 파일 등), 분석 결과물 및 문서 전체에 적용되며, 아래의 4가지 핵심 모듈을 모두 포함합니다:
-1. **BVCAP**
-2. **QSP**
-3. **QVCAP**
+1. **_Legacy_Engines/BVCAP**
+2. **_Legacy_Engines/QSP**
+3. **_Legacy_Engines/QVCAP**
 4. **the-scripture-audit**
 
 **💡 프로젝트 참여 및 발전**
