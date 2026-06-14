@@ -1,4 +1,7 @@
 ﻿# 📜 [BVCAP 2.0 통합본] 사울왕 구원 논쟁 포렌식 감사 기록
+
+## 🔗 [https://www.thescripture.org/saul](https://www.thescripture.org/saul)
+
 이 문서는 사울왕의 구원 논쟁에 대한 BVCAP의 3단계 검증(변호인 논증, 적색 검증, 최종 교차 심리)을 하나의 문서로 통합한 기록입니다.
 
 ---
