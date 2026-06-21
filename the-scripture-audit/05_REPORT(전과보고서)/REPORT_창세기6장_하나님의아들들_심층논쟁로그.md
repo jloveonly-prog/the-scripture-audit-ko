@@ -926,4 +926,4 @@ KJV 창세기 5장의 족보 공식: *"all the days of Adam were... and he died"
 
 
 
->*[부록: VS신학자 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EC%B0%BD%EC%84%B8%EA%B8%B06%EC%9E%A5_%ED%95%98%EB%82%98%EB%8B%98%EC%9D%98%EC%95%84%EB%93%A4%EB%93%A4_%EC%8B%AC%EC%B8%B5%EB%85%BC%EC%9F%81%EB%A1%9C%EA%B7%B8.md)*
+>*[부록: VS신학자 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_TheScriptureMasterVS%EC%8B%A0%ED%95%99%EC%9E%90%EB%8C%80%EA%B2%B0.md)*
