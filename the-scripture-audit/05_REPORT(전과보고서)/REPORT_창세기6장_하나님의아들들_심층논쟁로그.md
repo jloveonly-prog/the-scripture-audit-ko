@@ -924,6 +924,3 @@ KJV 창세기 5장의 족보 공식: *"all the days of Adam were... and he died"
 | **천년왕국 민족의 한계** | 사람의 혈통으로 왕들의 통치를 받으며 불만도 있고, 육신이기에 치료가 필요함. 결국 사탄에게 미혹됨. | 🟢 **합당** | 계 20:7-9, 사 65:20, 계 22:2(치료하는 잎사귀). 부활하지 않은 육신으로 왕국에 들어간 백성들의 태생적 한계. |
 | **여성의 부활 정체성** | 두 번째 세상에 창조된 여성은 부활 후에도 여성 정체성을 유지. 마 22:30은 생식 불능을 의미. | 🟢 **합당** | 하나님이 창조하신 '남자와 여자'의 질서(창 1:27). 천사처럼 장가/시집가지 않을 뿐, 본연의 자아와 성별 정체성은 보존된다는 합리적 정합성. |
 
-
-
->*[부록: VS신학자 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_TheScriptureMasterVS%EC%8B%A0%ED%95%99%EC%9E%90%EB%8C%80%EA%B2%B0.md)*
