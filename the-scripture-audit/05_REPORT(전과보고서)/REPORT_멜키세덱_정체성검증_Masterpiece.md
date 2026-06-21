@@ -966,7 +966,7 @@ KJV 원문에서 이 장면을 묘사할 때 사용된 단어는 무엇이며, *
 이 문서에서 다루는 주요 주제: 창세기 6장의 하나님의 아들들이 타락한 천사인지 아닌지 판결합니다.
 
 
->**[TheScriputreMasterVS신학자 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_TheScriptureMasterVS%EC%8B%A0%ED%95%99%EC%9E%90%EB%8C%80%EA%B2%B0.md)**
+>**[TheScriputreMasterVS신학자 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_TheScriptureMasterVS%EC%8B%A0%ED%95%99%EC%9E%90.md)**
 
 
 이 문서에서 다루는 주요 주제: 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순, 120년 천사 유예설 반박, 
