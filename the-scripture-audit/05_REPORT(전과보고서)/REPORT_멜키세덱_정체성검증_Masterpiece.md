@@ -963,6 +963,7 @@ KJV 원문에서 이 장면을 묘사할 때 사용된 단어는 무엇이며, *
 
 > **[창세기6장의 하나님의 아들들이 천사가 아닌이유](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EC%B0%BD%EC%84%B8%EA%B8%B06%EC%9E%A5_%ED%95%98%EB%82%98%EB%8B%98%EC%9D%98%EC%95%84%EB%93%A4%EB%93%A4_%EC%8B%AC%EC%B8%B5%EB%85%BC%EC%9F%81%EB%A1%9C%EA%B7%B8.md)**
 
+
 이 문서에서 다루는 주요 주제: 창세기 6장의 하나님의 아들들이 타락한 천사인지 아닌지 판결합니다.
 
 > **[멜키세덱 — 첫 번째 세상과 민족 형성](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/03_WAR_LOG(%EC%A0%84%ED%88%AC%EA%B8%B0%EB%A1%9D)/%5BAB%2BAR%2BAS%2BAT%2BAU%2BE%2BAC%5D_%EB%A9%9C%ED%82%A4%EC%84%B8%EB%8D%B1_%EC%B2%AB%EB%B2%88%EC%A7%B8%EC%84%B8%EC%83%81_%EB%AF%BC%EC%A1%B1%ED%98%95%EC%84%B1.md)**
