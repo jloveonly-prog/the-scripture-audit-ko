@@ -1,11 +1,16 @@
 docs/
 휴지통/
 
-_INBOX(작전목표)/
-the-sermon-audit/_INBOX(설교목록)/
+
 
 extracted_text.md
 scratch.txt
 
 
-the-sermon-audit/
+_INBOX(작전목표)/
+
+
+the-sermon-audit/_INBOX(설교목록)/
+the-sermon-audit/01_CLAIMS(주장추출)
+the-sermon-audit/02_REPORT(설교감사보고서)
+
