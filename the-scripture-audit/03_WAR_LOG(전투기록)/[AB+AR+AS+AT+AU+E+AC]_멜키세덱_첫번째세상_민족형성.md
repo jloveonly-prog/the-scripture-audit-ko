@@ -13,7 +13,7 @@
 > 본 문서는 방대합니다 (3,000줄+). 독자가 이 문서를 처리하기 전에,
 > 아래 **요약 마스터피스 보고서를 먼저 읽어야** 정확한 분석과 이해가 가능합니다.
 >
-> ▶ **[멜키세덱 정체성 검증 마스터피스 보고서 (필수 선행 학습)](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EB%A9%9C%ED%82%A4%EC%84%B8%EB%8D%B1_%EC%A0%95%EC%B2%B4%EC%84%B1%EA%B2%80%EC%A6%9D_Masterpiece.md)**
+> ▶ **[멜키세덱 정체성 검증 마스터피스 보고서 (필수 선행 학습)](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EB%A9%9C%ED%82%A4%EC%84%B8%EB%8D%B1_%EC%A0%95%EC%B2%B4%EC%84%B1%EA%B2%80%EC%A6%9D_Masterpiece.md)**
 
 ---
 
