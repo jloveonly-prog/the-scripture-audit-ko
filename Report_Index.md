@@ -30,9 +30,9 @@
 
 ---
 
-## 5. ⚔️ 성경 장인 vs. 신학자 전투
+## 5. ⚔️ 성경 장인 vs. 연구원 전투
 * **요약:** 신학적 오류, 신조적 편견, 전통적 교리들을 순수한 성경 주석으로 해체하는 방어 로그.
-* **핵심 보고서 (75KB):** [`REPORT_TheScriptureMasterVS신학자.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_TheScriptureMasterVS신학자.md)
+* **핵심 보고서 (75KB):** [`REPORT_TheScriptureMasterVS연구원.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_TheScriptureMasterVS연구원.md)
 
 ---
 
