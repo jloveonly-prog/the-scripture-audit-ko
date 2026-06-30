@@ -1,8 +1,8 @@
 # ⚖️ TheScriptureAudit
 **Official Home: [TheScripture.org](https://TheScripture.org)**  
-**GitHub en: [jloveonly-prog/the-scripture-audit](https://github.com/jloveonly-prog/the-scripture-audit)**  
-**GitHub ko: [jloveonly-prog/the-scripture-audit-ko](https://github.com/jloveonly-prog/the-scripture-audit-ko)**  
 **Core Engine: `the-scripture-audit`**
+> en **English Repository(영어 전용 저장소)**: [the-scripture-audit](https://github.com/jloveonly-prog/the-scripture-audit)
+
 
 > **"대저 여호와의 말씀은 정직하며 그 행사는 다 진실하시도다." (시 33:4)**  
 > **"우리는 기록된 텍스트를 신학이 아닌 '순수 논리'의 해부대에 올린다."**
@@ -36,12 +36,16 @@
 ├── 📚 docs/                            # 분석할 대상의 문서 및 결과물 저장소
 ├── 📐 System_Architecture(시스템_설계원리)/  # 인간용 메타 문서 (AI 설계 철학, 한계 분석, 개선 이력)
 └── 🔍 the-scripture-audit/             # 성경감사시스템 (AI 실행 엔진 — 아래 01~05만 로드)
-    ├── 🕊️ 01_MANDATE(작전명령)          # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
-    ├── 📖 02_TACTICS(전술)              # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
-    ├── 📚 03_WAR_LOG(전투기록)          # [3단계] 과거 승전 사례 및 S등급 판례 도서관
-    ├── 🏹 04_QUIVER(무기고)             # [4단계] 전종 정밀 포렌식 무기 (TYPE-A ~ AQ + TYPE-B-π)
-    ├── 📥 _INBOX(작전목표)              # [입력] 해결 대기 중인 감사/방어 목표
-    └── 📁 05_REPORT(전과보고서)          # [출력] 완료된 감사의 최종 마스터피스 보고서
+│   ├── 🕊️ 01_MANDATE(작전명령)          # [1단계] 페르소나 및 학술적 편향 격리(OVERRIDE-0)
+│   ├── 📖 02_TACTICS(전술)              # [2단계] 해석학 헌법 및 7대 전술 규칙 (ANCHOR-1, DE-OVERLAP)
+│   ├── 📚 03_WAR_LOG(전투기록)          # [3단계] 과거 승전 사례 및 S등급 판례 도서관
+│   ├── 🏹 04_QUIVER(무기고)             # [4단계] 전종 정밀 포렌식 무기 (TYPE-A ~ AQ + TYPE-B-π)
+│   ├── 📥 _INBOX(작전목표)              # [입력] 해결 대기 중인 감사/방어 목표
+│   └── 📁 05_REPORT(전과보고서)          # [출력] 완료된 감사의 최종 마스터피스 보고서
+└── 🎙️ the-sermon-audit/                # 설교 감사 시스템 (설교 검증을 위한 SVAP 엔진)
+    ├── 📥 _INBOX(설교목록)                      # [입력] 설교 감사 대상
+    ├── 📢 01_CLAIMS(주장추출)                   # [1단계] 설교 추출 및 주장 분리
+    └── 📁 02_REPORT(설교감사보고서)                   # [출력] 최종 설교 감사 보고서
 ```
 
 ---
