@@ -1,65 +1,67 @@
-# License & Free Use Policy
+# 라이선스 및 자유 사용 원칙 (License & Free Use Policy)
 
-All materials provided here are free to use.
-If you have verified and understood the content, this wisdom and knowledge now belongs to you.
-You are free to disseminate these biblical mysteries and wisdom through sermons, documents, content creation, papers, etc.
-However, the sole purpose of such activities must be for Jesus Christ, who is God and our Savior.
+이곳에 있는 모든 자료는 자유롭게 사용하시면 됩니다. 
+내용을 검증하고 이해했다면 이 지혜와 지식은 이해하신 분의 것입니다.   
+자유롭게 설교, 문서, 콘텐츠 제작, 논문 등 성경의 비밀과 지혜를 전파하시면 됩니다. 
+단, 그 목적은 구원자이신 하나님이신 예수님을 위한 활동이어야 합니다. 
 
-## 📜 License & Copyright
+## 📜 라이선스 및 저작권 (License & Copyright)
 
-The code and system logic of this repository are distributed under a dual license: **MIT License** and **Apache License 2.0**.
-*   **MIT License Summary**: Anyone can freely use, modify, and distribute for commercial or non-commercial purposes.
-*   **Apache License 2.0 Summary**: Anyone can freely use, but it includes provisions preventing users from filing patent lawsuits against the original creator using the core logic of this system.
+본 리포지토리의 코드 및 시스템 로직은 **MIT License** 및 **Apache License 2.0**의 듀얼 라이선스에 따라 배포됩니다.
+*   **MIT License 요약**: 누구나 상업적/비상업적 목적으로 자유롭게 사용, 수정, 배포할 수 있습니다.
+*   **Apache License 2.0 요약**: 누구나 자유롭게 사용할 수 있으며, 본 시스템의 핵심 로직을 이용해 원작자를 상대로 특허 소송을 제기하는 것을 방지하는 조항이 포함되어 있습니다.
 
-**[Scope of Application]**
-This license applies to the system logic (MD files, etc.), analysis results, and the entire documentation, including all 4 core modules below:
+**[적용 대상]**
+본 라이선스는 시스템 로직(MD 파일 등), 분석 결과물 및 문서 전체에 적용되며, 아래의 5가지 핵심 모듈을 모두 포함합니다:
 1. **_Legacy_Engines/BVCAP**
 2. **_Legacy_Engines/QSP**
 3. **_Legacy_Engines/QVCAP**
 4. **the-scripture-audit**
+5. **the-sermon-audit**
 
-**💡 Contribute & Evolve**
-This system is not just an analysis tool; it is an **organic project that transplants an individual's faith, philosophy, and theological insights into AI behavioral patterns, turning them into 'WAR_LOGs' and 'Weaponizing' them**. 
 
-If you have discovered new spiritual insights or logical findings using this system, please feel free to share your data (verdict documents) at **jloveonly@gmail.com**. 
-The precious data you send will be registered as a new **WAR_LOG** within the `the-scripture-audit` system and, upon verification, can be added as a **new TYPE weapon** to analyze biblical texts.
+**💡 프로젝트 참여 및 발전**
+본 시스템은 단순한 분석 도구가 아니라, **개인의 신앙, 철학, 신학적 통찰을 AI의 행동 패턴으로 이식하여 '전투기록(WAR_LOG)'으로 만들고 이를 '무기화(Weaponization)'하는 유기적 프로젝트**입니다. 
 
-**[Our AI Philosophy & Workflow]**
-*   **"Receive a MANDATE, accumulate WAR_LOGs, and deduce new TACTICS."**
-*   It is an ecosystem that defends against and analyzes the world's pouring attacks and doctrinal tests (**_INBOX(작전목표)**) using an armory filled with biblical logic (**04_QUIVER(무기고)**) to produce final **REPORTs(전과보고서)**.
-*   As these analysis cases accumulate, the defensive patterns the AI can reference expand, making the system exponentially more powerful.
+만약 이 시스템을 활용하여 새로운 영적 통찰이나 논리적 발견을 하셨다면, 언제든지 **jloveonly@gmail.com** 으로 데이터(판결 문서)를 공유해 주시기를 바랍니다. 
+여러분이 보내주신 귀한 데이터는 `the-scripture-audit` 시스템 내에 새로운 **전투기록(WAR_LOG)**으로 등재되며, 검증을 거쳐 성경 본문을 분석하는 **새로운 TYPE 무기**로 추가될 수 있습니다.
 
-1.  **Original Copyright Protection**: The origin of this system's core logic and methodology belongs to the original creator. When redistributing, it is recommended to state the source (**[TheScripture.org](https://TheScripture.org)** / **the-scripture-audit**).
-2.  **Rights and Limits of Secondary Creators**: Copyright of newly added parts based on this system is recognized for the respective creator. 
-3.  **Non-Assertion**: Users cannot exercise legal rights or hinder the usage of the original creator based on improvements obtained by utilizing this system.
-4.  **Prohibition of Monopoly Claims**: Claiming exclusive copyright over the original core logic is prohibited.
-5.  **Prerequisite for Use**: If you have not accepted Jesus, who is God, as your Savior, you may use the system after following the **[Biblical Record and Acceptance Prayer]** at the bottom of this document.
+**[우리의 AI 철학 및 워크플로우]**
+*   **"작전명령(MANDATE)을 하달받아 전투기록(WAR_LOG)을 쌓고, 새로운 전술(TACTICS)을 도출한다."**
+*   세상의 쏟아지는 **작전목표(INBOX)**를 성경적 논리로 채워진 **무기고(QUIVER)**로 방어/분석하여 최종 **전과보고서(REPORT)**를 만들어내는 생태계입니다.
+*   이러한 분석 케이스(Case)가 덧붙여질수록, AI가 참조할 수 있는 방어 패턴이 확장되어 시스템은 기하급수적으로 더 강력해집니다.
+
+1.  **원저작권 보호**: 본 시스템의 핵심 로직과 방법론의 원조는 원작자에게 있으며, 2차 배포 시 출처(**[TheScripture.org](https://TheScripture.org)** / **the-scripture-audit**)를 밝히는 것을 권장합니다.
+2.  **2차 창작자의 권리와 한계**: 본 시스템을 바탕으로 새롭게 추가된 부분에 대해서는 해당 창작자의 저작권을 인정합니다. 
+3.  **역권리 주장 및 공격 금지 (Non-Assertion)**: 사용자는 본 시스템을 활용하여 얻은 개선 사항을 근거로 원본 저작자에게 법적 권리를 행사하거나 사용을 방해할 수 없습니다.
+4.  **독점적 권리 주장 금지**: 원본 핵심 로직에 대해 독점적 저작권을 주장하는 행위를 금합니다.
+5.  **사용 전제 조건**: 하나님이신 예수님을 나의 구원자로 믿고 받아들이지 않았다면, 본 문서 하단의 **[성경 기록과 영접 기도문]**을 따라한 후 시스템을 사용할 수 있습니다.
 
 ---
 *STATUS: RIGOROUS LOGIC ENFORCED | TARGET: OMNI-VERIFICATION*
 
 ---
 
-## 📖 The Way to Salvation and Eternal Life
+## 📖 구원과 영생에 이르는 길 (The Way to Salvation)
 
-The Bible says the following:
+성경은 다음과 같이 말합니다.
 
-> **Romans 3:10, 23**  
-> As it is written, There is none righteous, no, not one: For all have sinned, and come short of the glory of God;
+> **로마서 3장 10절, 23절**  
+> 기록된 바와 같으니라. “의로운 자는 없나니, 없도다, 한 사람도 없도다. 이는 모든 사람이 죄를 지었기 때문에 하나님의 영광에 이르지 못하다가"
 
-> **John 16:8**  
-> And when he is come, he will reprove the world of sin, and of righteousness, and of judgment:
+> **요한복음 16장 8절**  
+> "그리고 그분께서 오시면 친히 죄에 대하여, 의에 대하여, 심판에 대하여 세상을 책망하시리라."
 
-> **Revelation 21:8**  
-> But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.
+> **요한계시록 21장 8절**  
+> "그러나 두려워하는 자들과 믿지 않는 자들과 가증한 자들과 살인자들과 행음에 빠진 자들과 마법사들과 우상 숭배자들과 모든 거짓말쟁이들은 불과 유황으로 타오르는 호수 속에 자신들의 부분을 받으리라. 이것이 둘째 사망이라.”
 
-> **John 3:16**  
-> For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+> **요한복음 3장 16절**  
+> "¶ 이는 하나님께서 세상을 이처럼 사랑하셨기 때문에 그분께서 자신의 독생자를 주셨으니, 누구든지 그를 믿는 자는 멸망하지 않고 다만 영원한 생명을 얻게 하려 하심이라."
 
 ---
 
-### 🙏 Acceptance Prayer
+### 🙏 영접 기도문 (Acceptance Prayer)
 
-**"Lord Jesus, I am a sinner.**  
-**I have now heard and choose to believe that You, Jesus who is God, were crucified, shed Your blood, died, were buried, and resurrected 2,000 years ago to pay for all my sins.**  
-**I receive You into my heart as my Savior. I pray in the name of the Lord Jesus Christ. Amen."**
+**"주 예수님 저는 죄인입니다.**  
+**저의 모든 죄를 대신해 하나님이신 예수님께서 2천 년 전 십자가에서 못 박혀 피 흘려 죽고 장사되시고 부활하신 사실을 지금 전해 듣고 믿기로 선택하고 결정하고 믿습니다.**  
+**저의 구원자로 제 마음에 모셔들입니다. 주 예수 그리스도 이름으로 기도드립니다. 아멘"**
