@@ -930,21 +930,21 @@ KJV 창세기 5장의 족보 공식: *"all the days of Adam were... and he died"
 ### 📖 후속 연구 문서
 
 
-> **[창세기6장의 하나님의 아들들이 천사가 아닌이유](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EC%B0%BD%EC%84%B8%EA%B8%B06%EC%9E%A5_%ED%95%98%EB%82%98%EB%8B%98%EC%9D%98%EC%95%84%EB%93%A4%EB%93%A4_%EC%8B%AC%EC%B8%B5%EB%85%BC%EC%9F%81%EB%A1%9C%EA%B7%B8.md)**
+> **[창세기6장의 하나님의 아들들이 천사가 아닌이유](./REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)**
 
 이 문서에서 다루는 주요 주제: 창세기 6장의 하나님의 아들들이 타락한 천사인지 아닌지 판결합니다.
 
 
->**[TheScriputreMasterVS연구원 실전 사례](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_TheScriptureMasterVS%EC%97%B0%EA%B5%AC%EC%9B%90.md)**
+>**[TheScriputreMasterVS연구원 실전 사례](./REPORT_TheScriptureMasterVS연구원.md)**
 
 
 이 문서에서 다루는 주요 주제: 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순, 120년 천사 유예설 반박, 
 
-> **[멜키세덱_정체성검증](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/03_WAR_LOG(%EC%A0%84%ED%88%AC%EA%B8%B0%EB%A1%9D)/REPORT_멜키세덱_정체성검증_Masterpiece.md)**
+> **[멜키세덱_정체성검증](./REPORT_멜키세덱_정체성검증_Masterpiece.md)**
 
 이 문서에서 다루는 주요 주제: 멜키세덱이 누구인지 알수 있음 
 
-> **[멜키세덱 — 첫 번째 세상과 민족 형성](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/03_WAR_LOG(%EC%A0%84%ED%88%AC%EA%B8%B0%EB%A1%9D)/%5BAB%2BAR%2BAS%2BAT%2BAU%2BE%2BAC%5D_%EB%A9%9C%ED%82%A4%EC%84%B8%EB%8D%B1_%EC%B2%AB%EB%B2%88%EC%A7%B8%EC%84%B8%EC%83%81_%EB%AF%BC%EC%A1%B1%ED%98%95%EC%84%B1.md)**
+> **[멜키세덱 — 첫 번째 세상과 민족 형성](./REPORT_멜키세덱_첫번째세상_민족형성.md)**
 
 
 이 문서에서 다루는 주요 주제:
@@ -966,4 +966,5 @@ KJV 창세기 5장의 족보 공식: *"all the days of Adam were... and he died"
 
 ### 📖 위 문서와 추가 발견된 내용을 함께 검증 (예수님이 영들에게 선포한 내용 추가)
 
-> **[창세기6장_하나님의아들들_주장교차검증](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(%EC%A0%84%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C)/REPORT_%EC%B0%BD%EC%84%B8%EA%B8%B06%EC%9E%A5_%ED%95%98%EB%82%98%EB%8B%98%EC%9D%98%EC%95%84%EB%93%A4%EB%93%A4_%EC%A3%BC%EC%9E%A5%EA%B2%80%EC%A6%9D_Masterpiece.md)**
+> **[창세기6장_하나님의아들들_주장교차검증](./REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)**
+
