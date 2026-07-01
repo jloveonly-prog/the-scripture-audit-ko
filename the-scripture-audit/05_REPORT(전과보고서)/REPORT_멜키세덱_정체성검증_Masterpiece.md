@@ -972,7 +972,7 @@ KJV 원문에서 이 장면을 묘사할 때 사용된 단어는 무엇이며, *
 
 이 문서에서 다루는 주요 주제: 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순, 120년 천사 유예설 반박, 
 
-> **[멜키세덱_정체성검증](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/03_WAR_LOG(%EC%A0%84%ED%88%AC%EA%B8%B0%EB%A1%9D)/REPORT_멜키세덱_정체성검증_Masterpiece.md)**
+> **[멜키세덱_정체성검증](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_멜키세덱_정체성검증_Masterpiece.md)**
 
 이 문서에서 다루는 주요 주제: 멜키세덱이 누구인지 알수 있음 
 
