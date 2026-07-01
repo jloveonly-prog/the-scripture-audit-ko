@@ -51,6 +51,7 @@
 ## 8. 🧬 창세기 6장: "하나님의 아들들" 딜레마
 * **요약:** 창세기 6장 네피림 탄생의 주체인 '하나님의 아들들'이 타락한 천사인지 셋의 혈통인지를 결정적으로 답합니다.
 * **심층 논쟁 로그 (77KB):** [`REPORT_창세기6장_하나님의아들들_심층논쟁로그.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)
+* **주장 교차 검증 (Masterpiece):** [`REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)
 
 ---
 
