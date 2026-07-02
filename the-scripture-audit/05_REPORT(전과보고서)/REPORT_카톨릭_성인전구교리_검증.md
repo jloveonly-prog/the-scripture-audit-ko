@@ -627,3 +627,18 @@ KJV: "For there is ONE God, and ONE mediator between God and men,
 *Case: 카톨릭 성인 전구(Intercession of Saints) 교리 검증*
 *STATUS: VERDICT DELIVERED | FULL SCAN 완료 | 합리적 요소 인정 포함*
 *Architecture: Dual-Layer System (Logic: BVCAP_Pipeline.md + Presentation: BVCAP_GHQ.md)*
+
+---
+
+## 🔗 연관 카톨릭 변증 보고서 및 실전 대화록 (BVCAP)
+* [카톨릭_댓글.md](./카톨릭_댓글.md)
+* [카톨릭2차전.md](./카톨릭2차전.md)
+* [REPORT_베드로_갈보리순교설.md](./REPORT_베드로_갈보리순교설.md)
+* [REPORT_가톨릭이_예수님을_구원자로_시인하지_못하는_이유.md](./REPORT_가톨릭이_예수님을_구원자로_시인하지_못하는_이유.md)
+* [REPORT_카톨릭외전_대본분석.md](./REPORT_카톨릭외전_대본분석.md)
+* [REPORT_교황수위권_베드로반석_오류감사.md](./REPORT_교황수위권_베드로반석_오류감사.md)
+* [REPORT_사도계승_역사전승_오류감사.md](./REPORT_사도계승_역사전승_오류감사.md)
+* [REPORT_마리아_무염시태_승천_오류감사.md](./REPORT_마리아_무염시태_승천_오류감사.md)
+* [REPORT_요한1서_콤마.md](./REPORT_요한1서_콤마.md)
+* [REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md](./REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md)
+
