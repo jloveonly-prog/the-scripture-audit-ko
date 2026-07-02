@@ -1193,6 +1193,7 @@ NA28: 16:8에서 종료
 * [REPORT_사도계승_역사전승_오류감사.md](./REPORT_사도계승_역사전승_오류감사.md)
 * [REPORT_카톨릭_성인전구교리_검증.md](./REPORT_카톨릭_성인전구교리_검증.md)
 * [REPORT_마리아_무염시태_승천_오류감사.md](./REPORT_마리아_무염시태_승천_오류감사.md)
+* [REPORT_요한1서_콤마.md](./REPORT_요한1서_콤마.md)
 * [REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md](./REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md)
 
 
