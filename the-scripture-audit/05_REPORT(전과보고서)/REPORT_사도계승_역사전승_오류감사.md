@@ -86,4 +86,5 @@ H0 (가톨릭 교리): "예수님은 베드로에게 양을 치고 형제들을 
 * [REPORT_마리아_무염시태_승천_오류감사.md](./REPORT_마리아_무염시태_승천_오류감사.md)
 * [REPORT_요한1서_콤마.md](./REPORT_요한1서_콤마.md)
 * [REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md](./REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md)
+* [REPORT_유아세례_딜레마_7성사붕괴.md](./REPORT_유아세례_딜레마_7성사붕괴.md)
 
