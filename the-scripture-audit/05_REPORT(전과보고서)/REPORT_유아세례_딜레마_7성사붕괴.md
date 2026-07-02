@@ -20,6 +20,47 @@
 
 ---
 
+## 🗺️ 연쇄 붕괴 전체 지도 (플로우차트)
+
+```mermaid
+flowchart TD
+    Q["❓ 핵심 질문\n유아세례 받고 견진·성찬·고해 없이 죽은 아기\n→ 천국에 갑니까?"]
+
+    Q -->|YES — 천국 간다| A["✅ A 선택"]
+    Q -->|NO — 못 간다 / 불확실| B["❌ B 선택"]
+    Q -.->|제3의 탈출구 시도| L["🔴 림보 Limbo"]
+
+    A --> A1["6개 성사 없어도 천국\n→ 7성사 필수 체계 붕괴 ❌"]
+    A --> A2["아기 1단계 vs 성인 5+단계\n→ 구원 역차별 구조 ❌"]
+    A --> A3["요 6:53 '살 먹지 않으면 생명 없다'\n아기에게 예외?\n→ 성경 구절 보편성 붕괴 ❌"]
+    A --> A4["행 8:37 '마음으로 믿으면'\n아기는 믿을 수 없음\n→ 유아세례 성경 근거 없음 ❌"]
+
+    B --> B1["세례가 원죄 제거했는데\n천국 불가 → 세례 효력 무의미 ❌"]
+    B --> B2["불가능한 성사를 요구\n→ 하나님의 공의 붕괴 ❌"]
+
+    L --> L1["2007년 교황청 스스로 철회\n→ 이전 교황들이 틀렸다\n→ 교황 무류성 붕괴 ❌"]
+
+    A1 & A2 & A3 & A4 --> V
+    B1 & B2 --> V
+    L1 --> V
+    V["⚖️ VERDICT\nCONTRADICTION IRONCLAD — CASCADE\n7성사 체계 전체 연쇄 붕괴"]
+
+    style Q fill:#ebf4ff,color:#1a365d,stroke:#3182ce,stroke-width:2px
+    style V fill:#fff5f5,color:#9b2c2c,stroke:#fc8181,stroke-width:2px
+    style A fill:#f0fff4,color:#22543d,stroke:#48bb78
+    style B fill:#fff5f5,color:#9b2c2c,stroke:#fc8181
+    style L fill:#fffaf0,color:#7b341e,stroke:#f6ad55
+    style A1 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style A2 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style A3 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style A4 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style B1 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style B2 fill:#fef9f9,color:#9b2c2c,stroke:#feb2b2
+    style L1 fill:#fffaf0,color:#7b341e,stroke:#f6ad55
+```
+
+---
+
 ## 1부 — 강제 선택 구조 설계
 
 가톨릭 7성사 체계가 가르치는 것:
@@ -216,6 +257,42 @@ THEN 교도권(Magisterium)의 신뢰성이 붕괴된다
 > *"He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation."* (요 5:24)
 
 믿음 → 영생. 현재 시제. 성사 완료 후 영생이 아니다.
+
+---
+
+## 🎯 실전 대화 흐름 (시퀀스 다이어그램)
+
+```mermaid
+sequenceDiagram
+    autonumber
+    participant 변 as 성경 변증자
+    participant 가 as 가톨릭 응답자
+
+    변->>가: "유아세례 받고 견진·성찬·고해 없이 죽은 아기—<br/>천국에 갑니까?"
+
+    alt YES 선택 경로
+        가-->>변: "네, 천국 갑니다"
+        변->>가: "요 6:53 — 살을 먹지 않으면 생명이 없다.\n아기에게는 이 구절이 예외입니까?"
+        가-->>변: "...(침묵 또는 예외 인정)"
+        변->>가: "세례만으로 천국이면, 나머지 6개 성사는\n왜 '구원에 필수'입니까?"
+        가-->>변: "...(7성사 필수성 붕괴)"
+    else NO 선택 경로
+        가-->>변: "불확실합니다 / 하나님 자비에 맡깁니다"
+        변->>가: "그렇다면 세례가 원죄를 제거했는데,\n왜 천국이 불확실합니까?"
+        가-->>변: "...(세례 효력 약화 자인)"
+        변->>가: "아기가 선택 불가능한 성사 때문에\n천국에 못 간다면 하나님이 공의하십니까?"
+    end
+
+    변->>가: "림보(Limbo)로 해결하려 하셨나요?\n2007년 교황청이 스스로 림보를 철회했습니다."
+    가-->>변: "..."
+    변->>가: "림보를 수백 년 가르친 교황들이 틀렸다면,\n교황 무류성은 어떻게 됩니까?"
+
+    Note over 변,가: 행 8:37 최종 마무리
+    변->>가: "빌립이 세례 전 요구한 것 = '마음으로 믿음'(행 8:37)\n아기는 마음으로 믿을 수 있습니까?"
+    가-->>변: "부모의 믿음으로..."
+    변->>가: "'부모 믿음으로 자녀 세례' — 성경 어디에 있습니까?\n구절을 알려주세요."
+    가-->>변: "⚖️ 논리적 탈출구 없음"
+```
 
 ---
 
