@@ -125,11 +125,11 @@ graph TD
 
 | 문서 | 무기 | 핵심 |
 |:---|:---:|:---|
-| [주어혼동적발](../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_주어혼동적발.md) | R | "thine enemy" 주어 방향 오독 적발 |
-| [어휘오독적발](../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_어휘오독적발.md) | T | "disquieted" 시제·어휘 오독 적발 |
-| [이중지시모순적발](../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_이중지시모순적발.md) | G+L+P | 큰 구렁 + 묶음 대명사 → Macro-Sheol 격파 |
-| [침묵의타임라인역전](../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_침묵의타임라인역전.md) | A+B | 무당 추방 + 하나님 먼저 물음 → 회개 전무 기각 |
-| [최종판결문 Masterpiece](../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_최종판결문_Masterpiece.md) | 종합 | 6개 쟁점 교차 심리 + 7개 FAQ 종합 판결 |
+| [주어혼동적발](../../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_주어혼동적발.md) | R | "thine enemy" 주어 방향 오독 적발 |
+| [어휘오독적발](../../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_어휘오독적발.md) | T | "disquieted" 시제·어휘 오독 적발 |
+| [이중지시모순적발](../../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_이중지시모순적발.md) | G+L+P | 큰 구렁 + 묶음 대명사 → Macro-Sheol 격파 |
+| [침묵의타임라인역전](../../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_침묵의타임라인역전.md) | A+B | 무당 추방 + 하나님 먼저 물음 → 회개 전무 기각 |
+| [최종판결문 Masterpiece](../../03_WAR_LOG(전투기록)/CHRONICLE_사울의구원논쟁_최종판결문_Masterpiece.md) | 종합 | 6개 쟁점 교차 심리 + 7개 FAQ 종합 판결 |
 
 ---
 

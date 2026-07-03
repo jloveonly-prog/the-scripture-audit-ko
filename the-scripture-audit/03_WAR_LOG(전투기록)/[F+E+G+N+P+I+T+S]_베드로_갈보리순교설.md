@@ -2473,17 +2473,17 @@ C. 저자가 알았지만 일부러 뺐다
 ### 📖 후속 연구 문서
 
 
-> **[창세기6장의 하나님의 아들들이 천사가 아닌이유](../05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)**
+> **[창세기6장의 하나님의 아들들이 천사가 아닌이유](../05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)**
 
 이 문서에서 다루는 주요 주제: 창세기 6장의 하나님의 아들들이 타락한 천사인지 아닌지 판결합니다.
 
 
->**[TheScriputreMasterVS연구원 실전 사례](../05_REPORT(전과보고서)/REPORT_TheScriptureMasterVS연구원.md)**
+>**[TheScriputreMasterVS연구원 실전 사례](../05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원.md)**
 
 
 이 문서에서 다루는 주요 주제: 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순, 120년 천사 유예설 반박, 
 
-> **[멜키세덱_정체성검증](../05_REPORT(전과보고서)/REPORT_멜키세덱_정체성검증_Masterpiece.md)**
+> **[멜키세덱_정체성검증](../05_REPORT(전과보고서)/bible_believer/REPORT_멜키세덱_정체성검증_Masterpiece.md)**
 
 이 문서에서 다루는 주요 주제: 멜키세덱이 누구인지 알수 있음 
 
@@ -2510,6 +2510,6 @@ C. 저자가 알았지만 일부러 뺐다
 ### 📖 위 문서와 추가 발견된 내용을 함께 검증 (예수님이 영들에게 선포한 내용 추가)
 
 
-> **[창세기6장_하나님의아들들_주장교차검증](../05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)**
+> **[창세기6장_하나님의아들들_주장교차검증](../05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)**
 
 *STATUS: 1 CLEMENT COUNTER-RESPONSE ADDED | BVCAP VERIFIED*

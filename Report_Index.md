@@ -13,26 +13,26 @@
 
 ## 2. 👼 천사 딜레마: 부활 아침 무덤 사건
 * **요약:** 네 복음서의 부활 아침 기록 간 명백한 모순들을 해결하고, 정확한 시간 순서 타임라인을 재구성합니다.
-* **핵심 보고서 (32KB):** [`REPORT_부활아침_무덤사건_순차통합.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_부활아침_무덤사건_순차통합.md)
+* **핵심 보고서 (32KB):** [`REPORT_부활아침_무덤사건_순차통합.md`](./the-scripture-audit/05_REPORT(전과보고서)/difficulties/REPORT_부활아침_무덤사건_순차통합.md)
 
 ---
 
 ## 3. 👑 사울 왕의 구원 & 낙원 보고서
 * **요약:** 사울 왕의 영원한 운명에 관한 포렌식 판결. 타임라인, 사무엘의 예언, 구약의 "낙원"(아브라함의 품) 정의를 통해 사울의 구원을 확인합니다.
-* **마스터피스 보고서 (96KB):** [`REPORT_사울왕구원논쟁_사울왕낙원보고서_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_사울왕구원논쟁_사울왕낙원보고서_Masterpiece.md)
+* **마스터피스 보고서 (96KB):** [`REPORT_사울왕구원논쟁_사울왕낙원보고서_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_사울왕구원논쟁_사울왕낙원보고서_Masterpiece.md)
 
 ---
 
 ## 4. 🏛️ 멜키세덱 마스터피스 (2편)
 * **요약:** 멜키세덱의 진정한 정체성과 "첫 번째 세상"(홍수 이전)과의 연관성, 예언적 민족 형성 역할을 추적합니다.
-* **보고서 1 — 정체성 검증 (88KB):** [`REPORT_멜키세덱_정체성검증_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_멜키세덱_정체성검증_Masterpiece.md)
-* **보고서 2 — 첫 번째 세상 민족 형성 (109KB):** [`REPORT_멜키세덱_첫번째세상_민족형성.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_멜키세덱_첫번째세상_민족형성.md)
+* **보고서 1 — 정체성 검증 (88KB):** [`REPORT_멜키세덱_정체성검증_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_멜키세덱_정체성검증_Masterpiece.md)
+* **보고서 2 — 첫 번째 세상 민족 형성 (109KB):** [`REPORT_멜키세덱_첫번째세상_민족형성.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_멜키세덱_첫번째세상_민족형성.md)
 
 ---
 
 ## 5. ⚔️ 성경 장인 vs. 연구원 전투
 * **요약:** 신학적 오류, 신조적 편견, 전통적 교리들을 순수한 성경 주석으로 해체하는 방어 로그.
-* **핵심 보고서 (75KB):** [`REPORT_TheScriptureMasterVS연구원.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_TheScriptureMasterVS연구원.md)
+* **핵심 보고서 (75KB):** [`REPORT_TheScriptureMasterVS연구원.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원.md)
 
 ---
 
@@ -44,26 +44,26 @@
 
 ## 7. 🍷 포도주 & 발효: 원어 포렌식
 * **요약:** 성경의 "포도주" 정의(발효 알코올 vs 비발효 포도즙)를 명확히 하고, 관련 도덕적 명령들을 해결합니다.
-* **핵심 보고서 (47KB):** [`REPORT_WINE_포도주_원어_포렌식.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_WINE_포도주_원어_포렌식.md)
+* **핵심 보고서 (47KB):** [`REPORT_WINE_포도주_원어_포렌식.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_WINE_포도주_원어_포렌식.md)
 
 ---
 
 ## 8. 🧬 창세기 6장: "하나님의 아들들" 딜레마
 * **요약:** 창세기 6장 네피림 탄생의 주체인 '하나님의 아들들'이 타락한 천사인지 셋의 혈통인지를 결정적으로 답합니다.
-* **심층 논쟁 로그 (77KB):** [`REPORT_창세기6장_하나님의아들들_심층논쟁로그.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)
-* **주장 교차 검증 (Masterpiece):** [`REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)
+* **심층 논쟁 로그 (77KB):** [`REPORT_창세기6장_하나님의아들들_심층논쟁로그.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)
+* **주장 교차 검증 (Masterpiece):** [`REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md)
 
 ---
 
 ## 9. 📜 두 증인의 정체 — 난제 해결
 * **요약:** 요한계시록 11장의 두 증인을 예언적 선례, 변화산 기록, 수행된 기적들의 교차 참조를 통해 식별합니다.
-* **핵심 보고서 (47KB):** [`두증인의_정체_난제_해결.md`](./the-scripture-audit/05_REPORT(전과보고서)/두증인의_정체_난제_해결.md)
+* **핵심 보고서 (47KB):** [`두증인의_정체_난제_해결.md`](./the-scripture-audit/05_REPORT(전과보고서)/difficulties/두증인의_정체_난제_해결.md)
 
 ---
 
 ## 10. 🐉 베헤못 & 리바이어던 — 난제 해결
 * **요약:** 욥기의 베헤못과 리바이어던에 대한 생물학적·역사적·성경적 분석. 신화적 해석을 불식시킵니다.
-* **핵심 보고서 (18KB):** [`베헤못과_리바이어던_난제_해결.md`](./the-scripture-audit/05_REPORT(전과보고서)/베헤못과_리바이어던_난제_해결.md)
+* **핵심 보고서 (18KB):** [`베헤못과_리바이어던_난제_해결.md`](./the-scripture-audit/05_REPORT(전과보고서)/difficulties/베헤못과_리바이어던_난제_해결.md)
 
 ---
 
@@ -75,13 +75,13 @@
 
 ## 12. 🖋️ 요한1서 5장 7절 (요한 콤마) 방어
 * **요약:** 요한 콤마(요한1서 5:7)의 진정성을 문법적 필요성, 역사적 사본 증거, 삼위일체 신학적 맥락으로 검증합니다.
-* **전투기록 (69KB):** [`[G+H+I]_요한1서_콤마.md`](./the-scripture-audit/03_WAR_LOG(전투기록)/[G+H+I]_요한1서_콤마.md)
+* **전투기록 (69KB):** [`[G+H+I]_요한1서_콤마.md`](./the-scripture-audit/05_REPORT(전과보고서)/difficulties/[G+H+I]_요한1서_콤마.md)
 
 ---
 
 ## 13. ☪️ 이슬람 교리 논쟁 전과보고서
 * **요약:** 카카오 오픈채팅방 이슬람 논쟁 기록. 착시 설계 책임론, 600년 공백, 꾸란 내부 모순, 하디스 신뢰성 등 핵심 쟁점을 정리합니다.
-* **전과 보고서 (52KB):** [`이슬람_댓글.md`](./the-scripture-audit/05_REPORT(전과보고서)/이슬람_댓글.md)
+* **전과 보고서 (52KB):** [`이슬람_댓글.md`](./the-scripture-audit/05_REPORT(전과보고서)/Islam/이슬람_댓글.md)
 
 
 
