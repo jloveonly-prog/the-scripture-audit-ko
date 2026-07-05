@@ -49,14 +49,24 @@
 *   **논리 (Logic)**: 교황 A의 무류성 선언 vs 교황 B의 무류성 선언의 충돌 증명 (QVCAP의 OODA 루프와 BVCAP의 포렌식 무기 동시 투입)
 *   **출력 (Output)**: "성경과 틀렸다"가 아니라 **"가톨릭의 무류성 교리 자체가 내부적으로 붕괴했다"**는 결론 확정
 
-## 📂 폴더 구조 및 역할
+## 📂 폴더 구조 및 역할 (CVCAP 2.0 기준)
 
-- `CVCAP_1.0.md` : 이 거대한 듀얼 트랙 시스템의 핵심 알고리즘과 논리 체계가 명세된 메인 엔진 파일입니다.
-- `01_MANDATE/` : 가톨릭 감사에 특화된 AI 에이전트의 작동 명령서가 위치합니다.
-- `02_TACTICS/` : QVCAP이 쿠란을 품듯, 가톨릭 교리서(CCC), 교황 회칙, 공의회 문헌 등의 지식 베이스가 위치합니다.
-- `03_QUIVER_BVCAP/` : Track 1 구동을 위한 성경 내부 감사 무기들이 위치합니다.
-- `04_QUIVER_QVCAP/` : Track 2 구동을 위한 논리 파탄 및 딜레마 무기들이 위치합니다.
-- `05_REPORT/` : 최종적으로 내부 붕괴(Implosion)가 확정된 마스터피스 보고서들이 저장됩니다.
+### 🏛️ 핵심 엔진 파일
+- `CVCAP_GHQ.md` : **[NEW v2.0]** 사령부(GHQ) — CD-Code·CE-Code·판결 체계·출력 양식 정의. BVCAP 임포트 선언 포함.
+- `CVCAP_Pipeline.md` : **[NEW v2.0]** Track 2 전술 교범 — QVCAP OODA 10라운드를 가톨릭 교리(CD-Code)로 치환 적용.
+- `CVCAP_1.0.md` : [구버전] 초기 설계 문서. 참고용으로 보존.
+
+### 📁 폴더 구조
+- `01_MANDATE/` : 가톨릭 감사 특화 AI 에이전트 작동 명령서.
+- `02_TACTICS/` : 가톨릭 문헌 데이터베이스 (CCC, 공의회, 교황 선언) — `CATHOLIC_VAULT.md` 포함.
+- `03_QUIVER_BVCAP/` : Track 1 성경 법정 무기 카드 — `BVCAP_WEAPONS.md` 포함.
+- `04_QUIVER_QVCAP/` : Track 2 문헌 법정 Implosion 무기 카드 — `QVCAP_WEAPONS.md` 포함.
+- `05_REPORT/` : 마스터피스 보고서 저장소 — `REPORT_INDEX.md` (3차전 작전 지도) 포함.
+
+### 🔗 BVCAP 임포트 경로 (복제 금지 — 참조만)
+- Track 1 무기고: `../the-scripture-audit/04_QUIVER(무기고)/`
+- Track 1 파이프라인: `../the-scripture-audit/BVCAP_Pipeline.md`
+- 작전명령/전술: `../the-scripture-audit/01_MANDATE/`, `../the-scripture-audit/02_TACTICS/`
 
 ---
 
