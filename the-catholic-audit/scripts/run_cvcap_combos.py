@@ -51,6 +51,20 @@ def analyze():
         elif "F2_RUPTURE" in hits and "F3_TOLLENS" in hits:
             combo_name = "COMBO-03_SALVATION"
             stats[combo_name] += 1
+            
+        # Combo 4: Purgatory/Merit (F1 + F4 + F8)
+        elif "F1_REDUCTIO" in hits and "F4_ACTION_DOC" in hits:
+            if "공로" in combined_text or "대사" in combined_text or "면죄부" in combined_text or "연옥" in combined_text or "CCC-1471" in combined_text:
+                combo_name = "COMBO-04_PURGATORY"
+                if "COMBO-04_PURGATORY" not in stats: stats["COMBO-04_PURGATORY"] = 0
+                stats[combo_name] += 1
+
+        # Combo 5: Moral Absolute/Fiducia (F2 + F4 + F5)
+        elif "F4_ACTION_DOC" in hits and ("F2_RUPTURE" in hits or "F5_GOALPOST" in hits):
+            if "Fiducia" in combined_text or "축복" in combined_text or "동성" in combined_text:
+                combo_name = "COMBO-05_MORAL_COLLAPSE"
+                if "COMBO-05_MORAL_COLLAPSE" not in stats: stats["COMBO-05_MORAL_COLLAPSE"] = 0
+                stats[combo_name] += 1
 
         if combo_name:
             row['Hit_Filters'] = " | ".join(hits)
