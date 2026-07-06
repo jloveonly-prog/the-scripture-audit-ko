@@ -19,4 +19,6 @@ the-catholic-audit/05_DOCTRINE_DB
 the-catholic-audit/06_COLLISION_CARDS
 the-catholic-audit/07_ZERO_DAY
 
+__pycache__/
+
 

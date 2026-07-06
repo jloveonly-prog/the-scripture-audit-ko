@@ -194,7 +194,7 @@ CVCAP 2.0은 BVCAP의 역할 체계를 계승하되, 가톨릭 변증 구조에 
 │  - Track 1 결과 + Track 2 결과 종합      │
 │  - 종합 판결 (CHECKMATE / SIEGE / ...)  │
 │  - 마스터피스 보고서 출력               │
-│  - 05_REPORT 폴더 저장                  │
+│  - 08_REPORT 폴더 저장                  │
 └─────────────────────────────────────────┘
 ```
 
@@ -342,10 +342,13 @@ CVCAP 2.0은 BVCAP의 역할 체계를 계승하되, 가톨릭 변증 구조에 
 | 0-5 | `../the-scripture-audit/01_MANDATE(작전명령)/` | 전수 로드 |
 | 0-6 | `../the-scripture-audit/02_TACTICS(전술)/` | 전수 로드 |
 | 0-7 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE 무기 전수 로드 |
-| 0-8 | `02_TACTICS/CATHOLIC_VAULT.md` | 가톨릭 문헌 DB 장착 |
-| 0-9 | `03_QUIVER_BVCAP/BVCAP_WEAPONS.md` | 가톨릭 특화 성경 무기 장착 |
-| 0-10 | `04_QUIVER_QVCAP/QVCAP_WEAPONS.md` | Implosion 논리 무기 장착 |
-| 0-11 | `05_REPORT/REPORT_INDEX.md` | 기존 보고서 현황 확인 |
+| 0-8 | `01_MANDATE/MANDATE.md` | CVCAP 고유 작전 수칙·금기 사항 인식 |
+| 0-9 | `02_TACTICS/TACTICS.md` + `02_TACTICS/CATHOLIC_VAULT.md` | 가톨릭 문헌 전술·DB 장착 |
+| 0-10 | `03_QUIVER_BVCAP/BVCAP_WEAPONS.md` | 가톨릭 특화 성경 무기 장착 |
+| 0-11 | `04_QUIVER_QVCAP/QVCAP_WEAPONS.md` | Implosion 논리 무기 장착 |
+| 0-12 | `05_DOCTRINE_DB/` | 교리 카드 DB 전수 스캔 (현재 80개 카드, `scripts/conflict_detector.py` 입력 소스) |
+| 0-13 | `06_COLLISION_CARDS/confirmed/` + `07_ZERO_DAY/scan_targets.md` | 확정된 충돌 카드 및 제로데이 스캔 후보 확인 |
+| 0-14 | `08_REPORT/REPORT_INDEX.md` | 기존 보고서 현황 확인 |
 
 **부팅 완료 선언:**
 ```
@@ -357,7 +360,9 @@ CVCAP 2.0은 BVCAP의 역할 체계를 계승하되, 가톨릭 변증 구조에 
 - Catholic Vault: N개 문헌 탄약 장전 완료
 - BVCAP Weapons: N개 가톨릭 특화 무기 장착
 - QVCAP Weapons: N개 Implosion 무기 장착
-- 기존 보고서: N건 확인
+- Doctrine DB: N개 교리 카드 확인 (05_DOCTRINE_DB)
+- Collision Cards: N건 확정 / 제로데이 후보 N건 확인
+- 기존 보고서: N건 확인 (08_REPORT)
 → Dual-Track 엔진 가동 준비 완료. STEP 1 진입.
 ```
 
@@ -380,7 +385,7 @@ CVCAP 2.0은 BVCAP의 역할 체계를 계승하되, 가톨릭 변증 구조에 
 **STEP 4. 마스터피스 보고서 출력 (CVCAP_GHQ.md 양식)**
 - Track 1 + Track 2 결과 종합
 - 종합 판결 (CHECKMATE / SIEGE / ENGAGED) 선고
-- 보고서 → `05_REPORT/` 폴더 저장
+- 보고서 → `08_REPORT/` 폴더 저장
 
 > [!WARNING]
 > **편향 금지 원칙**: 검사는 "개신교가 옳다"를 전제하지 않는다.
