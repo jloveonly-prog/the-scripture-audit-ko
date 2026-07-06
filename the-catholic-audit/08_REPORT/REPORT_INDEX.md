@@ -14,13 +14,13 @@
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
 | 종합 감사 보고서 | [catholic_error_report.md](./catholic_error_report.md) | 구원론·무류성·성사론 등 6개 주제 심층 분석 + 부록(자동 탐지 매뉴얼) | ✅ 최신 |
-| 자동 탐지 결과 (필터 통과) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Cross-claim 재확인 필터를 통과한 충돌 후보 49건 | ✅ 최신 |
-| 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(사실상 동일 입장)으로 판정되어 제외된 18건 | ✅ 최신 |
+| 자동 탐지 결과 (2단계 필터 통과) | [auto_conflict_results.csv](./auto_conflict_results.csv) | cross-claim 자동 필터 + 수작업 원문 대조를 통과한 충돌 후보 21건 | ✅ 최신 |
+| 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(사실상 동일 입장)으로 판정되어 제외된 46건 (제외 사유별 구분 표기) | ✅ 최신 |
 | 충돌 네트워크 시각화 | [conflict_network.html](./conflict_network.html) | Vis.js 기반 인터랙티브 그래프 (Chrome으로 열기) | ✅ 최신 |
 | 확정 콜리전 카드 | [`../06_COLLISION_CARDS/confirmed/`](../06_COLLISION_CARDS/confirmed/) | COL-001~008, 수작업 정밀 검증 완료 | ✅ 최신 |
 | 제로데이 스캔 후보 | [`../07_ZERO_DAY/scan_targets.md`](../07_ZERO_DAY/scan_targets.md) | 향후 우선 탐색 대상 (Fiducia Supplicans 등) | 🔄 진행 중 |
 
-> ⚠️ **탐지기 한계 안내**: char n-gram 기반 유사도 탐지는 부정어를 완전히 구분하지 못합니다. `auto_conflict_results.csv`의 49건도 "사람의 신학적 재검토가 필요한 1차 후보"이며, 최종 확정 판단은 `06_COLLISION_CARDS/confirmed/`처럼 수작업 검증을 거친 카드를 우선 신뢰하십시오. 자세한 내용은 `catholic_error_report.md` 부록 §1 참조.
+> ⚠️ **탐지기 한계 안내**: char n-gram 기반 유사도 탐지는 부정어를 완전히 구분하지 못합니다. 애초 자동 탐지 결과 49건 중 **28건(57%)**이 재검증 결과 "문헌 DB 중복 카드"(같은 문서가 batch 요약 카드와 개별 카드로 이중 등록됨), "서로 다른 두 문헌의 동일 교리 긍정", 또는 "문장 구조만 겹치는 범주 오류"로 밝혀져 오탐 처리했습니다(최종 21건). 즉 알고리즘이 처음 찾아낸 "충돌 후보"의 절반 이상이 사람이 원문을 직접 대조하기 전까지는 실제 모순인지 알 수 없었습니다 — `auto_conflict_results.csv`의 남은 21건도 여전히 "사람의 신학적 재검토가 필요한 1차 후보"이며, 최종 확정 판단은 `06_COLLISION_CARDS/confirmed/`처럼 수작업 검증을 거친 카드를 우선 신뢰하십시오. 상위 점수 4건에 대한 예상 반박·재반박 심층분석은 `catholic_error_report.md` §1-B, 전체 방법론은 §1 참조.
 
 ---
 
