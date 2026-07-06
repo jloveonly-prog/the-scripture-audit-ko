@@ -61,7 +61,10 @@
 - `02_TACTICS/` : 가톨릭 문헌 데이터베이스 (CCC, 공의회, 교황 선언) — `CATHOLIC_VAULT.md` 포함.
 - `03_QUIVER_BVCAP/` : Track 1 성경 법정 무기 카드 — `BVCAP_WEAPONS.md` 포함.
 - `04_QUIVER_QVCAP/` : Track 2 문헌 법정 Implosion 무기 카드 — `QVCAP_WEAPONS.md` 포함.
-- `05_REPORT/` : 마스터피스 보고서 저장소 — `REPORT_INDEX.md` (3차전 작전 지도) 포함.
+- `05_DOCTRINE_DB/` : 구조화된 교리 카드 DB (`schema.md` 기준, 현재 80개 카드) — `scripts/conflict_detector.py`의 입력 소스.
+- `06_COLLISION_CARDS/` : 수작업으로 확정(confirmed)된 충돌 카드 및 콤보 후보.
+- `07_ZERO_DAY/` : 신규 문헌 발간 시 우선 스캔할 충돌 후보 목록.
+- `08_REPORT/` : 마스터피스 보고서 저장소 — `REPORT_INDEX.md`, `catholic_error_report.md`, 자동 탐지 CSV/HTML 산출물 포함.
 
 ### 🔗 BVCAP 임포트 경로 (복제 금지 — 참조만)
 - Track 1 무기고: `../the-scripture-audit/04_QUIVER(무기고)/`
