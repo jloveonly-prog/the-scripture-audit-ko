@@ -2,7 +2,7 @@ import os
 import re
 import csv
 import sys
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Windows 콘솔 기본 코드페이지(cp949)는 이모지(🔥 등)를 인코딩하지 못해
@@ -191,17 +191,17 @@ def main():
     print(f"추출 완료: 주장(Claims) {len(claims_list)}개, 부정(Negates) {len(negates_list)}개")
     print("의미론적 텍스트 유사도(Semantic Similarity) 분석 중...")
 
-    # 한국어 형태소 분석기 없이도 문자 단위 N-gram을 통해 의미/형태적 유사도를 포착합니다.
-    vectorizer = TfidfVectorizer(analyzer='char', ngram_range=(2, 4))
+    print("다국어 의미론적 AI 임베딩(Sentence-Transformers) 모델을 로딩 중입니다...")
+    print("(최초 실행 시 모델 다운로드에 1~2분 정도 소요될 수 있습니다.)")
+    # 한국어 의미 파악에 뛰어난 다국어 모델 적용
+    model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
-    corpus = [c[1] for c in claims_list] + [n[1] for n in negates_list]
-    vectorizer.fit(corpus)
+    print("텍스트의 진짜 의미를 벡터로 변환(Embedding)하고 있습니다...")
+    claims_embeddings = model.encode([c[1] for c in claims_list], show_progress_bar=True)
+    negates_embeddings = model.encode([n[1] for n in negates_list], show_progress_bar=True)
 
-    claims_tfidf = vectorizer.transform([c[1] for c in claims_list])
-    negates_tfidf = vectorizer.transform([n[1] for n in negates_list])
-
-    similarity_matrix = cosine_similarity(claims_tfidf, negates_tfidf)
-    claims_claims_matrix = cosine_similarity(claims_tfidf, claims_tfidf)
+    similarity_matrix = cosine_similarity(claims_embeddings, negates_embeddings)
+    claims_claims_matrix = cosine_similarity(claims_embeddings, claims_embeddings)
 
     # 카드별로 자기 자신의 claims 인덱스를 모아둔다 (cross-claim 재확인용)
     card_claim_indices = {}
@@ -210,7 +210,8 @@ def main():
 
     conflicts = []
     excluded = []
-    THRESHOLD = 0.20 # 유사도 임계값
+    # AI 임베딩은 문맥이 같으면 기본 유사도가 높게 나오므로 임계값을 0.60으로 상향 (기존 TF-IDF는 0.20)
+    THRESHOLD = 0.60 # 의미론적 유사도 임계값
 
     for i, c_item in enumerate(claims_list):
         for j, n_item in enumerate(negates_list):
