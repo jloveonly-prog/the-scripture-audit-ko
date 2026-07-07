@@ -1,9 +1,16 @@
 import csv
 import re
 import os
+import sys
 
-CSV_PATH = "08_REPORT/auto_conflict_results.csv"
-OUTPUT_PATH = "08_REPORT/cvcap_combo_results.csv"
+# Windows 콘솔 기본 코드페이지(cp949)는 이모지를 인코딩하지 못해 print에서 죽는 문제 방지
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
+# 실행 위치와 무관하게 동작하도록 스크립트 위치 기준으로 경로를 고정한다.
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CSV_PATH = os.path.join(BASE_DIR, "07_REPORT", "auto_conflict_results.csv")
+OUTPUT_PATH = os.path.join(BASE_DIR, "07_REPORT", "cvcap_combo_results.csv")
 
 # Regex Rules for CVCAP 3.0 Filters
 FILTERS = {
@@ -20,7 +27,9 @@ FILTERS = {
 def analyze():
     print("🚀 CVCAP 3.0 COMBO Engine Started...")
     
-    with open(CSV_PATH, 'r', encoding='utf-8') as f:
+    # conflict_detector.py가 utf-8-sig(BOM)로 쓰므로 반드시 utf-8-sig로 읽는다
+    # (utf-8로 읽으면 첫 컬럼명이 '﻿Score'가 되어 출력 CSV 헤더가 오염된다)
+    with open(CSV_PATH, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames + ['Hit_Filters', 'Combo_Name']
         rows = list(reader)
@@ -71,15 +80,17 @@ def analyze():
             row['Combo_Name'] = combo_name
             combo_hits.append(row)
 
-    with open(OUTPUT_PATH, 'w', encoding='utf-8', newline='') as f:
+    with open(OUTPUT_PATH, 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(combo_hits)
 
-    print(f"✅ Total COMBO Kills: {len(combo_hits)}")
+    # 주의: 아래 수치는 "키워드 필터 히트 건수"다. 논리적으로 확정된 모순 수가 아니며,
+    # 확정은 LLM 심사/수작업 검증을 거쳐 05_COLLISION_CARDS에 카드로 등록해야 한다.
+    print(f"✅ Total COMBO filter hits: {len(combo_hits)} (키워드 태깅 — 미확정 후보)")
     print("💥 Breakdown:")
     for k, v in stats.items():
-        print(f"   - {k}: {v} rows completely annihilated")
+        print(f"   - {k}: {v} rows tagged")
 
 if __name__ == "__main__":
     analyze()

@@ -1,9 +1,17 @@
 import csv
 import json
 import os
+import sys
 
-CSV_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\auto_conflict_results.csv"
-HTML_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\conflict_network.html"
+# Windows 콘솔 기본 코드페이지(cp949)는 이모지/한글 조합 출력에서 죽을 수 있어 utf-8로 고정
+if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
+CSV_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_results.csv"
+HTML_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\conflict_network.html"
+# Sentence-Transformers 전환 후 결과 CSV는 전 행이 유사도 0.60 이상이므로
+# 절대 임계값 대신 상위 N개 엣지만 시각화한다 (수천 건 전체는 판독 불가 헤어볼이 됨).
+TOP_N_EDGES = 150
 
 def generate_html():
     if not os.path.exists(CSV_FILE):
@@ -13,27 +21,28 @@ def generate_html():
     nodes_dict = {}
     edges = []
 
-    # Read CSV
+    # Read CSV (Score 내림차순 정렬 후 상위 N개만)
     with open(CSV_FILE, 'r', encoding='utf-8-sig') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            score = float(row['Score'])
-            # 0.25 이상의 유의미한 충돌만 시각화 (가독성 목적)
-            if score < 0.25: 
-                continue
-                
-            source = row['Card_A_Claiming']
-            target = row['Card_B_Negating']
-            
-            nodes_dict[source] = True
-            nodes_dict[target] = True
-            
-            edges.append({
-                "from": source,
-                "to": target,
-                "value": score * 10, # 선의 굵기
-                "title": f"<div style='max-width:400px;'><b>[A의 주장]</b><br>{row['Claim_Text']}<br><br><b>[B의 부정]</b><br>{row['Negate_Text']}</div>"
-            })
+        rows = list(csv.DictReader(f))
+    rows.sort(key=lambda r: float(r['Score']), reverse=True)
+    if len(rows) > TOP_N_EDGES:
+        print(f"전체 {len(rows)}건 중 유사도 상위 {TOP_N_EDGES}건만 시각화합니다.")
+        rows = rows[:TOP_N_EDGES]
+
+    for row in rows:
+        score = float(row['Score'])
+        source = row['Card_A_Claiming']
+        target = row['Card_B_Negating']
+
+        nodes_dict[source] = True
+        nodes_dict[target] = True
+
+        edges.append({
+            "from": source,
+            "to": target,
+            "value": score * 10, # 선의 굵기
+            "title": f"<div style='max-width:400px;'><b>[A의 주장]</b><br>{row['Claim_Text']}<br><br><b>[B의 부정]</b><br>{row['Negate_Text']}</div>"
+        })
 
     nodes = [{"id": n, "label": n} for n in nodes_dict.keys()]
 

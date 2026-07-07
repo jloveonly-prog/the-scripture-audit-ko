@@ -2,9 +2,9 @@ import csv
 import re
 import os
 
-csv_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\auto_conflict_results.csv"
-excluded_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\auto_conflict_excluded_self_negation.csv"
-md_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\catholic_error_report.md"
+csv_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_results.csv"
+excluded_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_excluded_self_negation.csv"
+md_path = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\catholic_error_report.md"
 
 def read_csv(path):
     if not os.path.exists(path):
@@ -54,7 +54,7 @@ def build_excluded_table(rows):
         if '수작업' in reason:
             explanation = (
                 f"어휘 유사도(negate 매칭 {score} / 자기 claim 유사도 {cross})만으로는 걸러지지 않는 경계 사례라, "
-                f"05_DOCTRINE_DB 원문을 직접 대조해 검증했다. 그 결과 두 카드가 같은 문서의 중복 카드이거나 "
+                f"04_DOCTRINE_DB 원문을 직접 대조해 검증했다. 그 결과 두 카드가 같은 문서의 중복 카드이거나 "
                 f"(요약 카드 vs 세부 조항 카드), 서로 다른 두 문헌이 실제로는 같은 교리를 긍정하고 있음이 "
                 f"확인되어 '충돌 아님'으로 분류했다."
             )
@@ -75,7 +75,7 @@ def build_excluded_table(rows):
 
 # 아래는 자동 색인 후 사람이 원문을 대조해 "진짜 충돌"로 남은 상위 4건(Score 0.25 이상)에 대해,
 # 가톨릭 측에서 나올 법한 최강 반박과 그에 대한 재반박을 정리한 것이다. 자동 생성 문장이 아니라
-# 05_DOCTRINE_DB 원문과 각 사안의 실제 신학적 논쟁사를 직접 확인하고 작성했다.
+# 04_DOCTRINE_DB 원문과 각 사안의 실제 신학적 논쟁사를 직접 확인하고 작성했다.
 PRIORITY_DEEPDIVE = """#### 1-B. 🎯 상위 4건 우선순위 심층분석 (예상 반박 · 재반박 포함)
 아래 4건은 Score 상위권이면서 §1의 2단계 필터(자동 cross-claim + 수작업 원문 대조)를 모두 통과한, 현재로서 가장 근거가 탄탄한 후보입니다. 각 항목마다 가톨릭 측에서 나올 법한 가장 강력한 반박과 그에 대한 재반박을 함께 제시해, 목록만 던져놓고 끝내지 않도록 했습니다.
 
@@ -121,14 +121,14 @@ def update_report():
     section = f"""### 1. 교리 충돌 자동 탐지 엔진 (Conflict Detector) 상세 작동 원리 및 한계
 `scripts/conflict_detector.py`에 의해 구동되는 이 엔진은 아래 절차로 가톨릭 교리 문헌 간의 텍스트 유사도 기반 충돌 **후보**를 탐지합니다.
 
-*   **자동 파싱 (Parsing)**: 엔진은 `05_DOCTRINE_DB` 내의 모든 교리 마크다운 카드를 순회하며 정규 표현식으로 `주장(Claims)`과 `부정(Negates)` 섹션을 분리 추출합니다. 현재 기준 총 258개의 주장과 202개의 부정이 데이터베이스로 적재되었습니다.
+*   **자동 파싱 (Parsing)**: 엔진은 `04_DOCTRINE_DB` 내의 모든 교리 마크다운 카드를 순회하며 정규 표현식으로 `주장(Claims)`과 `부정(Negates)` 섹션을 분리 추출합니다. 현재 기준 총 258개의 주장과 202개의 부정이 데이터베이스로 적재되었습니다.
 *   **텍스트 벡터화 (TF-IDF & N-gram)**: 추출된 텍스트는 `문자 단위 N-gram (2~4)` 기반의 TF-IDF(Term Frequency-Inverse Document Frequency) 벡터로 변환됩니다.
 *   **코사인 유사도(Cosine Similarity) 측정**: A 문서의 '주장' 벡터와 B 문서의 '부정' 벡터가 기하학적으로 얼마나 일치하는지 0~1 사이의 점수(Score)로 계산합니다.
 *   **⚠️ 알려진 한계와 2단계 오탐 필터**: 문자 n-gram 유사도만으로는 부정어(아니다/없다/불가능 등)를 안정적으로 구분하지 못합니다.
     1.  **자동 cross-claim 필터**: A의 주장이 B **자신의** claims 목록과도 높은 유사도를 보이면(= B 스스로도 같은 명제를 긍정한다는 뜻), negate 매칭 점수가 아무리 높아도 충돌 후보에서 제외합니다.
-    2.  **수작업 원문 대조 검증**: 위 필터의 점수 차이가 근소한 경계 사례(예: 0.318 vs 0.317)는 `05_DOCTRINE_DB` 원문을 사람이 직접 읽어 확인했습니다. 그 결과 (a) 같은 문서를 가리키는 카드가 DB에 두 장 존재하는 경우(예: `DIGNITATIS-HUMANAE`와 `VATICAN2-DH`는 둘 다 1965년 종교 자유 선언 원문, `TRENT-S13`과 `TRENT-S13-C01`은 같은 회기의 요약/세부 카드 쌍)와 (b) 서로 다른 두 문헌이 우연히 같은 교리를 긍정한 경우(예: `VAT1-PASTOR-AETERNUS`와 `CCC-888_892`는 둘 다 교황 무류성을 긍정)가 확인되어, 해당 쌍은 negate 매칭 점수와 무관하게 "충돌 아님"으로 재분류했습니다. (임의의 숫자 마진을 적용하지 않은 이유는, 마진을 넉넉히 잡으면 `CCC-1861` vs `AMORIS-LAETITIA-CH8`처럼 실제로 신학적 긴장이 남아있는 정당한 후보까지 함께 제외되기 때문입니다.)
+    2.  **수작업 원문 대조 검증**: 위 필터의 점수 차이가 근소한 경계 사례(예: 0.318 vs 0.317)는 `04_DOCTRINE_DB` 원문을 사람이 직접 읽어 확인했습니다. 그 결과 (a) 같은 문서를 가리키는 카드가 DB에 두 장 존재하는 경우(예: `DIGNITATIS-HUMANAE`와 `VATICAN2-DH`는 둘 다 1965년 종교 자유 선언 원문, `TRENT-S13`과 `TRENT-S13-C01`은 같은 회기의 요약/세부 카드 쌍)와 (b) 서로 다른 두 문헌이 우연히 같은 교리를 긍정한 경우(예: `VAT1-PASTOR-AETERNUS`와 `CCC-888_892`는 둘 다 교황 무류성을 긍정)가 확인되어, 해당 쌍은 negate 매칭 점수와 무관하게 "충돌 아님"으로 재분류했습니다. (임의의 숫자 마진을 적용하지 않은 이유는, 마진을 넉넉히 잡으면 `CCC-1861` vs `AMORIS-LAETITIA-CH8`처럼 실제로 신학적 긴장이 남아있는 정당한 후보까지 함께 제외되기 때문입니다.)
 
-    이 2단계 필터로 총 **{len(excluded_rows)}건**이 오탐으로 판정되어 제외되었으며, 어떤 필터로 제외됐는지까지 포함한 상세 내역은 아래 §1-A 및 `08_REPORT/auto_conflict_excluded_self_negation.csv`에 투명하게 공개합니다.
+    이 2단계 필터로 총 **{len(excluded_rows)}건**이 오탐으로 판정되어 제외되었으며, 어떤 필터로 제외됐는지까지 포함한 상세 내역은 아래 §1-A 및 `07_REPORT/auto_conflict_excluded_self_negation.csv`에 투명하게 공개합니다.
 *   **결과**: 필터 적용 후 유의미한(Score 0.20 이상) 'A Not A' 충돌 후보 **{len(rows)}건**이 자동 색인되었습니다. **본 리스트는 사람의 신학적 재검토가 필요한 1차 후보 목록이며, 알고리즘이 신학적 모순 여부를 최종 판정하는 것이 아닙니다.** char n-gram 유사도는 문맥을 이해하지 못하므로, 목록에 오른 항목도 인용 시 원문 대조와 정황 확인이 필요합니다.
 
 #### 🔥 AI 엔진이 자동 색인한 교리 충돌(A Not A) 후보 리스트 (2단계 오탐 필터 적용 후, {len(rows)}건)

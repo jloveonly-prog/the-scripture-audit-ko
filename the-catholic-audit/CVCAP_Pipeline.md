@@ -1,51 +1,52 @@
 > [!IMPORTANT]
 > ## 📜 전술 교범 (Pipeline — Logic Layer)
-> **이 문서가 하는 일**: Track 2 (문헌 법정) OODA 10라운드 실행 절차 정의
-> **짝꿍 문서**: `CVCAP_GHQ.md` (사령부 — 전략·판결 기준)
-> **Track 1 절차**: `../the-scripture-audit/BVCAP_Pipeline.md` 참조 (임포트)
+> **이 문서가 하는 일**: 문헌 법정 OODA 10라운드 실행 절차 정의
+> **짝꿍 문서**: `CVCAP_GHQ.md` (사령부 — 전략·판결 기준) · `CVCAP_3.0_METHODOLOGY.md` (자동화 엔진 — 후보 발굴)
+> **관할**: 가톨릭 내부 문헌 전용. 성경 검증은 `../the-scripture-audit/` (BVCAP) 담당 — 본 엔진은 성경 해석 논쟁에 진입하지 않는다.
 
-# 📜 CVCAP 2.0 Pipeline (전술 교범)
-## Track 2: 문헌 법정 가톨릭 내부 붕괴(Implosion) 실행 절차
+# 📜 CVCAP 3.0 Pipeline (전술 교범)
+## 문헌 법정: 가톨릭 내부 붕괴(Implosion) 실행 절차
 
-> **버전**: v2.0
+> **버전**: v3.0
 > **상태**: FINAL MASTER
-> **핵심**: QVCAP 7.0의 OODA Loop + D-Code 체계를 가톨릭 교리(CD-Code)로 치환하여 적용
+> **핵심**: QVCAP의 OODA Loop + D-Code 체계를 가톨릭 교리(CD-Code)로 치환하여 적용
 
 ---
 
-## 🗺️ Track 2 파이프라인 흐름도
+## 🗺️ 문헌 법정 파이프라인 흐름도
 
 ```
-[가톨릭이 "성경이 전부가 아니다"로 Track 2 진입]
+[가톨릭 교리 주장 입력 — PHASE 0 관할 판정 통과]
          │
          ▼
 ┌─────────────────────────────────────────┐
-│  T2-PHASE 1: 가톨릭 문헌 추출           │
-│  - 가톨릭 주장의 문헌 근거 확인         │
-│  - CCC 조항 / 공의회 문헌 / 교황 선언  │
-│  - CD-Code 분류 확정                   │
+│  PHASE 1: 가톨릭 문헌 추출               │
+│  - 가톨릭 주장의 문헌 근거 확인          │
+│  - CCC 조항 / 공의회 문헌 / 교황 선언   │
+│  - CD-Code 분류 확정                    │
 └─────────────────┬───────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────┐
-│  T2-PHASE 2: 모순 명세서 작성 (TRIZ)    │
-│  - 문헌 A vs 문헌 B 충돌 지점 명세화   │
-│  - 논리 무기 조합 선택 (L-Code)         │
+│  PHASE 2: 모순 명세서 작성 (TRIZ)        │
+│  - 문헌 A vs 문헌 B 충돌 지점 명세화     │
+│  - 논리 무기 조합 선택 (L-Code)          │
+│  - 자동화 엔진 후보 CSV 교차 확인        │
 └─────────────────┬───────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────┐
-│  T2-PHASE 3: OODA 10라운드 공방전       │
-│  - 검사 공격 vs 가톨릭 변증 방어        │
-│  - CE-Code 회피 즉각 봉쇄               │
-│  - 라운드당 Observe-Orient-Decide-Act  │
+│  PHASE 3: OODA 10라운드 공방전           │
+│  - 검사 공격 vs 가톨릭 변증 방어         │
+│  - CE-Code 회피 즉각 봉쇄                │
+│  - 라운드당 Observe-Orient-Decide-Act   │
 └─────────────────┬───────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────┐
-│  T2-PHASE 4: 선제 회피 봉쇄             │
-│  - CE-Code 01~08 전수 대입              │
-│  - 모든 탈출 경로를 0으로 수렴          │
+│  PHASE 4: 선제 회피 봉쇄                 │
+│  - CE-Code 01~10 전수 대입               │
+│  - 모든 탈출 경로를 0으로 수렴           │
 └─────────────────┬───────────────────────┘
                   │
           ┌───────┴───────┐
@@ -58,37 +59,36 @@
 
 ## 🔑 핵심 금지 사항 (AI 혼선 방지)
 
-> [!WARNING]
-> **BVCAP 기존 금지 사항 전부 계승** → `../the-scripture-audit/BVCAP_Pipeline.md` 참조
-> 아래는 Track 2 고유 추가 금지 사항이다.
-
 | ❌ 금지 행동 | ✅ 대체 행동 |
 |:---|:---|
 | "개신교에서는 이렇게 가르친다"로 공격 시작 | 가톨릭 자체 문헌으로 가톨릭을 공격 |
+| 성경 구절 해석 논쟁에 진입 | BVCAP(the-scripture-audit) 이첩 기록 후, 해석 독점권 주장 자체를 내부 문헌으로 역공 |
 | CE-Code 회피 발생 시 그대로 수용 | 즉각 CE-Code 분류 + 봉쇄 |
 | 교황 선언이나 공의회 문헌을 무비판적으로 인용 | 다른 교황·공의회 문헌과 병치하여 충돌 확인 |
 | "이것은 신비의 영역" 수용 | CE-05(신비 도피) 탐지 → Checkmate 선언 |
+| 자동 탐지 CSV 수치를 "확정 모순"으로 인용 | "기계 발굴 후보"로만 인용, 확정은 법정 절차로 |
 | 라운드 중략 또는 생략 | 10라운드 전수 기술 의무 |
 
 ---
 
-## ⚙️ T2-PHASE 1: 가톨릭 문헌 추출
+## ⚙️ PHASE 1: 가톨릭 문헌 추출
 
 ### 1-1. 입력 분석
 ```
 [입력 분석 단계]
 ① 가톨릭 주장의 성격 파악
 ② 주장이 의존하는 권위 유형 확인:
-   - 성경 인용 → Track 1 선행
-   - 교도권 주장 → Track 2 가동
-   - 교부 인용 → Track 2 가동 (역사 포렌식)
-   - 공의회 문헌 → Track 2 가동
+   - 성경 인용 → BVCAP 이첩 기록 (본 엔진 관할 아님) + 해석 독점권 역공 준비
+   - 교도권 주장 → 문헌 법정 가동
+   - 교부 인용 → 문헌 법정 가동 (교부 역사 포렌식)
+   - 공의회 문헌 → 문헌 법정 가동
 ③ CD-Code 분류 (CD-01~CD-12 중 해당)
 ```
 
 ### 1-2. 주요 문헌 데이터베이스 (Catholic Vault 참조)
 
 > → `02_TACTICS/CATHOLIC_VAULT.md` 전체 참조
+> → 구조화된 교리 카드: `04_DOCTRINE_DB/` (schema.md 형식)
 
 **핵심 타격 문헌 목록:**
 
@@ -107,7 +107,7 @@
 
 ---
 
-## ⚙️ T2-PHASE 2: 모순 명세서 작성
+## ⚙️ PHASE 2: 모순 명세서 작성
 
 ### 2-1. 충돌 명제 구조화
 
@@ -123,6 +123,9 @@
 | M-03 | 교황 무류성 선언 (1870) | 호노리우스 1세 이단 파문 (680) | 귀류법 외통수 | CD-01 |
 ```
 
+> 💡 자동화 엔진 산출물(`07_REPORT/auto_conflict_results.csv`, `cvcap_combo_results.csv`)에서
+> 해당 CD-Code 관련 후보를 교차 확인하여 명세서에 반영할 수 있다 (후보 = 미확정).
+
 ### 2-2. 논리 무기 선택 (L-Code 조합)
 
 | L-Code | 논리학 법칙 | 가톨릭 감사 적용 방식 |
@@ -136,9 +139,12 @@
 | **L-07** | **앤티노미** | "두 가톨릭 교리가 동시에 참일 수 없음을 제시" |
 | **L-08** | **5 Whys** | "표면 모순에서 시작해 '왜?'를 5회 연쇄하여 교도권 구조 근본 문제 도달" |
 
+> L-Code(법정 논증 무기)와 별개로, 자동화 엔진의 **논리 필터 8종**(귀류법·해석학적 단절·후건 부정식·
+> 실천적 모순·목표대 이동·부메랑 논증·거짓 이분법·침묵 논증)은 `CVCAP_3.0_METHODOLOGY.md` 참조.
+
 ---
 
-## ⚙️ T2-PHASE 3: OODA 10라운드 공방전
+## ⚙️ PHASE 3: OODA 10라운드 공방전
 
 ### 전수 기술 원칙 (No-Compression Rule)
 
@@ -182,16 +188,17 @@
 | 상황 | 처리 |
 |:---|:---|
 | 가톨릭 변증이 새로운 문헌 논거 제시 | 해당 문헌의 다른 충돌 지점으로 반격 |
+| 가톨릭 변증이 성경 해석으로 도피 | BVCAP 이첩 기록 + 해석 독점권 주장 자체를 역공 (CE-02) |
 | CE-Code 회피 탐지 | 즉각 분류 + 봉쇄 + Implosion 포인트 누적 |
 | "신비의 영역" 주장 (CE-05) | "이성 포기 = 변증 포기 = Checkmate" 즉각 선언 |
-| 아우구스티누스 등 교부 인용 | 역체리피킹 카드 투입 (→ `03_QUIVER_BVCAP/BVCAP_WEAPONS.md` 카드 E) |
+| 아우구스티누스 등 교부 인용 | 역체리피킹 카드 투입 (→ `03_QUIVER/QVCAP_WEAPONS.md` 파탄 카드 6) |
 | 동일 논거 3회 반복 | 강제 종료 조건 발동 — Implosion 확정 선언 |
 
 ---
 
-## ⚙️ T2-PHASE 4: 선제 회피 봉쇄 (Pre-emptive CE-Code Block)
+## ⚙️ PHASE 4: 선제 회피 봉쇄 (Pre-emptive CE-Code Block)
 
-모든 CVCAP 보고서는 OODA 공방전과 별개로, **CE-Code 01~08 전수 대입**하여 모든 탈출 경로를 사전 차단한다.
+모든 CVCAP 보고서는 OODA 공방전과 별개로, **CE-Code 01~10 전수 대입**하여 모든 탈출 경로를 사전 차단한다.
 
 ```markdown
 ## 🛡️ 선제 회피 봉쇄 (Pre-emptive Evasion Block)
@@ -206,12 +213,12 @@
 - **봉쇄**: "그 권위가 무류하다면 왜 역대 교황들이 서로를 이단으로 정죄합니까?
            호노리우스 1세 파문 데이터를 어떻게 설명하십니까?"
 
-[CE-03 ~ CE-08 동일 방식으로 전수 기술]
+[CE-03 ~ CE-10 동일 방식으로 전수 기술 — 정의는 CVCAP_GHQ.md CE-Code 표 참조]
 ```
 
 ---
 
-## ⚙️ T2-PHASE 5: Implosion 판정 기준
+## ⚙️ PHASE 5: Implosion 판정 기준
 
 ### 외통수(Singleton) 확정 조건
 
@@ -230,10 +237,10 @@
 
 ---
 
-## 📋 Track 2 소(小)보고서 양식
+## 📋 문헌 법정 보고서 양식
 
 ```markdown
-## Track 2 결과 보고서
+## 문헌 법정 결과 보고서
 
 ### 📊 검증 대시보드
 | 지표 | 내용 |
@@ -246,36 +253,32 @@
 
 ### 🔴 핵심 외통수 선언 (The Singleton)
 > "[붕괴 확정된 교리] — 가톨릭 자체 문헌 [A]와 [B]가 동시에 참일 수 없음이
->  [L-Code 조합]으로 논리적으로 확정됨. 외부 개신교 논리 없이 내부 붕괴(Implosion) 완성."
+>  [L-Code 조합]으로 논리적으로 확정됨. 외부 논리 없이 내부 붕괴(Implosion) 완성."
 
 ### 💥 붕괴된 CD-Code 목록
 - CD-01 교황 무류성: [붕괴 근거]
 - CD-10 은총·공로론: [붕괴 근거]
 
-### 📊 Track 2 판결
-> **판결**: 💥 IMPLOSION 확정
+### 📊 판결
+> **판결**: 💥 IMPLOSION 확정 [/ ⚠️ PARTIAL / 🔄 LOOP]
 > **학술 합의 수준**: [🟢 / 🟡 / 🔴]
 ```
 
 ---
 
-## 🔗 CVCAP vs BVCAP vs QVCAP 관계 매핑
+## 🔗 CVCAP vs QVCAP 관계 매핑
 
-| 구성 요소 | BVCAP 원본 | QVCAP 원본 | CVCAP 적용 방식 |
-|:---|:---|:---|:---|
-| **감사 대상** | 성경 구절 모순 | 꾸란 구절 모순 | 가톨릭 교리·문헌 모순 |
-| **Track 1** | 전체 (BVCAP 자체) | — | 그대로 임포트 |
-| **Track 2** | — | 전체 (QVCAP 자체) | D-Code → CD-Code 치환하여 적용 |
-| **C-Code** | C-01~C-13 | — | 그대로 계승 |
-| **D-Code** | — | D-01~D-15 (꾸란 교리) | CD-01~CD-12 (가톨릭 교리)로 치환 |
-| **E-Code** | E-01~E-16 | E-01~E-08 | BVCAP E-Code 계승 + CE-01~CE-08 추가 |
-| **판결 체계** | CONSISTENT/UNRESOLVED/CONTRADICTION | CHECKMATE | Track 1 + Track 2 종합 → CHECKMATE/SIEGE/ENGAGED |
-| **OODA Loop** | — | 10라운드 | 그대로 적용 (이슬람 변증 → 가톨릭 변증으로 치환) |
+| 구성 요소 | QVCAP 원본 | CVCAP 적용 방식 |
+|:---|:---|:---|
+| **감사 대상** | 꾸란 구절 모순 | 가톨릭 교리·문헌 모순 |
+| **D-Code** | D-01~D-15 (꾸란 교리) | CD-01~CD-12 (가톨릭 교리)로 치환 |
+| **E-Code** | E-01~E-08 (이슬람 회피) | CE-01~CE-10 (가톨릭 회피)로 치환·확장 |
+| **OODA Loop** | 10라운드 | 그대로 적용 (이슬람 변증 → 가톨릭 변증으로 치환) |
+| **판결** | CHECKMATE | IMPLOSION / PARTIAL / LOOP (성경 법정과의 통합 CHECKMATE는 상위 병합 단계) |
 
 ---
 
-*Generated by CVCAP 2.0 Pipeline (전술 교범 — Track 2 Logic Layer)*
-*Architecture: Dual-Layer Dual-Track System*
-*  Track 1: ../the-scripture-audit/BVCAP_Pipeline.md (임포트)*
-*  Track 2: 본 문서 (QVCAP 방식 가톨릭 특화)*
+*Generated by CVCAP 3.0 Pipeline (전술 교범 — Logic Layer)*
+*Architecture: Internal-Documents-Only Single-Track*
+*  법정 절차: 본 문서 | 자동 발굴: CVCAP_3.0_METHODOLOGY.md | 전략·판결: CVCAP_GHQ.md*
 *STATUS: RIGOROUS LOGIC ENFORCED | 10-ROUND OODA MANDATORY | TARGET: IMPLOSION*
