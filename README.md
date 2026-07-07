@@ -42,9 +42,14 @@
 │   ├── 🏹 04_QUIVER(무기고)             # [4단계] 전종 정밀 포렌식 무기 (TYPE-A ~ AQ + TYPE-B-π)
 │   ├── 📥 _INBOX(작전목표)              # [입력] 해결 대기 중인 감사/방어 목표
 │   └── 📁 05_REPORT(전과보고서)          # [출력] 완료된 감사의 최종 마스터피스 보고서
-├── ⛪ the-catholic-audit/               # 가톨릭 교리 감사 시스템 (CVCAP 의미론적 검증 엔진)
-│   ├── 📚 05_DOCTRINE_DB/              # [DB] 교리 원문 카드 DB (CCC, 공의회 교령, 교황 칙서 등)
-│   ├── 📁 08_REPORT/                   # [출력] AI 의미론적 분석 결과 및 자동 필터 결과 파일 저장
+├── ⛪ the-catholic-audit/               # 가톨릭 교리 감사 시스템 (CVCAP 3.0 — 내부 문헌 전용 엔진)
+│   ├── 📜 01_MANDATE/                  # [수칙] 작전 명령서
+│   ├── 🗺️ 02_TACTICS/                  # [전술] 타격 전술 + CATHOLIC_VAULT 문헌 DB
+│   ├── 💣 03_QUIVER/                   # [무기] 문헌 법정 Implosion 파탄 카드 1~6
+│   ├── 📚 04_DOCTRINE_DB/              # [DB] 교리 원문 카드 DB (CCC, 공의회 교령, 교황 칙서 등)
+│   ├── 🃏 05_COLLISION_CARDS/          # [확정] 검증 완료된 충돌 카드 + 콤보 카드
+│   ├── 🔍 06_ZERO_DAY/                 # [탐색] 신규 문헌 우선 스캔 후보
+│   ├── 📁 07_REPORT/                   # [출력] AI 의미론적 분석 결과 및 자동 필터 결과 파일 저장
 │   └── ⚙️ scripts/                     # [엔진] 파이썬 기반 문장 임베딩(SentenceTransformer) 실행 스크립트
 └── 🎙️ the-sermon-audit/                # 설교 감사 시스템 (설교 검증을 위한 SVAP 엔진)
     ├── 📥 _INBOX(설교목록)              # [입력] 설교 감사 대상

@@ -10,52 +10,45 @@ from sklearn.metrics.pairwise import cosine_similarity
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
     sys.stdout.reconfigure(encoding='utf-8')
 
-DB_DIR = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\05_DOCTRINE_DB"
-REPORT_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\auto_conflict_results.csv"
-EXCLUDED_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\08_REPORT\auto_conflict_excluded_self_negation.csv"
+DB_DIR = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\04_DOCTRINE_DB"
+REPORT_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_results.csv"
+EXCLUDED_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_excluded_self_negation.csv"
 
-# char n-gram 코사인 유사도는 부정어(아니다/없다/불가능 등)를 사실상 구분하지 못하므로,
-# "A가 주장하는 명제 P"가 "B가 negate에 적어둔 문장(실제로는 B 자신도 주장하는 P의 재진술)"과
-# 표면적으로 비슷하다는 이유만으로 충돌로 오분류되는 사례가 실측 검증됨
-# (예: CCC-1257 vs TRENT-S07-C05 — 둘 다 "세례는 구원에 필수" 라는 동일 입장인데 0.328로 매칭됨,
-#      TRENT-S13-C01 vs CCC-1376 — 둘 다 화체설을 긍정하는 동일 교리인데 0.36으로 매칭됨).
+# [오탐 필터 이력 및 원리]
+# 초기 버전은 TF-IDF char n-gram(임계값 0.20)을 사용했고, 현재는 Sentence-Transformers
+# 다국어 임베딩(임계값 0.60)을 사용한다. 임베딩도 "주제 인접"과 "논리 모순"을 완전히
+# 구분하지 못하므로 아래 두 겹의 오탐 필터를 유지한다:
 #
-# 검증된 판별법: A의 주장(claim)을 B의 negate 항목뿐 아니라 B "자신의" claims 목록과도 비교한다.
-# 만약 B 스스로도 A의 주장과 거의 동일한 내용을 자기 claims에 갖고 있다면(=B도 그 명제를 긍정),
-# negate 매칭 점수가 아무리 높아도 이는 "충돌"이 아니라 "동일 입장 확인"이다.
-# (검증 데이터: 오탐 사례는 cross-claim 유사도가 negate 매칭 점수보다 항상 높았고,
-#  실제 충돌 사례는 cross-claim 유사도가 negate 매칭 점수보다 항상 크게 낮았다.)
+# ① Cross-claim 자동 필터: A의 주장(claim)을 B의 negate 항목뿐 아니라 B "자신의" claims
+#    목록과도 비교한다. B 스스로도 A의 주장과 거의 동일한 내용을 자기 claims에 갖고 있다면
+#    (=B도 그 명제를 긍정), negate 매칭 점수가 아무리 높아도 "충돌"이 아니라 "동일 입장"이다.
 #
-# 그러나 cross-claim 유사도가 negate 매칭 점수보다 "근소하게" 낮은 경계 사례가 다수 실측되었고
-# (예: VAT1-PASTOR-AETERNUS vs CCC-888_892는 0.318 vs 0.317로 사실상 동점),
-# 그 원인을 직접 05_DOCTRINE_DB 원문을 읽어 확인한 결과 두 가지 유형으로 나뉜다:
-#   (1) 문헌 DB 자체에 같은 문서를 가리키는 카드가 2장 존재 — 예) DIGNITATIS-HUMANAE와 VATICAN2-DH는
-#       둘 다 1965년 종교 자유 선언 원문이고, PAPAL-FIDUCIA와 FIDUCIA-SUPPLICANS는 둘 다 2023년
-#       피두치아 수플리칸스 선언 원문이며, TRENT-S13(회기 요약)과 TRENT-S13-C01(동일 회기의 개별 조항),
-#       CCC-1322_1419(범위 요약)와 CCC-1376(그 범위 안의 개별 항), CCC-1471_1479(범위 요약)와
-#       CCC-1471(그 범위 안의 개별 항)도 각각 동일 출처의 요약 카드/세부 카드 쌍이다.
-#   (2) 서로 다른 두 문헌이 우연히 같은 교리를 긍정 — 예) VAT1-PASTOR-AETERNUS와 CCC-888_892는 둘 다
-#       "교황이 사도좌에서 선언하면 무류하다"를 긍정하고, TRENT-S07-C05와 CCC-1257은 둘 다
-#       "세례는 통상적 수단으로서 구원에 필수"라는 동일 입장(예외 가능성까지 포함)을 취한다.
-# char n-gram 유사도의 노이즈만으로는 이 경계를 안정적으로 가르지 못하므로, 위 원문 대조로 직접
-# 검증한 쌍은 negate 매칭 점수와 무관하게 강제로 "동일 입장"으로 분류한다. 임의의 숫자 마진을
-# 적용하지 않는 이유는, 마진을 넉넉히 잡으면 CCC-1861 vs AMORIS-LAETITIA-CH8(대죄 성립 요건 vs
-# 사목적 식별)처럼 실제로는 신학적 긴장이 남아있는 정당한 후보까지 함께 제외되기 때문이다.
+# ② 수작업 원문 대조 목록(KNOWN_SAME_POSITION_PAIRS): cross-claim 점수가 negate 매칭 점수보다
+#    근소하게 낮아 자동 필터를 통과하는 경계 사례를 04_DOCTRINE_DB 원문까지 직접 읽어
+#    "서로 다른 두 문헌이 같은 교리를 긍정" 또는 "범위 요약 카드/개별 조항 카드의 부분 중첩"으로
+#    확인한 쌍. 점수와 무관하게 강제로 "동일 입장"으로 분류한다. 임의의 숫자 마진을 적용하지
+#    않는 이유는, 마진을 넉넉히 잡으면 CCC-1861 vs AMORIS-LAETITIA-CH8(대죄 성립 요건 vs
+#    사목적 식별)처럼 실제로는 신학적 긴장이 남아있는 정당한 후보까지 함께 제외되기 때문이다.
+#
+# ※ 2026-07-07 DB 정리: 같은 문서가 batch 카드와 개별 카드로 "완전 중복" 등록되어 있던 사례
+#    (VATICAN2-DH/DIGNITATIS-HUMANAE, PAPAL-FIDUCIA/FIDUCIA-SUPPLICANS, PAPAL-UNAM/UNAM-SANCTAM,
+#    VATICAN2-NA/NOSTRA-AETATE, VATICAN1-PA/VAT1-PASTOR-AETERNUS, VATICAN2-LG/LG-16,
+#    PAPAL-AMORIS/AMORIS-LAETITIA-CH8, CCC-2068 동일 ID 중복)는 DB에서 batch 쪽 카드를 삭제하여
+#    원천 해결했다. 아래 목록에는 현존 카드 쌍만 남긴다. (범위 요약 ↔ 개별 조항 카드는 서로
+#    다른 범위를 다루므로 카드 자체는 유지하고, 여기서 동일 입장으로만 처리한다.)
 KNOWN_SAME_POSITION_PAIRS = {
+    # 서로 다른 두 문헌이 같은 교리를 긍정 — 둘 다 "교황이 사도좌에서 선언하면 무류하다"
     frozenset({'VAT1-PASTOR-AETERNUS', 'CCC-888_892'}),
-    frozenset({'VATICAN2-DH', 'DIGNITATIS-HUMANAE'}),
     frozenset({'COUNCIL-LATERAN_IV', 'TRENT-S13-C01'}),
+    # 범위 요약 카드 ↔ 개별 조항 카드의 부분 중첩 (성체성사/면죄부 계열)
     frozenset({'TRENT-S13', 'CCC-1322_1419'}),
     frozenset({'TRENT-S07-C05', 'CCC-1257'}),
     frozenset({'TRENT-S13', 'CCC-1376'}),
     frozenset({'COUNCIL-LATERAN_IV', 'CCC-1376'}),
-    frozenset({'FIDUCIA-SUPPLICANS', 'PAPAL-FIDUCIA'}),
     frozenset({'COUNCIL-LATERAN_IV', 'CCC-1322_1419'}),
     frozenset({'CCC-1471', 'CCC-1471_1479'}),
     frozenset({'TRENT-S13-C01', 'CCC-1322_1419'}),
     frozenset({'CCC-1376', 'CCC-1322_1419'}),
-    frozenset({'UNAM-SANCTAM', 'PAPAL-UNAM'}),  # 둘 다 1302년 교서 Unam Sanctam 원문 (batch 카드 vs 개별 카드 중복)
-    frozenset({'NOSTRA-AETATE', 'VATICAN2-NA'}),  # 둘 다 1965년 선언 Nostra Aetate 원문 (batch 카드 vs 개별 카드 중복)
     # 아래 4쌍은 상위 스코어(0.30~0.39) 항목을 원문까지 대조해 개별 검증한 결과다.
     # TRENT-S06 vs CCC-1987_2016: CCC-1987_2016 자신의 claim #1("칭의는 죄의 사면과 내적 성화를
     # 모두 포괄")이 TRENT-S06의 주장과 같은 내용이며, negate #1("이신칭의")은 둘 다 함께 배격하는
@@ -100,14 +93,9 @@ KNOWN_SAME_POSITION_PAIRS = {
     frozenset({'CCC-1452', 'CCC-1996'}),
 }
 
-# 위 12쌍은 애초 negate 매칭 점수가 우연히 높게 나온 경계 사례를 추적하다 발견된 것이고,
-# 05_DOCTRINE_DB 전체를 (출처, 조항 범위) 기준으로 훑어보면 같은 문서가 "batchN_*.md" 요약 카드와
-# 개별 카드로 이중 등록된 사례가 더 있다(예: VATICAN1-PA/VAT1-PASTOR-AETERNUS, VATICAN2-LG/LG-16,
-# PAPAL-AMORIS/AMORIS-LAETITIA-CH8, CCC-1030_1032/CCC-1030, CCC-1257_1261/CCC-1257,
-# TRENT-S06·S07·S14·S22·S24 각 세션 요약 카드와 그 개별 조항 카드들). 이들은 현재 임계값(0.20)을
-# 넘는 매칭이 없어 결과에 영향을 주지 않으므로 위 목록에 넣지 않았지만, 데이터베이스 정합성 관점에서는
-# 같은 문서를 가리키는 카드 쌍이 존재한다는 사실 자체가 별도로 정리가 필요한 이슈다.
-# (참고: CCC-2068은 개별 카드와 batch 카드가 ID까지 완전히 동일하게 중복 등록되어 있다.)
+# 잔여 범위 중첩 계열(CCC-1030_1032↔CCC-1030, CCC-1257_1261↔CCC-1257, TRENT 세션 요약↔개별
+# 조항)은 "같은 문서의 완전 중복"이 아니라 범위가 다른 카드이므로 DB에 유지한다. 새 충돌 후보가
+# 이 계열에서 높은 점수로 올라오면 원문 대조 후 위 목록에 추가하는 방식으로 관리한다.
 
 def parse_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
