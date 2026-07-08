@@ -1,12 +1,15 @@
 # 🏹 가톨릭 교리 특화 성경 무기 카드
 ## BVCAP 가톨릭 타격 포렌식 세트
 
-> **출처**: 본래 `the-catholic-audit/03_QUIVER_BVCAP/`에 있던 Track 1(성경 법정) 자산.
-> the-catholic-audit가 가톨릭 내부 문헌 전용 엔진(CVCAP 3.0)으로 전환되면서,
-> 성경 기반 검증 자산은 본 무기고(the-scripture-audit)로 이관되었다.
-> **용도**: 가톨릭이 성경을 근거로 교리를 주장할 때 즉시 투입
+> [!IMPORTANT]
+> **관할 주의 (Jurisdiction Notice)**: 이 파일은 **가톨릭 전용 자산**이므로 the-catholic-audit의
+> 무기고(`03_QUIVER/`)에 보관하지만, 카드 내용은 **성경 법정(BVCAP) 관할**이다.
+> CVCAP 문헌 법정(내부 문헌 논증)에는 **투입 금지** — BVCAP(`../../the-scripture-audit/`) 성경 검증과
+> 최종 병합 콘텐츠 제작 시에만 사용한다.
+
+> **용도**: 가톨릭이 성경을 근거로 교리를 주장할 때 즉시 투입 (BVCAP 절차 내에서)
 > **원칙**: KJV 원문만이 증거. 번역·전통·교도권은 증거 불채택.
-> **짝꿍**: 가톨릭 내부 문헌(CCC·공의회·교황 선언) 검증은 `../../the-catholic-audit/` (CVCAP) 담당.
+> **짝꿍**: 가톨릭 내부 문헌(CCC·공의회·교황 선언) 검증은 같은 폴더의 `QVCAP_WEAPONS.md` (문헌 법정) 담당.
 > 최종 콘텐츠 단계에서 양측 보고서를 통합한다.
 
 ---
@@ -151,5 +154,5 @@ IF 63절이 맞다면  → sarx = 무익한 것
 
 ---
 
-*BVCAP 가톨릭 특화 무기 카드 (구 the-catholic-audit Track 1 자산 — 2026-07-07 이관)*
-*교부 문헌 무기(아우구스티누스 역체리피킹)는 가톨릭 '내부 문헌'이므로 the-catholic-audit/03_QUIVER/로 이동됨*
+*BVCAP 가톨릭 특화 무기 카드 — 가톨릭 전용 자산으로 the-catholic-audit/03_QUIVER/에 보관 (성경 법정 관할, 병합 단계 전용)*
+*교부 문헌 무기(아우구스티누스 역체리피킹)는 가톨릭 '내부 문헌'이므로 같은 폴더 QVCAP_WEAPONS.md 파탄 카드 6 참조*

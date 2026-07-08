@@ -35,7 +35,9 @@
 > - 병합 판정: 같은 교리에 대해 BVCAP ❌ CONTRADICTION + CVCAP 💥 IMPLOSION 이 모두 확정되면
 >   통합 보고서에서 🔴 **CHECKMATE**(외통수)를 선언할 수 있다. CHECKMATE는 통합 단계의 판결이며
 >   본 엔진 단독 판결이 아니다.
-> - 가톨릭 특화 성경 무기는 `../the-scripture-audit/04_QUIVER(무기고)/CATHOLIC_TARGETED_WEAPONS.md`로 이관됨.
+> - 가톨릭 특화 성경 무기는 `03_QUIVER/CATHOLIC_TARGETED_WEAPONS.md`에 보관한다 (가톨릭 전용 자산이므로 본 폴더 소속).
+>   단, 이 카드들은 **성경 법정(BVCAP) 관할 무기**이므로 문헌 법정 논증에는 투입하지 않고,
+>   BVCAP 검증 및 최종 병합 콘텐츠 제작 시에만 사용한다.
 
 ---
 
