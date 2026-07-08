@@ -46,7 +46,10 @@ CVCAP 2.0은 '해석학적 단절, 후건 부정식, 귀류법, 실천적 모순
 
 ### Step 3: LLM 2차 정밀 심사 (LLM-as-a-Judge)
 - 임베딩 유사도는 '주제 인접'과 '논리 모순'을 구분하지 못하므로, 후보를 LLM이 신학적 맥락에서 재심사
-- 실행: `scripts/llm_judge.py` → `07_REPORT/llm_verified_conflicts.csv`
+- **실행 경로 2가지 (둘 다 별도 API 키 불필요 — 로그인된 Claude Code 사용)**:
+  - 배치 스크립트: `python scripts/llm_judge.py [N] [START]` — claude CLI 헤드리스(`claude -p`)를 자식 프로세스로 호출, 10건씩 묶음 심사, 구간 분할 실행 시 판정 자동 병합 → `07_REPORT/llm_verified_conflicts.csv`(YES만) + `llm_judge_full_log.csv`(전체 로그)
+  - 대화형 서브에이전트: Claude Code 세션에서 `cvcap-judge` 에이전트 호출 (정의: 리포 루트 `.claude/agents/cvcap-judge.md`) — 원문 카드 대조까지 겸한 정밀 심사에 적합
+- ⚠️ **방향 오류 가드 (실측 교훈)**: "A의 주장이 B의 단죄 명제와 모순"은 충돌이 아니라 **동일 입장**이다(둘 다 그 명제를 배격). 진짜 충돌은 "A가 주장하는 바로 그것을 B가 단죄"할 때만 성립 — 이 가드 없이 심사하면 동일 입장 쌍이 대량 오탐된다 (2026-07-07 실측: 상위 100건 심사에서 오탐 9건 발생 후 프롬프트에 가드 추가).
 
 ### Step 4: 콤보 탐지 (2~4단)
 ```

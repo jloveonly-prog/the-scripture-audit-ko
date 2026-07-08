@@ -10,7 +10,7 @@ CVCAP 3.0은 **가톨릭 자체 문헌(CCC, 공의회, 교황 선언, 교회법,
 > - **성경 법정** (가톨릭 교리 vs 성경 원문) → `../the-scripture-audit/` (BVCAP) 담당
 > - **문헌 법정** (가톨릭 문헌 vs 가톨릭 문헌) → **본 엔진 (CVCAP)** 담당
 > - 최종 콘텐츠 제작 단계에서 **두 엔진의 완성된 보고서를 병합**하며, 같은 교리에 대해 양측 모두 붕괴가 확정되면 통합 보고서에서 🔴 CHECKMATE를 선언합니다.
-> - 가톨릭 특화 성경 무기는 `../the-scripture-audit/04_QUIVER(무기고)/CATHOLIC_TARGETED_WEAPONS.md`로 이관되었습니다.
+> - 가톨릭 특화 성경 무기는 가톨릭 전용 자산이므로 `03_QUIVER/CATHOLIC_TARGETED_WEAPONS.md`에 보관합니다. 단 이 카드들은 성경 법정(BVCAP) 관할이므로 문헌 법정 논증에는 사용하지 않고, BVCAP 검증·최종 병합 단계에서만 사용합니다.
 
 ### 왜 내부 문헌 전용인가: "내부 붕괴(Implosion) 전략"
 

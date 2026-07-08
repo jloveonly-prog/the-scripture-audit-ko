@@ -3,7 +3,7 @@
 
 > **발동 조건**: 가톨릭 교리·변증 주장이 입력되는 즉시 (본 무기고가 CVCAP의 주력 무기고다)
 > **전략**: 가톨릭의 자체 문헌(CCC·공의회·교황 선언·교부)으로 가톨릭을 피고석에 세운다
-> **성경 무기**: 본 엔진에서 다루지 않음 — `../../the-scripture-audit/04_QUIVER(무기고)/CATHOLIC_TARGETED_WEAPONS.md` 참조
+> **성경 무기**: 문헌 법정에서는 사용하지 않음 — 같은 폴더의 `CATHOLIC_TARGETED_WEAPONS.md` 참조 (성경 법정/BVCAP 관할, 병합 단계 전용)
 
 ---
 
