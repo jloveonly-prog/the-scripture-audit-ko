@@ -18,10 +18,10 @@
 | 자동 탐지 후보 (임베딩) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Sentence-Transformers 유사도 ≥0.60 + cross-claim 필터 통과 후보 **2,235건** (미확정) | ✅ 최신 |
 | 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(동일 입장)으로 판정되어 제외된 **1,683건** (제외 사유별 구분 표기) | ✅ 최신 |
 | 콤보 필터 태깅 | [cvcap_combo_results.csv](./cvcap_combo_results.csv) | CVCAP 3.0 다중 필터에 동시 적발된 **662건** (키워드 태깅 — 미확정 후보) | ✅ 최신 |
-| LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). 상위 100건 중 **진짜 충돌 13건** 판정 | ✅ 최신 |
-| LLM 심사 전체 로그 | [llm_judge_full_log.csv](./llm_judge_full_log.csv) | 상위 100건의 YES/NO/ERROR 전체 판정 + 근거 (감사 추적용) | ✅ 최신 |
+| LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). **상위 500건 전수 심사 완료: 진짜 충돌 후보 8건** (방향 오류 가드 적용, 에러 0건) | ✅ 최신 |
+| LLM 심사 전체 로그 | [llm_judge_full_log.csv](./llm_judge_full_log.csv) | 상위 500건의 YES/NO 전체 판정 + 근거 (감사 추적용). 501위 이하 재개: `python scripts/llm_judge.py N 501` | ✅ 최신 |
 | 충돌 네트워크 시각화 | [conflict_network.html](./conflict_network.html) | Vis.js 인터랙티브 그래프 — 유사도 **상위 150건** (Chrome으로 열기) | ✅ 최신 |
-| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~010, 수작업 정밀 검증 완료 (009·010은 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴) | ✅ 최신 |
+| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~011, 수작업 정밀 검증 완료 (009~011은 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴) | ✅ 최신 |
 | 콤보 카드 (확정) | [`../05_COLLISION_CARDS/combos/`](../05_COLLISION_CARDS/combos/) | COMBO-01~05 — 마리아론·무류성·구원론·연옥/대사·동성 축복 연쇄 붕괴 카드 | ✅ 최신 |
 | 제로데이 스캔 후보 | [`../06_ZERO_DAY/scan_targets.md`](../06_ZERO_DAY/scan_targets.md) | 향후 우선 탐색 대상 (Fiducia Supplicans 등) | 🔄 진행 중 |
 

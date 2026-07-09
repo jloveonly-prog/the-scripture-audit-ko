@@ -45,7 +45,6 @@
 0.851,CCC-1861,대죄와 은총 상실,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,회개하지 않은 대죄는 영원한 지옥의 벌을 가져온다,사제 없이 하느님께 직접 고백하면 죄가 사해진다는 명제,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.851,TRENT-S06-C32,선한 행위가 공로 없다 하면 파문,FIDUCIA-SUPPLICANS,동성 커플 축복 허용,선한 행위를 통해 영원한 생명을 참으로 얻을 수 있다,비정규적 결합에 있는 사람에 대해 어떤 형태의 축복도 줄 수 없다는 명제,F2_RUPTURE | F4_ACTION_DOC,COMBO-05_MORAL_COLLAPSE
 0.849,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,LG-16,Lumen Gentium 16항: 복음을 모르는 이들의 구원 가능성,고해성사는 그리스도에 의해 제정되었다,복음을 모르는 이들에게 하느님이 구원의 기회를 주지 않는다는 명제,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
-0.848,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,TRENT-S14,고해성사와 병자성사,세례 후 대죄의 사함을 위해 사제 앞 고백은 하느님의 법에 의해 필수이다,죄를 사제에게 낱낱이 고백하지 않고 하느님께 직접 고백하는 것만으로 충분하다.,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.848,LG-16,Lumen Gentium 16항: 복음을 모르는 이들의 구원 가능성,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,"무슬림은 아브라함의 신앙을 지니고 있다고 공언하며, 유일하신 하느님을 경배한다",사제의 사죄가 단지 복음 선포/선언에 불과하다는 명제,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.847,CCC-1452,완전한 통회 (Contritio Perfecta),TRENT-S06-C09,오직 믿음(Sola Fide)으로 의롭다 하면 파문,완전한 통회는 소죄의 용서를 가져온다,의화에 인간 의지의 어떤 준비도 필요 없다는 명제,F2_RUPTURE | F3_TOLLENS,COMBO-03_SALVATION
 0.847,CCC-1452,완전한 통회 (Contritio Perfecta),TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,완전한 통회는 소죄의 용서를 가져온다,사제 없이 하느님께 직접 고백하면 죄가 사해진다는 명제,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
@@ -279,7 +278,6 @@
 0.714,CCC-1257,세례의 필수성,TRENT-S22-C01,미사는 참된 속죄 제사,교회는 세례 외에 구원의 다른 수단을 알지 못한다,미사에 속죄적 가치가 없다는 명제,F2_RUPTURE | F3_TOLLENS,COMBO-03_SALVATION
 0.712,CCC-0491,마리아 무염시태,CCC-1376,화체설 (Transsubstantiatio),이 보존은 하느님의 특별한 은총과 특전에 의한 것이다,그리스도의 현존은 영적/비유적 의미일 뿐이다,F1_REDUCTIO | F8_SILENCE,COMBO-01_MARIOLOGY
 0.712,CCC-1452,완전한 통회 (Contritio Perfecta),TRENT-S07-C05,세례가 구원에 필수 아니라 하면 파문,고해성사 이전에도 대죄의 용서가 가능하다,세례 없이도 믿음만으로 구원받을 수 있다는 명제,F2_RUPTURE | F3_TOLLENS,COMBO-03_SALVATION
-0.712,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,TRENT-S14,고해성사와 병자성사,사제만이 죄를 사할 권한을 갖는다 (요한 20:23에 근거),죄를 사제에게 낱낱이 고백하지 않고 하느님께 직접 고백하는 것만으로 충분하다.,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.711,COUNCIL-CONST_III,호노리우스 1세 교황 정죄,CCC-888_892,교도권과 교황 무류성 (Infallibility),로마 교황(호노리우스)이라 할지라도 이단적 교리를 수용하거나 묵인하여 교회를 더럽혔다면 공의회를 통해 이단자로 선고받고 파문될 수 있다.,교황이 '좌에서(Ex Cathedra)' 선언한 신앙과 도덕 교리라 할지라도 성경과 어긋나면 오류가 있을 수 있다.,F5_GOALPOST | F6_RETORSION | F7_FALSE_DICH,COMBO-02_PAPACY
 0.711,TRENT-S22-C01,미사는 참된 속죄 제사,FIDUCIA-SUPPLICANS,동성 커플 축복 허용,미사에서 하느님께 참되고 고유한 희생 제사가 봉헌된다,비정규적 결합에 있는 사람에 대해 어떤 형태의 축복도 줄 수 없다는 명제,F2_RUPTURE | F4_ACTION_DOC,COMBO-05_MORAL_COLLAPSE
 0.71,CCC-1030,연옥,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,연옥은 하느님의 은총 안에서 죽었으나 완전히 정화되지 못한 자들을 위한 것이다,사제 없이 하느님께 직접 고백하면 죄가 사해진다는 명제,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
@@ -303,7 +301,6 @@
 0.701,LG-16,Lumen Gentium 16항: 복음을 모르는 이들의 구원 가능성,CCC-2357,동성애 (Homosexualitas),신적 섭리는 이런 사람들에게 구원에 필요한 도움을 거부하지 않는다,성경은 동성애에 대해 침묵한다,F2_RUPTURE | F4_ACTION_DOC,COMBO-05_MORAL_COLLAPSE
 0.7,CCC-1213_1284,세례 성사의 은총,TRENT-S14,고해성사와 병자성사,세례는 영혼에 지울 수 없는 영적 인호(표지)를 새기며 교회 공동체의 지체가 되게 한다.,고해성사는 성사가 아니라 교회가 억압을 위해 고안한 인간적 전통이다.,F2_RUPTURE | F3_TOLLENS,COMBO-03_SALVATION
 0.7,CCC-1030,연옥,TRENT-S07-C05,세례가 구원에 필수 아니라 하면 파문,연옥이 존재한다,세례가 구원에 필수가 아니라는 명제,F2_RUPTURE | F3_TOLLENS,COMBO-03_SALVATION
-0.7,TRENT-S14,고해성사와 병자성사,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,고해성사는 그리스도께서 직접 제정하신 죄 사함의 참된 성사이다.,모든 신자가 죄를 사할 권한을 갖는다는 명제 (만인사제직의 확대 해석),F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.7,TRENT-S14-CONFESSION,사제의 사죄가 죄 사함에 필수,CCC-161_165,믿음과 구원,세례 후 대죄의 사함을 위해 사제 앞 고백은 하느님의 법에 의해 필수이다,예수 그리스도를 향한 믿음 없이도 구원을 얻을 수 있다.,F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.699,CCC-1422_1498,고해성사와 사죄권,TRENT-S13-C01,화체설: 빵과 포도주의 실체 변환,서품받은 사제는 그리스도를 대리하여 신자들의 죄를 사면할 수 있는 신적 권한을 가진다.,그리스도가 성체 안에 힘(virtus)으로만 현존한다는 명제 (칼빈주의),F2_RUPTURE | F3_TOLLENS | F6_RETORSION,COMBO-03_SALVATION
 0.699,TRENT-S05,원죄 교령,CCC-161_165,믿음과 구원,아담의 원죄는 혈통(번식)을 통해 모든 인류에게 예외 없이 전수된다(마리아 제외).,예수 그리스도를 향한 믿음 없이도 구원을 얻을 수 있다.,F1_REDUCTIO | F2_RUPTURE | F8_SILENCE,COMBO-01_MARIOLOGY
