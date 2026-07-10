@@ -393,16 +393,7 @@ TheScriptureMaster라고 합니다.
 *VERDICT: 천사설 TENTATIVE / 선악과 이전 아담 자녀설 IRONCLAD 유지*
 
 ---
-
-## 📂 참고 자료 — GitHub 저장소
-
-> **BVCAP 전체 보고서 저장소 (공개)**
-
-| 항목 | 링크 |
-|:---|:---|
-| **저장소 메인** | [https://github.com/jloveonly-prog/the-scripture-audit-ko](https://github.com/jloveonly-prog/the-scripture-audit-ko) |
-
-
+ 
 
 
 ### 📖 후속 연구 문서 — 추천 읽기 순서
@@ -470,6 +461,10 @@ TheScriptureMaster라고 합니다.
 
 > **[TheScriptureMasterVS연구원 실전 사례2](./REPORT_TheScriptureMasterVS연구원v2.md)**
 > 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순 실전 검증, 120년 카운트다운설 반박.
+
+> **[TheScriptureMasterVS연구원 실전 사례3](./REPORT_TheScriptureMasterVS연구원v3.md)**
+> 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순 실전 검증, 120년 카운트다운설 반박.
+
 
 > **[창세기6장_하나님의아들들_심층논쟁로그](./REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)**
 > 15단계 실전 공방 기록. 천사설이 초반 우세에서 역전당하는 전 과정.
