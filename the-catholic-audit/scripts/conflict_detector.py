@@ -95,6 +95,15 @@ KNOWN_SAME_POSITION_PAIRS = {
     # A의 주장("사제 앞 고백은 신법상 필수")은 B의 negate("직접 고백만으로 충분")의 정확한 부정이므로
     # 둘은 같은 입장이다 — 2026-07-08 LLM 심사에서 방향 오류로 YES 판정됐다가 수작업으로 기각된 사례.
     frozenset({'TRENT-S14-CONFESSION', 'TRENT-S14'}),
+    # ── 아래 7쌍은 2026-07-08 LLM 심사(495~985위 구간)에서 YES로 올라왔으나 수작업 재검증 결과
+    #    전부 "A의 주장이 B의 negate와 반대 = 둘 다 같은 명제를 배격하는 동일 입장"으로 기각된 쌍 ──
+    frozenset({'COUNCIL-FLORENCE', 'COUNCIL-LATERAN_IV'}),   # 둘 다 엄격 EENS(교회 밖 구원 불가) 진영
+    frozenset({'VAT1-PASTOR-AETERNUS', 'CCC-880_896'}),      # 둘 다 교황 보편 재치권 긍정
+    frozenset({'CANON-MARRIAGE', 'TRENT-S24-MARRIAGE'}),     # 둘 다 혼인 불가해소성 긍정
+    frozenset({'DENZINGER-FEENEY', 'CCC-0847'}),             # 둘 다 가시적 구성원 밖 구원 가능성 인정
+    frozenset({'CCC-456_478', 'CCC-161_165'}),               # 둘 다 그리스도/믿음의 구원 필수성 긍정
+    frozenset({'CCC-1471', 'CCC-954_962'}),                  # 둘 다 성인들의 공로·통공 긍정
+    frozenset({'CCC-0491', 'CCC-1213_1284'}),                # 둘 다 "원죄 잔존" 배격 (마리아 예외 긴장은 COL-007이 담당)
 }
 
 # 잔여 범위 중첩 계열(CCC-1030_1032↔CCC-1030, CCC-1257_1261↔CCC-1257, TRENT 세션 요약↔개별

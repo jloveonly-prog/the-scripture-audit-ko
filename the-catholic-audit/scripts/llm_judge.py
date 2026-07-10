@@ -21,11 +21,17 @@ CSV_PATH = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_confli
 OUTPUT_PATH = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\llm_verified_conflicts.csv"
 FULL_LOG_PATH = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\llm_judge_full_log.csv"
 
-# 사용법: python llm_judge.py [N] [START]
-#   N     — 심사 건수 (기본 100)
-#   START — 시작 순위, 1부터 (기본 1). 예: `python llm_judge.py 400 101` → 101~500위 심사
-TOP_N = int(sys.argv[1]) if len(sys.argv) > 1 else 100
-START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+# 사용법:
+#   python llm_judge.py next [N]   — 아직 심사하지 않은 후보 중 순위 상위 N건만 심사 (기본 100)
+#                                    ★ 비용 분할용 권장 모드: 몇 번을 나눠 실행해도 이어서 진행됨
+#   python llm_judge.py [N] [START] — 순위 START부터 N건 심사 (수동 구간 지정)
+NEXT_MODE = len(sys.argv) > 1 and sys.argv[1].lower() == 'next'
+if NEXT_MODE:
+    TOP_N = int(sys.argv[2]) if len(sys.argv) > 2 else 100
+    START = 1  # next 모드에서는 미사용
+else:
+    TOP_N = int(sys.argv[1]) if len(sys.argv) > 1 else 100
+    START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
 BATCH_SIZE = 10          # CLI 호출 1회당 심사 건수
 MODEL = "haiku"          # 예/아니오 판정용 — 빠르고 저렴. 정밀 재심사 시 "sonnet"으로 상향
 TIMEOUT_SEC = 600        # 배치 1회 호출 제한 시간
@@ -106,24 +112,42 @@ def main():
         return
 
     with open(CSV_PATH, 'r', encoding='utf-8-sig') as f:
-        candidates = list(csv.DictReader(f))
+        all_candidates = list(csv.DictReader(f))
 
-    # 유사도(Score) 순으로 이미 정렬되어 있다고 가정하고 START~START+N-1 구간 추출
-    candidates = candidates[START - 1:START - 1 + TOP_N]
-    if not candidates:
-        print(f"심사할 후보가 없습니다 (START={START}, N={TOP_N}).")
-        return
-    print(f"{START}~{START + len(candidates) - 1}위 후보 {len(candidates)}건을 {BATCH_SIZE}건씩 묶어 LLM 정밀 심사(LLM-as-a-Judge, claude CLI/{MODEL})를 시작합니다...")
+    if NEXT_MODE:
+        # 이미 심사된 후보(YES/NO — ERROR는 재심사 대상)를 로그에서 읽어 건너뛴다
+        done_keys = set()
+        if os.path.exists(FULL_LOG_PATH):
+            with open(FULL_LOG_PATH, 'r', encoding='utf-8-sig') as f:
+                for r in csv.DictReader(f):
+                    if r.get('LLM_Decision') in ('YES', 'NO'):
+                        done_keys.add(row_key(r))
+        pending = [(i, r) for i, r in enumerate(all_candidates, start=1) if row_key(r) not in done_keys]
+        if not pending:
+            print("🎉 전체 후보 심사 완료 — 미심사 잔여 0건입니다.")
+            return
+        if TOP_N <= 0:
+            print(f"미심사 잔여 {len(pending)}건 / 전체 {len(all_candidates)}건 (N=0 — 현황만 표시하고 종료)")
+            return
+        print(f"미심사 잔여 {len(pending)}건 / 전체 {len(all_candidates)}건 — 이번 단계에서 상위 {min(TOP_N, len(pending))}건을 심사합니다.")
+        indexed = pending[:TOP_N]
+        candidates = [r for _, r in indexed]
+    else:
+        # 유사도(Score) 순으로 이미 정렬되어 있다고 가정하고 START~START+N-1 구간 추출
+        candidates = all_candidates[START - 1:START - 1 + TOP_N]
+        if not candidates:
+            print(f"심사할 후보가 없습니다 (START={START}, N={TOP_N}).")
+            return
+        indexed = list(enumerate(candidates, start=START))
+
+    print(f"{indexed[0][0]}~{indexed[-1][0]}위 범위의 후보 {len(candidates)}건을 {BATCH_SIZE}건씩 묶어 LLM 정밀 심사(LLM-as-a-Judge, claude CLI/{MODEL})를 시작합니다...")
 
     verified_conflicts = []
     judged_rows = []  # YES/NO/ERROR 전체 기록 (감사 추적용)
-
-    indexed = list(enumerate(candidates, start=START))
     for start in range(0, len(indexed), BATCH_SIZE):
         batch = indexed[start:start + BATCH_SIZE]
         first, last = batch[0][0], batch[-1][0]
-        end_rank = indexed[-1][0]
-        print(f"[{first}~{last}위 / 전체 {START}~{end_rank}위] 배치 심사 중...")
+        print(f"[진행 {start + len(batch)}/{len(candidates)} — 순위 {first}~{last}위] 배치 심사 중...", flush=True)
         try:
             verdicts = call_claude_cli(claude_bin, build_prompt(batch))
             verdict_map = {int(v.get("idx", -1)): v for v in verdicts if isinstance(v, dict)}
@@ -172,7 +196,10 @@ def main():
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(merged_rows)
+    judged_ok_keys = {row_key(r) for r in merged_rows if r.get('LLM_Decision') in ('YES', 'NO')}
+    remaining = sum(1 for r in all_candidates if row_key(r) not in judged_ok_keys)
     print(f"누적 현황: 총 심사 {len(merged_rows)}건, 진짜 모순 판정 {len(merged_yes)}건")
+    print(f"📋 미심사 잔여: {remaining}건 / 전체 {len(all_candidates)}건 — 다음 단계: python scripts/llm_judge.py next [건수]")
     print(f"최종 결과(YES만, 누적): {OUTPUT_PATH}")
     print(f"전체 심사 로그(YES/NO/ERROR, 누적): {FULL_LOG_PATH}")
 
