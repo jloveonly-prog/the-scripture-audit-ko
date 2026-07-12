@@ -83,6 +83,12 @@
 * **요약:** 카카오 오픈채팅방 이슬람 논쟁 기록. 착시 설계 책임론, 600년 공백, 꾸란 내부 모순, 하디스 신뢰성 등 핵심 쟁점을 정리합니다.
 * **전과 보고서 (52KB):** [`이슬람_댓글.md`](./the-scripture-audit/05_REPORT(전과보고서)/Islam/이슬람_댓글.md)
 
+---
+
+## 14. 🕍 하나님의 교회(WMSCOG) 교리 붕괴 전과보고서
+* **요약:** 하나님의 교회(안상홍증인회)의 핵심 교리인 유월절 의식 유지와 안상홍 재림설의 치명적 논리 모순을 BVCAP 시스템으로 전수 감사한 보고서입니다.
+* **마스터피스 보고서:** [`REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md`](./the-scripture-audit/05_REPORT(전과보고서)/wmscog/REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md)
+
 
 ---
 
@@ -221,4 +227,11 @@
 |---|---|
 | [REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/kjv_defense/REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md) | [REPORT_Romans_7_6_Law_Death_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/kjv_defense/REPORT_Romans_7_6_Law_Death_Audit_Masterpiece.md) |
 | [이사야_이스터_kjv.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/kjv_defense/이사야_이스터_kjv.md) | [Isaiah_Easter_KJV.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/kjv_defense/Isaiah_Easter_KJV.md) |
+
+
+### 📁 Folder: wmscog
+
+| Korean File (KO) | English File (EN) |
+|---|---|
+| [REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/wmscog/REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md) | [REPORT_WMSCOG_Doctrine_Contradiction_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/wmscog/REPORT_WMSCOG_Doctrine_Contradiction_Audit_Masterpiece.md) |
 
