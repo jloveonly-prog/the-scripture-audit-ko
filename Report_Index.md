@@ -137,6 +137,10 @@
 | [REPORT_첫번째_세상민족.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_첫번째_세상민족.md) | [REPORT_First_World_Nation.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_First_World_Nation.md) |
 | [REPORT_TheScriptureMasterVS연구원v3.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원v3.md) | [REPORT_TheScriptureMaster_VS_Researcher_v3.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureMaster_VS_Researcher_v3.md) |
 | [창세기 6장은 타락한 천사이며 감옥에 있는 영들_목사님께_드리는_회신.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/창세기%206장은%20타락한%20천사이며%20감옥에%20있는%20영들_목사님께_드리는_회신.md) | [Reply_to_Pastor_Genesis_6_Fallen_Angels.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/Reply_to_Pastor_Genesis_6_Fallen_Angels.md) |
+| [REPORT_선악과먹기전아이들.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_선악과먹기전아이들.md) | [REPORT_Children_Before_Tree_Of_Knowledge.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Children_Before_Tree_Of_Knowledge.md) |
+| [REPORT_순서도비교_IFB_vs_TheScriptureMaster.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_순서도비교_IFB_vs_TheScriptureMaster.md) | [REPORT_Flowchart_Comparison_IFB_vs_TheScriptureMaster.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Flowchart_Comparison_IFB_vs_TheScriptureMaster.md) |
+| [REPORT_영적존재분류표.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_영적존재분류표.md) | [REPORT_Spiritual_Beings_Classification_Table.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Spiritual_Beings_Classification_Table.md) |
+| [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/bible_believer_index.md) | [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/bible_believer_index.md) |
 
 
 ### 📁 Folder: catholic
@@ -229,9 +233,11 @@
 | [이사야_이스터_kjv.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/kjv_defense/이사야_이스터_kjv.md) | [Isaiah_Easter_KJV.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/kjv_defense/Isaiah_Easter_KJV.md) |
 
 
+
 ### 📁 Folder: wmscog
 
 | Korean File (KO) | English File (EN) |
 |---|---|
-| [REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/wmscog/REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md) | [REPORT_WMSCOG_Doctrine_Contradiction_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/wmscog/REPORT_WMSCOG_Doctrine_Contradiction_Audit_Masterpiece.md) |
+| [REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/wmscog/REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md) | [REPORT_WMSCOG_Doctrinal_Contradictions_Integrated_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/wmscog/REPORT_WMSCOG_Doctrinal_Contradictions_Integrated_Audit_Masterpiece.md) |
+
 
