@@ -748,7 +748,7 @@ KJV는 `first estate`에서 **"first"를 서수(첫 번째)로 사용**합니다
 
 ---
 
-*↑ 위 FAQ는 실전 논쟁 대비용입니다. 더 상세한 공방 기록은 [TheScriptureMasterVS연구원 실전 사례들](./REPORT_TheScriptureMasterVS연구원.md)을 참조하십시오.*
+*↑ 위 FAQ는 실전 논쟁 대비용입니다. 더 상세한 공방 기록은 [TheScriptureMasterVS연구원 실전 사례들](./REPORT_TheScriptureOrg_VS_연구원.md)을 참조하십시오.*
 
 ---
 
@@ -773,7 +773,7 @@ KJV는 `first estate`에서 **"first"를 서수(첫 번째)로 사용**합니다
 * **요약:** 목회자분들께 드리는 정중한 인사말과 함께, 왜 우리가 창세기 6장의 '하나님의 아들들=천사설'을 외부 문헌(에녹서 등)이 아닌 오직 KJV 텍스트만으로 엄밀히 재검토해야 하는지 그 당위성을 설명하는 서신입니다.
 
 ### 📌 2. IFB vs TSM — 재창조 순서도 전면 비교
-* **파일명:** [`REPORT_순서도비교_IFB_vs_TheScriptureMaster.md`](./REPORT_순서도비교_IFB_vs_TheScriptureMaster.md)
+* **파일명:** [`REPORT_순서도비교_IFB_vs_TheScriptureOrg.md`](./REPORT_순서도비교_IFB_vs_TheScriptureOrg.md)
 * **요약:** (★강력 추천) 기존 IFB 세대주의의 창조·심판 순서도와 본 연구의 순서도를 15개 사건 비교표로 대조합니다. 베드로후서 2:4-6에 명시된 독립된 3개의 심판과 베드로후서 3장의 두 세상 구분을 통해, 기존 IFB 타임라인이 안고 있는 치명적인 자기모순(홍수를 2회 인정하면서 심판은 1건으로 묶어버리는 오류)을 직관적인 도표로 증명합니다.
 
 ---
@@ -833,8 +833,8 @@ KJV는 `first estate`에서 **"first"를 서수(첫 번째)로 사용**합니다
 
 ### ⚔️ 실전 공방 기록 (TheScripture.org vs 연구원)
 전통 신학에 젖어있는 연구원의 공격을 오직 KJV 텍스트 하나만으로 어떻게 논파하고 방어했는지 보여주는 실전 디펜스 로그입니다.
-* **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureMasterVS연구원.md)** 
-* **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureMasterVS연구원v2.md)**
-* **[실전 사례 3 (벧전 3:20 vs 벧후 2:4 시점 검증)](./REPORT_TheScriptureMasterVS연구원v3.md)**
+* **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureOrg_VS_연구원.md)** 
+* **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureOrg_VS_연구원v2.md)**
+* **[실전 사례 3 (벧전 3:20 vs 벧후 2:4 시점 검증)](./REPORT_TheScriptureOrg_VS_연구원v3.md)**
 * **[창세기 6장 하나님의 아들들 심층 논쟁 로그 (15단계 토론)](./REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)** (천사설이 초반 우세에서 어떻게 텍스트 앞에 무너지는지 보여주는 15단계 역전의 공방 기록)
 

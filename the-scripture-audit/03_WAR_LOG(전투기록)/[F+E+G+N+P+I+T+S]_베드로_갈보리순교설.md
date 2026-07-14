@@ -2478,7 +2478,7 @@ C. 저자가 알았지만 일부러 뺐다
 이 문서에서 다루는 주요 주제: 창세기 6장의 하나님의 아들들이 타락한 천사인지 아닌지 판결합니다.
 
 
->**[TheScriputreMasterVS연구원 실전 사례](../05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원.md)**
+>**[TheScriputreMasterVS연구원 실전 사례](../05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureOrg_VS_연구원.md)**
 
 
 이 문서에서 다루는 주요 주제: 벧전 3:20 "오래 참으심" vs 벧후 2:4 "아끼지 않으심" 핵심 모순, 120년 천사 유예설 반박, 
