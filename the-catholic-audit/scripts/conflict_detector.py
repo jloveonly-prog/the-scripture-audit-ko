@@ -104,6 +104,15 @@ KNOWN_SAME_POSITION_PAIRS = {
     frozenset({'CCC-456_478', 'CCC-161_165'}),               # 둘 다 그리스도/믿음의 구원 필수성 긍정
     frozenset({'CCC-1471', 'CCC-954_962'}),                  # 둘 다 성인들의 공로·통공 긍정
     frozenset({'CCC-0491', 'CCC-1213_1284'}),                # 둘 다 "원죄 잔존" 배격 (마리아 예외 긴장은 COL-007이 담당)
+    frozenset({'CCC-1987_2016', 'CCC-1213_1284'}),           # 둘 다 "형식적 덮음(원죄 잔존)" 배격 — 동일 입장
+    frozenset({'CCC-1257', 'TRENT-S06-C09'}),                # 둘 다 sola fide 배격 (세례/준비 필요) — 동일 입장
+    frozenset({'TRENT-S06-C09', 'CCC-1987_2016'}),           # 둘 다 sola fide 배격 — 동일 입장 (TRENT-S06↔CCC-1987_2016과 동계열)
+    frozenset({'TRENT-S25', 'TRENT-S14-CONFESSION'}),        # 둘 다 교계의 사죄/대사 권한 긍정 — 동일 입장
+    frozenset({'VAT1-PASTOR-AETERNUS', 'TRENT-S24-MARRIAGE'}),  # 둘 다 "교회 무오" 진영 — 동일 입장
+    frozenset({'CCC-402_412', 'CCC-161_165'}),               # 원죄/세례 vs 믿음 필수 — 다른 주제, 어휘만 겹침
+    frozenset({'TRENT-S07-C05', 'CCC-1257_1261'}),           # 둘 다 세례 필수 긍정 — 동일 입장 (TRENT-S07-C05↔CCC-1257과 동계열)
+    frozenset({'CCC-487_511', 'CCC-0491'}),                  # 둘 다 마리아 특전(승천/무염시태) 긍정 — 동일 입장
+    frozenset({'CCC-1257', 'TRENT-S06-CH04'}),               # 둘 다 세례(또는 열망) 필요 긍정 — 동일 입장
 }
 
 # 잔여 범위 중첩 계열(CCC-1030_1032↔CCC-1030, CCC-1257_1261↔CCC-1257, TRENT 세션 요약↔개별
