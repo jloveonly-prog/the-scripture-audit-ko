@@ -6,7 +6,7 @@
 > **적용 분석 도구**: TYPE-AL + TYPE-AM + TYPE-AC + TYPE-P + TYPE-C + TYPE-R + TYPE-G + TYPE-AI + TYPE-Z + TYPE-AF
 > **MODE**: MODE A (방패 모드 — 외부 회의론자 공격 방어)
 > **공격자**: @winter413wind (주공격), @marlintrek9330 (보조공격)
-> **방어자**: @TheScriptureMaster (사용자)
+> **방어자**: @TheScripture.org (사용자)
 > **분석 의뢰 경위**: 유튜브 댓글 스레드. "하나님이 결과를 알면서 창조했으므로 모든 악의 책임은 하나님에게 있다"는 창조 책임론을 중심으로, 철병거 공격, 예수=사탄 등치, 무한회귀 공격 등 5개 독립 논제가 혼재된 다중 전선 공방.
 
 ---

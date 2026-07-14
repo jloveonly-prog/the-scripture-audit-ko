@@ -1032,7 +1032,7 @@ class SonsOfGod_FirstWorld extends Spirit {
 * **파일명:** [`REPORT_영적존재분류표.md`](./REPORT_영적존재분류표.md)
 * **요약:** KJV 66권에 등장하는 모든 영적 존재(하나님의 아들들, 천사, 마귀 등)를 IT 객체지향(OOP) 클래스 구조로 맵핑하여, "비슷한 것을 같은 것으로" 오독하는 범주 오류를 원천 차단하는 마스터 참조 문서입니다.
 
-### ⚔️ 실전 공방 기록 (TheScriptureMaster vs 연구원)
+### ⚔️ 실전 공방 기록 (TheScripture.org vs 연구원)
 전통 신학에 젖어있는 연구원의 공격을 오직 KJV 텍스트 하나만으로 어떻게 논파하고 방어했는지 보여주는 실전 디펜스 로그입니다.
 * **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureMasterVS연구원.md)** 
 * **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureMasterVS연구원v2.md)**
