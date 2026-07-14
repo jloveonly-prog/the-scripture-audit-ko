@@ -32,7 +32,7 @@
 
 ## 5. ⚔️ 성경 장인 vs. 연구원 전투
 * **요약:** 신학적 오류, 신조적 편견, 전통적 교리들을 순수한 성경 주석으로 해체하는 방어 로그.
-* **핵심 보고서 (75KB):** [`REPORT_TheScriptureMasterVS연구원.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원.md)
+* **핵심 보고서 (75KB):** [`REPORT_TheScriptureOrg_VS_연구원.md`](./the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureOrg_VS_연구원.md)
 
 ---
 
@@ -92,6 +92,7 @@
 
 ---
 
+
 ## 🗂️ Full File List (KO / EN Mapping)
 
 - **English Repository:** [https://github.com/jloveonly-prog/the-scripture-audit](https://github.com/jloveonly-prog/the-scripture-audit)
@@ -122,8 +123,8 @@
 
 | Korean File (KO) | English File (EN) |
 |---|---|
-| [REPORT_TheScriptureMasterVS연구원.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원.md) | [REPORT_TheScriptureMaster_VS_Researcher.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureMaster_VS_Researcher.md) |
-| [REPORT_TheScriptureMasterVS연구원v2.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원v2.md) | [REPORT_TheScriptureMaster_VS_Researcher_v2.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureMaster_VS_Researcher_v2.md) |
+| [REPORT_TheScriptureOrg_VS_연구원.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureOrg_VS_연구원.md) | [REPORT_TheScriptureOrg_VS_Researcher.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureOrg_VS_Researcher.md) |
+| [REPORT_TheScriptureOrg_VS_연구원v2.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureOrg_VS_연구원v2.md) | [REPORT_TheScriptureOrg_VS_Researcher_v2.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureOrg_VS_Researcher_v2.md) |
 | [REPORT_WINE_포도주_원어_포렌식.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_WINE_포도주_원어_포렌식.md) | [REPORT_WINE_OriginalLanguageForensics.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_WINE_OriginalLanguageForensics.md) |
 | [REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md) | [REPORT_Romans_7_6_Law_Death_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Romans_7_6_Law_Death_Audit_Masterpiece.md) |
 | [REPORT_멜키세덱_정체성검증_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_멜키세덱_정체성검증_Masterpiece.md) | [REPORT_Melchizedek_IdentityVerification_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Melchizedek_IdentityVerification_Masterpiece.md) |
@@ -135,10 +136,10 @@
 | [REPORT_창세기6장_하나님의아들들_심층논쟁로그.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_심층논쟁로그.md) | [REPORT_Genesis6_SonsOfGod_DeepLog.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Genesis6_SonsOfGod_DeepLog.md) |
 | [REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_창세기6장_하나님의아들들_주장검증_Masterpiece.md) | [REPORT_Genesis6_SonsOfGod_ArgumentVerification_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Genesis6_SonsOfGod_ArgumentVerification_Masterpiece.md) |
 | [REPORT_첫번째_세상민족.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_첫번째_세상민족.md) | [REPORT_First_World_Nation.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_First_World_Nation.md) |
-| [REPORT_TheScriptureMasterVS연구원v3.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureMasterVS연구원v3.md) | [REPORT_TheScriptureMaster_VS_Researcher_v3.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureMaster_VS_Researcher_v3.md) |
+| [REPORT_TheScriptureOrg_VS_연구원v3.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_TheScriptureOrg_VS_연구원v3.md) | [REPORT_TheScriptureOrg_VS_Researcher_v3.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_TheScriptureOrg_VS_Researcher_v3.md) |
 | [창세기 6장은 타락한 천사이며 감옥에 있는 영들_목사님께_드리는_회신.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/창세기%206장은%20타락한%20천사이며%20감옥에%20있는%20영들_목사님께_드리는_회신.md) | [Reply_to_Pastor_Genesis_6_Fallen_Angels.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/Reply_to_Pastor_Genesis_6_Fallen_Angels.md) |
 | [REPORT_선악과먹기전아이들.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_선악과먹기전아이들.md) | [REPORT_Children_Before_Tree_Of_Knowledge.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Children_Before_Tree_Of_Knowledge.md) |
-| [REPORT_순서도비교_IFB_vs_TheScriptureMaster.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_순서도비교_IFB_vs_TheScriptureMaster.md) | [REPORT_Flowchart_Comparison_IFB_vs_TheScriptureMaster.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Flowchart_Comparison_IFB_vs_TheScriptureMaster.md) |
+| [REPORT_순서도비교_IFB_vs_TheScriptureOrg.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_순서도비교_IFB_vs_TheScriptureOrg.md) | [REPORT_Flowchart_Comparison_IFB_vs_TheScriptureOrg.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Flowchart_Comparison_IFB_vs_TheScriptureOrg.md) |
 | [REPORT_영적존재분류표.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_영적존재분류표.md) | [REPORT_Spiritual_Beings_Classification_Table.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Spiritual_Beings_Classification_Table.md) |
 | [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/bible_believer_index.md) | [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/bible_believer_index.md) |
 
@@ -239,5 +240,3 @@
 | Korean File (KO) | English File (EN) |
 |---|---|
 | [REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/wmscog/REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md) | [REPORT_WMSCOG_Doctrinal_Contradictions_Integrated_Audit_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/wmscog/REPORT_WMSCOG_Doctrinal_Contradictions_Integrated_Audit_Masterpiece.md) |
-
-
