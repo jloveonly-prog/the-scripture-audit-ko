@@ -8,7 +8,7 @@
 > **기존 보고서 참조**:
 > - `REPORT_창세기6장_하나님의아들들_심층논쟁로그.md` (15단계 공방 기록)
 > - `REPORT_멜키세덱_첫번째세상_민족형성.md` (첫번째 세상 프레임워크 — DE-OVERLAP 적용)
-> - `REPORT_TheScriptureMasterVS연구원.md` (TSM AI 토론 기록 — 동일 포지션 확인)
+> - `REPORT_TheScriptureOrg_VS_연구원.md` (TSM AI 토론 기록 — 동일 포지션 확인)
 >
 > ⚠️ **v1.0 오류 교정**: 이전 버전에서 기존 보고서를 "천사설 지지"로 표기했으나, 실제 기존 판결은 **"선악과 이전 아담 자녀설 IRONCLAD"**. 천사설도 셋의 후손설도 아닌 **제3의 독자 이론**.
 
@@ -347,7 +347,7 @@
 
 **발동 TYPE**: TYPE-R (구문 포렌식) + TYPE-C (범주 분리) + TYPE-P (역논법)
 
-`REPORT_TheScriptureMasterVS연구원.md`에서 이 문제에 대한 **결정적 논증**이 발견되었습니다.
+`REPORT_TheScriptureOrg_VS_연구원.md`에서 이 문제에 대한 **결정적 논증**이 발견되었습니다.
 
 #### 벧전 3:19-20의 핵심 쟁점
 
@@ -604,7 +604,7 @@ TYPE-AC (역가설 대입):
 * **요약:** 목회자분들께 드리는 정중한 인사말과 함께, 왜 우리가 창세기 6장의 '하나님의 아들들=천사설'을 외부 문헌(에녹서 등)이 아닌 오직 KJV 텍스트만으로 엄밀히 재검토해야 하는지 그 당위성을 설명하는 서신입니다.
 
 ### 📌 2. IFB vs TSM — 재창조 순서도 전면 비교
-* **파일명:** [`REPORT_순서도비교_IFB_vs_TheScriptureMaster.md`](./REPORT_순서도비교_IFB_vs_TheScriptureMaster.md)
+* **파일명:** [`REPORT_순서도비교_IFB_vs_TheScriptureOrg.md`](./REPORT_순서도비교_IFB_vs_TheScriptureOrg.md)
 * **요약:** (★강력 추천) 기존 IFB 세대주의의 창조·심판 순서도와 본 연구의 순서도를 15개 사건 비교표로 대조합니다. 베드로후서 2:4-6에 명시된 독립된 3개의 심판과 베드로후서 3장의 두 세상 구분을 통해, 기존 IFB 타임라인이 안고 있는 치명적인 자기모순(홍수를 2회 인정하면서 심판은 1건으로 묶어버리는 오류)을 직관적인 도표로 증명합니다.
 
 ---
@@ -664,8 +664,8 @@ TYPE-AC (역가설 대입):
 
 ### ⚔️ 실전 공방 기록 (TheScripture.org vs 연구원)
 전통 신학에 젖어있는 연구원의 공격을 오직 KJV 텍스트 하나만으로 어떻게 논파하고 방어했는지 보여주는 실전 디펜스 로그입니다.
-* **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureMasterVS연구원.md)** 
-* **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureMasterVS연구원v2.md)**
-* **[실전 사례 3 (벧전 3:20 vs 벧후 2:4 시점 검증)](./REPORT_TheScriptureMasterVS연구원v3.md)**
+* **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureOrg_VS_연구원.md)** 
+* **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureOrg_VS_연구원v2.md)**
+* **[실전 사례 3 (벧전 3:20 vs 벧후 2:4 시점 검증)](./REPORT_TheScriptureOrg_VS_연구원v3.md)**
 * **[창세기 6장 하나님의 아들들 심층 논쟁 로그 (15단계 토론)](./REPORT_창세기6장_하나님의아들들_심층논쟁로그.md)** (천사설이 초반 우세에서 어떻게 텍스트 앞에 무너지는지 보여주는 15단계 역전의 공방 기록)
 
