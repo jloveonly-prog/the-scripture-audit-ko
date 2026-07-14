@@ -1,4 +1,4 @@
-# ⚔️ 순서도 비교 보고서 — IFB 세대주의 vs TheScripture.org
+# ⚔️ 순서도 비교 보고서 — IFB 세대주의 vs TheScriptureBeliever
 **— 창조·심판·재창조 사건의 순서가 다르면 교리 전체가 달라진다 —**
 
 > **STATUS**: 검증 완료 | VERDICT: ✅✅✅ IRONCLAD
@@ -6,17 +6,23 @@
 > **적용 분석 도구**: TYPE-C, TYPE-E, TYPE-G, TYPE-U, TYPE-AL
 > **비교 대상**:
 > - **[IFB]** 독립침례교회 세대주의 (Independent Fundamental Baptist / Dispensationalism)
-> - **[TSM]** TheScripture.org (본 BVCAP 분석 진영)
+> - **[TSM]** TheScriptureBeliever (본 BVCAP 분석 진영)
 
 > [!IMPORTANT]
 > 본 문서는 오직 **KJV 성경 66권의 텍스트 순서**만을 기준으로 합니다. 에녹서·외경·교부 문헌은 일절 사용하지 않습니다.
 
 
+> [!NOTE]
+> **※ 일러두기 (TheScriptureBeliever의 의미)**
+> 본 문서에서 화자로 등장하는 **'TheScriptureBeliever'**는 기존 교계에서 쓰이는 'Bible Believer(성경 신자)'와는 다른 뚜렷한 정체성을 가집니다.
+> 전통적으로 사용하는 'Bible'이라는 단어는 KJV 성경 66권 원문을 통틀어 단 한 번도 등장하지 않는 인간이 만든 호칭입니다. 반면, 예수님과 바울이 하나님의 절대적인 말씀을 지칭할 때 성령님께서 직접 사용하신 단어는 오직 **"The Scripture"**(요 5:39, 딤후 3:16)입니다. 
+> 본 화자는 성경 원문에 없는 단어를 내세우는 전통 교리(Bible Believer)와 스스로를 구별하며, 오직 기록된 진리의 원어(The Scripture) 그 자체만을 믿고 변증하는 자임을 밝힙니다.
+
 ---
 
 ## 🧭 1. 핵심 전제 차이 — 두 진영의 세계관 충돌
 
-| 전제 항목 | IFB (독립침례교회 세대주의) | TSM (TheScripture.org) |
+| 전제 항목 | IFB (독립침례교회 세대주의) | TSM (TheScriptureBeliever) |
 |:---|:---|:---|
 | **창 1:1 이전** | 하나님 + 천사들만 존재 | 하나님 + **첫 세상 하나님의 아들들** + 그들의 왕국·민족 존재 |
 | **창 1:2 "토후 바보후"** | 루시퍼 타락의 결과 (간극 이론) | **첫 번째 세상 전체 심판**의 결과 (대규모 불 심판) |
@@ -73,7 +79,7 @@
       → 벧후 2:4-5가 독립된 2건이 아닌 하나의 연쇄 사건
 ```
 
-### 📐 [TSM] TheScripture.org의 해석
+### 📐 [TSM] TheScriptureBeliever의 해석
 
 ```
 첫 번째 세상 창조 (창 1:1)
@@ -291,7 +297,7 @@ TSM: 마귀 = 첫세상 민족들의 영 (몸이 파괴되어 영만 남음)
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  사건      IFB (독립침례교회 세대주의)     TSM (TheScripture.org)
+  사건      IFB (독립침례교회 세대주의)     TSM (TheScriptureBeliever)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
@@ -831,7 +837,7 @@ KJV는 `first estate`에서 **"first"를 서수(첫 번째)로 사용**합니다
 * **파일명:** [`REPORT_영적존재분류표.md`](./REPORT_영적존재분류표.md)
 * **요약:** KJV 66권에 등장하는 모든 영적 존재(하나님의 아들들, 천사, 마귀 등)를 IT 객체지향(OOP) 클래스 구조로 맵핑하여, "비슷한 것을 같은 것으로" 오독하는 범주 오류를 원천 차단하는 마스터 참조 문서입니다.
 
-### ⚔️ 실전 공방 기록 (TheScripture.org vs 연구원)
+### ⚔️ 실전 공방 기록 (TheScriptureBeliever vs 연구원)
 전통 신학에 젖어있는 연구원의 공격을 오직 KJV 텍스트 하나만으로 어떻게 논파하고 방어했는지 보여주는 실전 디펜스 로그입니다.
 * **[실전 사례 1 (120년 카운트다운설 반박)](./REPORT_TheScriptureOrg_VS_연구원.md)** 
 * **[실전 사례 2 (전통적 교리 해체 방어전)](./REPORT_TheScriptureOrg_VS_연구원v2.md)**
