@@ -119,6 +119,9 @@ KNOWN_SAME_POSITION_PAIRS = {
     frozenset({'CCC-0847', 'TRENT-S06-C09'}),                # 둘 다 "준비 없는 의화" 배격 — 동일 입장
     frozenset({'TRENT-S22-C01', 'TRENT-S07'}),               # 둘 다 성사의 실효성 긍정 (트렌트 내부) — 동일 입장
     frozenset({'TRENT-S14', 'CCC-1257'}),                    # 둘 다 성사(고해/세례)의 구원 필수성 긍정 — 동일 입장
+    frozenset({'TRENT-S05', 'CCC-1213_1284'}),               # 둘 다 "세례 후 원죄 잔존" 배격 — 동일 입장
+    frozenset({'DENZINGER-FEENEY', 'CCC-1257'}),             # 둘 다 "통상 필수 + 예외적 열망" 조화 입장 — 동일 입장
+    frozenset({'CCC-1498', 'CCC-1257'}),                     # 면죄부 적용 범위 vs 세례 필수 — 다른 주제, 어휘만 겹침
 }
 
 # 잔여 범위 중첩 계열(CCC-1030_1032↔CCC-1030, CCC-1257_1261↔CCC-1257, TRENT 세션 요약↔개별
