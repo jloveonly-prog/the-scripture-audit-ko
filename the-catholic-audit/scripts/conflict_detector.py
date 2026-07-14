@@ -113,6 +113,10 @@ KNOWN_SAME_POSITION_PAIRS = {
     frozenset({'TRENT-S07-C05', 'CCC-1257_1261'}),           # 둘 다 세례 필수 긍정 — 동일 입장 (TRENT-S07-C05↔CCC-1257과 동계열)
     frozenset({'CCC-487_511', 'CCC-0491'}),                  # 둘 다 마리아 특전(승천/무염시태) 긍정 — 동일 입장
     frozenset({'CCC-1257', 'TRENT-S06-CH04'}),               # 둘 다 세례(또는 열망) 필요 긍정 — 동일 입장
+    frozenset({'TRENT-S07-C05', 'TRENT-S06-CH04'}),          # 트렌트 내부 조화(in re aut in voto) — 동일 입장
+    frozenset({'TRENT-S06-C09', 'TRENT-S06'}),               # 같은 회기 요약/개별 캐논 쌍 — 동일 입장
+    frozenset({'CANON-SACR', 'TRENT-S14'}),                  # 둘 다 고해성사의 성사성 긍정 — 동일 입장
+    frozenset({'CCC-0847', 'TRENT-S06-C09'}),                # 둘 다 "준비 없는 의화" 배격 — 동일 입장
 }
 
 # 잔여 범위 중첩 계열(CCC-1030_1032↔CCC-1030, CCC-1257_1261↔CCC-1257, TRENT 세션 요약↔개별
