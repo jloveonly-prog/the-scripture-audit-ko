@@ -21,8 +21,8 @@
 | LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). **✅ 전체 후보 전수 심사 완료** (누적 YES 55건 — 전량 수작업 재검증 거침) | ✅ 완료 |
 | LLM 심사 전체 로그 | [llm_judge_full_log.csv](./llm_judge_full_log.csv) | 전체 판정(YES/NO) + 근거. 미심사 잔여 **0건**. 새 카드 추가 후 재개는 `python scripts/llm_judge.py next 200` | ✅ 완료 |
 | 충돌 네트워크 시각화 | [conflict_network.html](./conflict_network.html) | Vis.js 인터랙티브 그래프 — 유사도 **상위 150건** (Chrome으로 열기) | ✅ 최신 |
-| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~013, 수작업 정밀 검증 완료 (009~013은 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전) | ✅ 최신 |
-| 후보 카드 | [`../05_COLLISION_CARDS/candidates/`](../05_COLLISION_CARDS/candidates/) | CAND-001 (교회법 844 vs 라테란4 — 실천적 모순, OODA 법정 승격 대기) | 🔄 검토 대기 |
+| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~014, 수작업 정밀 검증 완료 (009~014는 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전 + 교회법 844 실천모순) | ✅ 최신 |
+| 후보 카드 | [`../05_COLLISION_CARDS/candidates/`](../05_COLLISION_CARDS/candidates/) | 비어 있음 — CAND-001은 2026-07-21 OODA 승격 심리 통과로 COL-014 승격 | ✅ 처리 완료 |
 | 콤보 카드 (확정) | [`../05_COLLISION_CARDS/combos/`](../05_COLLISION_CARDS/combos/) | COMBO-01~05 — 마리아론·무류성·구원론·연옥/대사·동성 축복 연쇄 붕괴 카드 | ✅ 최신 |
 | 제로데이 스캔 후보 | [`../06_ZERO_DAY/scan_targets.md`](../06_ZERO_DAY/scan_targets.md) | 향후 우선 탐색 대상 (Fiducia Supplicans 등) | 🔄 진행 중 |
 
