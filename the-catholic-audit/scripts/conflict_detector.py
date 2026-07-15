@@ -153,7 +153,9 @@ def parse_markdown(file_path):
             for line in claims_text.split('\n'):
                 line = line.strip()
                 if re.match(r'^\d+\.', line):
-                    claims.append(re.sub(r'^\d+\.\s*', '', line))
+                    body = re.sub(r'^\d+\.\s*', '', line).strip()
+                    if body:  # 빈 항목(템플릿의 "1. " 등)은 유령 명제가 되므로 배제
+                        claims.append(body)
 
         negates = []
         negates_match = re.search(r'## 부정 \(Negates\).*?(?=\n## |\n---|\Z)', sec, re.DOTALL)
@@ -162,7 +164,9 @@ def parse_markdown(file_path):
             for line in negates_text.split('\n'):
                 line = line.strip()
                 if re.match(r'^\d+\.', line):
-                    negates.append(re.sub(r'^\d+\.\s*', '', line))
+                    body = re.sub(r'^\d+\.\s*', '', line).strip()
+                    if body:
+                        negates.append(body)
 
         # "TRENT-S06-C32 — 선한 행위가 공로 없다 하면 파문" 형식의 제목에서
         # ID와 " — "/" " 구분자를 뗀 사람이 읽기 쉬운 이름만 남긴다.
@@ -170,7 +174,7 @@ def parse_markdown(file_path):
         if not readable_title:
             readable_title = title
 
-        if card_id != "UNKNOWN" and (claims or negates):
+        if card_id != "UNKNOWN" and card_id.strip() and (claims or negates):
             cards.append({
                 'id': card_id,
                 'title': readable_title,
@@ -187,7 +191,7 @@ def main():
     all_cards = []
     for root, dirs, files in os.walk(DB_DIR):
         for file in files:
-            if file.endswith('.md'):
+            if file.endswith('.md') and file != 'schema.md':  # schema.md의 카드 템플릿이 유령 카드로 파싱되는 것 방지
                 all_cards.extend(parse_markdown(os.path.join(root, file)))
 
     if not all_cards:
