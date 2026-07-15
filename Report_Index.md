@@ -92,7 +92,6 @@
 
 ---
 
-
 ## 🗂️ Full File List (KO / EN Mapping)
 
 - **English Repository:** [https://github.com/jloveonly-prog/the-scripture-audit](https://github.com/jloveonly-prog/the-scripture-audit)
@@ -141,6 +140,9 @@
 | [REPORT_선악과먹기전아이들.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_선악과먹기전아이들.md) | [REPORT_Children_Before_Tree_Of_Knowledge.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Children_Before_Tree_Of_Knowledge.md) |
 | [REPORT_순서도비교_IFB_vs_TheScriptureOrg.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_순서도비교_IFB_vs_TheScriptureOrg.md) | [REPORT_Flowchart_Comparison_IFB_vs_TheScriptureOrg.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Flowchart_Comparison_IFB_vs_TheScriptureOrg.md) |
 | [REPORT_영적존재분류표.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_영적존재분류표.md) | [REPORT_Spiritual_Beings_Classification_Table.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Spiritual_Beings_Classification_Table.md) |
+| [REPORT_창조원형의_번식시스템과_여자의씨_전환분석.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_창조원형의_번식시스템과_여자의씨_전환분석.md) | [REPORT_Creation_Archetype_Reproduction_System_and_Seed_of_Woman_Transition_Analysis.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_Creation_Archetype_Reproduction_System_and_Seed_of_Woman_Transition_Analysis.md) |
+| [REPORT_첫번째세상_하이브리드영과_하나님의어전회의_검증_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/REPORT_첫번째세상_하이브리드영과_하나님의어전회의_검증_Masterpiece.md) | [REPORT_First_World_Hybrid_Spirits_and_Divine_Council_Verification_Masterpiece.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/REPORT_First_World_Hybrid_Spirits_and_Divine_Council_Verification_Masterpiece.md) |
+| [반대 가정법_창3_20_was_선악과이전출산설.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/반대%20가정법_창3_20_was_선악과이전출산설.md) | [Contrary_to_Fact_Conditional_Gen3_20_was_Pre_Fall_Birth_Theory.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/Contrary_to_Fact_Conditional_Gen3_20_was_Pre_Fall_Birth_Theory.md) |
 | [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit-ko/blob/main/the-scripture-audit/05_REPORT(전과보고서)/bible_believer/bible_believer_index.md) | [bible_believer_index.md](https://github.com/jloveonly-prog/the-scripture-audit/blob/main/the-scripture-audit/05_REPORT/bible_believer/bible_believer_index.md) |
 
 
