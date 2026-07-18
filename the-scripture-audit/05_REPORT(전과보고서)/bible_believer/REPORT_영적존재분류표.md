@@ -1168,6 +1168,44 @@ class SonsOfGod_FirstWorld extends Spirit {
 
 ---
 
+## 📌 [부록] 목회자 및 일반 성도를 위한 영적 존재 계보도 (시각화 도표)
+
+> **안내:** 위의 IT/객체지향(OOP) 코드 구조가 낯선 분들을 위해, KJV 텍스트가 증언하는 영적 존재들의 족보와 조직도를 한눈에 파악할 수 있도록 시각화한 트리(Tree) 도표입니다. 천사(Angel)와 첫 세상 아들들(Sons of God)이 어떻게 뿌리부터 다른 갈래인지 시각적으로 확인할 수 있습니다. 마크다운 뷰어에서 깔끔한 도표로 렌더링됩니다.
+
+```mermaid
+graph TD
+    Root["👑 영적 피조물 (Spirit)<br>하나님에 의해 창조됨"]
+    
+    %% 첫 번째 갈래: 첫 세상 아들들
+    Root --> Class1["🛡️ 첫 세상 하나님의 아들들<br>(욥 38:7)"]
+    Class1 --> Role1["【 보좌 역할 / 직분 】<br>왕·제사장 / 그룹 / 스랍 / 군주"]
+    Role1 --> Holy1["✅ 거룩 유지<br>(멜키세덱, 미가엘)"]
+    Role1 --> Fallen1["❌ 타락 (처소 이탈)<br>(사탄, 정사, 권세, 마귀들)"]
+
+    %% 두 번째 갈래: 천사
+    Root --> Class2["🕊️ 천사 - Angel<br>(히 1:14)"]
+    Class2 --> Role2["【 역할 / 직분 】<br>섬기는 영 / 심부름꾼 (종)"]
+    Role2 --> Holy2["✅ 거룩 유지<br>(가브리엘, 사역 천사들)"]
+    Role2 --> Fallen2["❌ 범죄함<br>(타르타로스 결박, 벧후 2:4)"]
+
+    %% 세 번째 갈래: 두 번째 세상 아들들
+    Root --> Class3["👤 두 번째 세상 아들들<br>(창세기 6장)"]
+    Class3 --> Role3["【 속성 】<br>육체(흙) / 생식 가능 / 족보 있음"]
+    Role3 --> End3["아담과 이브의<br>선악과 이전 자녀들"]
+
+    %% 스타일링 (디자인)
+    style Root fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style Class1 fill:#e1f5fe,stroke:#01579b
+    style Class2 fill:#f3e5f5,stroke:#4a148c
+    style Class3 fill:#e8f5e9,stroke:#1b5e20
+    style Holy1 fill:#ffffff,stroke:#4CAF50,stroke-width:2px
+    style Holy2 fill:#ffffff,stroke:#4CAF50,stroke-width:2px
+    style Fallen1 fill:#ffffff,stroke:#F44336,stroke-width:2px
+    style Fallen2 fill:#ffffff,stroke:#F44336,stroke-width:2px
+```
+
+---
+
 
 # 🗂️ [KJV 목회자용] 핵심 연구 인덱스 및 추천 읽기 순서
 **— 창세기 6장, 재창조, 그리고 첫 번째 세상에 관한 성경적 변증 —**
