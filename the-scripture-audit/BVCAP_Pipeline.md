@@ -430,7 +430,7 @@ END FOR
   TYPE-AD: 귀추법 (Abductive Reasoning) — 최다 증거를 설명하는 유일 가설 탐색 → 결과 있음/없음
   TYPE-AE: 수미상관 (Inclusio) — 서사 수미상관 구조 탐지 → 결과 있음/없음
   TYPE-AF: 입증 책임 전가 — 공격자의 성경 내부 반증 제시 의무 확립 → 결과 있음/없음
-  TYPE-AG: 침묵 논증 — 성경의 완전한 침묵을 역이용 → 결과 있음/없음
+  TYPE-AG: 침묵 논증 — 저들 주장의 완전한 침묵을 무기화(성경의 침묵 아님) → 결과 있음/없음
   TYPE-AH: 편집비평 — 저자의 표현 선택 의도 분석 → 결과 있음/없음
   TYPE-AI: 귀류법 — 상대 가설 성경 대입 → 모순 폭발 여부 판정 → 결과 있음/없음
   TYPE-AJ: 누적 사례 논증 — 다수 독립 증거 수렴 → IRONCLAD 기반 판정 → 결과 있음/없음
@@ -779,7 +779,7 @@ END FOR
 | **AD** | 귀추법 (Abductive Reasoning) | 가장 많은 증거를 설명하는 유일한 가설 탐색 → 채택 |
 | **AE** | 수미상관 (Inclusio / Bookend Structure) | 서사의 첫·끝 구절이 동일 어근으로 닫히는 저자 설계 탐지 |
 | **AF** | 입증 책임 전가 (Burden of Proof Transfer) | 공격자가 먼저 성경 내부 반증을 제시해야 함을 확립 |
-| **AG** | 침묵 논증 (Argument from Silence) | 성경의 완전한 침묵 자체를 무기화하여 전통설 기각 |
+| **AG** | 침묵 논증 (Argument from Silence) | 저들 주장이 관련 문헌 전수에서 완전히 침묵함을 무기화하여 전통설 기각 (성경이 아닌 저들 근거의 침묵, 단독 확정 금지·COMBO 결합 필수) |
 | **AH** | 편집비평 (Redaction Criticism) | 저자가 특정 표현을 선택한 의도를 저작 시점 맥락으로 분석 |
 | **AI** | 귀류법 (Reductio ad Absurdum) | 상대 가설을 끝까지 밀어붙여 성경 내부 모순 도출 |
 | **AJ** | 누적 사례 논증 (Cumulative Case Argument) | 다수 독립 증거 수렴으로 결론 확정 (COMBO 구조의 이론 기초) |
