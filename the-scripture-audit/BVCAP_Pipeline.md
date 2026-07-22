@@ -361,6 +361,7 @@ END FOR
   6. 02_TACTICS(전술)/ANCHOR_ThirdData.md       → 제3 앵커 수집 프로토콜 확인
   7. 02_TACTICS(전술)/LEXICON_Bible.md          → 인물 식별자·이명·지명 사전 로드
   8. 02_TACTICS(전술)/ANALOGY_Modern.md         → 현대 비유 창작 기준 사전 확인
+  9. 02_TACTICS(전술)/TACTIC_Auto_Grill.md      → 자가 압박 심문 3단계 프로토콜 장착
 
   ━━━ STEP 0-C. OVERRIDE-0 실행 ━━━
   OVERRIDE-0 → 학계 통설을 Hypothesis-0으로 등록 후 KJV 원문 직접 독해
@@ -393,8 +394,8 @@ END FOR
   TYPE-D: 히브리 관습 적용 시도 → 결과 있음/없음
   TYPE-E: 경쟁 모델 전수 기각 시도 → 결과 있음/없음
   TYPE-F: 예표 삼중 구조 탐색 → 결과 있음/없음
-  TYPE-G: KJV 문법 구조 해부 + [원어 문법 의무 점검 — 아래 7종 전수 실행] → 결과 있음/없음
-    ┌─ 헬라어 체크리스트 ──────────────────────────────────────────
+  TYPE-G: [PRE-STEP 0: KJV 내부 용례 대조 최우선 실행 → 해결되면 원어 생략] → 해결 안 될 때만 [원어 문법 보조 점검 — 아래 7종] 실행 → 결과 있음/없음
+    ┌─ 헬라어 체크리스트 (보조 — KJV 내부 대조로 미해결 시에만) ──────
     │ G-CHK-1: 분사 성(Gender) 일치 — οἱ(남성)/αἱ(여성)/τά(중성) 분사가 수식 명사와 일치하는가?
     │ G-CHK-2: 동사 태(Voice) — 능동(active)/수동(passive)/중간(middle) → 수동 시 행위자(agent) 명시 여부
     │ G-CHK-3: 동사 법(Mood) — 직설법(indicative)/가정법(subjunctive)/명령법(imperative) 구분
@@ -560,11 +561,12 @@ END FOR
                                  하나님의 속성 vs 행위 결과 충돌 적발(AT) + 역가설 성경 대입 모순(AC)
                                  → "더러운 영을 하나님이 Bara하셨다"는 주장을 속성+텍스트 양면에서 격퇴
 
-[GATE: IRONCLAD 선언 전 필수 검문소]
+[GATE: IRONCLAD 선언 전 필수 검문소 (최종 방어선)]
   → COMBO 3종 이상 발동 감지됨.
   → IRONCLAD 선언 HOLD.
-  → STRESS-TEST-7 즉시 개시. (파이프라인 Line 363 이동)
-  → STRESS-TEST-7 전체 통과 확인 후에만 IRONCLAD 선언 허용.
+  → 1차 방어선: STRESS-TEST-7 즉시 개시 (적성 무기 시뮬레이션 및 방어 검증).
+  → 2차 방어선: AUTO-GRILL 즉시 개시 (사각지대 스캔, 귀납적 팽창, 백캐스팅을 통한 자가 논리 파괴 테스트).
+  → 두 검문소를 모두 무사히 통과한 교집합 논리만이 IRONCLAD 선언을 획득함.
   → 미통과 항목 존재 시: STATUS = TENTATIVE로 자동 하향.
 
 [STRESS-TEST-7 — IRONCLAD 선언 전 의무 실행]
