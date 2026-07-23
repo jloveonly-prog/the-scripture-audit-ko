@@ -70,4 +70,4 @@
 
 ---
 *Status: ARMED & READY — v1.1 타임라인 앵커링 탐지 패턴 추가*
-*Integration: BVCAP 2.0 Skill Pipeline*
+*Integration: BVCAP 3.0 Skill Pipeline*

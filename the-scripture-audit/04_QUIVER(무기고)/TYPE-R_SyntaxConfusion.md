@@ -88,4 +88,4 @@
 
 ---
 *Status: ARMED & READY — v1.1 청중 구분 기능 추가*
-*Integration: BVCAP 2.0 Skill Pipeline*
+*Integration: BVCAP 3.0 Skill Pipeline*
