@@ -1,7 +1,7 @@
 # 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 
-> **Version**: BVCAP v2.0
+> **Version**: BVCAP v3.0
 > **Status**: FULLY OPERATIONAL
 > **Core Philosophy**: The AI does not search commentaries. It dissects the original text, reverse-engineers numbers, and completes the chain.
 > **BVCAP = BALANCE** — *"Thou art weighed in the balances"* Dan 5:27
@@ -185,7 +185,7 @@ The folder structure of this repository is not a simple file classification. It 
 
 ### 🏹 [Phase 4] QUIVER (Weapons & Live Combat)
 *   **Concept:** The precision forensic weapons deciding "With which weapon will we strike the enemy's logic?"
-*   **Role:** After all training (Calling, Doctrine, Chronicle), these are the **Executables** pulled out at the right place and time in the live courtroom (BVCAP 2.0) to shatter the enemy's contradictions. (Reference: Psalm 127:5 "His quiver")
+*   **Role:** After all training (Calling, Doctrine, Chronicle), these are the **Executables** pulled out at the right place and time in the live courtroom (BVCAP 3.0) to shatter the enemy's contradictions. (Reference: Psalm 127:5 "His quiver")
 
 ---
 
@@ -195,9 +195,9 @@ The folder structure of this repository is not a simple file classification. It 
 
 ---
 
-## ⚖️ BVCAP 2.0 Engine Dual Modes (Mode A vs Mode B)
+## ⚖️ BVCAP 3.0 Engine Dual Modes (Mode A vs Mode B)
 
-This system branches into two modes depending on the nature of the dilemma. It switches within the single BVCAP 2.0 engine, and **defaults to 'MODE A (Shield Mode)' if not specified.**
+This system branches into two modes depending on the nature of the dilemma. It switches within the single BVCAP 3.0 engine, and **defaults to 'MODE A (Shield Mode)' if not specified.**
 
 | Engine Mode | Purpose & Characteristics | Premise & Roleplaying |
 |:---:|:---|:---:|
@@ -441,7 +441,7 @@ Conduct all verifications through the main engine `BVCAP_GHQ.md`, let the AI sel
 
 ---
 
-## ⚡ BVCAP 2.0 Agent Internal Execution Flow (Algorithm)
+## ⚡ BVCAP 3.0 Agent Internal Execution Flow (Algorithm)
 
 ```
 [Attack Received]

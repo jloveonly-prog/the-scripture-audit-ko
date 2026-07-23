@@ -153,4 +153,4 @@ MATRIX 역산 3원칙:
 
 ---
 
-*ANCHOR v2.0 — "A threefold cord is not quickly broken." — Ecclesiastes 4:12 KJV*
+*ANCHOR v3.0 — "A threefold cord is not quickly broken." — Ecclesiastes 4:12 KJV*

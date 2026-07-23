@@ -149,6 +149,6 @@
 
 > 이 선언을 장착한 후 → `01_MANDATE(작전명령)/CREED_Override.md` → `01_MANDATE(작전명령)/MANDATE_Agent.md` 순서로 읽어라.
 
-*IDENTITY v2.0
+*IDENTITY v3.0
 *"The entrance of thy words giveth light" — Psalm 119:130 KJV*
 
