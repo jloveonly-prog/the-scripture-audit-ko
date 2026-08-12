@@ -833,7 +833,9 @@ KJV 원문에서 이 장면을 묘사할 때 사용된 단어는 무엇이며, *
 
 > **욥 1:6-7 (KJV)** — *"Now there was a day when the **sons of God** came to present themselves before the LORD, and **Satan came also among them**. And the LORD said unto Satan, Whence comest thou? And Satan answered, **From going to and fro in the earth, and from walking up and down in it.**"*
 
-사탄(원래 하나님의 아들, 겔 28:14)은 이 땅을 거닐었습니다. 그렇다고 사탄이 인간입니까?
+사탄(원래 그룹/Cherub, 겔 28:14)은 이 땅을 거닐었습니다. 그렇다고 사탄이 인간입니까?
+
+> ⚠️ **[2026-07-30 재검증]** 이 예시는 욥 1:6-7의 "하나님의 아들들"을 사탄이 속한 CLASS1(첫세상, 욥 38:7 그룹)로 전제한다. 그러나 원어 정관사 대조 결과(욥 1:6·2:1 = 정관사 있는 בְּנֵי הָאֱלֹהִים = 창세기 6:2·4와 동일 구문) 욥 1:6·2:1의 "하나님의 아들들"은 CLASS1이 아니라 **CLASS3(창세기 6장 그룹)**로 재분류되었다(`영적존재기준표_추정.md` §2-D). 사탄이 이 CLASS3 회의에 "함께(among them)" 왔다는 것과, 사탄 자신의 원래 소속(그룹/Cherub, CLASS1 여부는 별도로 TENTATIVE)은 별개 질문이다. 다만 이 단락의 논증 목적 — "지상 활동이 곧 인간이라는 증거는 아니다" — 자체는 CLASS1이든 CLASS3이든 동일하게 성립하므로 핵심 결론에는 영향이 없다.
 
 | 존재 | 본래 범주 | 지상 활동 | 결론 |
 |:---|:---|:---:|:---|

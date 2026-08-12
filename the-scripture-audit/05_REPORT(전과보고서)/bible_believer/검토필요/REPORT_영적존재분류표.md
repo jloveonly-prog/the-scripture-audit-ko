@@ -113,7 +113,12 @@ Spirit (추상 기반 클래스)                           ← abstract: 직접 
 
 ## 📊 3. CLASS 1 — 하나님의 아들들 (첫 세상) `SonsOfGod_FirstWorld`
 
-> **KJV 핵심 근거:** 욥 38:4-7 / 히 7:3 / 욥 1:6
+> ⚠️ **[2026-07-30 재검증 — 이 클래스 정의는 부분 폐기됨]** 이 문서(원본)는 이후 `bible_believer/영적존재기준표_추정.md`로 전면 재검증되었으며, 아래 두 항목은 명시적으로 **❌ REJECTED** 처리되었다:
+> 1. **"욥 1:6"을 CLASS1 근거로 포함한 것** — 원어 정관사 대조 결과 욥 1:6·2:1(정관사 있음)은 욥 38:7(정관사 없음)이 아니라 창세기 6:2·4와 동일 구문이며, CLASS1이 아니라 **CLASS3**(SonsOfGod_SecondWorld)로 재분류됨.
+> 2. **`gender: MaleOnly // 사14:21 banim`** — 사 14:21의 "그의 자녀들"은 12~17절의 루시퍼가 아니라 **20절 "바벨론 인간 왕"의 세습 후손**을 가리키는 별개 문맥(TYPE-R 주어 혼동)이며, 첫 세상 존재의 성별 증거로 쓸 수 없다. 최신 판정은 성별 **❓ OPEN**(미확정)이다.
+> 아래 원문은 사료 보존을 위해 그대로 남기되, 이 두 항목은 최신 문서(`영적존재기준표_추정.md` §2-A·§2-D)를 따를 것.
+
+> **KJV 핵심 근거:** 욥 38:4-7 / 히 7:3 / ~~욥 1:6~~ (위 정정 참조)
 
 ```
 class SonsOfGod_FirstWorld extends Spirit {
@@ -125,7 +130,7 @@ class SonsOfGod_FirstWorld extends Spirit {
   body:         SpiritualBody   // 하늘의 몸 (σῶμα)
   flesh:        null            // σάρξ 없음
   reproduction: false           // 생식 불가
-  gender:       MaleOnly        // 사 14:21 banim(남성) — 여성 없음
+  gender:       Unknown         // [정정] 사14:21 오적용 근거 폐기 — OPEN
   abilities:    [왕권(archē), 제사장직, 노래(sang), 통치]
 }
 ```
@@ -138,9 +143,9 @@ class SonsOfGod_FirstWorld extends Spirit {
 | 끝(End) | `null` | 히 7:3 "no end of life" |
 | 왕권(Archē) | `true` | 히 7:1 "살렘의 **왕**" |
 | 제사장직 | `true` | 히 7:1 "지극히 높으신 하나님의 **제사장**" |
-| 생식능력 | `false` | 마 22:30 / 사 14:21 여성(banot) 0건 |
+| 생식능력 | `false` | 마 22:30 (사14:21 근거는 정정 참조 — 폐기) |
 | 노래(sang) | `true` | 욥 38:7 "sang together" |
-| 성별 | 남성형만 | 사 14:21 banim — banot(여성) 전무 |
+| 성별 | ❓ OPEN (정정) | ~~사 14:21 banim~~ — 오적용으로 폐기, 근거 없음 |
 
 ### 📌 Objects — 인스턴스 목록
 
