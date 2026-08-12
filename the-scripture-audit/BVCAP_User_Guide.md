@@ -161,6 +161,8 @@ The folder structure of this repository is not a simple file classification. It 
 
 > **AI Instruction**: When analyzing a new case, open precedents of the same TYPE or higher grade first to secure a quality standard.
 > 🏆 = S-Grade | The more complex TYPEs involved, the closer to A-grade.
+>
+> ⚠️ **Label Caution (2026-08-12)**: The "Core Weapon / Victory Point" column names the *technique* applied (e.g. numeric symmetry, typology count), not a pre-established theological conclusion to inherit. Recognizing a topic word (e.g. "Trinity") in this index must never substitute for re-deriving the conclusion from the KJV text and original languages on a new challenge — treat every row here as a prior H0 to re-verify, not a fact to import (`CREED_Override.md` OVERRIDE-0 / "C-4 세부 시행 지침").
 
 | Filename | Main TYPEs | Core Weapon / Victory Point | Verdict |
 |:---|:---:|:---|:---:|
@@ -174,7 +176,7 @@ The folder structure of this repository is not a simple file classification. It 
 | **[B+E]_PassionWeek_Timeline** | B + E | Separation of two Sabbaths, spice purchase gap verified | ✅ |
 | **[C]_Solomon_Stalls_40k_vs_4k** | C | Chariots 1,400 reverse calc, Analogy (Hangar vs Fighter Wing) | ✅ |
 | **[D+G]_Timna_Genealogy** | D + G | and/comma 3-group structure + genealogy compression custom | ✅ |
-| **[I+F]_GenesisChapter1** | I + F | bara/called 5:5 symmetry, 22-word Trinity design | ✅ |
+| **[I+F]_GenesisChapter1** | I + F | bara/called 5:5 symmetry, 22-word count design | ✅ |
 | **[I+D]_Matthew1_14Generations** | I + D | Numerical design + David dual inclusion custom | ✅ |
 | **[E]_ThursdayCrucifixion** | E | Total rejection of 3 competing models → Wednesday adopted | ❌ Rejected |
 | **[J]_Thomas_SillaMission** | J + F | 舌化縣 etymology + Silk Road historical context | ⚠️ Circumstantial |
