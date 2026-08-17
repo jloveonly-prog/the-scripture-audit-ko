@@ -45,7 +45,7 @@
    │
    ├─ PHASE 1: 구절 해부 (Design Thinking)  → "무엇이 진짜 충돌인가?" 정의 & 유형 분류
    ├─ PHASE 2: KJV 원문 핵심 단서        → "충돌 구조 확정 + 분석 도구 선택"
-   ├─ PHASE 3: FULL SCAN (TYPE A→AU + TYPE-B-π 전종 순차 발동) + COMBO 이중 검증  → "전 무기 순차 실전 투입"
+   ├─ PHASE 3: FULL SCAN (TYPE A→AY + TYPE-B-π 전종 순차 발동) + COMBO 이중 검증  → "전 무기 순차 실전 투입"
    ├─ PHASE 4: 하나님의 사랑의 설계      → "해결된 충돌에서 신학적 의미 추출"
    ├─ PHASE 5: 현대 비유 (ANALOGY)          → "결론을 1초 이해 가능한 비유로 변환"
    ├─ PHASE 6: 영적/목회적 교훈 (LESSON)   → "이 난제를 통해 하나님이 주시는 교훈"
@@ -65,7 +65,7 @@
 
 ## 🤖 [AI 역할 분담 듀얼 엔진 체계 (Dual-Mode Multi-Agent Collaboration)]
 
-BVCAP 3.0 엔진은 다루는 난제의 성격에 따라 두 가지 모드로 분기되어 작동합니다. 분석에 사용되는 **QUIVER 무기 체계 전종**(TYPE-A~AU + TYPE-B-π)과 검증 파이프라인은 동일하지만, **에이전트의 페르소나와 논쟁의 전제**가 달라집니다. **별도의 지정이 없을 경우 항상 'MODE A(방패 모드)'로 기본 가동됩니다.**
+BVCAP 3.0 엔진은 다루는 난제의 성격에 따라 두 가지 모드로 분기되어 작동합니다. 분석에 사용되는 **QUIVER 무기 체계 전종**(TYPE-A~AY + TYPE-B-π)과 검증 파이프라인은 동일하지만, **에이전트의 페르소나와 논쟁의 전제**가 달라집니다. **별도의 지정이 없을 경우 항상 'MODE A(방패 모드)'로 기본 가동됩니다.**
 
 ### 🛡️ MODE A: 방패 모드 (Apologetics / 외부 변증) 🌟 [기본(Default)]
 *   **적용 대상:** 회의론자, 무신론자, 이슬람 변증가 등이 제기하는 "성경 자체의 무오성/모순" 공격 방어.
@@ -193,7 +193,7 @@ BVCAP 3.0 엔진은 다루는 난제의 성격에 따라 두 가지 모드로 �
                   ▼
 ┌─────────────────────────────────────────┐
 │  PHASE 3: FULL SCAN 실전 투입                │
-│  - TYPE A→AU + TYPE-B-π (전종) 순차 발동    │
+│  - TYPE A→AY + TYPE-B-π (전종) 순차 발동    │
 │  - COMBO 이중 검증 + STRESS-TEST-7 시뮬      │
 └──────────────────┬──────────────────────┘
                    │
@@ -241,7 +241,7 @@ BVCAP 3.0 엔진은 다루는 난제의 성격에 따라 두 가지 모드로 �
 ## ⚙️ [PHASE 3: 분석 논리 무기 목록 (QUIVER TYPE 무기 체계)]
 
 > [!NOTE]
-> **분석자는 방어할 때 반드시 04_QUIVER(무기고) 폴더에 있는 TYPE-A~AU + TYPE-B-π 전종 무기만을 사용하여 치열하게 토론하고, 마지막 판결은 BVCAP_Pipeline.md 양식을 따른다.**
+> **분석자는 방어할 때 반드시 04_QUIVER(무기고) 폴더에 있는 TYPE-A~AY + TYPE-B-π 전종 무기만을 사용하여 치열하게 토론하고, 마지막 판결은 BVCAP_Pipeline.md 양식을 따른다.**
 
 ### 🔗 COMBO 이중 검증 체계 개요
 
@@ -450,7 +450,7 @@ Mermaid sequenceDiagram 형식 또는 텍스트 기반 화살표 다이어그램
 
 **STEP 1. 파이프라인 검증 가동 (BVCAP_Pipeline.md 실행)**
   - `01_MANDATE(작전명령)` 및 `02_TACTICS(전술)` 룰셋 장착
-  - `04_QUIVER` 무기고의 전종 무기(TYPE-A~AU + TYPE-B-π) FULL SCAN 실행
+  - `04_QUIVER` 무기고의 전종 무기(TYPE-A~AY + TYPE-B-π) FULL SCAN 실행
   - `03_WAR_LOG` 전투기록 참고 및 E-Code 회피논법 탐지/기각
 
 **STEP 2. 마스터피스 양식 출력 (BVCAP_GHQ.md 기준)**

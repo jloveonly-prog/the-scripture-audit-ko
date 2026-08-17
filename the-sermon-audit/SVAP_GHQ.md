@@ -48,7 +48,7 @@
    │   ├─ GATE 0: C-Code 결정                               → "이 주장은 어떤 유형인가?"
    │   ├─ GATE 1: 관련 구절 수집                             → "성경이 실제로 뭐라고 하는가?"
    │   ├─ GATE 2: 주석 검색 금지                             → "학계 통설로 오염 방지"
-   │   ├─ GATE 3: FULL SCAN (TYPE A→AU 전종 발동)            → "QUIVER 무기 전종 투입"
+   │   ├─ GATE 3: FULL SCAN (TYPE A→AY 전종 발동)            → "QUIVER 무기 전종 투입"
    │   ├─ GATE 4: 역산 교차 검증                             → "이 결론이 다른 구절과도 맞는가?"
    │   └─ GATE 5: 주장별 소(小)보고서 작성                   → "Claim-Level Verdict 발행"
    │   END FOR
@@ -93,7 +93,7 @@ SVAP 1.0 엔진은 설교 감사의 각 단계를 4명의 에이전트가 분담
 | AI 역할 | 실제 담당 | 철학적 위치 | 임무 |
 |:---:|:---:|:---|:---|
 | 🔍 **추출자** (Extractor) | **GATE -1 담당** | 냉정한 스캐너 | 설교 전문에서 모든 교리 주장을 전수 추출. 하나도 놓치지 않는 것이 유일한 목표. |
-| 🔬 **검증자** (Verifier) | **GATE 0~5 담당** | BVCAP 엔진 운용자 | 추출된 각 주장을 BVCAP 무기(TYPE-A~AU)로 성경과 대조 검증. 기존 the-scripture-audit의 전술/무기고를 그대로 사용. |
+| 🔬 **검증자** (Verifier) | **GATE 0~5 담당** | BVCAP 엔진 운용자 | 추출된 각 주장을 BVCAP 무기(TYPE-A~AY)로 성경과 대조 검증. 기존 the-scripture-audit의 전술/무기고를 그대로 사용. |
 | ⚖️ **판정자** (Judge) | **GATE 6 담당** | 완전 중립 심판 | 검증 결과를 종합하여 각 주장별 + 설교 전체의 교리적 건전성 판정. **PART A로 확정.** |
 | ✍️ **해설자** (Narrator) | **GATE 7 담당** | 배포용 편집자 | PART A의 판정을 원문 없이도 이해되게 챕터/파트별로 재서술("논거→왜 그럴듯한가→왜 무너지는가→쉬운 비유"). 댓글·추가자료 대조와 반론 부록도 이 단계에서 작성. **PART B로 첨부.** |
 | 🔨 **보강자** (Reinforcer) | **GATE 8 담당** | 무기 발굴 담당 | 판정이 확정된 뒤에도 멈추지 않고, **같은 판정을 뒷받침하는 더 쉬운 논거를 Claim당 최소 3개** 추가 발굴. 난이도 등급(🟢/🟡/🔴)을 매기고 🟢을 최소 1개 확보한다. 판정은 절대 바꾸지 않는다. **PART C로 첨부.** |
@@ -193,7 +193,7 @@ SVAP 1.0 엔진은 설교 감사의 각 단계를 4명의 에이전트가 분담
 │  - GATE 0: C-Code 결정                      │
 │  - GATE 1: 관련 구절 수집                   │
 │  - GATE 2: 주석 검색 금지                   │
-│  - GATE 3: FULL SCAN (TYPE A→AU)            │
+│  - GATE 3: FULL SCAN (TYPE A→AY)            │
 │  - GATE 4: 역산 교차 검증                   │
 │  - GATE 5: 주장별 소(小)보고서 작성          │
 └─────────────────┬───────────────────────────┘
@@ -272,7 +272,7 @@ SVAP 1.0 엔진은 설교 감사의 각 단계를 4명의 에이전트가 분담
 | 작전명령 | `../the-scripture-audit/01_MANDATE(작전명령)/` | 페르소나/CREED/에이전트 사명 장착 |
 | 전술 | `../the-scripture-audit/02_TACTICS(전술)/` | 힐렐 7대/DE-OVERLAP/ANCHOR 등 |
 | 전투기록 | `../the-scripture-audit/03_WAR_LOG(전투기록)/` | 선례 참조 |
-| 무기고 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE-A~AU + TYPE-B-π 전종 무기 |
+| 무기고 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE-A~AY + TYPE-B-π 전종 무기 |
 | BVCAP 파이프라인 | `../the-scripture-audit/BVCAP_Pipeline.md` | GATE 0~5 실행 절차 |
 | BVCAP 사령부 | `../the-scripture-audit/BVCAP_GHQ.md` | E-Code(E-01~E-16), 판결 기준 참조 |
 

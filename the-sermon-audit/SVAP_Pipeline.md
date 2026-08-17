@@ -668,7 +668,7 @@ END FOR
 | 작전명령 | `../the-scripture-audit/01_MANDATE(작전명령)/` | 페르소나/CREED/에이전트 사명 장착 |
 | 전술 | `../the-scripture-audit/02_TACTICS(전술)/` | 힐렐 7대/DE-OVERLAP/ANCHOR 등 |
 | 전투기록 | `../the-scripture-audit/03_WAR_LOG(전투기록)/` | 선례 참조 |
-| 무기고 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE-A~AU + TYPE-B-π 전종 무기 |
+| 무기고 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE-A~AY + TYPE-B-π 전종 무기 |
 | BVCAP 파이프라인 | `../the-scripture-audit/BVCAP_Pipeline.md` | GATE 0~5 실행 절차 |
 | BVCAP 사령부 | `../the-scripture-audit/BVCAP_GHQ.md` | E-Code(E-01~E-16), 판결 기준 참조 |
 | C-Code 분류표 | `../the-scripture-audit/BVCAP_Pipeline.md` → 충돌 유형 분류 섹션 | C-01~C-13 정의 |
@@ -720,7 +720,7 @@ END FOR
     → [GATE 0] C-Code 결정
     → [GATE 1] 관련 구절 수집 (앵커 포함) — 성경 원문만 사용
     → [GATE 2] 주석 검색 금지
-    → [GATE 3] FULL SCAN (TYPE A→AU 순차 실행) — 무기고 참조 허용
+    → [GATE 3] FULL SCAN (TYPE A→AY 순차 실행) — 무기고 참조 허용
     → [GATE 4] 역산 교차 검증
     → [GATE 5] Claim-Level Verdict 발행 → 🔒 독립 판결 잠금
   END FOR
@@ -822,7 +822,7 @@ END FOR
 핵심:
 - SVAP는 BVCAP의 **래퍼(Wrapper)**다.
 - GATE -1, GATE 5.5, GATE 6이 SVAP 고유이고, 중간의 핵심 검증(GATE 0~5)은 BVCAP 그대로다.
-- 무기고(TYPE-A~AU), 전술(힐렐 7대, DE-OVERLAP), 작전명령은 모두 기존 자산을 공유한다.
+- 무기고(TYPE-A~AY), 전술(힐렐 7대, DE-OVERLAP), 작전명령은 모두 기존 자산을 공유한다.
 - BVCAP에 새 무기가 추가되면 SVAP도 자동으로 혜택을 받는다.
 - **v1.1 핵심 변경**: PHASE 1(독립 분석)에서 기존 보고서를 참조하지 않고,
   PHASE 2(이중 검증)에서 비로소 기존 보고서를 열어 대조함으로써
