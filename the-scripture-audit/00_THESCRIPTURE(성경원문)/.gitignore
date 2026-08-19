@@ -1,0 +1,12 @@
+# 한글 본문 포함 파일 — 표준킹제임스(KSKJB) / CC BY-NC-ND 4.0
+# 마크업이 부가된 가공물이므로 배포 시 ND(변경금지) 조항 위반.
+# 로컬 연구 전용. 공개 저장소에 포함하지 않는다.
+KJV_KO_표준.json
+KJV_KO_표준.json.bak*
+KJV_KO_표준.md
+TheScripture_ko_en.json
+TheScripture_ko_en_search.json
+
+# 작업 부산물
+KJV_1769.txt.bak
+__pycache__/
