@@ -14,8 +14,11 @@ the-sermon-audit/_INBOX(설교목록)/*
 !the-sermon-audit/_INBOX(설교목록)/.gitkeep
 the-sermon-audit/01_CLAIMS(주장추출)/*
 !the-sermon-audit/01_CLAIMS(주장추출)/.gitkeep
-the-sermon-audit/02_REPORT(설교감사보고서)/*
-!the-sermon-audit/02_REPORT(설교감사보고서)/.gitkeep
+the-sermon-audit/03_REPORT(설교감사보고서)/*
+!the-sermon-audit/03_REPORT(설교감사보고서)/.gitkeep
+
+# 02_TEMPLATE: README·빈 템플릿은 공개, 실제 설교 비평이 들어간 예시만 비공개
+the-sermon-audit/02_TEMPLATE(템플릿·예시)/SVAP_EXAMPLE.md
 
 
 the-catholic-audit/05_DOCTRINE_DB
