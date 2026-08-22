@@ -277,17 +277,17 @@ SVAP 1.0 엔진은 설교 감사의 각 단계를 4명의 에이전트가 분담
 | 전투기록 | `../the-scripture-audit/03_WAR_LOG(전투기록)/` | 선례 참조 |
 | 무기고 | `../the-scripture-audit/04_QUIVER(무기고)/` | TYPE-A~AY + TYPE-B-π 전종 무기 |
 | BVCAP 파이프라인 | `../the-scripture-audit/BVCAP_Pipeline.md` | GATE 0~5 실행 절차 |
-| BVCAP 사령부 | `../the-scripture-audit/BVCAP_GHQ.md` | E-Code(E-01~E-16), 판결 기준 참조 |
+| BVCAP 사령부 | `../the-scripture-audit/BVCAP_GHQ.md` | E-Code(E-01~E-19), 판결 기준 참조 |
 
 ---
 
 ## 🔍 회피논법 탐지 (Evasion Detection — E-Codes)
 
-> BVCAP_GHQ.md의 E-01~E-16 전종을 그대로 계승한다.
+> BVCAP_GHQ.md의 E-01~E-19 전종을 그대로 계승한다.
 > → `../the-scripture-audit/BVCAP_GHQ.md` PHASE 4 표 전체 참조
 
 > [!WARNING]
-> **E-16 (문맥적 면죄부)** 는 SVAP에서 특히 중요하다:
+> **E-16 문맥적 면죄부 (Contextual Amnesty)** 는 SVAP에서 특히 중요하다:
 > 설교의 전체 문맥/흐름을 핑계로 개별 주장의 치명적 오류를 AI가 덮어주는 것을 엄금한다.
 > 설교 감사에서 E-16은 가장 빈번하게 발동될 회피논법이다.
 
