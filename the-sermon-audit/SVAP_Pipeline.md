@@ -1,3 +1,15 @@
+---
+id: audit-general-svappipel
+title_ko: 🔬 SVAP Pipeline v1.3 (the-sermon-audit의 내부 엔진)
+title_en: 🔬 SVAP Pipeline v1.3 (the-sermon-audit )
+file_ko: SVAP_Pipeline.md
+file_en: Svap_Pipeline.md
+category: general
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 > [!IMPORTANT]
 > ## 📋 전술 교범 (Tactical Manual — 실행 절차서)
 > **이 문서가 하는 일**: GATE -1(교리 주장 전수 추출) · BVCAP 투입 루프 · 종합 판정 · 보고서 출력

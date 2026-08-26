@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typejhis
+title_ko: '🔬 SKILL-10: TYPE-J — 외부 역사 문헌 교차 검증 파이프라인'
+title_en: '🔬 SKILL-10: TYPE-J —'
+file_ko: TYPE-J_History.md
+file_en: Type_J_History.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ## 🔬 SKILL-10: TYPE-J — 외부 역사 문헌 교차 검증 파이프라인
 
 > **언제 발동하는가**: 성경의 역사적 주장(인물, 사건, 장소, 전래)을 비성경 역사서나 고고학 자료로 검증하거나 강화해야 할 때.  

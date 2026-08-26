@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-22
+title_ko: 📑 [BVCAP 포렌식 보고서] 요한계시록 22장의 화자(Speaker) 혼재와 '대리인 화법' 심층 분석
+title_en: 📑 [BVCAP Report] 22 (Speaker) ' ' Analysis
+file_ko: REPORT_계시록22장_화자전환_대리인화법_Masterpiece.md
+file_en: Report_22_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📑 [BVCAP 포렌식 보고서] 요한계시록 22장의 화자(Speaker) 혼재와 '대리인 화법' 심층 분석
 
 > **STATUS**: 🟢 **IRONCLAD (완전 검증 완료)**

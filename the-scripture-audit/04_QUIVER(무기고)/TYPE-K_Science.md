@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeksci
+title_ko: 실행 단계
+title_en: Document
+file_ko: TYPE-K_Science.md
+file_en: Type_K_Science.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔬 SKILL-11: TYPE-K — 과학적·법의학적 정합 검증 파이프라인
 
 > **언제 발동하는가**: "성경의 묘사가 과학적으로 불가능하다"는 공격을 받거나, 두 기록이 충돌하는 것처럼 보이지만 의학·물리학적으로 하나의 과정으로 통합 가능할 때.

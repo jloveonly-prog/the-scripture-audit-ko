@@ -1,3 +1,15 @@
+---
+id: audit-general-svapghqm
+title_ko: 🔬 SVAP 1.0 (the-sermon-audit의 내부 엔진 Sermon Verification & Audit Pipeline)
+title_en: 🔬 SVAP 1.0 (the-sermon-audit Sermon Verification & Audit Pipeline)
+file_ko: SVAP_GHQ.md
+file_en: Svap_Ghq.md
+category: general
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 > [!IMPORTANT]
 > ## 🏛️ 사령부 (GHQ — General Headquarters)
 > **이 문서가 하는 일**: MODE 결정 · 역할 배분 · 판결 기준 · 출력 양식 정의

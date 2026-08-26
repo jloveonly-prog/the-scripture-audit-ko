@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeifre
+title_ko: '🔬 SKILL-09: TYPE-I — 어휘 빈도 대칭 설계 검증 파이프라인'
+title_en: '🔬 SKILL-09: TYPE-I —'
+file_ko: TYPE-I_Frequency.md
+file_en: Type_I_Frequency.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-09: TYPE-I — 어휘 빈도 대칭 설계 검증 파이프라인
 
 > **언제 발동하는가**: 동일한 성경 단락이나 인접 구절들에서 특정 동사/명사의 사용 횟수가 정확히 일치할 때.

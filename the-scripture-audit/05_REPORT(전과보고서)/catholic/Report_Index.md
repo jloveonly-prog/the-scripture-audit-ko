@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-reportind
+title_ko: 🏛️ 가톨릭(Catholic) 변증 및 오류 감사 보고서 인덱스 (BVCAP)
+title_en: 🏛️ (Catholic) Audit Report (BVCAP)
+file_ko: Report_Index.md
+file_en: Report_Index.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏛️ 가톨릭(Catholic) 변증 및 오류 감사 보고서 인덱스 (BVCAP)
 
 본 인덱스는 성경(KJV)에 기반하여 로마 가톨릭의 교리와 전승을 포렌식(Forensic)으로 검증한 '전과 보고서'들의 목록과 바로가기 링크를 제공합니다.

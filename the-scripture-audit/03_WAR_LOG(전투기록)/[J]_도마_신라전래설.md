@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-j
+title_ko: 도마가 신라에 왔나? (사도 도마의 신라 전래설과 대구 '설화' 지명의 미스터리)
+title_en: '? ( '''' )'
+file_ko: '[J]_도마_신라전래설.md'
+file_en: '[j].md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 도마가 신라에 왔나? (사도 도마의 신라 전래설과 대구 '설화' 지명의 미스터리)
 
 ## 1. 서론: 도마의 신라 방문설

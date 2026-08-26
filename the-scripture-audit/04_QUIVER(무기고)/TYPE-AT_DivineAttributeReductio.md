@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeatdi
+title_ko: ⚙️ 발동 조건
+title_en: ⚙️
+file_ko: TYPE-AT_DivineAttributeReductio.md
+file_en: Type_At_Divineattributereductio.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔥 SKILL-47: TYPE-AT — 신성 속성 귀류법 (Divine Attribute Reductio)
 **"온갖 좋은 선물과 완전한 은사는 위로부터 내려오나니 곧 빛들의 아버지께로부터라" — James 1:17 KJV**
 

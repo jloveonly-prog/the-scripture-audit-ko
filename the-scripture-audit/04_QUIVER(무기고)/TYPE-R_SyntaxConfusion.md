@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typersyn
+title_ko: 1. 🎯 무기 개요 (Weapon Overview)
+title_en: 1. 🎯 (Weapon Overview)
+file_ko: TYPE-R_SyntaxConfusion.md
+file_en: Type_R_Syntaxconfusion.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🗡️ TYPE-R : 구문 및 주어 혼동 적발 (Syntax & Subject Confusion)
 
 > **"적의 가장 거창한 신학적 공격은, 종종 기초적인 문법 오독 위에 세워져 있다."**

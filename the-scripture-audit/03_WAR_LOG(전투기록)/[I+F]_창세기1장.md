@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-1
+title_ko: 창세기 1장 — 태초의 세계와 심판의 흔적
+title_en: 1 —
+file_ko: '[I+F]_창세기1장.md'
+file_en: '[i+f]_1.md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 창세기 1장 — 태초의 세계와 심판의 흔적
 
 ---

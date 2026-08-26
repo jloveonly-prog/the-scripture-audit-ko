@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 디모데전서 2장 5절과 삼위일체 부정 논리 검증
+title_en: 📜 [BVCAP 2.0 Report] 2 5
+file_ko: REPORT_디모데전서_삼위일체부정_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 디모데전서 2장 5절과 삼위일체 부정 논리 검증
 **— "마리아를 구하기 위해 예수님의 신성(삼위일체)을 포기한 치명적 이단성" BVCAP v2.0 최고 수위(MAX) 감사 보고서 —**
 

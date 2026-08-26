@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeachr
+title_ko: '🔬 SKILL-01: TYPE-A — 연대기 직렬 분해 파이프라인'
+title_en: '🔬 SKILL-01: TYPE-A —'
+file_ko: TYPE-A_Chronological.md
+file_en: Type_A_Chronological.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-01: TYPE-A — 연대기 직렬 분해 파이프라인
 
 > **언제 발동하는가**: 두 본문의 숫자가 충돌하고, 기존 학계가 "두 기간이 겹친다"고 처리하는 경우.

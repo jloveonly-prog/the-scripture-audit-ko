@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-reportbeh
+title_ko: 'Creation/Job: Behemoth and Leviathan''s Existence and Spiritual Identity'
+title_en: 'Creation/Job: Behemoth and Leviathan''s Existence and Spiritual Identity'
+file_ko: REPORT_Behemoth_Leviathan_Existence_EN.md
+file_en: Report_Behemoth_Leviathan_Existence_En.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿---
 metadata:
   key: sa-diff-002

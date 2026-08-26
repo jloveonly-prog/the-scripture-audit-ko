@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 예수님의 신성 부정 및 아리안주의 이단 커밍아웃 검증
+title_en: 📜 [BVCAP 2.0 Report]
+file_ko: REPORT_예수신성부정_아리안이단_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 예수님의 신성 부정 및 아리안주의 이단 커밍아웃 검증
 **— "마리아를 구하기 위해 예수님을 피조물로 강등시킨 역대급 이단성" BVCAP v2.0 최고 수위(MAX) 감사 보고서 —**
 

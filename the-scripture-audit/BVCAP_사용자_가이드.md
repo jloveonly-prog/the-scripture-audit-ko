@@ -1,3 +1,15 @@
+---
+id: audit-general-bvcap
+title_ko: 🏛️ THE SCRIPTURE AUDIT SYSTEM
+title_en: 🏛️ THE SCRIPTURE AUDIT SYSTEM
+file_ko: BVCAP_사용자_가이드.md
+file_en: Bvcap.md
+category: general
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏛️ THE SCRIPTURE AUDIT SYSTEM
 **"Search the scriptures" — John 5:39 KJV**
 

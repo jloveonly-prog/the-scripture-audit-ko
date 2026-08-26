@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeayde
+title_ko: '🗡️ SKILL-53: TYPE-AY — 요구 계층 분석 (Demand Hierarchy)'
+title_en: '🗡️ SKILL-53: TYPE-AY — Analysis (Demand Hierarchy)'
+file_ko: TYPE-AY_DemandHierarchy.md
+file_en: Type_Ay_Demandhierarchy.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🗡️ SKILL-53: TYPE-AY — 요구 계층 분석 (Demand Hierarchy)
 
 **"Peradventure there be fifty righteous within the city…" — Genesis 18:24 KJV**

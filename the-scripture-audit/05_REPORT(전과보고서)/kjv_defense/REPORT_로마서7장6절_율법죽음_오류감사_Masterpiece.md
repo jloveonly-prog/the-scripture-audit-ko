@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-7
+title_ko: '🔬 REPORT: KJV 로마서 7:6 원문 오류 포렌식 (TYPE-AL 오류 교정 및 최종 확정)'
+title_en: '🔬 REPORT: KJV 7:6 Original Text (TYPE-AL Final )'
+file_ko: REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md
+file_en: Report_76_Audit_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 REPORT: KJV 로마서 7:6 원문 오류 포렌식 (TYPE-AL 오류 교정 및 최종 확정)
 > **"우리가 죽었는가(다수 사본), 율법이 죽었는가(KJV)?"**
 

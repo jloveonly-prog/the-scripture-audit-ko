@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-a
+title_ko: 데라(Terah)의 70세 아브람 출생 기록 연대 난제
+title_en: (Terah) 70
+file_ko: '[A]_데라_아브람출생.md'
+file_en: '[a].md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 데라(Terah)의 70세 아브람 출생 기록 연대 난제
 **— "창세기 11:26의 70세는 오류인가?" BVCAP v1.2 중립 감사 보고서 —**
 

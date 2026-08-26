@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-reportcat
+title_ko: 'Catholic Doctrine Comments: Theological Debate Dialogue Record'
+title_en: 'Catholic Doctrine Comments: Theological Debate Dialogue Record'
+file_ko: REPORT_Catholic_Comments_EN.md
+file_en: Report_Catholic_Comments_En.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿---
 metadata:
   key: sa-cath-001

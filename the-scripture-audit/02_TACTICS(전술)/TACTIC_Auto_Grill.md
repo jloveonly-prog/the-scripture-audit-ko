@@ -1,3 +1,15 @@
+---
+id: audit-scripture_02_TACTICS-tacticaut
+title_ko: '🧨 TACTIC: AUTO-GRILL (자가 압박 심문)'
+title_en: '🧨 TACTIC: AUTO-GRILL ( )'
+file_ko: TACTIC_Auto_Grill.md
+file_en: Tactic_Auto_Grill.md
+category: scripture_02_TACTICS
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🧨 TACTIC: AUTO-GRILL (자가 압박 심문)
 
 > **발동 조건**: 텍스트 분석 결과가 'IRONCLAD(철벽)' 등급으로 도출되기 직전, 결론을 최종 확정하기 위해 **반드시 거쳐야 하는 자체 스트레스 테스트 프로토콜**입니다.

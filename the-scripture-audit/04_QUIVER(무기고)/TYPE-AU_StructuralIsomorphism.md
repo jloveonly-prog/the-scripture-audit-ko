@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeaust
+title_ko: ⚙️ 발동 조건
+title_en: ⚙️
+file_ko: TYPE-AU_StructuralIsomorphism.md
+file_en: Type_Au_Structuralisomorphism.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔀 SKILL-48: TYPE-AU — 구조적 등가 평행 (Structural Isomorphism)
 **"The thing that hath been, it is that which shall be" — Ecclesiastes 1:9 KJV**
 

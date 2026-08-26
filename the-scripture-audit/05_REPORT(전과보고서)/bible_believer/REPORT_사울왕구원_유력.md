@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: ⚖️ 사울왕 구원 논쟁 — 최종 BVCAP 심층 감사 및 통합 포렌식 보고서
+title_en: ⚖️ — Final BVCAP Audit Report
+file_ko: REPORT_사울왕구원_유력.md
+file_en: Report_Strong.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # ⚖️ 사울왕 구원 논쟁 — 최종 BVCAP 심층 감사 및 통합 포렌식 보고서
 **— "사울왕은 지옥(Torment)에 갔는가, 낙원(Abraham's Bosom)에 갔는가?" —**
 

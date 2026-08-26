@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 카톨릭 외전 대본 — 대(對) 가톨릭 교리 반박 보고서
+title_en: — (對) Report
+file_ko: REPORT_카톨릭외전_대본분석.md
+file_en: Report.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 카톨릭 외전 대본 — 대(對) 가톨릭 교리 반박 보고서
 
 ---

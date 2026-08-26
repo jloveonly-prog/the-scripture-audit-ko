@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeawde
+title_ko: '🗡️ SKILL-51: TYPE-AW — 행동–진술 불일치 (Deed–Word Discrepancy)'
+title_en: '🗡️ SKILL-51: TYPE-AW — – (Deed–Word Discrepancy)'
+file_ko: TYPE-AW_DeedWordDiscrepancy.md
+file_en: Type_Aw_Deedworddiscrepancy.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🗡️ SKILL-51: TYPE-AW — 행동–진술 불일치 (Deed–Word Discrepancy)
 
 **"They profess that they know God; but in works they deny him." — Titus 1:16 KJV**

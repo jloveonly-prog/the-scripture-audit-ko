@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeaqau
+title_ko: '🏹 SKILL-44: TYPE-AQ — 청중비평 (Audience Criticism)'
+title_en: '🏹 SKILL-44: TYPE-AQ — (Audience Criticism)'
+file_ko: TYPE-AQ_AudienceCriticism.md
+file_en: Type_Aq_Audiencecriticism.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 SKILL-44: TYPE-AQ — 청중비평 (Audience Criticism)
 **"원래 청중은 이것을 어떻게 이해했는가?"**
 

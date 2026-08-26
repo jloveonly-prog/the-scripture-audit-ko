@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-dg
+title_ko: 역대기상 1장 36절 '팀나' 족보 난제 — 단순 오류인가, 정교한 압축인가?
+title_en: 1 36 '' — , ?
+file_ko: '[D+G]_팀나_족보난제.md'
+file_en: '[d+g].md'
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 역대기상 1장 36절 '팀나' 족보 난제 — 단순 오류인가, 정교한 압축인가?
 
 **— "창세기엔 첩이라더니 역대기엔 아들이라네?" 성경 모순 공격에 대한 BVCAP 중립 감사 보고서 —**

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typexchi
+title_ko: '🏹 TYPE-X: 교차 대칭 구조 (Chiastic Structure / Chiasmus)'
+title_en: '🏹 TYPE-X: (Chiastic Structure / Chiasmus)'
+file_ko: TYPE-X_ChiasticStructure.md
+file_en: Type_X_Chiasticstructure.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 TYPE-X: 교차 대칭 구조 (Chiastic Structure / Chiasmus)
 
 > **별칭**: 본문의 엑스레이 (Textual X-Ray)

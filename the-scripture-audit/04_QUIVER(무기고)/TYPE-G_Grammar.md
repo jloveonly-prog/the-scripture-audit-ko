@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeggra
+title_ko: '🔬 SKILL-07: TYPE-G — KJV 접속사/문법 구조 해부 파이프라인'
+title_en: '🔬 SKILL-07: TYPE-G — KJV /'
+file_ko: TYPE-G_Grammar.md
+file_en: Type_G_Grammar.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-07: TYPE-G — KJV 접속사/문법 구조 해부 파이프라인
 
 > **언제 발동하는가**: 특정 구절이 후대 삽입이라는 사본학적 공격을 받거나, 족보에서 인물의 신분이 오기됐다는 공격을 받을 때.

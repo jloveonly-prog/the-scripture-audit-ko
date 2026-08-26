@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typehman
+title_ko: '🔬 SKILL-08: TYPE-H — 사본학적 증거 독립성 역전 파이프라인'
+title_en: '🔬 SKILL-08: TYPE-H — Evidence'
+file_ko: TYPE-H_Manuscript.md
+file_en: Type_H_Manuscript.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-08: TYPE-H — 사본학적 증거 독립성 역전 파이프라인
 
 > **언제 발동하는가**: "사본이 많은 쪽이 옳다"는 수량 논리로 공격받을 때.

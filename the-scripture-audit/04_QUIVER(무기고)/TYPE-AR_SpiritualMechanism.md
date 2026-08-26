@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typearsp
+title_ko: ⚙️ 발동 조건
+title_en: ⚙️
+file_ko: TYPE-AR_SpiritualMechanism.md
+file_en: Type_Ar_Spiritualmechanism.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🌀 SKILL-45: TYPE-AR — 영적 메커니즘 분석 (Spiritual Mechanism Analysis)
 **"이런 종류(this kind)는 기도와 금식 외에는 나오지 아니하느니라" — Mark 9:29 KJV**
 

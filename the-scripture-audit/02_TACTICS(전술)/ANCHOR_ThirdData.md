@@ -1,3 +1,15 @@
+---
+id: audit-scripture_02_TACTICS-anchorthi
+title_ko: 🔗 ANCHOR — 제3 앵커 수집 + MATRIX 역산 프로토콜
+title_en: 🔗 ANCHOR — 3 + MATRIX
+file_ko: ANCHOR_ThirdData.md
+file_en: Anchor_Thirddata.md
+category: scripture_02_TACTICS
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔗 ANCHOR — 제3 앵커 수집 + MATRIX 역산 프로토콜
 **"In the mouth of two or three witnesses every word shall be established." — 2 Corinthians 13:1 KJV**
 **"For precept must be upon precept... here a little, and there a little." — Isaiah 28:10 KJV**

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeftyp
+title_ko: '🔬 SKILL-06: TYPE-F — 예표 삼중 평행 구조 증명 파이프라인'
+title_en: '🔬 SKILL-06: TYPE-F —'
+file_ko: TYPE-F_Typology.md
+file_en: Type_F_Typology.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-06: TYPE-F — 예표 삼중 평행 구조 증명 파이프라인
 
 > **언제 발동하는가**: 특정 인물의 순교 장소·방식·사명이 성경 전승이나 외부 역사 기록과 충돌할 때.

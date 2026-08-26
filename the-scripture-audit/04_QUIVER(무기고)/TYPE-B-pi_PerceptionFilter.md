@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typebpi
+title_ko: '핵심 원리: 목격의 3상태 모델'
+title_en: ': 3'
+file_ko: TYPE-B-pi_PerceptionFilter.md
+file_en: Type_B_Pi_Perceptionfilter.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔬 SKILL-02π: TYPE-B-π — 지각 필터 (Perception Filter / Witness Capacity Limit)
 
 > **언제 발동하는가**: 증인이 사건 현장에 있었고, 물리적으로 보거나 들었으나, 심리·신체·환경적 이유로 정보를 **정상적으로 처리하지 못한** 경우.

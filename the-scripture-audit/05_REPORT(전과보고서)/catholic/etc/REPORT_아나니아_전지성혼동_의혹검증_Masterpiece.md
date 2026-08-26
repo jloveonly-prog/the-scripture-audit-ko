@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 아나니아 사건을 통한 전지성(Omniscience) 범주 혼동 검증
+title_en: 📜 [BVCAP 2.0 Report] (Omniscience)
+file_ko: REPORT_아나니아_전지성혼동_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 아나니아 사건을 통한 전지성(Omniscience) 범주 혼동 검증
 **— "성령의 일시적 '계시'와 창조주의 고유한 '전지성'을 혼동한 치명적 신학 오류" BVCAP v2.0 중립 감사 보고서 —**
 

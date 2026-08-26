@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeaben
+title_ko: '🌌 TYPE-AB: 영적 존재 및 공간 타임라인 추적 매트릭스 (Entity & Space Matrix)'
+title_en: '🌌 TYPE-AB: (Entity & Space Matrix)'
+file_ko: TYPE-AB_EntitySpaceMatrix.md
+file_en: Type_Ab_Entityspacematrix.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🌌 TYPE-AB: 영적 존재 및 공간 타임라인 추적 매트릭스 (Entity & Space Matrix)
 
 > **언제 발동하는가**: 천사, 마귀, 사탄, 혹은 지옥(Hell), 음부(Hades), 무저갱(Bottomless Pit), 불못(Lake of Fire) 등 영적 존재와 사후 공간에 대한 교리적 충돌이 제기될 때.

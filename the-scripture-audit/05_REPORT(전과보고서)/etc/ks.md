@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-ksmd
+title_ko: '[2.0]천년왕국 과거 성취설(리틀 시즌) 및 구원론 변질 논쟁 분석 기초 자료'
+title_en: '[2.0] ( ) Analysis'
+file_ko: ks.md
+file_en: Ks.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # [2.0]천년왕국 과거 성취설(리틀 시즌) 및 구원론 변질 논쟁 분석 기초 자료 
 
 ```

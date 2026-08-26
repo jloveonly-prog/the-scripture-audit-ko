@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: '교리 난제: 마리아 무염시태 & 마리아 육체 승천 교의 검증'
+title_en: ': &'
+file_ko: REPORT_마리아_무염시태_승천_오류감사.md
+file_en: Report_Audit.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 교리 난제: 마리아 무염시태 & 마리아 육체 승천 교의 검증
 **— "마리아는 원죄 없이 태어났으며 육체로 승천했는가?" BVCAP v2.0 중립 감사 보고서 —**
 

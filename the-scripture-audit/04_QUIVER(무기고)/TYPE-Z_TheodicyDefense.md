@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typezthe
+title_ko: '🏹 TYPE-Z: 신정론적 방어 (Theodicy Defense)'
+title_en: '🏹 TYPE-Z: (Theodicy Defense)'
+file_ko: TYPE-Z_TheodicyDefense.md
+file_en: Type_Z_Theodicydefense.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 TYPE-Z: 신정론적 방어 (Theodicy Defense)
 
 > **별칭**: 재판장의 고도 (Altitude of the Judge)

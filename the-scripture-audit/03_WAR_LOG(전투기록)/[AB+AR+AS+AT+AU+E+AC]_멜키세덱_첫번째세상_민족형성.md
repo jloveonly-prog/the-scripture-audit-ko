@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-abaras
+title_ko: ⚖️ 멜키세덱과 첫 번째 세상의 민족 형성 — BVCAP v2.0 마스터피스 보고서
+title_en: ⚖️ — BVCAP v2.0 Report
+file_ko: '[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성.md'
+file_en: '[ab+ar+as+at+au+e+ac].md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # ⚖️ 멜키세덱과 첫 번째 세상의 민족 형성 — BVCAP v2.0 마스터피스 보고서
 **— "아버지도 없고 어머니도 없으며 계보도 없이" (히 7:3) — 첫 번째 세상의 비밀과 하나님의 사랑의 설계 —**
 

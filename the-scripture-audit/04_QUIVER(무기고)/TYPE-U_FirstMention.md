@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeufir
+title_ko: '🏹 TYPE-U: 첫 언급의 법칙 (Law of First Mention)'
+title_en: '🏹 TYPE-U: (Law of First Mention)'
+file_ko: TYPE-U_FirstMention.md
+file_en: Type_U_Firstmention.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 TYPE-U: 첫 언급의 법칙 (Law of First Mention)
 
 > **별칭**: 원형의 앵커 (Anchor of the Prototype)

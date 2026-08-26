@@ -1,3 +1,15 @@
+---
+id: audit-scripture_02_TACTICS-analogymo
+title_ko: '🔧 ANALOGY-5: 현대 비유 창작 의무 프로토콜'
+title_en: '🔧 ANALOGY-5:'
+file_ko: ANALOGY_Modern.md
+file_en: Analogy_Modern.md
+category: scripture_02_TACTICS
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔧 ANALOGY-5: 현대 비유 창작 의무 프로토콜
 
 > **발동 조건**: 모든 분석의 마지막 단계. 결론이 도출된 후 반드시 실행.

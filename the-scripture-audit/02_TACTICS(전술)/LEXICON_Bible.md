@@ -1,3 +1,15 @@
+---
+id: audit-scripture_02_TACTICS-lexiconbi
+title_ko: 📖 LEXICON — 성경 인명·지명·관례 사전
+title_en: 📖 LEXICON — Bible ··
+file_ko: LEXICON_Bible.md
+file_en: Lexicon_Bible.md
+category: scripture_02_TACTICS
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📖 LEXICON — 성경 인명·지명·관례 사전
 **"The entrance of thy words giveth light" — Psalm 119:130 KJV**
 

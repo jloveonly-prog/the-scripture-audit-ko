@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 성체성사(화체설) 및 사제 계급 독점권 검증
+title_en: 📜 [BVCAP 2.0 Report] ()
+file_ko: REPORT_성찬_사제권위_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 성체성사(화체설) 및 사제 계급 독점권 검증
 **— "사제 계급의 권력 유지를 위한 성경 오독과 히브리서 10장 회피" BVCAP v2.0 최고 수위 감사 보고서 —**
 

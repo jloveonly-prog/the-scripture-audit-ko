@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-17
+title_ko: 📜 [BVCAP 2.0 전과보고서] 예레미야 17장 10절 행위 구원론 충돌 검증
+title_en: 📜 [BVCAP 2.0 Report] 17 10
+file_ko: REPORT_예레미야17장10절_행위구원론_의혹검증_Masterpiece.md
+file_en: Report_1710_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 예레미야 17장 10절 행위 구원론 충돌 검증
 **— "행위대로 보응하신다는 예레미야의 말씀이 행위 구원론을 지지하는가?" BVCAP v2.0 중립 감사 보고서 —**
 

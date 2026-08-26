@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 아담 선악과 — 창조 책임론 다중 공격 포렌식 감사
+title_en: — Audit
+file_ko: REPORT_아담선악과_창조책임론_다중공격_오류감사.md
+file_en: Report_Audit.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 아담 선악과 — 창조 책임론 다중 공격 포렌식 감사
 **— "결과를 알고 창조했으면 하나님 책임 아닌가?" BVCAP v2.0 중립 감사 보고서 —**
 

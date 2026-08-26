@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-b
+title_ko: '🛡️ BVCAP Audit Report: 부활 아침 — 전일 순차 통합'
+title_en: '🛡️ BVCAP Audit Report: —'
+file_ko: '[B]_무덤사건_부활아침_순차통합.md'
+file_en: '[b].md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🛡️ BVCAP Audit Report: 부활 아침 — 전일 순차 통합
 **"He is not here: for he is risen, as he said." — Matthew 28:6 KJV**
 

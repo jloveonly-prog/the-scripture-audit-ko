@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typebseq
+title_ko: 실행 단계
+title_en: Document
+file_ko: TYPE-B_Sequential.md
+file_en: Type_B_Sequential.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔬 SKILL-02: TYPE-B — 사건 순차적 병렬 통합 파이프라인
 
 > **언제 발동하는가**: 동일 사건을 두 저자(혹은 동일 저자의 두 기록)가 서로 다르게 묘사할 때.

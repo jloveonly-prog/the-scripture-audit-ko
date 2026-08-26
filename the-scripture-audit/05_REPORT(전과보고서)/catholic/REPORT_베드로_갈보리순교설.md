@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
+title_en: ( Final )
+file_ko: REPORT_베드로_갈보리순교설.md
+file_en: Report.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
 
 베드로가 골고다에서 죽었다는 직접 명시는 없죠.

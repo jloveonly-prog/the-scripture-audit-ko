@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeecom
+title_ko: '🔬 SKILL-05: TYPE-E — 경쟁 모델 전수 기각 파이프라인'
+title_en: '🔬 SKILL-05: TYPE-E —'
+file_ko: TYPE-E_Competing.md
+file_en: Type_E_Competing.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-05: TYPE-E — 경쟁 모델 전수 기각 파이프라인
 
 > **언제 발동하는가**: 기존에 여러 해석이 경쟁하는 난제, 또는 "필사 오류"로 처리하려는 시도가 있을 때.

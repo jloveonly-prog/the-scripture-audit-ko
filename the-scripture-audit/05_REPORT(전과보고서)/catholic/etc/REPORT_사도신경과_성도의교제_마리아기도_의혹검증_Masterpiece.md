@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 사도신경 '성도의 교제'와 마리아 기도의 충돌 검증
+title_en: 📜 [BVCAP 2.0 Report] ' '
+file_ko: REPORT_사도신경과_성도의교제_마리아기도_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 사도신경 '성도의 교제'와 마리아 기도의 충돌 검증
 **— "영원히 사니까 죽은 성인과 소통할 수 있다는 주장의 치명적 오류" BVCAP v2.0 중립 감사 보고서 —**
 

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-7
+title_ko: 🔱 분석_무슬림채널_하디스_양치기역설_V7_Master_KR
+title_en: 🔱 Analysis____V7_Master_KR
+file_ko: 분석_하디스_양치기오류_V7_Master_KR.md
+file_en: V7_Master_Kr.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔱 분석_무슬림채널_하디스_양치기역설_V7_Master_KR
 **QVCAP 7.0 - Supreme Logic Auditor Report**
 

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-3
+title_ko: '[창세기 3:20] 난제: 선악과 이전 출산설 vs 타락 이후 출산설'
+title_en: '[ 3:20] : vs'
+file_ko: '[AC-λ+G+S+N+P+AF]_창3_20_was_반대가정법_재심.md'
+file_en: '[ac_Λ+g+s+n+p+af]_3_20_Was.md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 > [!NOTE]
 > **문서 계보**: 이 파일은 전투기록(WAR_LOG) 정식 등재본이다.
 > 원본: `05_REPORT(전과보고서)/bible_believer/반대 가정법_창3_20_was_선악과이전출산설.md` (목회자 설득 패키지용, 2026-07-15 복사).

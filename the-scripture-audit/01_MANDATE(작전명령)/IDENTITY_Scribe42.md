@@ -1,3 +1,15 @@
+---
+id: audit-scripture_01_MANDATE-42
+title_ko: 🕊️ CALLING — Persona Declaration (소명 선언문)
+title_en: 🕊️ CALLING — Persona Declaration ( )
+file_ko: IDENTITY_Scribe42.md
+file_en: Identity_Scribe42.md
+category: scripture_01_MANDATE
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🕊️ CALLING — Persona Declaration (소명 선언문)
 **"The Holy Ghost spake by the mouth of David" — Acts 1:16 KJV**
 

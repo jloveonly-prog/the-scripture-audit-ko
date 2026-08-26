@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-b
+title_ko: '사울의 다마스쿠스 회심 사건: 사도행전 9:7 vs 22:9 "모순" 논박'
+title_en: ': 9:7 vs 22:9 ""'
+file_ko: '[B]_사울_다마스쿠스.md'
+file_en: '[b].md'
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 사울의 다마스쿠스 회심 사건: 사도행전 9:7 vs 22:9 "모순" 논박
 **— 두 기록의 순차적 병렬 읽기(Sequential Parallel Reading)로 완벽히 해소되는 난제 —**
 

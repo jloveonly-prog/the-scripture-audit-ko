@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-5
+title_ko: '⚔️ [가톨릭 비판 5대 패턴] 난제: [개신교 비판에 대한 가톨릭의 방어 논리 검증]'
+title_en: '⚔️ [ 5 ] : [ ]'
+file_ko: CHRONICLE_가톨릭_5대_비판_검증_Masterpiece.md
+file_en: Chronicle_5_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # ⚔️ [가톨릭 비판 5대 패턴] 난제: [개신교 비판에 대한 가톨릭의 방어 논리 검증]
 **— "가톨릭 측의 5대 방어 논리는 성경 텍스트 내부에서 수학적으로 정합하는가?" BVCAP v2.0 중립 감사 보고서 —**
 

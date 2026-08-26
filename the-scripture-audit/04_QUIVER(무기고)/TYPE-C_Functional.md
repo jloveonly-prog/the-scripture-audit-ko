@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typecfun
+title_ko: '🔬 SKILL-03: TYPE-C — 기능적/공간적 범주 분리 파이프라인'
+title_en: '🔬 SKILL-03: TYPE-C — /'
+file_ko: TYPE-C_Functional.md
+file_en: Type_C_Functional.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-03: TYPE-C — 기능적/공간적 범주 분리 파이프라인
 
 > **언제 발동하는가**: 동일해 보이는 단어(stalls, horses 등)의 숫자가 배수(10배, 100배) 차이가 날 때.

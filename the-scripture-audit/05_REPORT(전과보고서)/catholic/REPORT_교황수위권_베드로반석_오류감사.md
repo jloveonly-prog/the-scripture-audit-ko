@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: '교리 난제: 사도 베드로의 수위권과 교황직 계승 주장'
+title_en: ': Claims'
+file_ko: REPORT_교황수위권_베드로반석_오류감사.md
+file_en: Report_Audit.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 교리 난제: 사도 베드로의 수위권과 교황직 계승 주장
 **— "사도 베드로는 교회의 반석(로마 교황)으로 세워졌으며 다윗의 열쇠를 받았는가?" BVCAP v2.0 중립 감사 보고서 —**
 

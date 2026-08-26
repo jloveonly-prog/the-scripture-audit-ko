@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-reportwin
+title_ko: 🏛️ BVCAP 2.0 FINAL MASTERPIECE REPORT
+title_en: 🏛️ BVCAP 2.0 FINAL MASTERPIECE REPORT
+file_ko: REPORT_WINE_포도주_술_진노_원어_포렌식.md
+file_en: Report_Wine.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏛️ BVCAP 2.0 FINAL MASTERPIECE REPORT
 **사건명:** WINE(포도주) 번역 논쟁 및 알코올 유무 원어 포렌식
 **엔진 모드:** MODE B (대법정 심화 교차 검증)

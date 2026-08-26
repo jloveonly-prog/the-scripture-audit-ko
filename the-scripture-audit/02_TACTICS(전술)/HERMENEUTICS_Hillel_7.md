@@ -1,3 +1,15 @@
+---
+id: audit-scripture_02_TACTICS-7
+title_ko: '📜 [HERMENEUTICS] 고대 유대교 해석학: 랍비 힐렐의 7대 규칙 (Middot)'
+title_en: '📜 [HERMENEUTICS] : 7 (Middot)'
+file_ko: HERMENEUTICS_Hillel_7.md
+file_en: Hermeneutics_Hillel_7.md
+category: scripture_02_TACTICS
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [HERMENEUTICS] 고대 유대교 해석학: 랍비 힐렐의 7대 규칙 (Middot)
 
 > **목적:** 서구적·자유주의적 논리를 거부하고, 1세기 히브리인들이 토라를 분석하던 본래의 해석 기준점을 BVCAP AI(에이전트)에 이식하기 위한 최상위 해석학 강령.

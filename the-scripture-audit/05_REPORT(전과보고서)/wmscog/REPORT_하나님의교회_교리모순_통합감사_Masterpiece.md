@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: '[하나님의 교회] 난제: 안상홍 재림과 유월절 교리의 치명적 충돌'
+title_en: '[ ] :'
+file_ko: REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md
+file_en: Report_Audit_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # [하나님의 교회] 난제: 안상홍 재림과 유월절 교리의 치명적 충돌
 **— "재림 예수가 왔다면 왜 아직도 유월절을 지키는가?" BVCAP v2.0 중립 감사 보고서 —**
 

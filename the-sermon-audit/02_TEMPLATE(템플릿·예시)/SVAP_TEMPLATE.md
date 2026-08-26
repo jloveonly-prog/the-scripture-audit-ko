@@ -1,3 +1,15 @@
+---
+id: audit-sermon_02_TEMPLATE-svaptempl
+title_ko: 📐 SVAP 심화 감사 보고서 — 빈 템플릿 (v3.1, 2026-08-20 커버리지 강제 추가판)
+title_en: 📐 SVAP Audit Report — Template (v3.1, 2026-08-20 )
+file_ko: SVAP_TEMPLATE.md
+file_en: Svap_Template.md
+category: sermon_02_TEMPLATE
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📐 SVAP 심화 감사 보고서 — 빈 템플릿 (v3.1, 2026-08-20 커버리지 강제 추가판)
 
 > 이 템플릿은 `SVAP_GHQ.md`의 PART A~D 양식과 동일하되, **PART B가 조용히 축약되는 문제**를 막기 위해 커버리지 강제 장치를 추가했다. 원본 규정은 항상 `SVAP_GHQ.md`가 우선하며, 이 파일은 그 규정을 실제로 채워 넣을 때 쓰는 작업용 뼈대다.

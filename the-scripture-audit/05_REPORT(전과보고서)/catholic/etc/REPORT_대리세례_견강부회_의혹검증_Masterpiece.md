@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 고린도전서 15:29(대리 세례) 견강부회 검증
+title_en: 📜 [BVCAP 2.0 Report] 15:29( )
+file_ko: REPORT_대리세례_견강부회_의혹검증_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 고린도전서 15:29(대리 세례) 견강부회 검증
 **— "자신이 인용한 권위를 스스로 부정하는 논리적 코미디" BVCAP v2.0 중립 감사 보고서 —**
 

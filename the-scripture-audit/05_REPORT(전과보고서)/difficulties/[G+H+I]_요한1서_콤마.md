@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-1
+title_ko: 요한1서 5:7-8의 내적 증거 분석
+title_en: 1 5:7-8 Evidence Analysis
+file_ko: '[G+H+I]_요한1서_콤마.md'
+file_en: '[g+h+i]_1.md'
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 
 # 요한1서 5:7-8의 내적 증거 분석
 ### — Comma Johanneum(요한의 콤마)의 진정성에 관한 본문 내적 변증 —

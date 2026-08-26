@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-reporttwo
+title_ko: 'Eschatology/Revelation: Identity of the Two Witnesses in Revelation 11'
+title_en: 'Eschatology/Revelation: Identity of the Two Witnesses in Revelation 11'
+file_ko: REPORT_Two_Witnesses_Identity_EN.md
+file_en: Report_Two_Witnesses_Identity_En.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿---
 metadata:
   key: sa-diff-001

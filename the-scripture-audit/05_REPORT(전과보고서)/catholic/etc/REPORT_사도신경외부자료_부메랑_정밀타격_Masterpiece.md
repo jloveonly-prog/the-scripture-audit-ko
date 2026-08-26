@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 📜 [BVCAP 2.0 전과보고서] 사도신경 외부 칼럼 인용에 대한 정밀 타격 검증
+title_en: 📜 [BVCAP 2.0 Report]
+file_ko: REPORT_사도신경외부자료_부메랑_정밀타격_Masterpiece.md
+file_en: Report_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 [BVCAP 2.0 전과보고서] 사도신경 외부 칼럼 인용에 대한 정밀 타격 검증
 **— "상대방이 스스로 가져온 자료가 어떻게 가톨릭 교리를 붕괴시키는가?" BVCAP v2.0 최고 수위(MAX) 감사 보고서 —**
 

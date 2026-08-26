@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeadab
+title_ko: 발동 조건
+title_en: Document
+file_ko: TYPE-AD_AbductiveReasoning.md
+file_en: Type_Ad_Abductivereasoning.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🏹 SKILL-31: TYPE-AD — 귀추법 (Abductive Reasoning / Inference to the Best Explanation)
 **"모든 증거를 가장 완전하게 설명하는 가설이 참이다"**
 

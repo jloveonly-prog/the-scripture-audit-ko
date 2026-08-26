@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: 가톨릭이 예수님을 구원자로 시인하지 못하는 이유
+title_en: Document
+file_ko: REPORT_가톨릭이_예수님을_구원자로_시인하지_못하는_이유_노트북LM용.md
+file_en: Report_Lm.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 가톨릭이 예수님을 구원자로 시인하지 못하는 이유
 ## — 단 하나의 예/아니오 질문이 드러내는 구원론의 차이 —
 

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typelcha
+title_ko: '🔬 SKILL-12: TYPE-L — 귀납적 연쇄 추론 파이프라인'
+title_en: '🔬 SKILL-12: TYPE-L —'
+file_ko: TYPE-L_Chain.md
+file_en: Type_L_Chain.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-12: TYPE-L — 귀납적 연쇄 추론 파이프라인
 
 > **언제 발동하는가**: 하나의 단어/숫자 관찰이 또 다른 관찰로 이어지는 연쇄 구조가 감지될 때.

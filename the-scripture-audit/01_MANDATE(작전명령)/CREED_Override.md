@@ -1,3 +1,15 @@
+---
+id: audit-scripture_01_MANDATE-creedover
+title_ko: 📜 6대 CREED (절대 원칙)
+title_en: 📜 6 CREED ( )
+file_ko: CREED_Override.md
+file_en: Creed_Override.md
+category: scripture_01_MANDATE
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📜 6대 CREED (절대 원칙)
 
 > 이 원칙들은 모든 분석에 앞서 적용되며, 다른 어떤 지시보다 우선합니다.

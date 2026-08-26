@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: '교리 난제: 지호바(Jehovah) vs 야훼(Yahweh) — 잃어버린 발음 논쟁 감사'
+title_en: ': (Jehovah) vs (Yahweh) — Audit'
+file_ko: REPORT_지호바vs야훼_발음논쟁_오류감사.md
+file_en: Report_Vs_Audit.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 교리 난제: 지호바(Jehovah) vs 야훼(Yahweh) — 잃어버린 발음 논쟁 감사
 **— "어느 것이 진짜 발음인가? 혹은 '진짜 발음 찾기' 자체가 거짓 프레임인가?" BVCAP v2.0 법정 공방 보고서 —**
 

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typenexc
+title_ko: '🔬 SKILL-14: TYPE-N — 배타성 검증 파이프라인'
+title_en: '🔬 SKILL-14: TYPE-N —'
+file_ko: TYPE-N_Exclusivity.md
+file_en: Type_N_Exclusivity.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🔬 SKILL-14: TYPE-N — 배타성 검증 파이프라인
 
 > **언제 발동하는가**: TYPE-M이 "한 사람/사건에만 적용되는 이상 신호"를 감지한 이후.

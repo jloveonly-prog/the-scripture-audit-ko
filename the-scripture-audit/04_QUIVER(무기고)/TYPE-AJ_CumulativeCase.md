@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeajcu
+title_ko: '🏹 SKILL-37: TYPE-AJ — 누적 사례 논증 (Cumulative Case Argument)'
+title_en: '🏹 SKILL-37: TYPE-AJ — (Cumulative Case Argument)'
+file_ko: TYPE-AJ_CumulativeCase.md
+file_en: Type_Aj_Cumulativecase.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 SKILL-37: TYPE-AJ — 누적 사례 논증 (Cumulative Case Argument)
 **"단일 증거가 아니라 수렴하는 다수의 독립 증거가 결론을 확정한다"**
 

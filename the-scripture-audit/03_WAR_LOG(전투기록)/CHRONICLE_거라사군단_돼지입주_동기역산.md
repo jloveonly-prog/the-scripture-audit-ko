@@ -1,3 +1,15 @@
+---
+id: audit-scripture_03_WAR_LOG-chronicle
+title_ko: 🏛️ [CHRONICLE] 거라사 군단 — "왜 돼지에게 들어가야 했는가" 동기 역산
+title_en: 🏛️ [CHRONICLE] — " "
+file_ko: CHRONICLE_거라사군단_돼지입주_동기역산.md
+file_en: Chronicle.md
+category: scripture_03_WAR_LOG
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏛️ [CHRONICLE] 거라사 군단 — "왜 돼지에게 들어가야 했는가" 동기 역산
 
 > **사건 번호**: PRECEDENT-007

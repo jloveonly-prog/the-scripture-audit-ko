@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeacco
+title_ko: ⚙️ 실행 단계
+title_en: ⚙️
+file_ko: TYPE-AC_CounterfactualTest.md
+file_en: Type_Ac_Counterfactualtest.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 ﻿# 🔬 SKILL-30: TYPE-AC — 역가설 대입 검증 (Counterfactual Contradiction Test)
 **"역으로 대입하면 성경이 스스로 붕괴한다"**
 

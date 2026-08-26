@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-report
+title_ko: '🛡️ [BVCAP MODE A: 외부 수성전] 베드로 순교 장소: 예루살렘 방어전 (+ 갈보리 세부 특정)'
+title_en: '🛡️ [BVCAP MODE A: ] : (+ )'
+file_ko: REPORT_베드로예루살렘순교_유일.md
+file_en: Report.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🛡️ [BVCAP MODE A: 외부 수성전] 베드로 순교 장소: 예루살렘 방어전 (+ 갈보리 세부 특정)
 
 > **STATUS (2026-07-24 명제 분리)**: 이 문서는 두 개의 다른 정밀도를 가진 명제를 함께 다룬다. 아래 두 줄을 혼동하지 말 것.

@@ -1,3 +1,15 @@
+---
+id: audit-sermon_02_TEMPLATE-svapexamp
+title_ko: 📖 SVAP 작성 예시 (발췌 앤솔러지) — 2026-08-20
+title_en: 📖 SVAP ( ) — 2026-08-20
+file_ko: SVAP_EXAMPLE.md
+file_en: Svap_Example.md
+category: sermon_02_TEMPLATE
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 📖 SVAP 작성 예시 (발췌 앤솔러지) — 2026-08-20
 
 > [!CAUTION]

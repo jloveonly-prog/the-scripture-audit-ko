@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeanmo
+title_ko: '🏹 SKILL-41: TYPE-AN — 목표대 이동 적발 (Moving Goalposts Detection)'
+title_en: '🏹 SKILL-41: TYPE-AN — (Moving Goalposts Detection)'
+file_ko: TYPE-AN_MovingGoalposts.md
+file_en: Type_An_Movinggoalposts.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 SKILL-41: TYPE-AN — 목표대 이동 적발 (Moving Goalposts Detection)
 **"증거를 제시하면 기준을 바꾸는 오류를 잡아낸다"**
 

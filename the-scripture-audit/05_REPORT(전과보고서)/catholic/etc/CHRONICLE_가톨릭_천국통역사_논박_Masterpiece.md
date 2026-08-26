@@ -1,3 +1,15 @@
+---
+id: audit-scripture_05_REPORT-chronicle
+title_ko: '⚔️ [가톨릭 성인 전구 교리 타격] 난제: [천국 통역사 역질문에 대한 BVCAP 반격]'
+title_en: '⚔️ [ ] : [ BVCAP ]'
+file_ko: CHRONICLE_가톨릭_천국통역사_논박_Masterpiece.md
+file_en: Chronicle_Masterpiece.md
+category: scripture_05_REPORT
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # ⚔️ [가톨릭 성인 전구 교리 타격] 난제: [천국 통역사 역질문에 대한 BVCAP 반격]
 **— "통역이 필요 없다는 주장은 속마음을 꿰뚫어 보는 전지(Omniscience) 속성의 참칭인가?" BVCAP v2.0 중립 감사 보고서 —**
 

@@ -1,3 +1,15 @@
+---
+id: audit-scripture_04_QUIVER-typeagar
+title_ko: '🏹 SKILL-34: TYPE-AG — 침묵 논증 (Argument from Silence)'
+title_en: '🏹 SKILL-34: TYPE-AG — (Argument from Silence)'
+file_ko: TYPE-AG_ArgumentFromSilence.md
+file_en: Type_Ag_Argumentfromsilence.md
+category: scripture_04_QUIVER
+status: translating
+updated: '2026-08-27'
+translated: false
+---
+
 # 🏹 SKILL-34: TYPE-AG — 침묵 논증 (Argument from Silence)
 **"성경은 침묵하지 않는다 — 침묵하는 것은 언제나 저들의 근거다"** (2026-07-22 재개정)
 
