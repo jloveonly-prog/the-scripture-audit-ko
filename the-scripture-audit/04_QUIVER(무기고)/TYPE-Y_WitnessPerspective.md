@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeywit
-title_ko: '🏹 TYPE-Y: 다중 목격자 증언론 (Multi-Perspective Witness)'
-title_en: '🏹 TYPE-Y: (Multi-Perspective Witness)'
-file_ko: TYPE-Y_WitnessPerspective.md
-file_en: Type_Y_Witnessperspective.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0081 | ver: 20260829_0942 -->
 
 # 🏹 TYPE-Y: 다중 목격자 증언론 (Multi-Perspective Witness)
 

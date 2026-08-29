@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-1
-title_ko: 요한1서 5:7-8의 내적 증거 분석
-title_en: 1 5:7-8 Evidence Analysis
-file_ko: REPORT_요한1서_콤마.md
-file_en: Report_1.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0104 | ver: 20260829_0942 -->
 
 
 # 요한1서 5:7-8의 내적 증거 분석

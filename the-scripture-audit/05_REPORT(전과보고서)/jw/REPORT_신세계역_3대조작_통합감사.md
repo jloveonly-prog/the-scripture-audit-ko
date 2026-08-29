@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-3
-title_ko: 여호와의 증인 '신세계역'이 최고의 성경인 이유
-title_en: ''''' Bible'
-file_ko: REPORT_신세계역_3대조작_통합감사.md
-file_en: Report_3_Audit.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0144 | ver: 20260829_0942 -->
 
 # 여호와의 증인 '신세계역'이 최고의 성경인 이유
 **— "번역자의 신학 교리가 성경 원문을 이겼을 때 무슨 일이 벌어지는가?" BVCAP v2.0 중립 감사 보고서 —**

@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 화체설의 '신비주의' 도피 및 물리적 집착의 부메랑 검증
-title_en: 📜 [BVCAP 2.0 Report] ''
-file_ko: REPORT_화체설_신비주의_부메랑_Masterpiece.md
-file_en: Report_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0125 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 화체설의 '신비주의' 도피 및 물리적 집착의 부메랑 검증
 **— "논리가 막히면 '신비'로 포장하고, 본인 교리의 핵심조차 모르는 무지의 폭로" BVCAP v2.0 중립 감사 보고서 —**

@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: '카톨릭 성인 전구(Intercession of Saints) 교리: 성경적 정합성 검증'
-title_en: '(Intercession of Saints) : Bible'
-file_ko: REPORT_카톨릭_성인전구교리_검증.md
-file_en: Report.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0106 | ver: 20260829_0942 -->
 
 # 카톨릭 성인 전구(Intercession of Saints) 교리: 성경적 정합성 검증
 **— "서로 기도하라는 말씀이 죽은 성인에게 기도하라는 뜻인가?" BVCAP v2.0 중립 감사 보고서 —**

@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-abaras
-title_ko: ⚖️ 스가랴 5장 완전 해설 — 거룩한 성소의 심판과 사악함의 바벨론 운반
-title_en: ⚖️ 5 —
-file_ko: '[AB+AR+AS+AT+AU+E+AC]_멜키세덱_첫번째세상_민족형성_스가랴.md'
-file_en: '[ab+ar+as+at+au+e+ac].md'
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0133 | ver: 20260829_0942 -->
 
 # ⚖️ 스가랴 5장 완전 해설 — 거룩한 성소의 심판과 사악함의 바벨론 운반
 

@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 🔬 BVCAP v2.0 MODE A 감사 보고서
-title_en: 🔬 BVCAP v2.0 MODE A Audit Report
-file_ko: REPORT_무신론자_선한불신자vs악한신자_오류감사.md
-file_en: Report_Vs_Audit.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0089 | ver: 20260829_0942 -->
 
 # 🔬 BVCAP v2.0 MODE A 감사 보고서
 # 무신론자의 "선한 불신자 vs 악한 신자" 딜레마 — 논리 오류 적발

@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeufir
-title_ko: '🏹 TYPE-U: 첫 언급의 법칙 (Law of First Mention)'
-title_en: '🏹 TYPE-U: (Law of First Mention)'
-file_ko: TYPE-U_FirstMention.md
-file_en: Type_U_Firstmention.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0077 | ver: 20260829_0942 -->
 
 # 🏹 TYPE-U: 첫 언급의 법칙 (Law of First Mention)
 

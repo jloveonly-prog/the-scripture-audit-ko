@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 요한복음 10:30 "축구팀" 비유의 신성모독적 오독 검증
-title_en: 📜 [BVCAP 2.0 Report] 10:30 ""
-file_ko: REPORT_축구팀_신성모독_의혹검증_Masterpiece.md
-file_en: Report_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0124 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 요한복음 10:30 "축구팀" 비유의 신성모독적 오독 검증
 **— "창조주의 신적 연합을 조기축구회 화이팅으로 전락시킨 역대급 수능 독해력 참사" BVCAP v2.0 최고 수위(MAX) 감사 보고서 —**

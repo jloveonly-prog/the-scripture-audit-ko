@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typejhis
-title_ko: '🔬 SKILL-10: TYPE-J — 외부 역사 문헌 교차 검증 파이프라인'
-title_en: '🔬 SKILL-10: TYPE-J —'
-file_ko: TYPE-J_History.md
-file_en: Type_J_History.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0066 | ver: 20260829_0942 -->
 
 ## 🔬 SKILL-10: TYPE-J — 외부 역사 문헌 교차 검증 파이프라인
 

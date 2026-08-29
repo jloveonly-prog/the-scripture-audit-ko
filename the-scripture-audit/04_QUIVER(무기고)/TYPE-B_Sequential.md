@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typebseq
-title_ko: 실행 단계
-title_en: Document
-file_ko: TYPE-B_Sequential.md
-file_en: Type_B_Sequential.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0058 | ver: 20260829_0942 -->
 
 ﻿# 🔬 SKILL-02: TYPE-B — 사건 순차적 병렬 통합 파이프라인
 

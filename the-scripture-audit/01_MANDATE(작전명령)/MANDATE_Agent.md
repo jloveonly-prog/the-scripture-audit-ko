@@ -1,14 +1,4 @@
----
-id: audit-scripture_01_MANDATE-mandateag
-title_ko: 📜 MANDATE — Scripture Audit Agent (사명 선언)
-title_en: 📜 MANDATE — Scripture Audit Agent ( )
-file_ko: MANDATE_Agent.md
-file_en: Mandate_Agent.md
-category: scripture_01_MANDATE
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0003 | ver: 20260829_0942 -->
 
 # 📜 MANDATE — Scripture Audit Agent (사명 선언)
 **"Go ye therefore... teaching them to observe all things" — Matthew 28:19-20 KJV**

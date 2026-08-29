@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typehman
-title_ko: '🔬 SKILL-08: TYPE-H — 사본학적 증거 독립성 역전 파이프라인'
-title_en: '🔬 SKILL-08: TYPE-H — Evidence'
-file_ko: TYPE-H_Manuscript.md
-file_en: Type_H_Manuscript.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0064 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-08: TYPE-H — 사본학적 증거 독립성 역전 파이프라인
 

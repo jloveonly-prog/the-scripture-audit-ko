@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeachr
-title_ko: '🔬 SKILL-01: TYPE-A — 연대기 직렬 분해 파이프라인'
-title_en: '🔬 SKILL-01: TYPE-A —'
-file_ko: TYPE-A_Chronological.md
-file_en: Type_A_Chronological.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0056 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-01: TYPE-A — 연대기 직렬 분해 파이프라인
 

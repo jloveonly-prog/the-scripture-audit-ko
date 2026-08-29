@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaaan
-title_ko: '⚖️ TYPE-AA: 고대 법률 및 문화 관습 해부 (Ancient Law & Culture)'
-title_en: '⚖️ TYPE-AA: (Ancient Law & Culture)'
-file_ko: TYPE-AA_AncientLaw.md
-file_en: Type_Aa_Ancientlaw.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0031 | ver: 20260829_0942 -->
 
 # ⚖️ TYPE-AA: 고대 법률 및 문화 관습 해부 (Ancient Law & Culture)
 

@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-chronicle
-title_ko: 🏛️ [CHRONICLE] 사울의 구원 논쟁 — '하나님의 원수' 오독 사건
-title_en: 🏛️ [CHRONICLE] — ' '
-file_ko: CHRONICLE_사울의구원논쟁_주어혼동적발.md
-file_en: Chronicle.md
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0013 | ver: 20260829_0942 -->
 
 # 🏛️ [CHRONICLE] 사울의 구원 논쟁 — '하나님의 원수' 오독 사건
 

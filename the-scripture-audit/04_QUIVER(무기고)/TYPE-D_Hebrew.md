@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typedheb
-title_ko: '🔬 SKILL-04: TYPE-D — 히브리 서사 관습 역이용 파이프라인'
-title_en: '🔬 SKILL-04: TYPE-D —'
-file_ko: TYPE-D_Hebrew.md
-file_en: Type_D_Hebrew.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0060 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-04: TYPE-D — 히브리 서사 관습 역이용 파이프라인
 

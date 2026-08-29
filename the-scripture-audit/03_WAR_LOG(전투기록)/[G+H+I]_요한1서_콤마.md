@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-1
-title_ko: 요한1서 5:7-8의 내적 증거 분석
-title_en: 1 5:7-8 Evidence Analysis
-file_ko: '[G+H+I]_요한1서_콤마.md'
-file_en: '[g+h+i]_1.md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0025 | ver: 20260829_0942 -->
 
 
 # 요한1서 5:7-8의 내적 증거 분석

@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-chronicle
-title_ko: ⚖️ [BVCAP 2.0 최종 판결] 사울왕의 구원 논쟁 — 포렌식 대법정 판결문
-title_en: ⚖️ [BVCAP 2.0 Final Verdict] — Supreme Verdict
-file_ko: CHRONICLE_사울의구원논쟁_최종판결문_Masterpiece.md
-file_en: Chronicle_Finalverdict_Masterpiece.md
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0014 | ver: 20260829_0942 -->
 
 # ⚖️ [BVCAP 2.0 최종 판결] 사울왕의 구원 논쟁 — 포렌식 대법정 판결문
 **— saul1.md(낙원설 변호인) vs saul2.md(지옥설 검찰) 최종 교차 심리 —**

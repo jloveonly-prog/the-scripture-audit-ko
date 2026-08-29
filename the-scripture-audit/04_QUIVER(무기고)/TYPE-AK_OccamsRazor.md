@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeakoc
-title_ko: '🏹 SKILL-38: TYPE-AK — 오컴의 면도날 (Occam''s Razor / Principle of Parsimony)'
-title_en: '🏹 SKILL-38: TYPE-AK — (Occam''s Razor / Principle of Parsimony)'
-file_ko: TYPE-AK_OccamsRazor.md
-file_en: Type_Ak_Occamsrazor.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0041 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-38: TYPE-AK — 오컴의 면도날 (Occam's Razor / Principle of Parsimony)
 **"동일한 증거를 설명하는 가설 중 더 단순한 것이 우선한다"**

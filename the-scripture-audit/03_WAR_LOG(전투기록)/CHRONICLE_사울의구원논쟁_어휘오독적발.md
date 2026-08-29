@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-chronicle
-title_ko: 1. ⚔️ 적(비판자/검찰)의 공격 논리
-title_en: 1. ⚔️ (/)
-file_ko: CHRONICLE_사울의구원논쟁_어휘오독적발.md
-file_en: Chronicle.md
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0011 | ver: 20260829_0942 -->
 
 ﻿# 📖 [CHRONICLE 전투기록] 사울의 구원 논쟁 — TYPE-T (어휘 오독 및 시제) 적발 사건
 

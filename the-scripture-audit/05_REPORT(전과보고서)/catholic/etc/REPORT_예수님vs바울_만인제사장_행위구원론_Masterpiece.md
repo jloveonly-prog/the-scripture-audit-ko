@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 바울의 교회론 vs 예수님의 구원론 충돌 의혹 검증
-title_en: 📜 [BVCAP 2.0 Report] vs
-file_ko: REPORT_예수님vs바울_만인제사장_행위구원론_Masterpiece.md
-file_en: Report_Vs_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0121 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 바울의 교회론 vs 예수님의 구원론 충돌 의혹 검증
 **— "만인제사장인데 왜 목사가 있으며, 바울은 믿음을 예수님은 행위를 강조하는가?" BVCAP v2.0 중립 감사 보고서 —**

@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeksci
-title_ko: 실행 단계
-title_en: Document
-file_ko: TYPE-K_Science.md
-file_en: Type_K_Science.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0067 | ver: 20260829_0942 -->
 
 ﻿# 🔬 SKILL-11: TYPE-K — 과학적·법의학적 정합 검증 파이프라인
 

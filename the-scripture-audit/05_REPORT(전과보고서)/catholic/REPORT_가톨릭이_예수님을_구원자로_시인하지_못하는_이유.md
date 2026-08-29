@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: BVCAP 2.0 특별 감사 보고서
-title_en: BVCAP 2.0 Audit Report
-file_ko: REPORT_가톨릭이_예수님을_구원자로_시인하지_못하는_이유.md
-file_en: Report.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0098 | ver: 20260829_0942 -->
 
 # BVCAP 2.0 특별 감사 보고서
 ## 가톨릭이 개신교인에게 예수님을 구원자로 시인하지 못하는 이유

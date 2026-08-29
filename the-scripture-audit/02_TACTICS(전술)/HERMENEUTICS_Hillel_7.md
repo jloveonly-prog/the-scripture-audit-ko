@@ -1,14 +1,4 @@
----
-id: audit-scripture_02_TACTICS-7
-title_ko: '📜 [HERMENEUTICS] 고대 유대교 해석학: 랍비 힐렐의 7대 규칙 (Middot)'
-title_en: '📜 [HERMENEUTICS] : 7 (Middot)'
-file_ko: HERMENEUTICS_Hillel_7.md
-file_en: Hermeneutics_Hillel_7.md
-category: scripture_02_TACTICS
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0007 | ver: 20260829_0942 -->
 
 # 📜 [HERMENEUTICS] 고대 유대교 해석학: 랍비 힐렐의 7대 규칙 (Middot)
 

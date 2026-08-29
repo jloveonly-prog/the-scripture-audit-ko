@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-be
-title_ko: 최후의 만찬부터 빈 무덤까지 — 고난주간 타임라인 모순 논파
-title_en: —
-file_ko: '[B+E]_고난주간_타임라인.md'
-file_en: '[b+e].md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0019 | ver: 20260829_0942 -->
 
 # 최후의 만찬부터 빈 무덤까지 — 고난주간 타임라인 모순 논파
 

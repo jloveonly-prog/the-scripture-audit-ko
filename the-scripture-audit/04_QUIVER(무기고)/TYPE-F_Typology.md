@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeftyp
-title_ko: '🔬 SKILL-06: TYPE-F — 예표 삼중 평행 구조 증명 파이프라인'
-title_en: '🔬 SKILL-06: TYPE-F —'
-file_ko: TYPE-F_Typology.md
-file_en: Type_F_Typology.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0062 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-06: TYPE-F — 예표 삼중 평행 구조 증명 파이프라인
 

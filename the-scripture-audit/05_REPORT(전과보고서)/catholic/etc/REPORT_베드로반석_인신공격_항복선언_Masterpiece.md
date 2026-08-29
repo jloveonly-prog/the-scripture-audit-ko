@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 베드로 반석론 및 인신공격(항복 선언) 검증
-title_en: 📜 [BVCAP 2.0 Report] ( )
-file_ko: REPORT_베드로반석_인신공격_항복선언_Masterpiece.md
-file_en: Report_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0114 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 베드로 반석론 및 인신공격(항복 선언) 검증
 **— "논리가 바닥난 자의 마지막 도피처: 인신공격과 감정적 호소" BVCAP v2.0 최종 감사 보고서 —**

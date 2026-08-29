@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeifre
-title_ko: '🔬 SKILL-09: TYPE-I — 어휘 빈도 대칭 설계 검증 파이프라인'
-title_en: '🔬 SKILL-09: TYPE-I —'
-file_ko: TYPE-I_Frequency.md
-file_en: Type_I_Frequency.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0065 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-09: TYPE-I — 어휘 빈도 대칭 설계 검증 파이프라인
 

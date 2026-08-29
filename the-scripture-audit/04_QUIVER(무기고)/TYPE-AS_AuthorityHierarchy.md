@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeasau
-title_ko: ⚙️ 발동 조건
-title_en: ⚙️
-file_ko: TYPE-AS_AuthorityHierarchy.md
-file_en: Type_As_Authorityhierarchy.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0049 | ver: 20260829_0942 -->
 
 ﻿# ⚡ SKILL-46: TYPE-AS — 권능 위계 분석 (Authority Hierarchy Analysis)
 **"The heaven, even the heavens, are the LORD'S: but the earth hath he given to the children of men." — Psalm 115:16 KJV**

@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeavst
-title_ko: '🗡️ SKILL-50: TYPE-AV — 진술 분석 (Statement Analysis)'
-title_en: '🗡️ SKILL-50: TYPE-AV — Analysis (Statement Analysis)'
-file_ko: TYPE-AV_StatementAnalysis.md
-file_en: Type_Av_Statementanalysis.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0052 | ver: 20260829_0942 -->
 
 # 🗡️ SKILL-50: TYPE-AV — 진술 분석 (Statement Analysis)
 

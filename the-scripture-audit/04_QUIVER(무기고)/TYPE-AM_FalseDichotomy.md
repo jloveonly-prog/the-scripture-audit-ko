@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeamfa
-title_ko: '🏹 SKILL-40: TYPE-AM — 거짓 이분법 적발 (False Dichotomy Detection)'
-title_en: '🏹 SKILL-40: TYPE-AM — (False Dichotomy Detection)'
-file_ko: TYPE-AM_FalseDichotomy.md
-file_en: Type_Am_Falsedichotomy.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0043 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-40: TYPE-AM — 거짓 이분법 적발 (False Dichotomy Detection)
 **"A 아니면 B"라는 구도가 실제로는 더 많은 선택지를 숨기고 있다**

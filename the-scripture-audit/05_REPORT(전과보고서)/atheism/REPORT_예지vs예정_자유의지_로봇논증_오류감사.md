@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-reportv
-title_ko: '예지 vs 예정: 자유의지 로봇 논증 난제'
-title_en: 'vs :'
-file_ko: REPORT_예지vs예정_자유의지_로봇논증_오류감사.md
-file_en: Report_Vs_Audit.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0091 | ver: 20260829_0942 -->
 
 # 예지 vs 예정: 자유의지 로봇 논증 난제
 **— "하나님이 미래를 아시면, 인간은 로봇이다?" BVCAP v2.0 중립 감사 보고서 —**

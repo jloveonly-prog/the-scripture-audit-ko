@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
-title_en: ( Final )
-file_ko: REPORT_베드로_갈보리순교설.md
-file_en: Report.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0102 | ver: 20260829_0942 -->
 
 # 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
 

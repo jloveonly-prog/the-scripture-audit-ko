@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-reportind
-title_ko: 🏛️ 가톨릭(Catholic) 변증 및 오류 감사 보고서 인덱스 (BVCAP)
-title_en: 🏛️ (Catholic) Audit Report (BVCAP)
-file_ko: Report_Index.md
-file_en: Report_Index.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0108 | ver: 20260829_0942 -->
 
 # 🏛️ 가톨릭(Catholic) 변증 및 오류 감사 보고서 인덱스 (BVCAP)
 

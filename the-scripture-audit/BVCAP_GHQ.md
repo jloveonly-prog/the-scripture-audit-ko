@@ -1,15 +1,4 @@
----
-id: audit-general-bvcapghq
-title_ko: 🔬 BVCAP 3.0 (the-scripture-audit의 내부 엔진 Bible Verse Consistency Analysis
-  Pipeline)
-title_en: 🔬 BVCAP 3.0 (the-scripture-audit Bible Verse Consistency Analysis Pipeline)
-file_ko: BVCAP_GHQ.md
-file_en: Bvcap_Ghq.md
-category: general
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0153 | ver: 20260829_0942 -->
 
 > [!IMPORTANT]
 > ## 🏛️ 사령부 (GHQ — General Headquarters)

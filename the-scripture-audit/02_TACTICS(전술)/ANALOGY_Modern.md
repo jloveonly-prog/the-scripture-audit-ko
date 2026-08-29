@@ -1,14 +1,4 @@
----
-id: audit-scripture_02_TACTICS-analogymo
-title_ko: '🔧 ANALOGY-5: 현대 비유 창작 의무 프로토콜'
-title_en: '🔧 ANALOGY-5:'
-file_ko: ANALOGY_Modern.md
-file_en: Analogy_Modern.md
-category: scripture_02_TACTICS
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0004 | ver: 20260829_0942 -->
 
 # 🔧 ANALOGY-5: 현대 비유 창작 의무 프로토콜
 

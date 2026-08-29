@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typebpi
-title_ko: '핵심 원리: 목격의 3상태 모델'
-title_en: ': 3'
-file_ko: TYPE-B-pi_PerceptionFilter.md
-file_en: Type_B_Pi_Perceptionfilter.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0057 | ver: 20260829_0942 -->
 
 ﻿# 🔬 SKILL-02π: TYPE-B-π — 지각 필터 (Perception Filter / Witness Capacity Limit)
 

@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typenexc
-title_ko: '🔬 SKILL-14: TYPE-N — 배타성 검증 파이프라인'
-title_en: '🔬 SKILL-14: TYPE-N —'
-file_ko: TYPE-N_Exclusivity.md
-file_en: Type_N_Exclusivity.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0070 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-14: TYPE-N — 배타성 검증 파이프라인
 

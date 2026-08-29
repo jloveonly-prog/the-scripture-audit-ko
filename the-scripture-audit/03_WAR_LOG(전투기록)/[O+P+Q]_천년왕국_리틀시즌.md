@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-opq
-title_ko: 📖 CHRONICLE — [O+P+Q]_천년왕국_리틀시즌.md
-title_en: 📖 CHRONICLE — [O+P+Q]__.md
-file_ko: '[O+P+Q]_천년왕국_리틀시즌.md'
-file_en: '[o+p+q].md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0030 | ver: 20260829_0942 -->
 
 # 📖 CHRONICLE — [O+P+Q]_천년왕국_리틀시즌.md
 **과거 성취론(Preterism) 계열 방어 표준 전투기록**

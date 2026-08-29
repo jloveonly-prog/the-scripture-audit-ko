@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: '교리 난제: 교황과 사도 계승의 역사적 전승 주장'
-title_en: ': Claims'
-file_ko: REPORT_사도계승_역사전승_오류감사.md
-file_en: Report_Audit.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0103 | ver: 20260829_0942 -->
 
 # 교리 난제: 교황과 사도 계승의 역사적 전승 주장
 **— "사도 베드로에게 주어진 권한이 교부들의 증언을 거쳐 로마 교황에게 무류성으로 계승되는가?" BVCAP v2.0 중립 감사 보고서 (2부) —**

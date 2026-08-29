@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaxcu
-title_ko: '🗡️ SKILL-52: TYPE-AX — 결과 수익자 역산 (Cui Bono)'
-title_en: '🗡️ SKILL-52: TYPE-AX — (Cui Bono)'
-file_ko: TYPE-AX_CuiBono.md
-file_en: Type_Ax_Cuibono.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0054 | ver: 20260829_0942 -->
 
 # 🗡️ SKILL-52: TYPE-AX — 결과 수익자 역산 (Cui Bono)
 

@@ -1,14 +1,4 @@
----
-id: audit-sermon_02_TEMPLATE-svaptempl
-title_ko: 📐 SVAP 심화 감사 보고서 — 빈 템플릿 (v3.1, 2026-08-20 커버리지 강제 추가판)
-title_en: 📐 SVAP Audit Report — Template (v3.1, 2026-08-20 )
-file_ko: SVAP_TEMPLATE.md
-file_en: Svap_Template.md
-category: sermon_02_TEMPLATE
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0193 | ver: 20260829_0942 -->
 
 # 📐 SVAP 심화 감사 보고서 — 빈 템플릿 (v3.1, 2026-08-20 커버리지 강제 추가판)
 

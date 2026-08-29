@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaein
-title_ko: 발동 조건
-title_en: Document
-file_ko: TYPE-AE_Inclusio.md
-file_en: Type_Ae_Inclusio.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0035 | ver: 20260829_0942 -->
 
 ﻿# 🏹 SKILL-32: TYPE-AE — 수미상관 (Inclusio / Bookend Structure)
 **"같은 어휘로 열고 닫는 구조는 저자의 의도적 설계다"**

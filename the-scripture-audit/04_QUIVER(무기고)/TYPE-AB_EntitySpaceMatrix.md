@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaben
-title_ko: '🌌 TYPE-AB: 영적 존재 및 공간 타임라인 추적 매트릭스 (Entity & Space Matrix)'
-title_en: '🌌 TYPE-AB: (Entity & Space Matrix)'
-file_ko: TYPE-AB_EntitySpaceMatrix.md
-file_en: Type_Ab_Entityspacematrix.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0032 | ver: 20260829_0942 -->
 
 # 🌌 TYPE-AB: 영적 존재 및 공간 타임라인 추적 매트릭스 (Entity & Space Matrix)
 

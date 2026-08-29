@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeqlan
-title_ko: ⚙️ 실행 단계
-title_en: ⚙️
-file_ko: TYPE-Q_LanguageQuantifier.md
-file_en: Type_Q_Languagequantifier.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0073 | ver: 20260829_0942 -->
 
 ﻿# ⏱️ SKILL-17: TYPE-Q — 성경적 언어 수량화 제약 파이프라인
 **"One day is with the Lord as a thousand years." — 2 Peter 3:8 KJV**

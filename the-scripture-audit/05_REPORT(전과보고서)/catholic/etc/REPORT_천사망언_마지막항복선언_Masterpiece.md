@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 마리아 천사 망언 및 최종 항복 선언 검증
-title_en: 📜 [BVCAP 2.0 Report] Final
-file_ko: REPORT_천사망언_마지막항복선언_Masterpiece.md
-file_en: Report_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0123 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 마리아 천사 망언 및 최종 항복 선언 검증
 **— "논리적 밑천이 바닥나자 자신의 교리마저 파괴하며 도망친 최후의 촌극" BVCAP v2.0 최종 감사 보고서 —**

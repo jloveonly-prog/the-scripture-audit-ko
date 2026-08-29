@@ -38,3 +38,6 @@ KJV_KO_표준.md
 **/backup/
 */backup/
 backup/
+
+# _INBOX 폴더 - 외부(제3자) 원자재 저작권 보호, 폴더명에 _INBOX가 들어가면 전부 제외
+**/*_INBOX*/

@@ -1,14 +1,4 @@
----
-id: audit-scripture_02_TACTICS-anchorthi
-title_ko: 🔗 ANCHOR — 제3 앵커 수집 + MATRIX 역산 프로토콜
-title_en: 🔗 ANCHOR — 3 + MATRIX
-file_ko: ANCHOR_ThirdData.md
-file_en: Anchor_Thirddata.md
-category: scripture_02_TACTICS
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0005 | ver: 20260829_0942 -->
 
 # 🔗 ANCHOR — 제3 앵커 수집 + MATRIX 역산 프로토콜
 **"In the mouth of two or three witnesses every word shall be established." — 2 Corinthians 13:1 KJV**

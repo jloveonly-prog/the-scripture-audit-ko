@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 목사 우상숭배 vs 마리아 숭배 논쟁 검증
-title_en: 📜 [BVCAP 2.0 Report] vs
-file_ko: REPORT_목사우상숭배vs마리아숭배_의혹검증_Masterpiece.md
-file_en: Report_Vs_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0113 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 목사 우상숭배 vs 마리아 숭배 논쟁 검증
 **— "이단 목사들의 타락이 마리아 숭배를 정당화할 수 있는가?" BVCAP v2.0 중립 감사 보고서 —**

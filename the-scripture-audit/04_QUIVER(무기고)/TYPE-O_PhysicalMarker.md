@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeophy
-title_ko: ⚙️ 실행 단계
-title_en: ⚙️
-file_ko: TYPE-O_PhysicalMarker.md
-file_en: Type_O_Physicalmarker.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0071 | ver: 20260829_0942 -->
 
 ﻿# 🏔️ SKILL-15: TYPE-O — 물리적 흔적 부재 검증 파이프라인
 **"By their fruits ye shall know them." — Matthew 7:20 KJV**

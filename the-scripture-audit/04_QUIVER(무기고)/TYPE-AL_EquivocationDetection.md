@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typealeq
-title_ko: '🏹 SKILL-39: TYPE-AL — 어의 중의성 적발 (Equivocation Detection)'
-title_en: '🏹 SKILL-39: TYPE-AL — (Equivocation Detection)'
-file_ko: TYPE-AL_EquivocationDetection.md
-file_en: Type_Al_Equivocationdetection.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0042 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-39: TYPE-AL — 어의 중의성 적발 (Equivocation Detection)
 **"같은 단어를 다른 의미로 슬쩍 바꾸는 오류를 잡아낸다"**

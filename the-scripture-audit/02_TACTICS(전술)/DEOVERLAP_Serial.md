@@ -1,14 +1,4 @@
----
-id: audit-scripture_02_TACTICS-deoverlap
-title_ko: 🔧 DE-OVERLAP Rule (중첩 해체 — 의무 프로토콜)
-title_en: 🔧 DE-OVERLAP Rule ( — )
-file_ko: DEOVERLAP_Serial.md
-file_en: Deoverlap_Serial.md
-category: scripture_02_TACTICS
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0006 | ver: 20260829_0942 -->
 
 # 🔧 DE-OVERLAP Rule (중첩 해체 — 의무 프로토콜)
 **"Prove all things" — 1 Thessalonians 5:21 KJV**

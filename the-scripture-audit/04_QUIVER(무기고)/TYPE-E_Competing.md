@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeecom
-title_ko: '🔬 SKILL-05: TYPE-E — 경쟁 모델 전수 기각 파이프라인'
-title_en: '🔬 SKILL-05: TYPE-E —'
-file_ko: TYPE-E_Competing.md
-file_en: Type_E_Competing.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0061 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-05: TYPE-E — 경쟁 모델 전수 기각 파이프라인
 

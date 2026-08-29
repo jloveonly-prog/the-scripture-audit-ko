@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-kj
-title_ko: ⚖️ [KJV 번역 논쟁] 이사야 14:12(루시퍼) 및 사도행전 12:4(이스터)
-title_en: ⚖️ [KJV ] 14:12() 12:4()
-file_ko: 이사야_이스터_kjv.md
-file_en: Kjv.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0149 | ver: 20260829_0942 -->
 
 # ⚖️ [KJV 번역 논쟁] 이사야 14:12(루시퍼) 및 사도행전 12:4(이스터)
 

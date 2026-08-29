@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeapsp
-title_ko: '🏹 SKILL-43: TYPE-AP — 화행이론 (Speech Act Theory)'
-title_en: '🏹 SKILL-43: TYPE-AP — (Speech Act Theory)'
-file_ko: TYPE-AP_SpeechActTheory.md
-file_en: Type_Ap_Speechacttheory.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0046 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-43: TYPE-AP — 화행이론 (Speech Act Theory)
 **"발화는 단순한 정보가 아니다 — 약속·명령·예언·선언이다"**

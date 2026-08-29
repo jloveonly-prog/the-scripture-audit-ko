@@ -1,14 +1,4 @@
----
-id: audit-general-bvcappipe
-title_ko: 🧠 BVCAP Skill Pipeline v3.0 (the-scripture-audit의 내부 엔진)
-title_en: 🧠 BVCAP Skill Pipeline v3.0 (the-scripture-audit )
-file_ko: BVCAP_Pipeline.md
-file_en: Bvcap_Pipeline.md
-category: general
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0154 | ver: 20260829_0942 -->
 
 > [!IMPORTANT]
 > ## 📋 전술 교범 (Tactical Manual — 실행 절차서)

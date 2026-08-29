@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: '🏛️ [자유] 신학 교리 감사: 율법(Law)과 자유(Liberty)의 상관관계 분석'
-title_en: '🏛️ [] Theology Audit: (Law) (Liberty) Analysis'
-file_ko: REPORT_율법과자유_상관관계_교리감사.md
-file_en: Report_Audit.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0151 | ver: 20260829_0942 -->
 
 # 🏛️ [자유] 신학 교리 감사: 율법(Law)과 자유(Liberty)의 상관관계 분석
 **— "성경은 율법과 자유의 역학 관계를 어떻게 규정하는가?" BVCAP v2.0 교리 분석 보고서 —**

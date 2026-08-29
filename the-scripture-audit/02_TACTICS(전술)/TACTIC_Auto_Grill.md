@@ -1,14 +1,4 @@
----
-id: audit-scripture_02_TACTICS-tacticaut
-title_ko: '🧨 TACTIC: AUTO-GRILL (자가 압박 심문)'
-title_en: '🧨 TACTIC: AUTO-GRILL ( )'
-file_ko: TACTIC_Auto_Grill.md
-file_en: Tactic_Auto_Grill.md
-category: scripture_02_TACTICS
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0009 | ver: 20260829_0942 -->
 
 # 🧨 TACTIC: AUTO-GRILL (자가 압박 심문)
 

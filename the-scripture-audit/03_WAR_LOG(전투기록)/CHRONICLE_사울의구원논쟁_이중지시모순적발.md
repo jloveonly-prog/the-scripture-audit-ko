@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-chronicle
-title_ko: 🏛️ [CHRONICLE] 사울의 구원 논쟁 — '이중 목적지 지시 불가' 적발 사건
-title_en: 🏛️ [CHRONICLE] — ' '
-file_ko: CHRONICLE_사울의구원논쟁_이중지시모순적발.md
-file_en: Chronicle.md
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0012 | ver: 20260829_0942 -->
 
 # 🏛️ [CHRONICLE] 사울의 구원 논쟁 — '이중 목적지 지시 불가' 적발 사건
 

@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeafbu
-title_ko: '🏹 SKILL-33: TYPE-AF — 입증 책임 전가 (Burden of Proof Transfer)'
-title_en: '🏹 SKILL-33: TYPE-AF — (Burden of Proof Transfer)'
-file_ko: TYPE-AF_BurdenOfProof.md
-file_en: Type_Af_Burdenofproof.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0036 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-33: TYPE-AF — 입증 책임 전가 (Burden of Proof Transfer)
 **"공격하는 자가 먼저 증명하라"**

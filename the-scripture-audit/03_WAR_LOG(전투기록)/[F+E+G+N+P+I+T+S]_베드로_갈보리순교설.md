@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-fegnp
-title_ko: 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
-title_en: ( Final )
-file_ko: '[F+E+G+N+P+I+T+S]_베드로_갈보리순교설.md'
-file_en: '[f+e+g+n+p+i+t+s].md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0024 | ver: 20260829_0942 -->
 
 # 베드로 갈보리로 향하는 거대한 여정 (진정한 최종 완성본) 구조적 명시
 

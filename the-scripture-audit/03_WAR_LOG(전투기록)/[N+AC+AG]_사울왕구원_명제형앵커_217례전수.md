@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-217
-title_ko: '🛡️ BVCAP War Log: 사울왕 구원 논쟁 — 명제형 앵커 전수조사'
-title_en: '🛡️ BVCAP War Log: —'
-file_ko: '[N+AC+AG]_사울왕구원_명제형앵커_217례전수.md'
-file_en: '[n+ac+ag]_217.md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0029 | ver: 20260829_0942 -->
 
 # 🛡️ BVCAP War Log: 사울왕 구원 논쟁 — 명제형 앵커 전수조사
 

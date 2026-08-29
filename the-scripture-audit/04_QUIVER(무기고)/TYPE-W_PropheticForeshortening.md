@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typewpro
-title_ko: 발동 조건
-title_en: Document
-file_ko: TYPE-W_PropheticForeshortening.md
-file_en: Type_W_Propheticforeshortening.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0079 | ver: 20260829_0942 -->
 
 ﻿# 🏹 TYPE-W: 예언적 원근법 (Prophetic Foreshortening / 이중 성취)
 

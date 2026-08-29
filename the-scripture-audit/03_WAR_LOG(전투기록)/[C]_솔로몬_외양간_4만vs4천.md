@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-4
-title_ko: '솔로몬의 외양간 수 난제: 4만 vs 4천'
-title_en: ': 4 vs 4'
-file_ko: '[C]_솔로몬_외양간_4만vs4천.md'
-file_en: '[c]_4vs4.md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0021 | ver: 20260829_0942 -->
 
 # 솔로몬의 외양간 수 난제: 4만 vs 4천
 **— "열왕기상 4:26 vs 역대기하 9:25, 10배 차이는 필사 오류인가?" BVCAP v1.5 중립 감사 보고서 —**

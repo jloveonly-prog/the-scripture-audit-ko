@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeahre
-title_ko: '🏹 SKILL-35: TYPE-AH — 편집비평 (Redaction Criticism)'
-title_en: '🏹 SKILL-35: TYPE-AH — (Redaction Criticism)'
-file_ko: TYPE-AH_RedactionCriticism.md
-file_en: Type_Ah_Redactioncriticism.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0038 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-35: TYPE-AH — 편집비평 (Redaction Criticism)
 **"저자가 이것을 선택해서 기록했다 — 그 선택 자체가 의도다"**

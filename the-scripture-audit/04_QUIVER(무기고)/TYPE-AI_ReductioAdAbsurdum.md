@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaire
-title_ko: '🏹 SKILL-36: TYPE-AI — 귀류법 (Reductio ad Absurdum)'
-title_en: '🏹 SKILL-36: TYPE-AI — (Reductio ad Absurdum)'
-file_ko: TYPE-AI_ReductioAdAbsurdum.md
-file_en: Type_Ai_Reductioadabsurdum.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0039 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-36: TYPE-AI — 귀류법 (Reductio ad Absurdum)
 **"상대 가설을 끝까지 밀면 성경 내부에서 붕괴한다"**

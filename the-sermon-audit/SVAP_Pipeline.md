@@ -1,14 +1,4 @@
----
-id: audit-general-svappipel
-title_ko: 🔬 SVAP Pipeline v1.3 (the-sermon-audit의 내부 엔진)
-title_en: 🔬 SVAP Pipeline v1.3 (the-sermon-audit )
-file_ko: SVAP_Pipeline.md
-file_en: Svap_Pipeline.md
-category: general
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0208 | ver: 20260829_0942 -->
 
 > [!IMPORTANT]
 > ## 📋 전술 교범 (Tactical Manual — 실행 절차서)

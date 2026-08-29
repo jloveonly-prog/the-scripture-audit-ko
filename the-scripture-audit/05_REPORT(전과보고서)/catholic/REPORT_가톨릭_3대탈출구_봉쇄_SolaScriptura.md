@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-3
-title_ko: '가톨릭 최후 방어막 완전 붕괴: Sola Scriptura + 3대 탈출구 격퇴'
-title_en: ': Sola Scriptura + 3'
-file_ko: REPORT_가톨릭_3대탈출구_봉쇄_SolaScriptura.md
-file_en: Report_3_Solascriptura.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0097 | ver: 20260829_0942 -->
 
 # 가톨릭 최후 방어막 완전 붕괴: Sola Scriptura + 3대 탈출구 격퇴
 **— "성경+전통 이중 권위", 교황 무류성 ex cathedra, 마리아 예방적 구원 — 3대 탈출구 완전 봉쇄 —**

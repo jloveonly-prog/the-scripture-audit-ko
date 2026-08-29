@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typelcha
-title_ko: '🔬 SKILL-12: TYPE-L — 귀납적 연쇄 추론 파이프라인'
-title_en: '🔬 SKILL-12: TYPE-L —'
-file_ko: TYPE-L_Chain.md
-file_en: Type_L_Chain.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0068 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-12: TYPE-L — 귀납적 연쇄 추론 파이프라인
 

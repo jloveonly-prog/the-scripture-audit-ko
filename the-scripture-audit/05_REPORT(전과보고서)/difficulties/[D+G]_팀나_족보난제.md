@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-dg
-title_ko: 역대기상 1장 36절 '팀나' 족보 난제 — 단순 오류인가, 정교한 압축인가?
-title_en: 1 36 '' — , ?
-file_ko: '[D+G]_팀나_족보난제.md'
-file_en: '[d+g].md'
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0137 | ver: 20260829_0942 -->
 
 # 역대기상 1장 36절 '팀나' 족보 난제 — 단순 오류인가, 정교한 압축인가?
 

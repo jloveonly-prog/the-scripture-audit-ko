@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-reportw
-title_ko: '📌 1. 사건 개요: "성경에는 ''술 마시지 말라''는 구절이 없다?" (The Challenge)'
-title_en: '📌 1. : "Bible '' '' ?" (The Challenge)'
-file_ko: REPORT_성경WINE_포도주술_확정.md
-file_en: Report_Wine_Confirmed.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0094 | ver: 20260829_0942 -->
 
 ﻿# 🏛️ BVCAP 2.0 FINAL MASTERPIECE REPORT
 **사건명:** WINE(포도주) 번역 논쟁 및 알코올 유무 원어 포렌식

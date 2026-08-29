@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typezthe
-title_ko: '🏹 TYPE-Z: 신정론적 방어 (Theodicy Defense)'
-title_en: '🏹 TYPE-Z: (Theodicy Defense)'
-file_ko: TYPE-Z_TheodicyDefense.md
-file_en: Type_Z_Theodicydefense.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0082 | ver: 20260829_0942 -->
 
 # 🏹 TYPE-Z: 신정론적 방어 (Theodicy Defense)
 

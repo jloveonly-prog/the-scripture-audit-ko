@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typevgem
-title_ko: '🏹 TYPE-V: 게마트리아와 수비학 (Gematria & Alphanumerics)'
-title_en: '🏹 TYPE-V: (Gematria & Alphanumerics)'
-file_ko: TYPE-V_Gematria.md
-file_en: Type_V_Gematria.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0078 | ver: 20260829_0942 -->
 
 # 🏹 TYPE-V: 게마트리아와 수비학 (Gematria & Alphanumerics)
 

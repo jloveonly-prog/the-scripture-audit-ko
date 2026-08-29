@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: '🛡️ BVCAP Audit Report: 부활 아침 무덤 사건 순차 통합'
-title_en: '🛡️ BVCAP Audit Report:'
-file_ko: REPORT_부활아침_무덤사건_순차통합.md
-file_en: Report.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0132 | ver: 20260829_0942 -->
 
 # 🛡️ BVCAP Audit Report: 부활 아침 무덤 사건 순차 통합
 **"He is not here: for he is risen" — Matthew 28:6 KJV**

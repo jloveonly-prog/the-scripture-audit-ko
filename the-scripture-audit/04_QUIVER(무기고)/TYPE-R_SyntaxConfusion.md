@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typersyn
-title_ko: 1. 🎯 무기 개요 (Weapon Overview)
-title_en: 1. 🎯 (Weapon Overview)
-file_ko: TYPE-R_SyntaxConfusion.md
-file_en: Type_R_Syntaxconfusion.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0074 | ver: 20260829_0942 -->
 
 ﻿# 🗡️ TYPE-R : 구문 및 주어 혼동 적발 (Syntax & Subject Confusion)
 

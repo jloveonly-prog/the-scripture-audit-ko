@@ -1,14 +1,4 @@
----
-id: audit-scripture_03_WAR_LOG-e
-title_ko: 목요일 십자가설(Thursday Crucifixion) 중립 감사 보고서
-title_en: (Thursday Crucifixion) Audit Report
-file_ko: '[E]_목요일십자가설.md'
-file_en: '[e].md'
-category: scripture_03_WAR_LOG
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0023 | ver: 20260829_0942 -->
 
 # 목요일 십자가설(Thursday Crucifixion) 중립 감사 보고서
 

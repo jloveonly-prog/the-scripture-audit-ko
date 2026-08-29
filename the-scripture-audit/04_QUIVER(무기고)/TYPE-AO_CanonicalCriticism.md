@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeaoca
-title_ko: '🏹 SKILL-42: TYPE-AO — 정경비평 (Canonical Criticism)'
-title_en: '🏹 SKILL-42: TYPE-AO — (Canonical Criticism)'
-file_ko: TYPE-AO_CanonicalCriticism.md
-file_en: Type_Ao_Canonicalcriticism.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0045 | ver: 20260829_0942 -->
 
 # 🏹 SKILL-42: TYPE-AO — 정경비평 (Canonical Criticism)
 **"이 구절은 성경 전체 서사 안에서 어떤 기능을 하는가?"**

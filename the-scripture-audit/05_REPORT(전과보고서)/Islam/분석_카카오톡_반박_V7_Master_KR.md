@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-7
-title_ko: 🔱 분석_카카오톡_실전댓글_반박_V7_Master_KR
-title_en: 🔱 Analysis____V7_Master_KR
-file_ko: 분석_카카오톡_반박_V7_Master_KR.md
-file_en: V7_Master_Kr.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0086 | ver: 20260829_0942 -->
 
 # 🔱 분석_카카오톡_실전댓글_반박_V7_Master_KR
 **Quran Verse Contradiction Analysis Pipeline — Supreme Logic Auditor Report**

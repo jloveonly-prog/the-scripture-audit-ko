@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeslex
-title_ko: '🏹 TYPE-S: 어휘 교차 연결 (Shared Lexical Bridge)'
-title_en: '🏹 TYPE-S: (Shared Lexical Bridge)'
-file_ko: TYPE-S_LexicalBridge.md
-file_en: Type_S_Lexicalbridge.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0075 | ver: 20260829_0942 -->
 
 # 🏹 TYPE-S: 어휘 교차 연결 (Shared Lexical Bridge)
 

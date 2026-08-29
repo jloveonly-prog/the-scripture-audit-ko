@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-3
-title_ko: '[창세기 3장 출산논쟁 통합 최종보고서] 선악과를 먹기 전 에덴에서 출산이 있었는가'
-title_en: '[ 3 FinalReport]'
-file_ko: REPORT_창세기3장출산후선악과_유력.md
-file_en: Report_3_Strong.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0095 | ver: 20260829_0942 -->
 
 # [창세기 3장 출산논쟁 통합 최종보고서] 선악과를 먹기 전 에덴에서 출산이 있었는가
 

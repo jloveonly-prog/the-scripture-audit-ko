@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-reportm
-title_ko: '🏛️ [자유] 전수조사: 율법(Law)과의 상관관계 전체 분류'
-title_en: '🏛️ [] : (Law)'
-file_ko: REPORT_자유md_율법상관구절_전체분류.md
-file_en: Report_Md.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0152 | ver: 20260829_0942 -->
 
 # 🏛️ [자유] 전수조사: 율법(Law)과의 상관관계 전체 분류
 **— "`자유.md` 수록 전(全) 구절 중 율법과 연관된 것은 무엇이며, 어떤 층위로 연관되는가?" BVCAP v2.0 분류 조사서 —**

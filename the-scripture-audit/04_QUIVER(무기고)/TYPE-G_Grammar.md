@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typeggra
-title_ko: '🔬 SKILL-07: TYPE-G — KJV 접속사/문법 구조 해부 파이프라인'
-title_en: '🔬 SKILL-07: TYPE-G — KJV /'
-file_ko: TYPE-G_Grammar.md
-file_en: Type_G_Grammar.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0063 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-07: TYPE-G — KJV 접속사/문법 구조 해부 파이프라인
 

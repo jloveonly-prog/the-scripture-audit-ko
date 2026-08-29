@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typepret
-title_ko: ⚙️ 실행 단계
-title_en: ⚙️
-file_ko: TYPE-P_Retorsion.md
-file_en: Type_P_Retorsion.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0072 | ver: 20260829_0942 -->
 
 ﻿# ↩️ SKILL-16: TYPE-P — 역논법 / 부메랑 논증 (Retorsion)
 **"Out of thine own mouth will I judge thee." — Luke 19:22 KJV**

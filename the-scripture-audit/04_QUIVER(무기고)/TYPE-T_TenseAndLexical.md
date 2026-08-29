@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typetten
-title_ko: 1. 🎯 무기 개요 (Weapon Overview)
-title_en: 1. 🎯 (Weapon Overview)
-file_ko: TYPE-T_TenseAndLexical.md
-file_en: Type_T_Tenseandlexical.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0076 | ver: 20260829_0942 -->
 
 ﻿# 🗡️ TYPE-T : 시제 및 어휘 오독 적발 (Tense & Lexical Forensics)
 

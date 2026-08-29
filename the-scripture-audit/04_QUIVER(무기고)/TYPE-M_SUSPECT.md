@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typemsus
-title_ko: ⚡ 실행 단계
-title_en: ⚡
-file_ko: TYPE-M_SUSPECT.md
-file_en: Type_M_Suspect.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0069 | ver: 20260829_0942 -->
 
 ﻿# 🔍 TYPE-M — SUSPECT (의심 감지)
 **"Prove all things" — 1 Thessalonians 5:21 KJV**

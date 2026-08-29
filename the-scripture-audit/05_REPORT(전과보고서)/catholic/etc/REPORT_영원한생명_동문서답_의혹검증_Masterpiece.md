@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-report
-title_ko: 📜 [BVCAP 2.0 전과보고서] 영원한 생명과 전지전능의 범주 혼동(반복) 검증
-title_en: 📜 [BVCAP 2.0 Report] ()
-file_ko: REPORT_영원한생명_동문서답_의혹검증_Masterpiece.md
-file_en: Report_Masterpiece.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0119 | ver: 20260829_0942 -->
 
 # 📜 [BVCAP 2.0 전과보고서] 영원한 생명과 전지전능의 범주 혼동(반복) 검증
 **— "마리아가 살아있다는 사실이 마리아를 전지전능한 신으로 격상시키는가?" BVCAP v2.0 중립 감사 보고서 —**

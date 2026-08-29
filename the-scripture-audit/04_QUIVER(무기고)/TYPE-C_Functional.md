@@ -1,14 +1,4 @@
----
-id: audit-scripture_04_QUIVER-typecfun
-title_ko: '🔬 SKILL-03: TYPE-C — 기능적/공간적 범주 분리 파이프라인'
-title_en: '🔬 SKILL-03: TYPE-C — /'
-file_ko: TYPE-C_Functional.md
-file_en: Type_C_Functional.md
-category: scripture_04_QUIVER
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0059 | ver: 20260829_0942 -->
 
 # 🔬 SKILL-03: TYPE-C — 기능적/공간적 범주 분리 파이프라인
 

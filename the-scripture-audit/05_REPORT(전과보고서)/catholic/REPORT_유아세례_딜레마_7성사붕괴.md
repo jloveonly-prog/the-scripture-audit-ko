@@ -1,14 +1,4 @@
----
-id: audit-scripture_05_REPORT-7
-title_ko: 가톨릭 유아세례 교리 연쇄 붕괴 감사
-title_en: Audit
-file_ko: REPORT_유아세례_딜레마_7성사붕괴.md
-file_en: Report_7.md
-category: scripture_05_REPORT
-status: translating
-updated: '2026-08-27'
-translated: false
----
+<!-- doc_no: 20260829_0105 | ver: 20260829_0942 -->
 
 # 가톨릭 유아세례 교리 연쇄 붕괴 감사
 **— 단 하나의 질문이 7성사 체계 전체를 무너뜨리는 방법 —**
