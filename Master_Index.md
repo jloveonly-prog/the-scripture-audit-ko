@@ -1,14 +1,14 @@
 # Master Index
 
-**Generated**: 2026-08-29 09:47
-**Total Managed Documents**: 189
+**Generated**: 2026-08-29 12:13
+**Total Managed Documents**: 161
 **KO Repository**: D:\01.TheScriptureAudit_ko\
 **EN Repository**: D:\01.TheScriptureAudit\
 
 > Each document carries a single-line header `<!-- doc_no: YYYYMMDD_NNNN | ver: YYYYMMDD_HHmm -->` at the very top (KO and EN share the same `doc_no`; each side's `ver` is independent). `doc_no` is the sole matching key between KO and EN -- never the filename.
 > This file is generated. To refresh it: `python scripts/rebuild_master_index.py`.
 
-## the-scripture-audit (158)
+## the-scripture-audit (156)
 
 | doc_no | file_nm | file_nm_ko | 번역유무 | 줄수 | 마지막update |
 |---|---|---|:---:|---:|---|
@@ -162,8 +162,6 @@
 | 20260829_0148 | REPORT_Romans_7_6_Law_Death_Audit_Masterpiece.md | REPORT_로마서7장6절_율법죽음_오류감사_Masterpiece.md | Y | 97 | 20260829_0942 |
 | 20260829_0149 | Isaiah_Easter_KJV.md | 이사야_이스터_kjv.md | Y | 98 | 20260829_0942 |
 | 20260829_0150 | REPORT_WMSCOG_Doctrinal_Contradictions_Integrated_Audit_Masterpiece.md | REPORT_하나님의교회_교리모순_통합감사_Masterpiece.md | Y | 100 | 20260829_0942 |
-| 20260829_0151 | REPORT_Law_Liberty_Correlation_Audit.md | REPORT_율법과자유_상관관계_교리감사.md | Y | 66 | 20260829_0942 |
-| 20260829_0152 | REPORT_Liberty_Verses_Law_Relation_Full_Classification.md | REPORT_자유md_율법상관구절_전체분류.md | Y | 82 | 20260829_0942 |
 | 20260829_0153 | BVCAP_GHQ.md | BVCAP_GHQ.md | Y | 487 | 20260829_0942 |
 | 20260829_0154 | BVCAP_Pipeline.md | BVCAP_Pipeline.md | Y | 1098 | 20260829_0942 |
 | 20260829_0156 | BVCAP_User_Guide.md | BVCAP_사용자_가이드.md | Y | 589 | 20260829_0942 |
@@ -171,39 +169,13 @@
 | 20260829_0210 | [A]_Ahaziah_42vs22.md | [A]_아하지야_42vs22.md | Y | 125 | 20260829_0942 |
 | 20260829_0211 | [B]_Resurrection_Morning_Tomb_Event_Chronological_Integration.md | [B]_무덤사건_부활아침_순차통합.md | Y | 548 | 20260829_0942 |
 
-## the-sermon-audit (31)
+## the-sermon-audit (5)
 
 | doc_no | file_nm | file_nm_ko | 번역유무 | 줄수 | 마지막update |
 |---|---|---|:---:|---:|---|
-| 20260829_0183 | CLAIMS_Unidentified_Romans7_6_20260630.md | CLAIMS_미상_로마서7장6절_20260630.md | Y | 15 | 20260829_0942 |
-| 20260829_0184 | CLAIMS_Unidentified_GodheadDoctrine_20260817_claude.md | CLAIMS_미상_신격교리_20260817_claude.md | Y | 71 | 20260829_0942 |
-| 20260829_0185 | CLAIMS_Unidentified_GodheadDoctrineDiagrams_20260812.md | CLAIMS_미상_신격교리_그림_20260812.md | Y | 87 | 20260829_0942 |
-| 20260829_0186 | CLAIMS_Unidentified_GodheadDoctrineTwoNatures_20260824.md | CLAIMS_미상_신격교리_두본성_20260824.md | Y | 158 | 20260829_0942 |
-| 20260829_0187 | CLAIMS_Unidentified_GodheadDoctrineTruth_20260812.md | CLAIMS_미상_신격교리_진리_20260812.md | Y | 43 | 20260829_0942 |
-| 20260829_0188 | CLAIMS_Unidentified_Genesis6Sermon_20260628.md | CLAIMS_미상_창세기6장관련설교_20260628.md | Y | 31 | 20260829_0942 |
-| 20260829_0189 | CLAIMS_Unidentified_WineSermon_20260628.md | CLAIMS_미상_포도주술설교_20260628.md | Y | 32 | 20260829_0942 |
-| 20260829_0190 | CLAIMS_BrianDenlinger_GodheadDoctrine_20260809.md | CLAIMS_브라이언덴링거_신격교리_20260809.md | Y | 91 | 20260829_0942 |
-| 20260829_0191 | CLAIMS_BrianDenlinger_GodheadDoctrine_20260812.md | CLAIMS_브라이언덴링거_신격교리_20260812.md | Y | 97 | 20260829_0942 |
 | 20260829_0192 | SVAP_EXAMPLE.md | SVAP_EXAMPLE.md | Y | 101 | 20260829_0942 |
 | 20260829_0193 | SVAP_TEMPLATE.md | SVAP_TEMPLATE.md | Y | 224 | 20260829_0942 |
-| 20260829_0194 | AUDIT_KimHong_Revelation16_5_KJVError_20260706.md | AUDIT_김홍_계시록16장5절_KJV오류_20260706.md | Y | 430 | 20260829_0942 |
-| 20260829_0195 | AUDIT_Unidentified_Romans7_6_20260630.md | AUDIT_미상_로마서7장6절_20260630.md | Y | 42 | 20260829_0942 |
-| 20260829_0196 | AUDIT_Unidentified_Genesis6Sermon_20260628.md | AUDIT_미상_창세기6장관련설교_20260628.md | Y | 282 | 20260829_0942 |
-| 20260829_0197 | AUDIT_Unidentified_WineSermon_20260628.md | AUDIT_미상_포도주술설교_20260628.md | Y | 367 | 20260829_0942 |
-| 20260829_0198 | REPORT_JYP_Trinity.md | REPORT_JYP_삼위일체.md | Y | 87 | 20260829_0942 |
-| 20260829_0199 | REPORT_Revelation17_8_Verification.md | REPORT_계시록검증.md | Y | 90 | 20260829_0942 |
-| 20260829_0200 | REPORT_Genesis3_Sermon_20260726.md | REPORT_창세기3장_20260726.md | Y | 96 | 20260829_0942 |
-| 20260829_0201 | AUDIT_TwoNatures_IndependentReVerification_20260824.md | AUDIT_두본성_독립재검증_20260824.md | Y | 165 | 20260829_0942 |
-| 20260829_0202 | AUDIT_GodheadDoctrine_5SermonIntegrated_20260824.md | AUDIT_신격교리_5강_통합_20260824.md | Y | 1271 | 20260829_0942 |
-| 20260829_0203 | AUDIT_TwoNatures_SVAP_DeepDoctrinalAudit_20260824.md | AUDIT_신격교리_두본성_20260824.md | Y | 1081 | 20260829_0942 |
-| 20260829_0204 | GodheadDoctrine_MasterReference1.0.md | 신격교리_마스터1.0.md | Y | 559 | 20260829_0942 |
-| 20260829_0205 | GodheadDoctrine_MasterReference2.0.md | 신격교리_마스터2.0.md | Y | 1299 | 20260829_0942 |
-| 20260829_0206 | CounterStrategy_GodheadDebate.md | 회피방법.md | Y | 72 | 20260829_0942 |
 | 20260829_0207 | SVAP_GHQ.md | SVAP_GHQ.md | Y | 870 | 20260829_0942 |
 | 20260829_0208 | SVAP_Pipeline.md | SVAP_Pipeline.md | Y | 1267 | 20260829_0942 |
-| 20260829_0212 | CLAIMS_Algok_AgainstGodheadDoctrine_20260816.md | CLAIMS_알곡_신격교리반대_20260816.md | Y | 119 | 20260829_0942 |
-| 20260829_0213 | CLAIMS_SeventhDay_TimeOfJudgment.md | CLAIMS_제7일_심판의때.md | Y | 15 | 20260829_0942 |
-| 20260829_0214 | AUDIT_BrianDenlinger_GodheadDoctrine_FullBook_20260825.md | AUDIT_브라이언덴링거_신격교리_전권_20260825.md | Y | 1535 | 20260829_0942 |
-| 20260829_0215 | AUDIT_SeventhDay_TimeOfJudgment.md | AUDIT_제7일_심판의때.md | Y | 92 | 20260829_0942 |
-| 20260829_0216 | REPORT_JYP_SonsOfGod.md | REPORT_JYP_하나님의아들들.md | Y | 64 | 20260829_0942 |
+| 20260829_0217 | README.md | README.md | Y | 22 | 20260829_1145 |
 

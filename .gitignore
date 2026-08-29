@@ -14,6 +14,7 @@ the-sermon-audit/_INBOX(설교목록)/*
 !the-sermon-audit/_INBOX(설교목록)/.gitkeep
 the-sermon-audit/01_CLAIMS(주장추출)/*
 !the-sermon-audit/01_CLAIMS(주장추출)/.gitkeep
+!the-sermon-audit/01_CLAIMS(주장추출)/README.md
 the-sermon-audit/03_REPORT(설교감사보고서)/*
 !the-sermon-audit/03_REPORT(설교감사보고서)/.gitkeep
 
