@@ -33,7 +33,12 @@ else:
     TOP_N = int(sys.argv[1]) if len(sys.argv) > 1 else 100
     START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
 BATCH_SIZE = 10          # CLI 호출 1회당 심사 건수
-MODEL = "claude-haiku-4-5-20251001"  # 예/아니오 판정용 — 재현성을 위해 스냅샷 ID로 고정 (2026-08-30, v6)
+MODEL = "claude-sonnet-5"  # 심사 모델 — 사용자 지시로 haiku → Sonnet 5 상향 (2026-08-30, v7 준비)
+# 상향 이유: haiku 심사에서 경계 사례가 재실행마다 YES/NO로 흔들리는 비결정성이 실측됨.
+# Sonnet 5는 신학적 맥락 판단이 더 안정적이며, 방향 오류 가드 준수율도 높을 것으로 기대.
+# ⚠️ 이력 기록: 기존 누적 심사 2,615건(YES 62)은 claude-haiku-4-5-20251001 판정이다.
+#   모델이 바뀌었으므로 향후 전수 재심사 시 YES 목록이 달라질 수 있다 — 재심사하면
+#   llm_judge_full_log.csv 를 새로 쓰고 v7 보고서에 "심사 모델 세대" 를 명기할 것.
 # 이력: 기존에는 별칭 "haiku"를 썼으나 별칭은 최신 모델로 떠다니므로(floating) 재실행 시
 # 다른 모델이 잡힐 수 있다. 2026-07 및 2026-08-30 심사 실행 시점의 별칭 해석 결과가
 # 위 스냅샷이다. 정밀 재심사로 상향하려면 "claude-sonnet-5" 등 정확한 ID를 지정할 것.

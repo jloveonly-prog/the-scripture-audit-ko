@@ -1,3 +1,6 @@
+# ⚠️ DEPRECATED (2026-08-30): 이 스크립트는 "미검증 자동탐지 후보 상위 150건"을 시각화하는
+# 구버전이다. 검증 완료 항목만 그리는 generate_verified_network.py 를 사용할 것.
+# (REPORT_INDEX.md 에서 conflict_network.html 은 구버전으로 표기됨 — 비교·이력 용도로만 유지)
 import csv
 import json
 import os

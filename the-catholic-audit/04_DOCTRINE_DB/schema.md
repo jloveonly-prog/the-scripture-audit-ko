@@ -47,6 +47,7 @@ de_fide, sententia_certa, sententia_communis, opinió, pastoral
 | **출처** | |
 | **조항** | |
 | **교의 등급** | |
+| **무류 여부** | ☢️ 무류 (오류 불가) / 🔶 권위적 (개정 가능) / 🟢 사목적 |
 | **파문(Anathema)** | |
 | **연도** | |
 
