@@ -42,3 +42,8 @@ backup/
 
 # _INBOX 폴더 - 외부(제3자) 원자재 저작권 보호, 폴더명에 _INBOX가 들어가면 전부 제외
 **/*_INBOX*/
+
+# CVCAP 1차 사료 원문 (fetch_sources.py 수집분)
+# CCC·바티칸2차·현대 교황 문서는 Libreria Editrice Vaticana 저작권 대상 —
+# 로컬 인용 검증 용도로만 보관하고 커밋하지 않는다 (KJV_KO_표준.json과 동일 방침)
+the-catholic-audit/04_DOCTRINE_DB/_SOURCE/

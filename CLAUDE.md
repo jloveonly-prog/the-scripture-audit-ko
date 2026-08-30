@@ -15,4 +15,5 @@
 - QVCAP 감사 엔진(한글판). `the-scripture-audit`, `the-catholic-audit`, `the-sermon-audit` 세 하위 유닛을 포함.
 - **이 저장소가 원본(source of truth)**입니다. 여기서 작성/검증된 문서를 영문으로 번역해서 `01.TheScriptureAudit`(EN)로 이관합니다.
 - 검증 완료된 `REPORT` 폴더의 문서만 `02.TheScriptureSynagogue`로 이관됩니다. 이 저장소에서 `04.TheScriptureKeep`으로 직접 배포하지 않습니다.
-- 문서 관리: 각 REPORT 파일의 frontmatter에 `doc_no`(형식: `YYYYMMDD_NNNN`)를 부여하고, `Master_Index.md`는 `doc_no / file_nm / file_nm_ko / 번역유무 / 줄수 / 마지막_update` 6컬럼 표로 관리한다 (상세 메타데이터 중복 섹션은 두지 않는다).
+- 문서 관리: 관리 대상 문서는 파일 맨 첫 줄에 `<!-- doc_no: YYYYMMDD_NNNN | ver: YYYYMMDD_HHmm -->` 한 줄만 남긴다 (예전의 긴 YAML frontmatter 블록은 폐기). `doc_no`는 KO/EN 쌍이 공유하는 유일한 매칭 키(영문·숫자만, 한글 파일명으로 매칭하지 않음), `ver`는 파일별 마지막 수정 시각. `Master_Index.md`는 `scripts/rebuild_master_index.py`가 두 저장소를 스캔해 생성하는 **생성 파일**이다 — 손으로 고치지 말고 스크립트를 다시 실행해서 갱신한다.
+- **git에서 제외된 폴더는 번역·이관 대상이 아니다**: `backup/`, `_INBOX`(로 시작하는 폴더), `검토필요/`, `_back`으로 끝나는 폴더는 KO→EN 번역/복사 작업에서 항상 제외한다. 이런 폴더는 원자료·미검토 초안이지 배포 대상 문서가 아니므로, 새 문서를 찾아 번역하는 어떤 도구·스킬도 이 폴더들은 스캔 대상에서 빼야 한다.
