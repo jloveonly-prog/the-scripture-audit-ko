@@ -22,8 +22,9 @@ __pycache__/
 
 # ── 2. backup 정책 (생태계 공통 — D:\00.TheScriptureMaster 00~06, 99) ──
 # backup/ 하위는 절대 커밋·공개하지 않는다. 어떤 깊이든 전부 매칭.
-# ※ 이력상 이미 추적된 backup 파일(bible_believer/backup 41개)은 이
-#   규칙과 무관하게 추적이 유지되고 있음 — 해제 여부는 사용자 결정 대기.
+# ※ 이력상 추적되던 bible_believer/backup 41개는 2026-08-30 사용자 지시로
+#   추적 해제 완료(git rm --cached — 디스크 파일은 유지). 단 과거 커밋
+#   히스토리에는 남아 있음 — 완전 삭제는 히스토리 재작성 필요.
 **/backup/
 
 
