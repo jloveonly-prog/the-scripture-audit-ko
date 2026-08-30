@@ -167,8 +167,10 @@ python scripts/generate_verified_network.py
 |:---|:---:|:---|:---|
 | 교리 카드 74장 (`04_DOCTRINE_DB/*.md`) | ✅ 포함 | 원문 발췌 인용 + 자체 분석 — 공정이용 범위 | 클론하면 있음 |
 | 확정 카드·보고서·스크립트 전부 | ✅ 포함 | 자체 저작물 | 클론하면 있음 |
-| **`_SOURCE/` 원문 39종** | ❌ **미포함** (`.gitignore`) | CCC·바티칸2차·현대 교황/신앙교리부 문서·교회법전은 **Libreria Editrice Vaticana(교황청 출판사) 저작권** — 전문(全文) 재배포는 발췌 인용과 달리 공정이용으로 방어되지 않음 | `python scripts/fetch_sources.py` 자동 수집, 또는 v6 보고서 PART 4-3의 URL 목록에서 수동 다운로드 |
-| 트렌트·중세 공의회·19세기 이전 교황 문서 | ❌ 미포함 | 퍼블릭 도메인이라 법적으로는 커밋 가능하나, `_SOURCE/` 폴더째 제외하는 것이 관리가 단순함 | 위와 동일 |
+| **`_SOURCE/` 원문 39종** | ❌ **미포함** (`.gitignore`) | 39종 중 **21종은 LEV(교황청 출판사) 저작권**(CCC 2,863항 + 바티칸2차 4 + 20세기 이후 교황/신앙교리부 8 + 교회법전 8) — 전문(全文) 재배포는 발췌 인용과 달리 공정이용으로 방어되지 않음 | `python scripts/fetch_sources.py` 자동 수집, 또는 v6 보고서 PART 4-3의 URL 목록에서 수동 다운로드 |
+| └ 그중 원문이 퍼블릭 도메인인 18종 (트렌트 8·중세 공의회 6·바티칸1차·19세기 이전 교황 3) | ❌ 미포함 | ① 원문(라틴어)은 자유지만 우리가 받은 건 **현대 영어 번역본**이라 번역 저작권이 별도로 성립할 수 있음(수집처 사이트가 자체 © 표기) ② 폴더를 쪼개면 파일마다 법적 판단이 필요해져 실수 위험 — 폴더째 제외가 안전 | 위와 동일. 각 파일 첫 줄의 `# LICENSE:` 헤더로 파일 단위 구분 가능 |
+
+> 🗂️ **`_SOURCE/`의 정체 (혼동 주의)**: 이 폴더는 **KO 저장소 안에 있지만 내용물은 전부 영문**입니다. 한글 문서의 영어 번역본(그건 EN 저장소 `01.TheScriptureAudit`의 역할)이 아니라, 바티칸 공식 사이트에서 받은 **제3자 원문**입니다. 한국어 교리 카드의 인용이 날조가 아닌지 교차언어(LaBSE) 대조하는 검증 전용 원자료로, `_INBOX`와 같은 범주입니다 — **KO/EN 번역쌍(doc_no) 체계의 대상이 아니고, sync-translate가 EN 저장소로 이관하지도 않습니다.** (CCC 한국어 공식판은 주교회의(CBCK) 저작권·비공개라 수집 불가 → 바티칸 공식 영문판이 대조 기준)
 | 임베딩 모델 2종 | ❌ 미포함 | 대용량(~2GB) + Hugging Face가 원 배포처 | 스크립트 첫 실행 시 자동 다운로드 |
 
 **지켜야 할 규칙 3가지**:
@@ -221,7 +223,7 @@ python scripts/generate_verified_network.py
 - `02_TACTICS/` : 핵심 타격 전술 + 가톨릭 문헌 데이터베이스(`CATHOLIC_VAULT.md`).
 - `03_QUIVER/` : 문헌 법정 Implosion 무기 카드 — `QVCAP_WEAPONS.md` (파탄 카드 1~6).
 - `04_DOCTRINE_DB/` : 구조화된 교리 카드 DB (`schema.md` 기준) — `scripts/conflict_detector.py`의 입력 소스. 카드 수는 부팅 시 실측.
-  - `_SOURCE/` : **1차 사료 원문** (`fetch_sources.py` 수집분 — CCC 2,863항 + 공의회·교황문서·교회법 37건). LEV 저작권 문헌 포함이라 `.gitignore`로 제외되며 커밋되지 않는다. 없으면 `python scripts/fetch_sources.py`로 재수집.
+  - `_SOURCE/` : **1차 사료 원문 — ⚠️ 영문** (`fetch_sources.py` 수집분, 39종 = CCC 2,863항 + 공의회·교황문서·교회법 38건). KO 저장소 안에 있지만 한글 번역 대상이 아닌 **제3자 영문 원자료**다(검증 전용, doc_no 체계 밖 — 위 ⚖️ 저작권 정리의 박스 참조). LEV 저작권 21종 포함이라 `.gitignore`로 제외되며 커밋되지 않는다. 없으면 `python scripts/fetch_sources.py`로 재수집.
 - `05_COLLISION_CARDS/` : 수작업으로 확정(confirmed)된 충돌 카드 및 콤보(combos) 카드.
 - `06_ZERO_DAY/` : 신규 문헌 발간 시 우선 스캔할 충돌 후보 목록.
 - `07_REPORT/` : 마스터피스 보고서 저장소 — `REPORT_INDEX.md`, `catholic_error_report.md`, 자동 탐지 CSV/HTML 산출물 포함.

@@ -203,7 +203,35 @@ def fetch_ccc():
     return paras
 
 
+def check_gitignore_protection():
+    """⚖️ 저작권 안전장치: _SOURCE가 gitignore로 보호되지 않으면 실행을 거부한다.
+
+    이 스크립트는 LEV(교황청 출판사) 저작권 원문 전문을 내려받는다. 어느 저장소에
+    복사되어 실행되든(KO/EN 무관), 받은 파일이 실수로 커밋·push되는 일을 코드
+    수준에서 차단한다 — .gitignore 규칙에만 의존하지 않는 이중 방어다.
+    """
+    import subprocess
+    probe = os.path.join(SRC_DIR, '__copyright_probe__.txt')
+    try:
+        r = subprocess.run(['git', 'check-ignore', '-q', probe],
+                           cwd=BASE, capture_output=True)
+    except FileNotFoundError:
+        return  # git 자체가 없으면(저장소 밖 실행) 커밋 위험도 없음
+    if r.returncode != 0:
+        rel = os.path.relpath(SRC_DIR, BASE).replace('\\', '/')
+        print('=' * 60)
+        print('❌ 실행 중단 — 저작권 보호 실패')
+        print(f'  {rel}/ 가 이 저장소의 .gitignore에 등록되어 있지 않습니다.')
+        print('  이 스크립트가 받는 원문에는 LEV(교황청 출판사) 저작권 문헌이')
+        print('  포함되므로, 보호 없이 받으면 커밋·push로 유출될 수 있습니다.')
+        print('  .gitignore에 다음 한 줄을 추가한 뒤 다시 실행하십시오:')
+        print(f'    {rel}/')
+        print('=' * 60)
+        sys.exit(2)
+
+
 def main():
+    check_gitignore_protection()
     os.makedirs(SRC_DIR, exist_ok=True)
     print('=' * 60)
     print('CVCAP 3.0 — 1차 사료 수집')
