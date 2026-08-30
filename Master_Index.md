@@ -1,6 +1,6 @@
 # Master Index
 
-**Generated**: 2026-08-29 12:13
+**Generated**: 2026-08-30 18:09
 **Total Managed Documents**: 161
 **KO Repository**: D:\01.TheScriptureAudit_ko\
 **EN Repository**: D:\01.TheScriptureAudit\
