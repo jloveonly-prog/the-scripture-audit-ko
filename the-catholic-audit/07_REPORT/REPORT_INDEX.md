@@ -3,32 +3,40 @@
 
 > **STATUS**: CVCAP 3.0 자동화 파이프라인 가동 중 | **엔진**: CVCAP 3.0 (내부 문헌 단일 트랙 + 자동화 계층)
 > **작전 목표**: 가톨릭 교도권·무류성의 내부 붕괴(Implosion) 확정
-> **최종 갱신**: 2026-07-21 (유령 카드 제거 + 전 계층 무결성 점검 22/22 통과 — scripts/verify_pipeline.py)
+> **최종 갱신**: 2026-08-30 (유령 카드 제거 + 전 계층 무결성 점검 22/22 통과 — scripts/verify_pipeline.py)
 
 ---
 
 ## 🆕 현재 가동 중인 산출물 (CVCAP 3.0 — 04_DOCTRINE_DB 기반 자동 탐지)
 
-> 아래는 `04_DOCTRINE_DB/`(교리 카드 71장, 중복 정리 완료)를 입력으로 `scripts/conflict_detector.py`가
+> 아래는 `04_DOCTRINE_DB/`(교리 카드 74장 — 2026-08-29 신규 3장 추가)를 입력으로 `scripts/conflict_detector.py`가
 > 자동 색인하고, 사람이 종합 정리한 **현재 활성 보고서**입니다.
 
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
-| 종합 감사 보고서 | [catholic_error_report.md](./catholic_error_report.md) | 개별 검증 완료된 **16대 모순** (구원론·무류성·성사론·마리아론·윤리 교리 등) | ✅ 최신 |
-| 자동 탐지 후보 (임베딩) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Sentence-Transformers 유사도 ≥0.60 + cross-claim 필터 통과 후보 **2,154건** (미확정) | ✅ 최신 |
-| 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(동일 입장)으로 판정되어 제외된 **1,760건** — 수작업 검증 제외 목록 34쌍 포함 | ✅ 최신 |
+| **🏆 최종 통합본 v6 (재현 가능판)** | [catholic_error_report_v6_final.md](./catholic_error_report_v6_final.md) | v5 전체 + **PART 4 재현성 명세** — 단계별 사용 모델 정확한 ID(haiku 스냅샷 고정·LaBSE·MiniLM·sonnet·fable), 저작권 제외 원문 39종의 직접 다운로드 URL, 클론→동일결과 재현 절차. `claude-fable-5` 최종 검증 통과 (2026-08-30) | ✅ **최신 · 최종본** |
+| 최종 통합본 v5 (v6에 흡수) | [catholic_error_report_v5_final.md](./catholic_error_report_v5_final.md) | v4 전체 + **구 "비고 3건"을 정식 3단계 검증에 회부해 COL-015~017로 승격**. **22개 항목**(IMPLOSION 17 / PARTIAL 5) · 220라운드 · 카드 74장 중 원문 대응 68장(91.9%) · 환각 0건 (2026-08-30) | ⚠️ v6에 흡수됨 |
+| 최종 통합본 v4 (v5에 흡수) | [catholic_error_report_v4_final.md](./catholic_error_report_v4_final.md) | v3 전체 + **PART 3 사료 검증 계층 신설**. 교리서·공의회·교황문서 원문을 직접 수집해 카드 71장 전수 대조 — 원문 대응 확인 65장(91.5%), **환각 0건** (2026-08-29) | ⚠️ v5에 흡수됨 |
+| 인용 검증 원자료 | [citation_verification.json](./citation_verification.json) | `scripts/verify_citations.py` 산출 — 카드별 대조 점수·매치 위치·원문 발췌 | ✅ 최신 |
+| **🔧 시스템 검증 보고서** | [시스템보고서.md](./시스템보고서.md) | CVCAP 엔진 자체 점검 (2026-08-29) — 파이프라인 22/22 통과 확인, **1차 사료 미확보(최우선 과제)**, 카드 DB 24% 완성, 설계-구현 불일치 3건, 개선 우선순위 6단계 | ✅ 최신 |
+| 최종 통합본 v3 (v4에 흡수) | [catholic_error_report_v3_final.md](./catholic_error_report_v3_final.md) | **19개 항목** 전부를 PART 1(신학용어 없는 쉬운 설명판, A/B/왜무너지는가/비유/판정) + PART 2(정식 OODA 10라운드 전수) + 비고(미검증 3건)로 한 파일에 통합. IMPLOSION 17 / PARTIAL 2 (2026-08-29) | ⚠️ v4에 흡수됨 |
+| 정식 문헌 법정 전수 보고서 v2 (OODA만) | [catholic_error_report_v2_ooda.md](./catholic_error_report_v2_ooda.md) | v3에 흡수된 PART 2와 동일 내용(쉬운 설명판 없이 OODA 10라운드만) | ⚠️ v3에 흡수됨 |
+| 종합 감사 보고서 (요약본) | [catholic_error_report.md](./catholic_error_report.md) | 개별 검증 완료된 **16대 모순**을 "주장 vs 판독" 짧은 요약 형식으로 정리 — OODA 10라운드 절차는 생략된 버전 | ⚠️ 구버전 (v3 참고 권장) |
+| 자동 탐지 후보 (임베딩) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Sentence-Transformers 유사도 ≥0.60 + cross-claim 필터 통과 후보 **2,537건** (미확정) | ✅ 최신 |
+| 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(동일 입장)으로 판정되어 제외된 **2,054건** — 수작업 검증 제외 목록 34쌍 포함 | ✅ 최신 |
 | 콤보 필터 태깅 | [cvcap_combo_results.csv](./cvcap_combo_results.csv) | CVCAP 3.0 다중 필터에 동시 적발된 **626건** (키워드 태깅 — 미확정 후보) | ✅ 최신 |
-| LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). **✅ 전체 후보 전수 심사 완료** (누적 YES 55건 — 전량 수작업 재검증 거침) | ✅ 완료 |
+| LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). **✅ 전체 후보 전수 심사 완료** (누적 YES 62건 — 전량 수작업 재검증 거침) | ✅ 완료 |
 | LLM 심사 전체 로그 | [llm_judge_full_log.csv](./llm_judge_full_log.csv) | 전체 판정(YES/NO) + 근거. 미심사 잔여 **0건**. 새 카드 추가 후 재개는 `python scripts/llm_judge.py next 200` | ✅ 완료 |
-| 충돌 네트워크 시각화 | [conflict_network.html](./conflict_network.html) | Vis.js 인터랙티브 그래프 — 유사도 **상위 150건** (Chrome으로 열기) | ✅ 최신 |
-| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~014, 수작업 정밀 검증 완료 (009~014는 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전 + 교회법 844 실천모순) | ✅ 최신 |
+| **충돌 네트워크 시각화 v2 (검증 완료 19건)** | [conflict_network_v2.html](./conflict_network_v2.html) | Vis.js 인터랙티브 그래프 — 정식 보고서의 **검증 완료 19건만** 표시 (노이즈 없음). `scripts/generate_verified_network.py`로 재생성 (Chrome으로 열기) | ✅ **최신** |
+| 충돌 네트워크 시각화 (구, 미검증 후보 전체) | [conflict_network.html](./conflict_network.html) | Vis.js 인터랙티브 그래프 — 미검증 자동탐지 후보 상위 150건 (Chrome으로 열기) | ⚠️ 구버전 |
+| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~017, 수작업 정밀 검증 완료 (015~017은 2026-08-30 구 비고 3건 승격분) (009~014는 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전 + 교회법 844 실천모순) | ✅ 최신 |
 | 후보 카드 | [`../05_COLLISION_CARDS/candidates/`](../05_COLLISION_CARDS/candidates/) | 비어 있음 — CAND-001은 2026-07-21 OODA 승격 심리 통과로 COL-014 승격 | ✅ 처리 완료 |
 | 콤보 카드 (확정) | [`../05_COLLISION_CARDS/combos/`](../05_COLLISION_CARDS/combos/) | COMBO-01~05 — 마리아론·무류성·구원론·연옥/대사·동성 축복 연쇄 붕괴 카드 | ✅ 최신 |
 | 제로데이 스캔 후보 | [`../06_ZERO_DAY/scan_targets.md`](../06_ZERO_DAY/scan_targets.md) | 향후 우선 탐색 대상 (Fiducia Supplicans 등) | 🔄 진행 중 |
 
 > ⚠️ **탐지기 한계 안내 (신뢰 계층)**:
 > ① 임베딩 유사도는 '주제 인접'과 '논리 모순'을 완전히 구분하지 못하므로, `auto_conflict_results.csv`의
-> 2,154건은 전부 **"사람/LLM의 신학적 재검토가 필요한 1차 후보"**입니다.
+> 2,537건은 전부 **"사람/LLM의 신학적 재검토가 필요한 1차 후보"**입니다.
 > ② `cvcap_combo_results.csv`의 626건은 **키워드 필터 히트 건수**이지 확정 모순 수가 아닙니다.
 > ③ 최종 확정 판단은 `catholic_error_report.md`의 16대 모순, `05_COLLISION_CARDS/confirmed/`,
 > `combos/`처럼 **개별 검증을 거친 카드만** 신뢰하십시오.

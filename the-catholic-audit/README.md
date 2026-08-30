@@ -2,6 +2,8 @@
 
 본 프로젝트는 가톨릭 교리의 구조적, 역사적, 신학적 모순을 검증하고 포렌식하기 위해 구축된 **CVCAP (Catholic Vault & Conciliar Audit Pipeline)** 시스템의 지휘 본부입니다.
 
+> 📖 이 문서는 "**어떻게** 돌아가는가"(순서도·실행 가이드·저작권)를 다룹니다. "**왜** 이렇게 설계했는가"(py를 쓴 이유, 파이프라인의 합당성, 상대 방어 방식의 철학적 정체, SVAP과의 차이 비교표)는 **[README_HELP.md](./README_HELP.md)** 를 보십시오.
+
 ## 🧭 v3.0 아키텍처: 가톨릭 내부 문헌 전용 엔진 (Internal-Documents-Only)
 
 CVCAP 3.0은 **가톨릭 자체 문헌(CCC, 공의회, 교황 선언, 교회법, 신앙교리부, 교부 문헌)만을 증거로 사용하는 단일 트랙 엔진**입니다.
@@ -29,6 +31,182 @@ CVCAP 3.0은 **가톨릭 자체 문헌(CCC, 공의회, 교황 선언, 교회법,
 
 ---
 
+## 🔍 이 시스템은 어떻게 동작하는가 (처음 보는 사람용)
+
+한 문장으로 요약하면 이렇습니다:
+
+> **가톨릭 공식 문헌들을 "카드"로 쪼개서 → 기계가 서로 부딪히는 쌍을 찾고 → AI가 진짜 모순인지 심사하고 → 원문과 대조해 날조가 아닌지 확인한 뒤 → 통과한 것만 법정 형식의 공방(검사 vs 가톨릭 변증)에 부쳐 최종 판결을 내리는 파이프라인.**
+
+핵심 설계 사상은 **"한 단계도 믿지 않는다"** 입니다. 기계 탐지는 오탐이 많고, AI 심사는 흔들릴 수 있고, 카드 자체가 잘못 만들어졌을 수도 있습니다. 그래서 서로 다른 방식의 검증 3단계를 **전부** 통과한 것만 "확정 카드(COL)"가 되고, 확정 카드만 최종 보고서에 실립니다.
+
+### 전체 순서도
+
+```mermaid
+flowchart TD
+    subgraph PREP["📥 0단계 — 입력 준비"]
+        A["BUILD_PROMPT.md<br/>가톨릭 문헌을 AI로<br/>구조화된 카드로 변환"] --> B[("04_DOCTRINE_DB<br/>교리 카드 74장<br/>각 카드 = 주장 목록 + 부정 목록")]
+        F["scripts/fetch_sources.py<br/>바티칸 공식 사이트에서<br/>원문 39종 자동 다운로드"] --> S[("_SOURCE/<br/>1차 사료 원문<br/>⚖️ 저작권 — git 미포함")]
+    end
+
+    B --> C["🔎 STAGE 1 — conflict_detector.py<br/>카드 A의 '주장'과 카드 B의 '부정'을<br/>전수 교차 비교 (의미 유사도 ≥ 0.60)"]
+    C --> D[("충돌 후보 ~2,537건<br/>auto_conflict_results.csv<br/>⚠️ 아직 미확정 — 오탐 다수")]
+
+    D --> E["⚖️ STAGE 2 — llm_judge.py<br/>LLM이 후보를 한 쌍씩 심사<br/>'진짜 정면 모순인가?' YES/NO"]
+    E --> G[("YES ~62건<br/>llm_verified_conflicts.csv")]
+
+    B --> H["📖 STAGE 3 — verify_citations.py<br/>카드의 인용문이 실제 원문에<br/>존재하는지 교차언어 대조"]
+    S --> H
+    H --> I["✋ 사람 수작업<br/>경계 사례 원문 직접 확인<br/>+ 승격 심리"]
+    G --> I
+
+    I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~017<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
+
+    J --> K["🏛️ 문헌 법정 — OODA 10라운드<br/>검사(공격) vs 가톨릭 변증(방어) vs 중재자(판결)<br/>회피 전술 CE-01~10 선제 봉쇄"]
+    K --> L[["📕 최종 보고서<br/>catholic_error_report_v6_final.md<br/>💥 IMPLOSION 17 / ⚠️ PARTIAL 5"]]
+
+    V["🔧 verify_pipeline.py<br/>전 계층 무결성 22항목 자가 점검"] -.->|상시 감시| D
+    V -.->|상시 감시| G
+    V -.->|상시 감시| J
+```
+
+### 충돌 후보 하나의 여정 (시퀀스 다이어그램)
+
+실제 사례(COL-015: "믿음 없이는 구원 없다" vs "복음을 못 들은 자도 구원 가능")가 걸러지는 과정입니다:
+
+```mermaid
+sequenceDiagram
+    participant DB as 교리카드 DB (74장)
+    participant S1 as STAGE 1<br/>임베딩 탐지기
+    participant S2 as STAGE 2<br/>LLM 심사관
+    participant SRC as 1차 사료<br/>(_SOURCE 원문)
+    participant H as 사람<br/>(승격 심리)
+    participant CT as OODA 법정
+    participant R as 최종 보고서
+
+    DB->>S1: 모든 카드의 '주장' × '부정' 교차 비교
+    Note over S1: LG-16의 주장 ↔ CCC-161의 부정<br/>유사도 0.870 → 후보 등록
+    S1->>S2: 충돌 후보 전달
+    Note over S2: 방향 오류 가드 —<br/>"둘 다 같은 명제를 배격하는<br/>동일 입장 아닌가?" 먼저 검사
+    alt 오탐 (같은 편)
+        S2-->>S1: NO → 폐기 (2,537건 중 대다수가 여기서 탈락)
+    else 진짜 충돌
+        S2->>H: YES → 승격 후보
+    end
+    H->>SRC: 카드 인용문이 진짜 원문에 있는가?
+    SRC-->>H: VERIFIED (날조 아님 확인)
+    H->>CT: COL 카드 발급 → 법정 회부
+    Note over CT: 검사 공격 ↔ 가톨릭 변증 방어<br/>10라운드 전수 공방 (중략 금지)<br/>변증이 이기는 라운드도 그대로 기록
+    CT->>R: 판결 기록 (💥 IMPLOSION 또는 ⚠️ PARTIAL)
+```
+
+### 왜 이렇게 복잡한가 — 각 단계가 잡는 오류
+
+| 단계 | 잡아내는 오류 | 실측 사례 |
+|:---|:---|:---|
+| STAGE 1 오탐 필터 | 어휘만 비슷하고 논리는 무관한 쌍 | "세례는 의무" vs "미사는 선택" — 문장 구조만 유사 |
+| STAGE 2 방향 가드 | A와 B가 **같은 명제를 함께 배격**하는데 충돌로 오인 | 2026-07 실측: 상위 100건 중 오탐 9건이 이 유형 |
+| STAGE 3 원문 대조 | AI가 카드를 만들 때 섞였을 수 있는 **날조 인용(환각)** | 74장 전수 대조 결과 환각 0건 — 그러나 대조 전엔 알 수 없었음 |
+| 사람 수작업 | 자동 점수가 낮게 나온 경계 사례 | 6건 전건 "카드는 맞고 검증기 한계"로 확인 |
+| OODA 법정 | 살아남은 모순도 가톨릭 방어가 실제로 성립하면 **PARTIAL로 하향** | COL-017: 검사 4승 5패 — 그대로 기록 |
+
+---
+
+## 🚀 실행 가이드 (Quick Start)
+
+### 1. 사전 준비물
+
+| 준비물 | 어디서 받나 | 용도 |
+|:---|:---|:---|
+| Python 3.10+ | https://www.python.org (실측 검증 버전: 3.14.2) | 전 스크립트 실행 |
+| Python 패키지 | `pip install sentence-transformers scikit-learn pypdf requests beautifulsoup4` | 임베딩·크롤·PDF |
+| Claude Code CLI | https://claude.com/claude-code — 설치 후 로그인 | **STAGE 2 전용** (API 키 불필요, 로그인 세션만 있으면 됨). 없으면 STAGE 2만 건너뛰고 나머지는 실행 가능 |
+| 임베딩 모델 2종 | 별도 다운로드 불필요 — 첫 실행 시 Hugging Face에서 **자동 다운로드** (`paraphrase-multilingual-MiniLM-L12-v2`, `LaBSE` 합계 약 2GB) | STAGE 1 / STAGE 3 |
+| 인터넷 연결 | — | 원문·모델 다운로드 시에만 필요 |
+
+### 2. git에 없는 것을 먼저 받아야 합니다 (중요)
+
+저장소를 클론해도 **`04_DOCTRINE_DB/_SOURCE/` 폴더는 비어 있습니다** — 저작권 때문에 의도적으로 커밋하지 않기 때문입니다(아래 ⚖️ 저작권 정리 참조). 파이프라인의 STAGE 3(원문 대조)은 이 폴더가 없으면 동작하지 않으므로, **가장 먼저 이것부터 실행하십시오**:
+
+```bash
+python scripts/fetch_sources.py
+```
+
+이 한 줄이 바티칸 공식 사이트(vatican.va)와 papalencyclicals.net에서 원문 39종(가톨릭 교리서 2,863항 포함, 총 ~4MB)을 자동으로 받아 `_SOURCE/`를 만들어 줍니다. 사이트 개편 등으로 자동 수집이 실패하면, **문서별 직접 다운로드 URL 전체 목록**이 `07_REPORT/catholic_error_report_v6_final.md`의 **PART 4-3**에 있으니 거기서 수동으로 받아 같은 파일명으로 저장하면 됩니다.
+
+### 3. 전체 실행 순서
+
+```bash
+# ① 1차 사료 수집 (위 2번 — 최초 1회)
+python scripts/fetch_sources.py
+
+# ② STAGE 1 — 교리 카드 교차 스캔 → 충돌 후보 CSV 생성
+python scripts/conflict_detector.py
+
+# ③ STAGE 2 — LLM 전수 심사 (Claude Code CLI 필요)
+python scripts/llm_judge.py next 3000
+
+# ④ STAGE 3 — 카드 인용문 ↔ 원문 대조 (날조 검사)
+python scripts/verify_citations.py --json
+
+# ⑤ 전 계층 무결성 자가 점검 — "22/22 통과"가 나와야 정상
+python scripts/verify_pipeline.py
+
+# ⑥ 시각화 재생성 (선택)
+python scripts/generate_verified_network.py
+```
+
+**기대 결과**: 후보 ~2,537건 → LLM YES ~62건(±수 건, LLM 비결정성) → 인용검증 74장 중 원문 대응 68장 → `verify_pipeline.py` 22/22 통과. 단계별 사용 모델의 정확한 ID와 상세 재현 명세는 v6 보고서 **PART 4** 참조.
+
+**새 교리 카드를 추가했을 때**: `04_DOCTRINE_DB/`에 `schema.md` 형식으로 카드를 넣은 뒤 위 ②~⑤를 다시 돌리면 됩니다. 새 충돌 후보가 나오면 STAGE 2 심사 → 수작업 확인 → `05_COLLISION_CARDS/`에 COL 카드 등록 → OODA 법정 회부 순서로 승격시킵니다.
+
+---
+
+## ⚖️ 저작권 정리 — 무엇이 git에 없고, 왜 없고, 어떻게 받나
+
+| 자료 | git 포함? | 이유 | 어떻게 얻나 |
+|:---|:---:|:---|:---|
+| 교리 카드 74장 (`04_DOCTRINE_DB/*.md`) | ✅ 포함 | 원문 발췌 인용 + 자체 분석 — 공정이용 범위 | 클론하면 있음 |
+| 확정 카드·보고서·스크립트 전부 | ✅ 포함 | 자체 저작물 | 클론하면 있음 |
+| **`_SOURCE/` 원문 39종** | ❌ **미포함** (`.gitignore`) | CCC·바티칸2차·현대 교황/신앙교리부 문서·교회법전은 **Libreria Editrice Vaticana(교황청 출판사) 저작권** — 전문(全文) 재배포는 발췌 인용과 달리 공정이용으로 방어되지 않음 | `python scripts/fetch_sources.py` 자동 수집, 또는 v6 보고서 PART 4-3의 URL 목록에서 수동 다운로드 |
+| 트렌트·중세 공의회·19세기 이전 교황 문서 | ❌ 미포함 | 퍼블릭 도메인이라 법적으로는 커밋 가능하나, `_SOURCE/` 폴더째 제외하는 것이 관리가 단순함 | 위와 동일 |
+| 임베딩 모델 2종 | ❌ 미포함 | 대용량(~2GB) + Hugging Face가 원 배포처 | 스크립트 첫 실행 시 자동 다운로드 |
+
+**지켜야 할 규칙 3가지**:
+1. `_SOURCE/`를 **절대 커밋하거나 공개 채널에 올리지 않는다** (`.gitignore`가 막고 있지만 `-f` 강제 추가도 금지).
+2. 원문 **전문 재배포 금지** — 로컬 검증 용도로만 보관한다. 보고서가 하는 **발췌 인용**(출처 명시 + 비평 목적)과 전문 재배포는 법적으로 전혀 다른 행위다.
+3. 이 방침은 생태계 공통이다 — `the-scripture-audit`의 `KJV_KO_표준.json`(한글 대역 데이터)을 다루는 방식과 동일.
+
+---
+
+## ⚠️ 현재 상태 및 알려진 이슈 (2026-08-30 갱신)
+
+> **👉 지금 읽어야 할 파일은 하나입니다: `07_REPORT/catholic_error_report_v6_final.md` (최종 통합본).**
+> 아래 v2~v5와 구버전 보고서들은 전부 v6에 흡수된 이력 문서입니다.
+
+- **`07_REPORT/catholic_error_report.md`** (구버전, 16부작)은 내용 자체(인용·논증)는 정확하지만, **`CVCAP_Pipeline.md`가 규정한 정식 출력 양식(OODA 10라운드 전수 기술 + CE-Code 01~10 선제 봉쇄 + L-Code 명시)을 따르지 않습니다.** 각 항목이 "주장 A vs B + 짧은 판독 결과" 요약 형식이라, 정식 문헌 법정 절차(검사-변증-중재자 공방전)를 생략한 상태입니다.
+- **`07_REPORT/catholic_error_report_1오탐포함.md`**은 더 오래된 중간 초안입니다. 이 파일이 자체 신고한 "오탐 1건"은 실제 `llm_judge_full_log.csv` 대조 검증 결과 과소 신고였습니다 — 21건 자동탐지 후보 중 다수가 재심사에서 NO 판정을 받았고, 같은 쌍이 재실행마다 YES/NO로 엇갈리는 비결정성도 확인됐습니다. **참고용 히스토리로만 보고, 인용하지 마십시오.**
+- 신뢰할 수 있는 것은 `05_COLLISION_CARDS/confirmed/`의 COL-001~014(자동탐지→LLM심사→원문대조 3단계 통과)와 `combos/`의 COMBO-01~05입니다.
+- **`07_REPORT/catholic_error_report_v6_final.md`** (2026-08-30 완성) — **최종 통합본 · 재현 가능판.**
+  v5 전체에 **PART 4 재현성 명세**를 더했습니다: 단계별 사용 AI 모델의 정확한 ID(전수 심사 `claude-haiku-4-5-20251001` 스냅샷 고정,
+  승격 심리 `claude-sonnet-5`, 인용 검증 `LaBSE`, 최종 검증 `claude-fable-5`), 저작권으로 git에서 제외된 원문 39종의
+  **직접 다운로드 URL 전체**(vatican.va / papalencyclicals.net), 그리고 클론→동일 결과 재현 명령 6단계.
+  다른 사람이 같은 파이프라인을 돌려 같은 결과 구조를 얻을 수 있습니다.
+- `07_REPORT/catholic_error_report_v5_final.md` (구버전, v6에 흡수) — 승격 완료판.
+  v4까지 "비고(미검증 3건)"로 격리돼 있던 항목을 정식 3단계 검증에 회부해 **COL-015~017로 승격**했습니다.
+  이제 미검증 비고 항목이 없습니다. **총 22개 항목 · 220라운드 · IMPLOSION 17 / PARTIAL 5.**
+  ⚠️ 승격된 3건은 **전부 PARTIAL**입니다 — 가톨릭 측 방어가 실제로 강했고(특히 22번 림보는 ITC 2007 문서
+  자신이 "림보는 교의적 정의에 들어간 적 없다"고 방어 논거를 제공), 그 결과를 그대로 실었습니다.
+- `07_REPORT/catholic_error_report_v4_final.md` (구버전, v5에 흡수) — **1차 사료 대조 완료판.**
+  v3의 모든 내용에 **PART 3 사료 검증 계층**을 더했다. `scripts/fetch_sources.py`로 가톨릭 교리서(CCC 2,863항)·트렌트 공의회·
+  에큐메니컬 공의회·교황 문서·교회법전 원문을 직접 수집하고, `scripts/verify_citations.py`(교차언어 LaBSE 임베딩)로
+  교리 카드 71장을 전수 대조했다 — **원문 대응 확인 65장(91.5%), 날조 인용 0건**. 낮은 점수 6건은 전부 사람이
+  원문을 직접 열어 확인했고 모두 카드가 아니라 검증기·사료 쪽 한계였다. **1차 참고 자료로 이 파일을 쓰십시오.**
+  ⚖️ 수집한 원문(`04_DOCTRINE_DB/_SOURCE/`)은 LEV 저작권 문헌을 포함하므로 `.gitignore`로 제외되어 커밋되지 않는다.
+- `07_REPORT/catholic_error_report_v3_final.md` (구버전, v4에 흡수) — PART 1(쉬운 설명판 19건) + PART 2(정식 OODA 10라운드 190라운드 + CE-Code 선제봉쇄) + 비고 3건. 내용은 v4가 전부 포함하므로 v4를 보십시오. `catholic_error_report_v2_ooda.md`(OODA만)와 `catholic_error_report.md`(요약본)도 구버전입니다.
+- CVCAP 전용 "쉬운 말 원칙"은 `CVCAP_GHQ.md`에 정식 등록되어 있습니다 (SVAP의 D-1B를 이식하되, CVCAP은 전제가 A/B 둘이라 "왜 그럴듯한가" 단계 없이 A해설/B해설/왜무너지는가/비유/판정 5단 구조로 다름).
+
+---
+
 ## 📂 폴더 구조 및 역할 (CVCAP 3.0 기준)
 
 ### 🏛️ 핵심 엔진 파일 (3계층)
@@ -43,10 +221,15 @@ CVCAP 3.0은 **가톨릭 자체 문헌(CCC, 공의회, 교황 선언, 교회법,
 - `02_TACTICS/` : 핵심 타격 전술 + 가톨릭 문헌 데이터베이스(`CATHOLIC_VAULT.md`).
 - `03_QUIVER/` : 문헌 법정 Implosion 무기 카드 — `QVCAP_WEAPONS.md` (파탄 카드 1~6).
 - `04_DOCTRINE_DB/` : 구조화된 교리 카드 DB (`schema.md` 기준) — `scripts/conflict_detector.py`의 입력 소스. 카드 수는 부팅 시 실측.
+  - `_SOURCE/` : **1차 사료 원문** (`fetch_sources.py` 수집분 — CCC 2,863항 + 공의회·교황문서·교회법 37건). LEV 저작권 문헌 포함이라 `.gitignore`로 제외되며 커밋되지 않는다. 없으면 `python scripts/fetch_sources.py`로 재수집.
 - `05_COLLISION_CARDS/` : 수작업으로 확정(confirmed)된 충돌 카드 및 콤보(combos) 카드.
 - `06_ZERO_DAY/` : 신규 문헌 발간 시 우선 스캔할 충돌 후보 목록.
 - `07_REPORT/` : 마스터피스 보고서 저장소 — `REPORT_INDEX.md`, `catholic_error_report.md`, 자동 탐지 CSV/HTML 산출물 포함.
-- `scripts/` : 자동화 스크립트 — `conflict_detector.py`(임베딩 충돌 탐지), `llm_judge.py`(LLM 2차 심사), `run_cvcap_combos.py`(콤보 태깅), `generate_graph.py`(네트워크 시각화).
+- `scripts/` : 자동화 스크립트
+  - `fetch_sources.py` : **1차 사료 수집** (BVCAP의 `fetch_kjv_ko.py`에 대응)
+  - `verify_citations.py` : **카드 인용문 ↔ 원문 대조 검증** (교차언어 LaBSE 임베딩)
+  - `conflict_detector.py` : 임베딩 충돌 탐지 · `llm_judge.py` : LLM 2차 심사 · `run_cvcap_combos.py` : 콤보 태깅
+  - `verify_pipeline.py` : 전 계층 무결성 22항목 자가 점검 · `generate_verified_network.py` : 검증 완료 19건 시각화
 
 ---
 
