@@ -79,6 +79,9 @@ DOCUMENTS = [
     ('itc_unbaptised_infants_2007.txt', 'https://www.vatican.va/roman_curia/congregations/cfaith/cti_documents/rc_con_cfaith_doc_20070419_un-baptised-infants_en.html', False),
     ('papal_fratelli_tutti_2020.txt', 'https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html', False),
     ('cdf_responsum_dubium_2021.txt', 'https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20210222_responsum-dubium-unioni_en.html', False),
+    # 1949 성무성성 서한 (Suprema haec sacra — Feeney 사건, DENZINGER-FEENEY 카드의 원문)
+    # 원문은 1949년 교황청 문서(저작권 만료 경계이나 신중히 로컬 전용 취급), 게재처는 Catholic Culture
+    ('denzinger_feeney_1949_suprema_haec.txt', 'https://www.catholicculture.org/culture/library/view.cfm?recnum=5142', False),
     ('papal_ordinatio_sacerdotalis_1994.txt', 'https://www.vatican.va/content/john-paul-ii/en/apost_letters/1994/documents/hf_jp-ii_apl_19940522_ordinatio-sacerdotalis.html', False),
 
     # 교회법전 (1983) — LEV 저작권

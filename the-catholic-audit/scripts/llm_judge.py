@@ -33,7 +33,10 @@ else:
     TOP_N = int(sys.argv[1]) if len(sys.argv) > 1 else 100
     START = int(sys.argv[2]) if len(sys.argv) > 2 else 1
 BATCH_SIZE = 10          # CLI 호출 1회당 심사 건수
-MODEL = "claude-sonnet-5"  # 심사 모델 — 사용자 지시로 haiku → Sonnet 5 상향 (2026-08-30, v7 준비)
+import json as _json, os as _os
+with open(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), 'config.json'), encoding='utf-8') as _f:
+    MODEL = _json.load(_f)["models"]["judge"]
+# MODEL 출처: config.json (models.judge)  # 심사 모델 — 사용자 지시로 haiku → Sonnet 5 상향 (2026-08-30, v7 준비)
 # 상향 이유: haiku 심사에서 경계 사례가 재실행마다 YES/NO로 흔들리는 비결정성이 실측됨.
 # Sonnet 5는 신학적 맥락 판단이 더 안정적이며, 방향 오류 가드 준수율도 높을 것으로 기대.
 # ⚠️ 이력 기록: 기존 누적 심사 2,615건(YES 62)은 claude-haiku-4-5-20251001 판정이다.

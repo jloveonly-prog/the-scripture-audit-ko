@@ -1,0 +1,14 @@
+{
+  "_설명": "CVCAP 파이프라인 설정 — 재현자가 조정할 값은 전부 여기에 (README_HELP Q6 / v6 PART 4 참조)",
+  "models": {
+    "judge": "claude-sonnet-5",
+    "judge_이력": "세대1(2026-07~08): claude-haiku-4-5-20251001 / 세대2(2026-08-30~): claude-sonnet-5",
+    "embed_detect": "paraphrase-multilingual-MiniLM-L12-v2",
+    "embed_verify": "sentence-transformers/LaBSE"
+  },
+  "thresholds": {
+    "detect_similarity": 0.6,
+    "verify_verified": 0.65,
+    "verify_weak": 0.5
+  }
+}

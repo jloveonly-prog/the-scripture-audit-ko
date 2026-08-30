@@ -43,9 +43,12 @@ DB_DIR = os.path.join(BASE, '04_DOCTRINE_DB')
 SRC_DIR = os.path.join(DB_DIR, '_SOURCE')
 OUT_JSON = os.path.join(BASE, '07_REPORT', 'citation_verification.json')
 
-VERIFIED_T = 0.65
-WEAK_T = 0.50
-MODEL_NAME = 'sentence-transformers/LaBSE'  # 교차언어 전용 (상단 주석 참조)
+import json as _json
+with open(os.path.join(BASE, 'config.json'), encoding='utf-8') as _f:
+    _CFG = _json.load(_f)
+VERIFIED_T = _CFG['thresholds']['verify_verified']
+WEAK_T = _CFG['thresholds']['verify_weak']
+MODEL_NAME = _CFG['models']['embed_verify']  # 교차언어 전용 (상단 주석 참조)
 
 # 카드 ID 접두어 → 대조할 사료 파일(들)
 # 값이 여러 개면 전부 뒤져 가장 높은 점수를 채택한다.
@@ -86,7 +89,7 @@ SOURCE_MAP = [
                  'canon_law_bk4_eucharist.txt', 'canon_law_bk6_penal_1311_1363.txt',
                  'canon_law_bk6_penal_1364_1399.txt', 'canon_law_bk4_marriage_998_1165.txt']),
     # DENZINGER는 원문 모음집 자체를 받지 못했다(저작권/미공개) — 개별 문서로 우회 대조
-    (r'^DENZINGER[-_]FEENEY', ['__NO_SOURCE__']),
+    (r'^DENZINGER[-_]FEENEY', ['denzinger_feeney_1949_suprema_haec.txt']),
     (r'^DENZINGER', ['papal_syllabus_errorum_1864.txt']),
     (r'ORDINATIO', ['papal_ordinatio_sacerdotalis_1994.txt']),
     (r'RESPONSUM', ['cdf_responsum_dubium_2021.txt']),

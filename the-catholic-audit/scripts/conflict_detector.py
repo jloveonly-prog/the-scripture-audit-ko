@@ -12,6 +12,10 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 
 DB_DIR = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\04_DOCTRINE_DB"
 REPORT_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_results.csv"
+import json as _json
+with open(os.path.join(os.path.dirname(DB_DIR), 'config.json'), encoding='utf-8') as _f:
+    _CFG = _json.load(_f)
+
 EXCLUDED_FILE = r"D:\01.TheScriptureAudit_ko\the-catholic-audit\07_REPORT\auto_conflict_excluded_self_negation.csv"
 
 # [오탐 필터 이력 및 원리]
@@ -100,6 +104,23 @@ def parse_markdown(file_path):
                     if body:
                         negates.append(body)
 
+        # ── 교의 등급 → 심각도 tier (Level 자동 산출용, 2026-08-30 신설) ──
+        # BUILD_PROMPT.md 등급표 기준: ☢️무류=4 / CCC·Sententia Certa=3 / 교회법·Communis=2 / 사목=1
+        tier = 2
+        gm = re.search(r'\|\s*\*\*교의 등급\*\*\s*\|\s*([^|]+)\|', sec)
+        grade = gm.group(1).strip() if gm else ''
+        if grade.startswith('De Fide'):
+            # 'CCC 본문 자체는 무류 아님' 승계 표기가 있으면 CCC 본문 기준(3), 아니면 원 교의(4)
+            tier = 3 if '무류 아님' in grade else 4
+        elif 'Sententia Certa' in grade:
+            tier = 3
+        elif 'Sententia Communis' in grade:
+            tier = 2
+        elif 'Pastoral' in grade or '사목' in grade:
+            tier = 1
+        if card_id.upper().startswith('CANON'):
+            tier = min(tier, 2)  # 교회법은 무류 아님 (BUILD_PROMPT 등급표)
+
         # "TRENT-S06-C32 — 선한 행위가 공로 없다 하면 파문" 형식의 제목에서
         # ID와 " — "/" " 구분자를 뗀 사람이 읽기 쉬운 이름만 남긴다.
         readable_title = re.sub(r'^\S+\s*[—-]?\s*', '', title).strip()
@@ -112,7 +133,8 @@ def parse_markdown(file_path):
                 'title': readable_title,
                 'file': os.path.basename(file_path),
                 'claims': claims,
-                'negates': negates
+                'negates': negates,
+                'tier': tier,
             })
 
     return cards
@@ -133,6 +155,12 @@ def main():
     print(f"총 {len(all_cards)}개의 교리 카드를 파싱했습니다.")
 
     title_map = {card['id']: card['title'] for card in all_cards}
+    tier_map = {card['id']: card.get('tier', 2) for card in all_cards}
+    # BUILD_PROMPT '충돌 등급 매트릭스' — 두 카드 tier 조합 → Level 1~5
+    _LEVEL = {(4,4):5,(4,3):4,(4,2):3,(4,1):2,(3,3):3,(3,2):3,(3,1):2,(2,2):2,(2,1):1,(1,1):1}
+    def pair_level(a, b):
+        ta, tb = tier_map.get(a, 2), tier_map.get(b, 2)
+        return _LEVEL[(max(ta,tb), min(ta,tb))]
 
     claims_list = [] # (card_id, claim_text)
     negates_list = [] # (card_id, negate_text)
@@ -149,7 +177,7 @@ def main():
     print("다국어 의미론적 AI 임베딩(Sentence-Transformers) 모델을 로딩 중입니다...")
     print("(최초 실행 시 모델 다운로드에 1~2분 정도 소요될 수 있습니다.)")
     # 한국어 의미 파악에 뛰어난 다국어 모델 적용
-    model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+    model = SentenceTransformer(_CFG['models']['embed_detect'])  # config.json
 
     print("텍스트의 진짜 의미를 벡터로 변환(Embedding)하고 있습니다...")
     claims_embeddings = model.encode([c[1] for c in claims_list], show_progress_bar=True)
@@ -166,7 +194,7 @@ def main():
     conflicts = []
     excluded = []
     # AI 임베딩은 문맥이 같으면 기본 유사도가 높게 나오므로 임계값을 0.60으로 상향 (기존 TF-IDF는 0.20)
-    THRESHOLD = 0.60 # 의미론적 유사도 임계값
+    THRESHOLD = _CFG['thresholds']['detect_similarity']  # config.json
 
     for i, c_item in enumerate(claims_list):
         for j, n_item in enumerate(negates_list):
@@ -192,6 +220,7 @@ def main():
 
             row = {
                 'Score': round(sim_score, 3),
+                'Level': pair_level(card_a, card_b),
                 'Card_A_Claiming': card_a,
                 'Title_A': title_map.get(card_a, ''),
                 'Card_B_Negating': card_b,
@@ -216,7 +245,7 @@ def main():
     conflicts.sort(key=lambda x: x['Score'], reverse=True)
     excluded.sort(key=lambda x: x['Score'], reverse=True)
 
-    main_fields = ['Score', 'Card_A_Claiming', 'Title_A', 'Card_B_Negating', 'Title_B', 'Claim_Text', 'Negate_Text']
+    main_fields = ['Score', 'Level', 'Card_A_Claiming', 'Title_A', 'Card_B_Negating', 'Title_B', 'Claim_Text', 'Negate_Text']
     excluded_fields = main_fields[:1] + ['Cross_Claim_Score'] + main_fields[1:] + ['Exclusion_Reason']
 
     os.makedirs(os.path.dirname(REPORT_FILE), exist_ok=True)
