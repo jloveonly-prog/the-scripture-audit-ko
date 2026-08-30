@@ -11,7 +11,7 @@
  },
  {
   "id": "TRENT-S07",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S07.md",
   "title": "성사 일반과 세례",
   "score": 0.466,
   "status": "SUSPECT",
@@ -21,7 +21,7 @@
  },
  {
   "id": "TRENT-S14",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S14.md",
   "title": "고해성사와 병자성사",
   "score": 0.481,
   "status": "SUSPECT",
@@ -31,7 +31,7 @@
  },
  {
   "id": "COUNCIL-CONST_III",
-  "file": "batch8_councils.md",
+  "file": "COUNCIL_CONST_III.md",
   "title": "호노리우스 1세 교황 정죄",
   "score": 0.499,
   "status": "SUSPECT",
@@ -41,7 +41,7 @@
  },
  {
   "id": "CCC-456_478",
-  "file": "batch1_salvation.md",
+  "file": "CCC_456_478.md",
   "title": "강생과 그리스도의 구원 사역",
   "score": 0.573,
   "status": "MISLOCATED",
@@ -52,18 +52,8 @@
   "better_match_score": 0.679
  },
  {
-  "id": "DENZINGER-FEENEY",
-  "file": "batch9_denzinger.md",
-  "title": "Feeney주의 정죄와 '열망의 세례'",
-  "score": 0.0,
-  "status": "NO_SOURCE",
-  "matched_at": null,
-  "quote": "\"교회 밖에는 구원이 없다\"는 교리는 참되지만, 이것이 오직 가톨릭 교회에 가시적으로 등록되고 물의 세례를 받은 자만 구원받는다는 의미는 아니다. 교회를 향한 '무의식적이거나 암묵적인 열망(votum)'만으로도 구원에 필요한 은총을 얻을 수 있다.",
-  "source_passage": ""
- },
- {
   "id": "CANON-PENAL",
-  "file": "batch7_canon.md",
+  "file": "CANON_PENAL.md",
   "title": "형법과 자동 파문(Latae Sententiae)",
   "score": 0.506,
   "status": "WEAK",
@@ -82,8 +72,18 @@
   "source_passage": "245 CHAPTER NINE The spiriTuaLiTy of marriaGe and The famiLy 313. Charity takes on different hues, depending on the state of life to which we have been called. Several decades ago, in speaking of the lay apos- tolate, the Second Vatican Council emphasized the spirituality born of family life. The Council stated that lay spirituality “will take its particular character from the circumstances of… ma"
  },
  {
+  "id": "CANON-C1397",
+  "file": "CANON_C1397.md",
+  "title": "낙태 자동 파문 (2021년 개정 조문 번호)",
+  "score": 0.51,
+  "status": "WEAK",
+  "matched_at": "canon_law_bk6_penal_1364_1399.txt",
+  "quote": "\"실제로 낙태를 시행하는 자는 자동처벌 파문(latae sententiae excommunication)을 받는다(A person who actually procures an abortion incurs a latae sententiae excommunication)\"(Can. 1397 §2). 참고: 2021년 개정 이전(1983년 원판)에는 이 조항이 Can. 1398이었으나, 교황 프란치스코의 형법 개정으로 조문 번호가 재배치되어 현재는 Can. 1397 §2이며, 옛 1398 번호는 현재 미성년자 대상 성범죄 조항(Can. 1398)으로 대체되었다.",
+  "source_passage": "2° a person who, apart from the case mentioned in can. 1384, though unable to give valid sacramental absolution, attempts to do so, or hears a sacramental confession."
+ },
+ {
   "id": "TRENT-S24",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S24.md",
   "title": "혼인성사",
   "score": 0.537,
   "status": "WEAK",
@@ -93,7 +93,7 @@
  },
  {
   "id": "PAPAL-FRATELLI",
-  "file": "batch6_papal.md",
+  "file": "PAPAL_FRATELLI.md",
   "title": "Fratelli Tutti와 사형제 폐지 (CCC 2267 개정)",
   "score": 0.539,
   "status": "WEAK",
@@ -103,7 +103,7 @@
  },
  {
   "id": "TRENT-S06",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S06.md",
   "title": "칭의(의화) 교령",
   "score": 0.548,
   "status": "WEAK",
@@ -113,7 +113,7 @@
  },
  {
   "id": "TRENT-S05",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S05.md",
   "title": "원죄 교령",
   "score": 0.551,
   "status": "WEAK",
@@ -123,7 +123,7 @@
  },
  {
   "id": "CCC-1257_1261",
-  "file": "batch1_salvation.md",
+  "file": "CCC_1257_1261.md",
   "title": "세례의 필수성",
   "score": 0.553,
   "status": "WEAK",
@@ -133,7 +133,7 @@
  },
  {
   "id": "CDF-ORDINATIO",
-  "file": "batch10_cdf.md",
+  "file": "CDF_ORDINATIO.md",
   "title": "Ordinatio Sacerdotalis (여성 서품 금지)",
   "score": 0.557,
   "status": "WEAK",
@@ -143,7 +143,7 @@
  },
  {
   "id": "DENZINGER-SYLLABUS",
-  "file": "batch9_denzinger.md",
+  "file": "DENZINGER_SYLLABUS.md",
   "title": "Syllabus Errorum (오류표)와 종교 자유 부정",
   "score": 0.557,
   "status": "WEAK",
@@ -153,7 +153,7 @@
  },
  {
   "id": "TRENT-S22",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S22.md",
   "title": "미사의 거룩한 제사",
   "score": 0.558,
   "status": "WEAK",
@@ -173,7 +173,7 @@
  },
  {
   "id": "TRENT-S25",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S25.md",
   "title": "연옥, 성인 공경, 대사",
   "score": 0.563,
   "status": "WEAK",
@@ -183,7 +183,7 @@
  },
  {
   "id": "CCC-954_962",
-  "file": "batch3_church_mary.md",
+  "file": "CCC_954_962.md",
   "title": "성인들의 전구 (Intercession)",
   "score": 0.565,
   "status": "WEAK",
@@ -193,7 +193,7 @@
  },
  {
   "id": "COUNCIL-NICAEA_CHALCEDON",
-  "file": "batch8_councils.md",
+  "file": "COUNCIL_NICAEA_CHALCEDON.md",
   "title": "초기 공의회 (삼위일체와 기독론)",
   "score": 0.585,
   "status": "WEAK",
@@ -223,7 +223,7 @@
  },
  {
   "id": "PAPAL-MUNIF",
-  "file": "batch6_papal.md",
+  "file": "PAPAL_MUNIF.md",
   "title": "Munificentissimus Deus (성모 몽소승천)",
   "score": 0.594,
   "status": "WEAK",
@@ -233,7 +233,7 @@
  },
  {
   "id": "CCC-599_618",
-  "file": "batch1_salvation.md",
+  "file": "CCC_599_618.md",
   "title": "십자가와 속죄",
   "score": 0.606,
   "status": "WEAK",
@@ -253,13 +253,23 @@
  },
  {
   "id": "CANON-SACR",
-  "file": "batch7_canon.md",
+  "file": "CANON_SACR.md",
   "title": "성사 일반과 성체 영성체의 제한",
   "score": 0.614,
   "status": "WEAK",
   "matched_at": "canon_law_bk4_eucharist.txt",
   "quote": "가톨릭 성직자는 원칙적으로 가톨릭 신자에게만 성사를 수여하며, 파문 처벌을 받았거나 고집스럽게 명백한 대죄 중에 머무는 자들(예: 제915조)은 영성체를 할 수 없다. 단, 죽을 위험 등의 특정 상황에서 타 기독교인에게 성사 상호 교류(고해, 성체, 병자)가 예외적으로 허용될 수 있다.",
   "source_passage": "Can. 915 Those who have been excommunicated or interdicted after the imposition or declaration of the penalty and others obstinately persevering in manifest grave sin are not to be admitted to holy communion."
+ },
+ {
+  "id": "DENZINGER-FEENEY",
+  "file": "DENZINGER_FEENEY.md",
+  "title": "Feeney주의 정죄와 '열망의 세례'",
+  "score": 0.621,
+  "status": "WEAK",
+  "matched_at": "denzinger_feeney_1949_suprema_haec.txt",
+  "quote": "\"교회 밖에는 구원이 없다\"는 교리는 참되지만, 이것이 오직 가톨릭 교회에 가시적으로 등록되고 물의 세례를 받은 자만 구원받는다는 의미는 아니다. 교회를 향한 '무의식적이거나 암묵적인 열망(votum)'만으로도 구원에 필요한 은총을 얻을 수 있다.",
+  "source_passage": "The same in its own degree must be asserted of the Church, in as far as she is the general help to salvation. Therefore, that one may obtain eternal salvation, it is not always required that he be incorporated into the Church actually as a member, but it is necessary that at least he be united to her by desire and longing."
  },
  {
   "id": "TRENT-S07-C05",
@@ -273,7 +283,7 @@
  },
  {
   "id": "CDF-RESPONSUM",
-  "file": "batch10_cdf.md",
+  "file": "CDF_RESPONSUM.md",
   "title": "Responsum ad Dubium (2021) 동성 결합 축복 금지",
   "score": 0.629,
   "status": "WEAK",
@@ -282,8 +292,18 @@
   "source_passage": "For the above mentioned reasons, the Church does not have, and cannot have, the power to bless unions of persons of the same sex in the sense intended above."
  },
  {
+  "id": "DENZINGER-SYLLABUS-15_18",
+  "file": "DENZINGER_SYLLABUS_15_18.md",
+  "title": "Syllabus Errorum 명제 15~18: 무관심주의·종교 자유 단죄 (DH와 정면 대비)",
+  "score": 0.632,
+  "status": "WEAK",
+  "matched_at": "papal_syllabus_errorum_1864.txt",
+  "quote": "III. 무관심주의, 광교주의(Indifferentism, Latitudinarianism) — 다음 명제들은 단죄되고 배척된다: **15항**: \"모든 인간은 이성의 빛에 따라 참되다고 판단하는 종교라면 어떤 것이든 자유로이 받아들이고 신봉할 수 있다.\" **16항**: \"인간은 어떤 종교를 신봉하든 그 안에서 영원한 구원의 길을 발견하고 영원한 구원에 도달할 수 있다.\" **17항**: \"그리스도의 참된 교회 안에 전혀 있지 않은 모든 이들의 영원한 구원에 관해서도 적어도 선한 희망을 가져야 한다.\" **18항**: \"개신교(Protestantism)는 참된 그리스도교 종교의 또 다른 형태에 불과하며, 그 형태 안에서도 가톨릭 교회 안에서와 마찬가지로 하느님을 기쁘게 해드릴 수 있다.\"",
+  "source_passage": "16. Man may, in the observance of any religion whatever, find the way of eternal salvation, and arrive at eternal salvation. — Encyclical “Qui pluribus,” Nov. 9, 1846."
+ },
+ {
   "id": "CANON-MARRIAGE",
-  "file": "batch7_canon.md",
+  "file": "CANON_MARRIAGE.md",
   "title": "혼인법",
   "score": 0.633,
   "status": "WEAK",
@@ -293,7 +313,7 @@
  },
  {
   "id": "COUNCIL-LATERAN_IV",
-  "file": "batch8_councils.md",
+  "file": "COUNCIL_LATERAN_IV.md",
   "title": "교회 밖 구원 없음과 화체설",
   "score": 0.633,
   "status": "WEAK",
@@ -303,7 +323,7 @@
  },
  {
   "id": "CCC-1987_2016",
-  "file": "batch1_salvation.md",
+  "file": "CCC_1987_2016.md",
   "title": "칭의(의화)와 은총, 그리고 공로",
   "score": 0.634,
   "status": "WEAK",
@@ -313,7 +333,7 @@
  },
  {
   "id": "CDF-DOMINUS",
-  "file": "batch10_cdf.md",
+  "file": "CDF_DOMINUS.md",
   "title": "Dominus Iesus (구원의 유일성과 가톨릭 교회)",
   "score": 0.634,
   "status": "WEAK",
@@ -343,7 +363,7 @@
  },
  {
   "id": "CCC-1213_1284",
-  "file": "batch1_salvation.md",
+  "file": "CCC_1213_1284.md",
   "title": "세례 성사의 은총",
   "score": 0.644,
   "status": "WEAK",
@@ -353,7 +373,7 @@
  },
  {
   "id": "CCC-1471_1479",
-  "file": "batch2_sacraments.md",
+  "file": "CCC_1471_1479.md",
   "title": "대사 (면죄부, Indulgentia)",
   "score": 0.653,
   "status": "VERIFIED",
@@ -363,7 +383,7 @@
  },
  {
   "id": "CANON-GEN",
-  "file": "batch7_canon.md",
+  "file": "CANON_GEN.md",
   "title": "교회법 일반 (적용 대상, 이단, 배교)",
   "score": 0.654,
   "status": "VERIFIED",
@@ -383,7 +403,7 @@
  },
  {
   "id": "CCC-402_412",
-  "file": "batch1_salvation.md",
+  "file": "CCC_402_412.md",
   "title": "원죄와 그 결과",
   "score": 0.659,
   "status": "VERIFIED",
@@ -393,7 +413,7 @@
  },
  {
   "id": "CCC-846_848",
-  "file": "batch1_salvation.md",
+  "file": "CCC_846_848.md",
   "title": "교회 밖의 구원 (Extra Ecclesiam nulla salus)",
   "score": 0.66,
   "status": "VERIFIED",
@@ -412,14 +432,34 @@
   "source_passage": "CANON IX.-If any one saith, that by faith alone the impious is justified; in such wise as to mean, that nothing else is required to co-operate in order to the obtaining the grace of Justification, and that it is not in any way necessary, that he be prepared and disposed by the movement of his own will; let him be anathema."
  },
  {
+  "id": "GS-51",
+  "file": "GS_51.md",
+  "title": "Gaudium et Spes 51항: 책임 있는 출산과 산아 조절의 \"객관적 기준\"",
+  "score": 0.661,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_gaudium_et_spes.txt",
+  "quote": "\"현대의 여건은 부부가 조화로운 결혼 생활을 꾸리기 어렵게 만들며, 적어도 일시적으로 가족 규모를 늘리지 말아야 하는 상황에 처하게 만든다... 그러나 어떤 이들은 생명을 앗아가는 것조차 서슴지 않는 부당한 해결책을 제시한다. 그러나 교회는 생명 전달에 관한 하느님의 법과 참된 부부 사랑에 관한 법 사이에 참된 모순이 있을 수 없음을 상기시킨다.\" 잉태 순간부터 낙태와 유아 살해는 \"말할 수 없는 범죄\"라고 명시한다. \"생명 전달의 책임 있는 조절 문제에서, 어떤 행위의 도덕성은 성실한 의도나 동기 평가만으로 결정되지 않으며 **객관적 기준(objective standards)**에 의해 결정되어야 한다... 이 원칙에 근거하여 교회의 자녀들은 교도권이 하느님의 법을 해설하며 비난하는 산아 조절 방법을 사용해서는 안 된다.\"",
+  "source_passage": "For God, the Lord of life, has conferred on men the surpassing ministry of safeguarding life in a manner which is worthy of man. Therefore from the moment of its conception life must be guarded with the greatest care while abortion and infanticide are unspeakable crimes. The sexual characteristics of man and the human faculty of reproduction wonderfully exceed the dispositions of lower forms of li"
+ },
+ {
   "id": "CCC-1322_1419",
-  "file": "batch2_sacraments.md",
+  "file": "CCC_1322_1419.md",
   "title": "성체성사와 화체설",
   "score": 0.665,
   "status": "VERIFIED",
   "matched_at": "CCC 1382",
   "quote": "성체성사는 그리스도교 생활의 원천이며 정점이다. 미사 중 사제의 축성을 통해 빵과 포도주는 그리스도의 참된 몸과 피, 영혼과 신성으로 실체 변화(화체)를 일으키며, 십자가의 제사와 미사의 제사는 단일하고 동일한 제사이다.",
   "source_passage": "The Mass is at the same time, and inseparably, the sacrificial memorial in which the sacrifice of the cross is perpetuated and the sacred banquet of communion with the Lord's body and blood. But the celebration of the Eucharistic sacrifice is wholly directed toward the intimate union of the faithful with Christ through communion. To receive communion is to receive Christ himself who has offered hi"
+ },
+ {
+  "id": "COUNCIL-FLORENCE-EXSULTATE",
+  "file": "COUNCIL_FLORENCE_EXSULTATE.md",
+  "title": "Exsultate Deo (아르메니아인 교령: 7성사 정의)",
+  "score": 0.666,
+  "status": "VERIFIED",
+  "matched_at": "council_florence_1439.txt",
+  "quote": "\"새 법의 성사는 일곱이니, 세례, 견진, 성체, 고해, 병자, 성품, 혼인이다 ... 이 성사들은 옛 법의 예표와 달리 은총을 담고 실제로 수여한다.\" 모든 성사는 질료(matter)·형상(form, 곧 말)·지향을 지닌 자격 있는 집전자(minister)라는 세 요소로 구성되며, 이 중 하나라도 결여되면 성사가 이루어지지 않는다고 규정한 뒤, 일곱 성사 각각의 질료·형상·통상 집전자를 상세히 열거한다(예: 세례의 질료는 물, 형상은 삼위일체 정식; 견진·성품의 통상 집전자는 주교; 혼인의 유효원인은 현재형으로 표현된 상호 합의).",
+  "source_passage": "Fifthly, for the easier instruction of the Armenians of today and in the future we reduce the truth about the sacraments of the church to the following brief scheme. There are seven sacraments of the new Law, namely baptism, confirmation, Eucharist, penance, extreme unction, orders and matrimony, which differ greatly from the sacraments of the old Law. The latter were not causes of grace, but only"
  },
  {
   "id": "CCC-1257",
@@ -433,7 +473,7 @@
  },
  {
   "id": "CCC-1422_1498",
-  "file": "batch2_sacraments.md",
+  "file": "CCC_1422_1498.md",
   "title": "고해성사와 사죄권",
   "score": 0.675,
   "status": "VERIFIED",
@@ -443,7 +483,7 @@
  },
  {
   "id": "CCC-487_511",
-  "file": "batch3_church_mary.md",
+  "file": "CCC_487_511.md",
   "title": "마리아: 무염시태와 평생동정, 몽소승천",
   "score": 0.676,
   "status": "VERIFIED",
@@ -463,7 +503,7 @@
  },
  {
   "id": "CCC-880_896",
-  "file": "batch3_church_mary.md",
+  "file": "CCC_880_896.md",
   "title": "교황 수위권 (Primacy)",
   "score": 0.678,
   "status": "VERIFIED",
@@ -473,13 +513,23 @@
  },
  {
   "id": "CCC-888_892",
-  "file": "batch3_church_mary.md",
+  "file": "CCC_888_892.md",
   "title": "교도권과 교황 무류성 (Infallibility)",
   "score": 0.68,
   "status": "VERIFIED",
   "matched_at": "CCC 891",
   "quote": "교황이 전체 교회의 최고 목자로서 '좌에서(Ex Cathedra)' 신앙과 도덕에 관한 교리를 확정적으로 선언할 때, 그 가르침은 성령의 도우심으로 오류가 없다(무류성). 교황과 함께 에큐메니컬 공의회에 모인 주교단도 무류성을 지닌다.",
   "source_passage": "\"The Roman Pontiff, head of the college of bishops, enjoys this infallibility in virtue of his office, when, as supreme pastor and teacher of all the faithful - who confirms his brethren in the faith he proclaims by a definitive act a doctrine pertaining to faith or morals.... the infallibility promised to the Church is also present in the body of bishops when, together with Peter's successor, the"
+ },
+ {
+  "id": "PAPAL-FRATELLI-263_270",
+  "file": "PAPAL_FRATELLI_263_270.md",
+  "title": "Fratelli Tutti 263~270항: 사형제는 \"용납 불가\"(inadmissible) — 상세 논증",
+  "score": 0.682,
+  "status": "VERIFIED",
+  "matched_at": "papal_fratelli_tutti_2020.txt",
+  "quote": "**263항**: \"요한 바오로 2세는 사형이 도덕적 관점에서 부적절하며 형사 정의의 관점에서도 더 이상 필요하지 않다고 명확하고 단호하게 밝혔다. 이 입장에서 후퇴는 있을 수 없다. 오늘 우리는 명확히 말한다: **'사형은 용납될 수 없다(inadmissible)'**. 교회는 전 세계적으로 사형제 폐지를 확고히 추구한다.\" **264~265항**: 신약성경은 개인의 사적 보복은 금하되 권위자의 처벌 필요성은 인정한다고 언급하면서도, 락탄티우스(\"어떤 예외도 있어서는 안 되며 사람을 죽이는 것은 언제나 불법이다\"), 니콜라오 1세 교황, 아우구스티누스(살인자 재판에서 처형 대신 회개를 구하는 변론)를 인용하며 교회 초기부터 사형 반대 흐름이 있었음을 강조한다. **267~268항**: 초법적 처형을 강하게 비판하며, 오판 가능성과 전체주의 정권의 정치적 반대자 탄압 수단으로 악용된 역사를 지적한다. \"종신형은 은밀한 사형(a secret death penalty)이다.\" **269~270항**: \"제아무리 흉악한 살인자라도 인격적 존엄을 잃지 않으며, 하느님 스스로 이를 보증하겠다고 약속하신다.\" 이사야 2장4절(\"칼을 쳐서 보습을 만들리라\")과 마태오 26장52절(\"칼을 쓰는 자는 다 칼로 망하리라\")을 인용하며 결론짓는다.",
+  "source_passage": "268. “The arguments against the death penalty are numerous and well-known. The Church has rightly called attention to several of these, such as the possibility of judicial error and the use made of such punishment by totalitarian and dictatorial regimes as a means of suppressing political dissidence or persecuting religious and cultural minorities, all victims whom the legislation of those regimes"
  },
  {
   "id": "NOSTRA-AETATE",
@@ -492,14 +542,44 @@
   "source_passage": "3. The Church regards with esteem also the Moslems. They adore the one God, living and subsisting in Himself; merciful and all- powerful, the Creator of heaven and earth,(5) who has spoken to men; they take pains to submit wholeheartedly to even His inscrutable decrees, just as Abraham, with whom the faith of Islam takes pleasure in linking itself, submitted to God. Though they do not acknowledge "
  },
  {
+  "id": "COUNCIL-CONSTANCE-HUS",
+  "file": "COUNCIL_CONSTANCE_HUS.md",
+  "title": "얀 후스 이단 정죄 및 세속 권력 인도",
+  "score": 0.684,
+  "status": "VERIFIED",
+  "matched_at": "council_constance_1415.txt",
+  "quote": "공의회는 얀 후스가 그의 저술(De ecclesia 등)에서 진술한 조항들이 \"가톨릭적이지 않으며, 오류이거나 물의를 일으키거나 경건한 이의 귀에 거슬리거나 경솔하거나 선동적이며, 일부는 이미 오래전 교부들과 공의회에 의해 이단으로 단죄된 것\"이라고 선언·정의하고, 그의 저서를 공개 소각하도록 명한다. 증인 심문과 본인 확인을 거쳐 그를 \"참되고 명백한 이단자(a true and manifest heretic)\"로 판정·단죄한다. 완고하고 교정 불가능하다고 보아 성직에서 강등시키고, \"교회가 더 이상 할 수 있는 일이 없다(seeing that God's church has nothing more that it can do)\"며 세속 재판에 인도한다.",
+  "source_passage": "Moreover, the acts and deliberations of the inquiry into heresy against the aforesaid John Hus have been examined. There was first a faithful and full account made by the commissioners deputed for the case and by other masters of theology and doctors of both laws, concerning the acts and deliberations and the depositions of very many trustworthy witnesses. These depositions were openly and publicl"
+ },
+ {
+  "id": "CANON-C0868",
+  "file": "CANON_C0868.md",
+  "title": "유아 세례의 조건: 가톨릭 양육 희망",
+  "score": 0.69,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk4_baptism.txt",
+  "quote": "유아 세례가 합법적이려면 부모(또는 최소 한쪽) 혹은 그 대리인의 동의가 있어야 하고(§1.1), 그 아이가 가톨릭 신앙 안에서 양육되리라는 근거 있는 희망(spes... fundata)이 있어야 하며, 그러한 희망이 전혀 없으면(si prorsus deficiat) 개별법의 규정에 따라 세례를 연기하고 부모에게 그 이유를 알려야 한다(§1.2). 다만 사망 위험이 있을 때는 가톨릭이든 비가톨릭 부모의 자녀든, 심지어 부모의 반대에도 불구하고 합법적으로 세례를 줄 수 있다(§2).",
+  "source_passage": "Can. 868 §1. 2/ there must be a founded hope that the infant will be brought up in the Catholic religion; if such hope is altogether lacking, the baptism is to be delayed according to the prescripts of particular law after the parents have been advised about the reason."
+ },
+ {
   "id": "PAPAL-INEFF",
-  "file": "batch6_papal.md",
+  "file": "PAPAL_INEFF.md",
   "title": "Ineffabilis Deus (원죄 없이 잉태되신 동정 마리아)",
   "score": 0.69,
   "status": "VERIFIED",
   "matched_at": "papal_ineffabilis_deus_1854.txt",
   "quote": "복되신 동정 마리아는 그녀가 잉태되는 첫 순간부터 전능하신 하느님의 특별한 은총과 특전으로, 인류의 구세주 예수 그리스도의 예견된 공로로 말미암아 원죄의 온갖 물듦에서 면제되었다. 이는 하느님이 계시하신 교리이다.",
   "source_passage": "29. Declaramus, pronuntiamus et definimus doctrinam quae tenet beatissimam Virginem Mariam in primo instanti suae conceptionis fuisse singulari Omnipotentis Dei gratia et privilegio, intuitu meritorum Christi Jesu Salvatoris humani generis, ab omni originalis culpae labe praeservatam immunem, esse a Deo revelatam, atque idcirco ab omnibus fidelibus firmiter constanterque credendam. Cf. Denz., n. 1"
+ },
+ {
+  "id": "GS-16",
+  "file": "GS_16.md",
+  "title": "Gaudium et Spes 16항: 양심 — \"인간의 가장 은밀한 핵심이자 지성소\"",
+  "score": 0.69,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_gaudium_et_spes.txt",
+  "quote": "\"인간은 자신의 양심 깊은 곳에서, 자신이 부과하지 않았으나 자신을 복종시키는 법을 발견한다. 그 목소리는 언제나 선을 사랑하고 악을 피하라고 그의 마음에 촉구한다... 인간은 하느님이 그의 마음에 써 놓으신 법을 지니고 있으며, 그 법에 따라 심판받을 것이다. **양심은 인간의 가장 은밀한 핵심(the most secret core)이자 지성소(sanctuary)이다.** 거기서 인간은 홀로 하느님과 함께 있으며, 하느님의 목소리가 그 깊은 곳에서 울려 퍼진다.\" 이어 양심은 \"invincible ignorance\"(불가피한 무지)로 인해 오류를 범할 수 있으며, 이 경우에도 존엄성을 잃지 않는다고 명시한다.",
+  "source_passage": "16. In the depths of his conscience, man detects a law which he does not impose upon himself, but which holds him to obedience. Always summoning him to love good and avoid evil, the voice of conscience when necessary speaks to his heart: do this, shun that. For man has in his heart a law written by God; to obey it is the very dignity of man; according to it he will be judged.(9) Conscience is the "
  },
  {
   "id": "TRENT-S06-C32",
@@ -512,6 +592,16 @@
   "source_passage": "CANON XXXII.-If any one saith, that the good works of one that is justified are in such manner the gifts of God, as that they are not also the good merits of him that is justified; or, that the said justified, by the good works which he performs through the grace of God and the merit of Jesus Christ, whose [Page 49] living member he is, does not truly merit increase of grace, eternal life, and the"
  },
  {
+  "id": "CANON-C0748",
+  "file": "CANON_C0748.md",
+  "title": "양심에 반한 신앙 강요 절대 금지",
+  "score": 0.696,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk3_teaching_747_755.txt",
+  "quote": "모든 사람은 하느님과 교회에 관한 진리를 탐구할 의무와 권리를 가진다(§1). \"누구도 결코 자신의 양심에 반하여 가톨릭 신앙을 받아들이도록 강제될 수 없다(No one is ever permitted to coerce persons to embrace the Catholic faith against their conscience)\"(§2).",
+  "source_passage": "§2. No one is ever permitted to coerce persons to embrace the Catholic faith against their conscience."
+ },
+ {
   "id": "CCC-1471",
   "file": "CCC_1471.md",
   "title": "면죄부 (Indulgentia)",
@@ -520,6 +610,16 @@
   "matched_at": "CCC 1471",
   "quote": "면죄부란 이미 용서받은 죄에 대한 시간적 벌(poena temporalis)을 하느님 앞에서 감면받는 것이다. 합당한 조건을 갖춘 그리스도 신자는 교회의 활동을 통해 면죄부를 얻는다. 교회는 그리스도와 성인들의 만족의 보고(thesaurus)를 관리하는 권한을 가지며, 이 보고로부터 면죄부를 나눠 준다. 면죄부는 부분 면죄부와 전대 면죄부로 구분된다.",
   "source_passage": "The doctrine and practice of indulgences in the Church are closely linked to the effects of the sacrament of Penance.\n\"An indulgence is a remission before God of the temporal punishment due to sins whose guilt has already been forgiven, which the faithful Christian who is duly disposed gains under certain prescribed conditions through the action of the Church which, as the minister of redemption, "
+ },
+ {
+  "id": "LG-62",
+  "file": "LG_62.md",
+  "title": "Lumen Gentium 62항: 마리아의 칭호 — 중개자(Mediatrix)·보호자(Advocate) (그리스도의 유일한 중개직에 종속)",
+  "score": 0.7,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_lumen_gentium.txt",
+  "quote": "\"은총의 질서에서 마리아의 이 모성은... 십자가 아래에서도 흔들림 없이 지속되었고, 모든 선택된 이들의 영원한 완성에 이르기까지 지속된다. 하늘로 올림을 받은 뒤에도 이 구원의 임무를 내려놓지 않고, 계속되는 전구(轉求)로 영원한 구원의 은사를 가져다준다... 그러므로 복되신 동정 마리아는 교회로부터 **보호자(Advocate), 원조자(Auxiliatrix), 협조자(Adjutrix), 중개자(Mediatrix)**라는 칭호로 불린다. **다만 이는 유일한 중개자이신 그리스도의 존엄과 효력에서 아무것도 빼앗거나 더하지 않는 방식으로 이해되어야 한다.**\" 60항은 이미 \"하느님과 사람 사이에 중개자는 오직 한 분, 곧 사람이신 그리스도 예수뿐\"(1티모 2,5)이라는 원칙을 앞세운다.",
+  "source_passage": "62. This maternity of Mary in the order of grace began with the consent which she gave in faith at the Annunciation and which she sustained without wavering beneath the cross, and lasts until the eternal fulfillment of all the elect. Taken up to heaven she did not lay aside this salvific duty, but by her constant intercession continued to bring us the gifts of eternal salvation.(15*) By her matern"
  },
  {
   "id": "VAT1-PASTOR-AETERNUS",
@@ -543,7 +643,7 @@
  },
  {
   "id": "CCC-1030_1032",
-  "file": "batch2_sacraments.md",
+  "file": "CCC_1030_1032.md",
   "title": "연옥 (Purgatorium)",
   "score": 0.707,
   "status": "VERIFIED",
@@ -552,8 +652,18 @@
   "source_passage": "All who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven."
  },
  {
+  "id": "LG-12",
+  "file": "LG_12.md",
+  "title": "Lumen Gentium 12항: 신자 전체의 신앙 무오류성 (Sensus Fidei)",
+  "score": 0.71,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_lumen_gentium.txt",
+  "quote": "\"하느님의 거룩한 백성은... 그리스도의 예언직에도 참여한다. 성유(聖油)로 도유된 신자 전체는 **신앙 문제에서 오류를 범할 수 없다(in credendo falli nequit)**. 주교로부터 마지막 평신도에 이르기까지 신앙과 도덕 문제에서 보편적 일치를 보일 때, 그들은 신앙에 관한 초자연적 식별력을 통해 이 특별한 속성을 드러낸다. 이 식별력은 진리의 성령에 의해 일깨워지고 유지되며, 거룩한 교도권의 지도 아래 발휘된다.\"",
+  "source_passage": "Though they differ from one another in essence and not only in degree, the common priesthood of the faithful and the ministerial or hierarchical priesthood are nonetheless interrelated: each of them in its own special way is a participation in the one priesthood of Christ.(2*) The ministerial priest, by the sacred power he enjoys, teaches and rules the priestly people; acting in the person of Chri"
+ },
+ {
   "id": "TRENT-S13",
-  "file": "batch4_trent.md",
+  "file": "TRENT_S13.md",
   "title": "성체성사와 화체설",
   "score": 0.713,
   "status": "VERIFIED",
@@ -572,6 +682,16 @@
   "source_passage": "16. Finally, those who have not yet received the Gospel are related in various ways to the people of God.(18*) In the first place we must recall the people to whom the testament and the promises were given and from whom Christ was born according to the flesh.(125) On account of their fathers this people remains most dear to God, for God does not repent of the gifts He makes nor of the calls He iss"
  },
  {
+  "id": "PAPAL-MUNIF-44",
+  "file": "PAPAL_MUNIF_44.md",
+  "title": "Munificentissimus Deus 44~45항: 무류 정의 선언문과 \"신앙에서 완전히 떨어져 나갔음을 알라\" 경고",
+  "score": 0.717,
+  "status": "VERIFIED",
+  "matched_at": "papal_munificentissimus_deus_1950.txt",
+  "quote": "**44항 (정의 선언 본문)**: \"이러한 이유로, 전능하신 하느님께 거듭 기도를 올리고 진리의 성령의 빛을 청한 뒤, 하느님의 영광을 위해... 우리 주 예수 그리스도의 권위와 복된 사도 베드로와 바오로의 권위와 우리 자신의 권위로써, **우리는 다음을 신적으로 계시된 교의(a divinely revealed dogma)로 선언하고, 선포하며, 정의한다: 원죄 없이 잉태되신 평생 동정이신 하느님의 어머니 마리아는, 지상 생애의 여정을 마친 뒤 영혼과 육신이 함께 천상의 영광으로 들어 올려지셨다.**\" **45항 (직후, 위반 시 경고)**: \"그러므로 만일 누군가—하느님께서 금하시기를—우리가 정의한 이것을 감히 고의로 부인하거나 의심한다면, **그는 자신이 신적이고 가톨릭적인 신앙에서 완전히 떨어져 나갔음을 알아야 한다(let him know that he has fallen away completely from the divine and Catholic Faith).**\" 이어 47항은 \"누구든 이 선언, 발표, 정의를 변경하거나 이를 경솔하게 시도하여 반대하고 대항하려 하는 것은 금지된다. 만일 누군가 그런 시도를 감행한다면, 그는 전능하신 하느님과 복된 사도 베드로와 바오로의 진노를 초래할 것임을 알아야 한다\"고 덧붙인다.",
+  "source_passage": "44. For which reason, after we have poured forth prayers of supplication again and again to God, and have invoked the light of the Spirit of Truth, for the glory of Almighty God who has lavished his special affection upon the Virgin Mary, for the honor of her Son, the immortal King of the Ages and the Victor over sin and death, for the increase of the glory of that same august Mother, and for the "
+ },
+ {
   "id": "CCC-0847",
   "file": "CCC_0847.md",
   "title": "교회 밖 구원 가능성",
@@ -580,6 +700,76 @@
   "matched_at": "CCC 847",
   "quote": "그리스도와 그의 교회에 대해 알지 못하면서도 자기 잘못 없이 복음과 교회를 모르는 사람들이 진실한 마음으로 하느님을 찾고, 양심의 명령을 통해 인식되는 하느님의 뜻을 은총의 영향 아래 행동으로 실천하려고 노력하는 경우 영원한 구원을 얻을 수 있다(제2차 바티칸 공의회, 교회헌장 Lumen Gentium §16).",
   "source_passage": "This affirmation is not aimed at those who, through no fault of their own, do not know Christ and his Church:\nThose who, through no fault of their own, do not know the Gospel of Christ or his Church, but who nevertheless seek God with a sincere heart, and, moved by grace, try in their actions to do his will as they know it through the dictates of their conscience - those too may achieve eternal sa"
+ },
+ {
+  "id": "COUNCIL-CONSTANCE-UTRAQUISM",
+  "file": "COUNCIL_CONSTANCE_UTRAQUISM.md",
+  "title": "평신도 양형영성체 금지",
+  "score": 0.72,
+  "status": "VERIFIED",
+  "matched_at": "council_constance_1415.txt",
+  "quote": "일부 지역(보헤미아)에서 평신도에게도 빵과 포도주 양형으로 성체를 배령해야 한다는 주장이 있음을 지적하며, 공의회는 그리스도께서 최후만찬에서 양형으로 제정하셨음을 인정하면서도, \"그리스도의 온전한 몸과 피가 두 형상 각각에 온전히 담겨 있다\"는 이유로 교회가 이후 사제만 양형으로, 평신도는 빵의 형상만으로 영하도록 관습을 정착시켰다고 declares, decrees and defines한다. 이 관습을 신성모독적이라 부르는 것은 오류로 간주되어야 하며, 고집스럽게 반대를 주장하는 자는 이단자로 감금·처벌한다. 사제가 이를 어기고 평신도에게 양형으로 배령하면 파문 처벌을 받는다.",
+  "source_passage": "In the name of the holy and undivided Trinity, Father and Son and holy Spirit, Amen. Certain people, in some parts of the world, have rashly dared to assert that the christian people ought to receive the holy sacrament of the eucharist under the forms of both bread and wine. They communicate the laity everywhere not only under the form of bread but also under that of wine, and they stubbornly asse"
+ },
+ {
+  "id": "TRENT-S25-PURGATORY",
+  "file": "TRENT_S25_PURGATORY.md",
+  "title": "연옥 교령: 연옥은 존재하며 산 자의 도고(특히 미사)로 도움받는다",
+  "score": 0.722,
+  "status": "VERIFIED",
+  "matched_at": "trent_s25_purgatory_indulgences.txt",
+  "quote": "\"가톨릭 교회는 성경과 옛 교부들의 전통에 근거하여, 거룩한 공의회들에서, 그리고 최근 이 보편 공의회에서, 연옥이 있으며 그곳에 머무는 영혼들이 신자들의 도고(suffrages), 특히 제대의 인정받는 희생(the acceptable sacrifice of the altar, 곧 미사)으로 도움받는다고 가르쳐왔다.\" 주교들은 이 건전한 교리가 믿어지고 가르쳐지도록 힘써야 하되, 교화에 도움 안 되는 미묘한 사변적 질문·불확실한 것·호기심이나 미신, 부당한 이익을 조장하는 것은 대중 설교에서 배제해야 한다.",
+  "source_passage": "Whereas the Catholic Church, instructed by the Holy Ghost, has, from the sacred writings and the ancient tradition of the Fathers, taught, in sacred councils, and very recently in this oecumenical Synod, that there is a Purgatory, and that the souls there detained are helped by the suffrages of the faithful, [Page 233] but principally by the acceptable sacrifice of the altar; the holy Synod enjoin"
+ },
+ {
+  "id": "COUNCIL-LATERAN_IV-C68",
+  "file": "COUNCIL_LATERAN_IV_C68.md",
+  "title": "Canon 68: 유대인·사라센인 식별 의복 강제",
+  "score": 0.728,
+  "status": "VERIFIED",
+  "matched_at": "council_lateran_iv_1215.txt",
+  "quote": "일부 지역에서는 유대인·사라센인이 그리스도인과 복장으로 구별되지만 다른 지역에서는 혼동이 생겨 그리스도인이 실수로 유대인·사라센인 이성과 결합하는 일이 생긴다고 지적하며, \"모세 자신이 이를 명했다(this was enjoined upon them by Moses himself)\"는 근거를 들어 모든 그리스도교 관구에서 이들 남녀가 항상 복장의 특징으로 다른 이들과 구별되도록 규정한다. 애도의 날과 수난 주일에는 공공장소에 나타나지 말 것도 명한다. 세속 군주들에게는 그리스도를 조롱하는 자들을 합당한 형벌로 제지하라고 명령한다.",
+  "source_passage": "A difference of dress distinguishes Jews or Saracens from Christians in some provinces, but in others a certain confusion has developed so that they are indistinguishable. Whence it sometimes happens that by mistake Christians join with Jewish or Saracen women, and Jews or Saracens with christian women. In order that the offence of such a damnable mixing may not spread further, under the excuse of"
+ },
+ {
+  "id": "COUNCIL-LATERAN_IV-C3",
+  "file": "COUNCIL_LATERAN_IV_C3.md",
+  "title": "Canon 3: 이단자에 대한 세속 권력의 강제 진압",
+  "score": 0.729,
+  "status": "VERIFIED",
+  "matched_at": "council_lateran_iv_1215.txt",
+  "quote": "\"우리는 이 거룩하고 정통적이며 가톨릭적인 신앙에 반하여 스스로를 일으키는 모든 이단을 파문하고 저주한다(We excommunicate and anathematize every heresy).\" 유죄 판정된 자는 처벌을 위해 세속 당국에 인도되며(성직자는 먼저 성직 박탈), 재산은 몰수된다. 이단 혐의자는 스스로 결백을 입증하지 못하면 파문의 칼에 처해지며, 1년간 파문 상태로 있으면 이단자로 단죄된다. 세속 권력자들은 관할 영토 내 모든 이단자를 축출하겠다는 서약을 하도록 교회의 검열로 강제될 수 있으며, 이를 이행하지 않는 영주는 대주교와 주교들에 의해 파문되고, 1년 내 이행하지 않으면 교황이 그의 신하들을 충성 의무에서 해방시키고 그 땅을 가톨릭 신자들의 점령에 개방한다. 이단 축출에 나선 그리스도인에게는 성지 원정과 동일한 대사가 부여된다.",
+  "source_passage": "We excommunicate and anathematize every heresy raising itself up against this holy, orthodox and catholic faith which we have expounded above. We condemn all heretics, whatever names they may go under. They have different faces indeed but their tails are tied together inasmuch as they are alike in their pride. Let those condemned be handed over to the secular authorities present, or to their baili"
+ },
+ {
+  "id": "NA-02",
+  "file": "NA_02.md",
+  "title": "Nostra Aetate 2항: 타 종교 안에 있는 \"참되고 거룩한 것\"의 인정",
+  "score": 0.73,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_nostra_aetate.txt",
+  "quote": "\"고대로부터 오늘날까지, 여러 민족들 사이에서 인간사와 역사의 흐름을 감도는 어떤 숨은 힘에 대한 일정한 지각이 발견되며... 힌두교에서 사람들은 신적 신비를 관상하고 이를 신화와 철학적 탐구를 통해 표현한다. 불교는... 완전한 해방의 경지에 이르는 길을 가르친다. 그 밖의 세계 곳곳의 종교들도 나름의 방식으로 인간 마음의 불안을 해소하려 한다. **가톨릭 교회는 이 종교들 안에 있는 참되고 거룩한 것은 아무것도 배척하지 않는다(nihil eorum, quae in his religionibus vera et sancta sunt, reiicit).** 교회는 그 종교들의 생활 방식과 행동 양식, 계율과 가르침을 진지한 존경으로 대하는데, 이것들이 비록 교회가 지니고 제시하는 것과 여러 면에서 다르지만 종종 모든 인간을 비추는 진리의 한 광선을 반영하기 때문이다. 그러나 교회는 그리스도를 '길이요 진리요 생명'으로 선포하며 앞으로도 선포해야 한다.\"",
+  "source_passage": "Religions, however, that are bound up with an advanced culture have struggled to answer the same questions by means of more refined concepts and a more developed language. Thus in Hinduism, men contemplate the divine mystery and express it through an inexhaustible abundance of myths and through searching philosophical inquiry. They seek freedom from the anguish of our human condition either throug"
+ },
+ {
+  "id": "TRENT-S25-INDULGENCES",
+  "file": "TRENT_S25_INDULGENCES.md",
+  "title": "대사 교령: 교회의 대사 수여권을 부정하면 파문",
+  "score": 0.734,
+  "status": "VERIFIED",
+  "matched_at": "trent_s25_purgatory_indulgences.txt",
+  "quote": "\"대사(Indulgences)를 수여하는 권한은 그리스도로부터 교회에 주어졌으며, 교회는 태고 적부터 하느님께 받은 이 권한을 사용해왔다. 거룩한 공의회는 그리스도인 백성에게 매우 유익한 대사의 사용이 거룩한 공의회들의 권위로 승인되어 교회 안에 유지되어야 함을 가르치고 명하며, 대사가 무익하다고 주장하거나 교회에 대사를 수여할 권한이 있음을 부정하는 자들을 파문으로 단죄한다(condemns with anathema those who either assert, that they are useless; or who deny that there is in the Church the power of granting them).\" 다만 대사 수여에 있어 절제가 지켜져야 하며, 대사와 관련된 부당한 금전적 이득(evil gains) 등 남용은 전적으로 폐지되어야 한다고 공의회 스스로 명시한다.",
+  "source_passage": "DECREE CONCERNING INDULGENCES. Whereas the power of conferring Indulgences was granted by Christ to the Church; and she has, even in the most ancient times, used the said power, delivered unto her of God; the sacred holy Synod teaches, and enjoins, that the use of Indulgences, for the Christian people most salutary, and approved of [Page 278] by the authority of sacred Councils, is to be retained "
+ },
+ {
+  "id": "CANON-C0749",
+  "file": "CANON_C0749.md",
+  "title": "무류성의 성립 조건",
+  "score": 0.735,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk3_teaching_747_755.txt",
+  "quote": "교황은 직권으로, 모든 신자의 최고 목자·교사로서 신앙·도덕에 관한 교리를 결정적 행위(definitive act)로 선언할 때 무류성을 지닌다(§1). 주교단도 공의회에 결집하여 교사·재판관으로서 전체 교회를 위해 결정적으로 선언하거나, 흩어져 있으면서도 교황과의 결합 속에 권위적으로 함께 가르치며 어떤 명제를 결정적으로 견지해야 한다고 일치할 때 무류성을 지닌다(§2). \"어떤 교리도 이것이 명백히 확립되지 않는 한 무류하게 정의된 것으로 이해되지 않는다(No doctrine is understood as defined infallibly unless this is manifestly evident)\"(§3).",
+  "source_passage": "Can. 749 §1. By virtue of his office, the Supreme Pontiff possesses infallibility in teaching when as the supreme pastor and teacher of all the Christian faithful, who strengthens his brothers and sisters in the faith, he proclaims by definitive act that a doctrine of faith or morals is to be held."
  },
  {
   "id": "CCC-2010",
@@ -592,16 +782,6 @@
   "source_passage": "Since the initiative belongs to God in the order of grace, no one can merit the initial grace of forgiveness and justification, at the beginning of conversion. Moved by the Holy Spirit and by charity, we can then merit for ourselves and for others the graces needed for our sanctification, for the increase of grace and charity, and for the attainment of eternal life. Even temporal goods like health"
  },
  {
-  "id": "CCC-161_165",
-  "file": "batch1_salvation.md",
-  "title": "믿음과 구원",
-  "score": 0.747,
-  "status": "VERIFIED",
-  "matched_at": "CCC 161",
-  "quote": "예수 그리스도와 하느님을 믿는 것은 구원을 얻기 위해 필수적이다. 누구도 이 믿음 없이 의롭게 될 수 없으며, 끝까지 이 믿음을 견지하지 않으면 영원한 생명에 이를 수 없다.",
-  "source_passage": "Believing in Jesus Christ and in the One who sent him for our salvation is necessary for obtaining that salvation. 42 \"Since \"without faith it is impossible to please (God) \" and to attain to the fellowship of his sons, therefore without faith no one has ever attained justification, nor will anyone obtain eternal life 'But he who endures to the end.'\"]"
- },
- {
   "id": "CCC-1452",
   "file": "CCC_1452.md",
   "title": "완전한 통회 (Contritio Perfecta)",
@@ -610,6 +790,36 @@
   "matched_at": "CCC 1452",
   "quote": "완전한 통회(상통회)는 하느님에 대한 사랑에서 비롯된 것으로, 소죄의 용서를 받게 하며, 고해성사를 가능한 한 빨리 받겠다는 굳은 결심과 함께라면 대죄의 용서도 얻게 해 준다. 즉, 고해성사 이전에도 완전한 통회를 통해 대죄가 용서될 수 있다.",
   "source_passage": "When it arises from a love by which God is loved above all else, contrition is called \"perfect\" (contrition of charity). Such contrition remits venial sins; it also obtains forgiveness of mortal sins if it includes the firm resolution to have recourse to sacramental confession as soon as possible. 51"
+ },
+ {
+  "id": "CCC-161_165",
+  "file": "CCC_161_165.md",
+  "title": "믿음과 구원",
+  "score": 0.747,
+  "status": "VERIFIED",
+  "matched_at": "CCC 161",
+  "quote": "예수 그리스도와 하느님을 믿는 것은 구원을 얻기 위해 필수적이다. 누구도 이 믿음 없이 의롭게 될 수 없으며, 끝까지 이 믿음을 견지하지 않으면 영원한 생명에 이를 수 없다.",
+  "source_passage": "Believing in Jesus Christ and in the One who sent him for our salvation is necessary for obtaining that salvation. 42 \"Since \"without faith it is impossible to please (God) \" and to attain to the fellowship of his sons, therefore without faith no one has ever attained justification, nor will anyone obtain eternal life 'But he who endures to the end.'\"]"
+ },
+ {
+  "id": "PAPAL-FRATELLI-258",
+  "file": "PAPAL_FRATELLI_258.md",
+  "title": "Fratelli Tutti 258항: \"정당 전쟁\"(just war) 기준을 더 이상 원용하기 어렵다",
+  "score": 0.748,
+  "status": "VERIFIED",
+  "matched_at": "papal_fratelli_tutti_2020.txt",
+  "quote": "\"전쟁은 각종 인도주의적·방어적·예방적 명분을 내세워 쉽게 선택될 수 있다... 가톨릭 교회 교리서는 무력에 의한 정당방위의 가능성을 언급하며 '도덕적 정당성의 엄격한 조건들'이 충족되어야 함을 명시하지만, 이 잠재적 권리를 지나치게 넓게 해석하는 오류에 빠지기 쉽다... 핵·화학·생물 무기의 개발과 신기술이 가져온 거대하고 통제 불가능한 파괴력을 고려할 때, **우리는 더 이상 전쟁을 해결책으로 생각할 수 없다.** 왜냐하면 그 위험이 예상되는 이익보다 항상 더 클 것이기 때문이다. 이런 이유로 오늘날 앞선 세기들에 정립된 합리적 기준을 원용하여 '정당 전쟁'(just war)의 가능성을 말하기란 매우 어렵다. **다시는 전쟁이 없기를!**\"",
+  "source_passage": "258. War can easily be chosen by invoking all sorts of allegedly humanitarian, defensive or precautionary excuses, and even resorting to the manipulation of information. In recent decades, every single war has been ostensibly “justified”. The Catechism of the Catholic Church speaks of the possibility of legitimate defence by means of military force, which involves demonstrating that certain “rigor"
+ },
+ {
+  "id": "DENZINGER-FEENEY-VOTUM",
+  "file": "DENZINGER_FEENEY_VOTUM.md",
+  "title": "1949년 Feeney 서한: \"열망(votum)\"의 정확한 신학적 조건",
+  "score": 0.75,
+  "status": "VERIFIED",
+  "matched_at": "denzinger_feeney_1949_suprema_haec.txt",
+  "quote": "\"무한한 자비 안에서 하느님은, 구원에 필요한 도움들의 효과가 — 그것이 인간의 궁극 목적을 향한 것으로서 본질적 필연성이 아니라 오직 하느님의 제정에 의한 것일 경우 — **어떤 상황에서는 그 도움을 단지 열망과 갈망(desire and longing)으로만 사용해도 얻어질 수 있도록 하셨다.** 이는 트리엔트 공의회가 재생(세례)의 성사와 고해성사에 관해 명확히 밝힌 바이다(Denzinger 797, 807). **교회에 관해서도 같은 정도로 동일하게 주장되어야 한다**, 교회가 구원을 위한 일반적 도움인 한에서 말이다. 따라서 영원한 구원을 얻기 위해 반드시 실제로(actually) 교회의 구성원으로 편입되어야 하는 것은 아니지만, **적어도 열망과 갈망으로 교회와 결합되어 있어야 한다.** 그러나 이 열망은 예비신자(catechumen)처럼 항상 명시적(explicit)일 필요는 없다. **불가피한 무지(invincible ignorance) 상태에 있는 사람의 경우, 하느님은 암묵적 열망(implicit desire)도 받아들이신다.** 이는 자신의 의지가 하느님의 뜻에 일치하기를 바라는 선한 영혼의 성향 안에 포함되어 있기 때문에 그렇게 불린다.\" 다만 다음과 같은 엄격한 조건이 뒤따른다: \"어떤 종류의 열망이든 교회에 들어가려는 열망이면 구원에 충분하다고 생각해서는 안 된다. **그 열망이 완전한 애덕(perfect charity)으로 살아 있어야 한다.** 또한 초자연적 신앙이 없이는 암묵적 열망조차 그 효력을 낼 수 없다: '하느님께 나아가는 자는 그분이 계시다는 것과 자기를 찾는 자들에게 상급을 주시는 분이라는 것을 믿어야 한다'(히브 11,6).\"",
+  "source_passage": "In His infinite mercy God has willed that the effects, necessary for one to be saved, of those helps to salvation which are directed toward man's final end, not by intrinsic necessity, but only by divine institution, can also be obtained in certain circumstances when those helps are used only in desire and longing. This we see clearly stated in the Sacred Council of Trent, both in reference to the"
  },
  {
   "id": "TRENT-S22-C01",
@@ -622,14 +832,44 @@
   "source_passage": "CANON I.–If any one saith, that in the mass a true and proper sacriflce is not offered to God; or, that to be offered is nothing else but that Christ is given us to eat; let him be anathema."
  },
  {
+  "id": "CANON-C1055",
+  "file": "CANON_C1055.md",
+  "title": "혼인의 자동적 성사성과 불가해소성",
+  "score": 0.755,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk4_marriage_998_1165.txt",
+  "quote": "혼인의 계약은 남녀가 전 생애의 반려 관계를 세우는 것으로 그 본성상 배우자의 선익과 자녀의 출산·교육을 지향하며, 그리스도께서 세례받은 자들 사이에서 이를 성사의 품위로 높이셨다(1055§1). \"이런 까닭에 세례받은 이들 사이의 유효한 혼인 계약은 그 사실 자체로 성사가 아닐 수 없다(a valid matrimonial contract cannot exist between the baptized without it being by that fact a sacrament)\"(1055§2). 혼인의 본질적 속성은 단일성과 불가해소성이다(1056). \"완결된(ratum et consummatum) 혼인은 어떤 인간 권력으로도, 어떤 이유로도 해소될 수 없다\"(1141).",
+  "source_passage": "Can. 1055 §1. The matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life and which is ordered by its nature to the good of the spouses and the procreation and education of offspring, has been raised by Christ the Lord to the dignity of a sacrament between the baptized."
+ },
+ {
   "id": "COUNCIL-FLORENCE",
-  "file": "batch8_councils.md",
+  "file": "COUNCIL_FLORENCE.md",
   "title": "Cantate Domino (가장 강력한 배타적 구원 교령)",
   "score": 0.755,
   "status": "VERIFIED",
   "matched_at": "council_florence_1439.txt",
   "quote": "가톨릭 교회 밖에서는 결코 구원받을 수 없다. 이교도뿐만 아니라 유대인, 이단자, 이교도(열교)는 죽기 전에 가톨릭 교회와 결합하지 않는 한 마귀와 그 사자들을 위해 준비된 영원한 불(지옥)로 떨어질 것이다. 그리스도의 이름으로 피를 흘리는 순교를 할지라도 가톨릭 교회 안에 있지 않으면 구원받을 수 없다.",
   "source_passage": "It firmly believes, professes and preaches that all those who are outside the catholic church, not only pagans but also Jews or heretics and schismatics, cannot share in eternal life and will go into the everlasting fire which was prepared for the devil and his angels, unless they are joined to the catholic church before the end of their lives; that the unity of the ecclesiastical body is of such "
+ },
+ {
+  "id": "LG-08",
+  "file": "LG_08.md",
+  "title": "Lumen Gentium 8항: \"Subsistit in\" — 그리스도 교회와 가톨릭교회의 관계",
+  "score": 0.756,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_lumen_gentium.txt",
+  "quote": "\"그리스도의 유일한 교회는 신경(信經)에서 하나이고 거룩하고 보편되고 사도로부터 이어오는 교회로 고백되며... 세상 안에서 사회로 구성되고 조직된 이 교회는 베드로의 후계자와 그와 친교를 이루는 주교들이 통치하는 **가톨릭 교회 안에 존속한다(subsistit in)**. 비록 성화와 진리의 많은 요소들이 그 가시적 구조 밖에서도 발견되지만, 이 요소들은 그리스도의 교회에 속하는 선물로서 가톨릭 일치를 향한 힘으로 작용한다.\" (원문: \"haec Ecclesia, in hoc mundo ut societas constituta et ordinata, subsistit in Ecclesia catholica... licet extra eius compaginem elementa plura sanctificationis et veritatis inveniantur.\")",
+  "source_passage": "This is the one Church of Christ which in the Creed is professed as one, holy, catholic and apostolic, (12*) which our Saviour, after His Resurrection, commissioned Peter to shepherd,(74) and him and the other apostles to extend and direct with authority,(75) which He erected for all ages as \"the pillar and mainstay of the truth\".(76) This Church constituted and organized in the world as a society"
+ },
+ {
+  "id": "COUNCIL-LATERAN_IV-C21",
+  "file": "COUNCIL_LATERAN_IV_C21.md",
+  "title": "Canon 21: 연례 고백·영성체 의무와 고해 인장",
+  "score": 0.757,
+  "status": "VERIFIED",
+  "matched_at": "council_lateran_iv_1215.txt",
+  "quote": "분별 연령에 이른 모든 신자는 남녀를 불문하고 적어도 1년에 한 번은 자기 담당 사제에게 자신의 모든 죄를 성실히 개별 고백해야 한다. 적어도 부활절에는 성체를 경건히 영해야 한다. 정당한 이유와 담당 사제의 조언 없이 이를 거부하면 \"생전에는 성당 출입이 금지되고 사후에는 그리스도교 장례가 거부된다.\" 담당 사제의 허락 없이 다른 사제에게 고백하면 그 사제는 사죄권이 없다. \"고백에서 드러난 죄를 발설하기를 감행하는 자는 사제직에서 강등될 뿐 아니라 엄격한 수도원에 종신 유폐되어 참회하도록\" 규정한다(고해 인장의 절대적 보호).",
+  "source_passage": "All the faithful of either sex, after they have reached the age of discernment, should individually confess all their sins in a faithful manner to their own priest at least once a year, and let them take care to do what they can to perform the penance imposed on them. Let them reverently receive the sacrament of the eucharist at least at Easter unless they think, for a good reason and on the advic"
  },
  {
   "id": "CCC-2181",
@@ -642,6 +882,16 @@
   "source_passage": "The Sunday Eucharist is the foundation and confirmation of all Christian practice. For this reason the faithful are obliged to participate in the Eucharist on days of obligation, unless excused for a serious reason (for example, illness, the care of infants) or dispensed by their own pastor. 119 Those who deliberately fail in this obligation commit a grave sin."
  },
  {
+  "id": "TRENT-S07-C08",
+  "file": "TRENT_S07_C08.md",
+  "title": "성사가 사효적(ex opere operato)으로 은총을 주지 않는다면 파문",
+  "score": 0.763,
+  "status": "VERIFIED",
+  "matched_at": "trent_s07_sacraments_baptism.txt CANON VIII",
+  "quote": "\"신약의 성사들에 의해 은총이 행해진 행위 자체를 통해(ex opere operato) 주어지는 것이 아니라, 하느님의 약속에 대한 믿음만으로 은총을 얻기에 충분하다고 말하는 자는 파문될지어다.\" (Canon VIII: \"...grace is not conferred through the act performed, but that faith alone in the divine promise suffices for the obtaining of grace; let him be anathema.\")",
+  "source_passage": "CANON VIII.-If any one saith, that by the said sacraments of the New Law grace is not conferred through the act performed, but that faith alone in the divine promise suffices for the obtaining of grace; let him be anathema."
+ },
+ {
   "id": "CCC-1250",
   "file": "CCC_1250.md",
   "title": "유아 세례의 필요성 (원죄로부터의 해방)",
@@ -650,6 +900,26 @@
   "matched_at": "CCC 1250",
   "quote": "타락한 인간 본성을 지니고 태어나 원죄에 물든 아이들도 어둠의 권세에서 해방되어 하느님 자녀의 자유의 영역으로 옮겨지기 위해 세례의 새로운 탄생을 필요로 한다. 교회와 부모가 아이에게 세례를 베풀지 않는다면, 그 아이에게서 하느님의 자녀가 되는 값을 매길 수 없는 은총을 빼앗는 것이 된다.",
   "source_passage": "Born with a fallen human nature and tainted by original sin, children also have need of the new birth in Baptism to be freed from the power of darkness and brought into the realm of the freedom of the children of God, to which all men are called. 50 The sheer gratuitousness of the grace of salvation is particularly manifest in infant Baptism. the Church and the parents would deny a child the price"
+ },
+ {
+  "id": "LG-25",
+  "file": "LG_25.md",
+  "title": "Lumen Gentium 25항: 교황 통상 교도권에 대한 \"종교적 순종\" 의무",
+  "score": 0.764,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_lumen_gentium.txt",
+  "quote": "\"주교들은... 그리스도와 일치하여 가르치는 자로서, 신앙과 도덕 문제에서 그리스도의 이름으로 말하며 신자들은 그 가르침을 받아들이고 종교적 동의(religioso animi obsequio)로써 이에 매달라야 한다. 이러한 정신적·의지적 종교적 순종은 특히 로마 교황의 통상 교도권(authentic magisterium)에 대해 **교황이 관좌(ex cathedra)에서 말하지 않을 때에도** 보여야 한다. 즉 그의 최고 교도권이 존경으로 인정되고, 그가 내린 판단이 그의 명시된 사고와 의지에 따라 성실히 받아들여져야 한다는 방식으로 보여야 한다.\" 이어 개별 주교는 무류성 특권이 없으나, 전 세계에 흩어져 있어도 베드로 후계자와 친교를 유지하며 신앙·도덕에 관해 하나의 입장으로 최종적으로(definitively) 견지되어야 할 것을 일치하여 가르칠 때에는 무류적으로 그리스도의 교리를 선포한다고 명시한다.",
+  "source_passage": "Although the individual bishops do not enjoy the prerogative of infallibility, they nevertheless proclaim Christ's doctrine infallibly whenever, even though dispersed through the world, but still maintaining the bond of communion among themselves and with the successor of Peter, and authentically teaching matters of faith and morals, they are in agreement on one position as definitively to be held"
+ },
+ {
+  "id": "CANON-C0212",
+  "file": "CANON_C0212.md",
+  "title": "신자의 순명 의무와 의견 표명 권리의 공존",
+  "score": 0.765,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk2_people_208_329.txt",
+  "quote": "신자는 자신의 책임을 의식하며, 목자들이 신앙의 교사로서 선언하거나 교회 통치자로서 정한 것을 그리스도인다운 순명으로 따라야 한다(§1). 신자는 자신의 필요, 특히 영적 필요와 소망을 목자들에게 알릴 자유가 있다(§2). 지식·능력·지위에 따라 교회의 유익에 관한 사안에 대해 목자들에게 의견을 표명할 권리, 때로는 의무가 있으며, 신앙과 도덕의 온전함을 해치지 않고 목자에 대한 존경과 공동선·인격 존엄을 유의하는 한 다른 신자들에게도 그 의견을 알릴 수 있다(§3).",
+  "source_passage": "§3. According to the knowledge, competence, and prestige which they possess, they have the right and even at times the duty to manifest to the sacred pastors their opinion on matters which pertain to the good of the Church and to make their opinion known to the rest of the Christian faithful, without prejudice to the integrity of faith and morals, with reverence toward their pastors, and attentive"
  },
  {
   "id": "CCC-1996",
@@ -662,6 +932,46 @@
   "source_passage": "Our justification comes from the grace of God. Grace is favor, the free and undeserved help that God gives us to respond to his call to become children of God, adoptive sons, partakers of the divine nature and of eternal life. 46"
  },
  {
+  "id": "CDF-DOMINUS-20_22",
+  "file": "CDF_DOMINUS_20_22.md",
+  "title": "Dominus Iesus 20~22항: 비그리스도인의 구원과 교회의 필요성 (다원주의 배척)",
+  "score": 0.774,
+  "status": "VERIFIED",
+  "matched_at": "cdf_dominus_iesus_2000.txt",
+  "quote": "**20항**: \"무엇보다 굳게 믿어야 할 것은, '지상을 순례하는 교회는 구원에 필요하다: 유일하신 그리스도가 중개자요 구원의 길이시며, 그분의 몸인 교회 안에서 우리에게 현존하신다'는 것이다... 이 교리는 하느님의 보편적 구원 의지(1티모 2,4)에 반하는 것으로 여겨져서는 안 되며, '그리스도 안에서 모든 인류에게 열려 있는 구원의 실제적 가능성'과 '이 구원을 위한 교회의 필요성'이라는 두 진리를 함께 견지해야 한다.\" **21항**: 비그리스도인에게 은총이 도달하는 \"방식\"에 대해 제2차 바티칸 공의회는 \"하느님만이 아시는 방식으로\"라고만 말했다며, 신학자들의 계속된 탐구를 독려하되, **\"교회를 다른 종교들이 이루는 것과 나란히 놓인 하나의 구원의 길로, 교회와 상호 보완적이거나 실질적으로 동등한 것으로 여기는 것은 신앙에 어긋난다\"**고 명시한다. 타 종교의 기도와 의식이 복음의 준비 역할을 할 수는 있으나 그리스도교 성사에 고유한 신적 기원이나 사효적(ex opere operato) 구원 효력은 지닐 수 없다. **22항**: \"구세주 그리스도의 오심과 함께 하느님은 그분이 세우신 교회가 온 인류 구원의 도구가 되기를 원하셨다(사도 17,30-31)... 이 신앙의 진리는 '하나의 종교나 다른 종교나 마찬가지다'라고 믿게 만드는 종교적 상대주의에 특징 지워진 무관심주의(indifferentism)의 사고방식을 근본적으로 배제한다. 타 종교를 따르는 이들이 하느님의 은총을 받을 수 있다는 것이 사실이라 해도, **객관적으로 말해 그들은 교회 안에서 구원 수단의 충만함을 지닌 이들에 비해 심각하게 결핍된(gravely deficient) 상황에 있다는 것 또한 확실하다.**\"",
+  "source_passage": "Above all else, it must be firmly believed that “the Church, a pilgrim now on earth, is necessary for salvation: the one Christ is the mediator and the way of salvation; he is present to us in his body which is the Church. He himself explicitly asserted the necessity of faith and baptism (cf. Mk 16:16; Jn 3:5), and thereby affirmed at the same time the necessity of the Church which men enter throu"
+ },
+ {
+  "id": "CANON-C0205",
+  "file": "CANON_C0205.md",
+  "title": "완전한 친교의 조건",
+  "score": 0.78,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk2_faithful_204_207.txt",
+  "quote": "\"세례받은 이들 가운데 지상에서 가톨릭 교회의 완전한 친교 안에 있는 자는, 신앙고백의 유대, 성사의 유대, 교회 통치의 유대라는 가시적 구조로 그리스도와 결합된 이들이다(joined with Christ in its visible structure by the bonds of the profession of faith, the sacraments, and ecclesiastical governance).\"",
+  "source_passage": "Can. 205 Those baptized are fully in the communion of the Catholic Church on this earth who are joined with Christ in its visible structure by the bonds of the profession of faith, the sacraments, and ecclesiastical governance."
+ },
+ {
+  "id": "CCC-2267",
+  "file": "CCC_2267.md",
+  "title": "사형제도 (2018년 개정판: \"용납 불가\")",
+  "score": 0.782,
+  "status": "VERIFIED",
+  "matched_at": "CCC 2267",
+  "quote": "\"합법적 권위가 공정한 재판을 거쳐 사형에 의존하는 것은 오랫동안 특정 범죄의 중대성에 대한 적절한 대응이자, 비록 극단적이지만 공동선을 지키는 수용 가능한 수단으로 여겨져 왔다. **그러나 오늘날 중대한 범죄를 저질렀더라도 인격의 존엄성은 상실되지 않는다는 인식이 점점 커지고 있다.** 또한 국가가 부과하는 형벌의 의미에 대한 새로운 이해가 등장했다. 끝으로 더 효과적인 구금 체제가 발전하여, 시민의 보호는 확보하면서도 죄인에게서 갱생의 가능성을 결정적으로 박탈하지는 않게 되었다. **따라서 교회는 복음의 빛으로 다음과 같이 가르친다: '사형은 인격의 불가침성과 존엄성에 대한 공격이므로 용납될 수 없다'**(프란치스코, 2017년 10월 11일 담화). 교회는 전 세계적으로 사형제 폐지를 위해 결연히 노력한다.\"",
+  "source_passage": "Recourse to the death penalty on the part of legitimate authority, following a fair trial, was long considered an appropriate response to the gravity of certain crimes and an acceptable, albeit extreme, means of safeguarding the common good.\nToday, however, there is an increasing awareness that the dignity of the person is not lost even after the commission of very serious crimes. In addition, a n"
+ },
+ {
+  "id": "COUNCIL-LATERAN_IV-C5",
+  "file": "COUNCIL_LATERAN_IV_C5.md",
+  "title": "Canon 5: 총대주교좌의 서열",
+  "score": 0.783,
+  "status": "VERIFIED",
+  "matched_at": "council_lateran_iv_1215.txt",
+  "quote": "\"총대주교좌들의 오래된 특권을 갱신하며 ... 주님의 섭리로 모든 다른 교회 위에 통상적 권한의 수위권을 지니는 어머니요 여주인인 로마 교회(the Roman church, which through the Lord's disposition has a primacy of ordinary power over all other churches) 다음으로, 콘스탄티노플 교회가 첫째 자리를, 알렉산드리아 교회가 둘째 자리를, 안티오키아 교회가 셋째 자리를, 예루살렘 교회가 넷째 자리를 갖는다고 결정한다.\" 각 총대주교는 로마 교황으로부터 팔리움을 받고 그에게 복종·충성 서약을 한 뒤에야 자신의 관할 아래 주교들에게 팔리움을 수여할 수 있다.",
+  "source_passage": "Renewing the ancient privileges of the patriarchal sees, we decree, with the approval of this sacred universal synod, that after the Roman church, which through the Lord’s disposition has a primacy of ordinary power over all other churches inasmuch as it is the mother and mistress of all Christ’s faithful, the church of Constantinople shall have the first place, the church of Alexandria the second"
+ },
+ {
   "id": "CCC-2068",
   "file": "CCC_2068.md",
   "title": "계명 준수로 구원",
@@ -672,6 +982,16 @@
   "source_passage": "The Council of Trent teaches that the Ten Commandments are obligatory for Christians and that the\njustified man is still bound to keep them; 28 The Second Vatican Council confirms: \"The bishops, successors\nof the apostles, receive from the Lord . . . the mission of teaching all peoples, and of preaching the Gospel to\nevery creature, so that all men may attain salvation through faith, Baptism and t"
  },
  {
+  "id": "TRENT-S06-C24",
+  "file": "TRENT_S06_C24.md",
+  "title": "선행이 의화의 증가 원인이 아니라면 파문",
+  "score": 0.787,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XXIV",
+  "quote": "\"의화된 자가 받은 의(義)가 선행을 통해 하느님 앞에서 보존되고 또한 증가되는 것이 아니라, 그 선행은 단지 이미 얻은 의화의 열매와 표징일 뿐 그 증가의 원인은 아니라고 말하는 자는 파문될지어다.\" (Canon XXIV: \"...the said works are merely the fruits and signs of Justification obtained, but not a cause of the increase thereof; let him be anathema.\")",
+  "source_passage": "CANON XXIV.-If any one saith, that the justice received is not preserved and also increased before God through good works; but that the said works are merely the fruits and signs of Justification obtained, but not a cause of the increase thereof; let him be anathema."
+ },
+ {
   "id": "CCC-0491",
   "file": "CCC_0491.md",
   "title": "마리아 무염시태",
@@ -680,6 +1000,26 @@
   "matched_at": "CCC 491",
   "quote": "지극히 복되신 동정 마리아는 잉태되는 첫 순간부터 전능하신 하느님의 특별한 은총과 특전으로, 인류의 구세주이신 예수 그리스도의 공로를 미리 입어, 원죄의 모든 얼룩에서 보존되었다. 이 \"무염시태\"(Immaculata Conceptio)는 1854년 비오 9세에 의해 교의로 선포되었다.",
   "source_passage": "Through the centuries the Church has become ever more aware that Mary, \"full of grace\" through God, 134 was redeemed from the moment of her conception. That is what the dogma of the Immaculate Conception confesses, as Pope Pius IX proclaimed in 1854:\nThe most Blessed Virgin Mary was, from the first moment of her conception, by a singular grace and privilege of almighty God and by virtue of the mer"
+ },
+ {
+  "id": "TRENT-S06-C30",
+  "file": "TRENT_S06_C30.md",
+  "title": "의화 후 잠벌이 전혀 남지 않는다면 파문 (연옥 신학의 토대)",
+  "score": 0.788,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XXX",
+  "quote": "\"의화 은총을 받은 후, 모든 참회하는 죄인에게 죄책(guilt)뿐 아니라 영벌의 빚(debt of eternal punishment)까지 온전히 지워져서, 이승에서든 저승 연옥에서든 갚아야 할 잠벌(temporal punishment)의 빚이 전혀 남지 않는다고 말하는 자는 파문될지어다.\" (Canon XXX, 전문 인용 — \"either in this world, or in the next in Purgatory\")",
+  "source_passage": "CANON XXX.-If any one saith, that, after the grace of Justification has been received, to every penitent sinner the guilt is remitted, and the debt of eternal punishment is blotted out in such wise, that there remains not any debt of temporal punishment to be discharged either in this world, or in the next in Purgatory, before the entrance to the kingdom of heaven can be opened (to him); let him b"
+ },
+ {
+  "id": "DH-02_03",
+  "file": "DH_02_03.md",
+  "title": "Dignitatis Humanae 2~3항: 종교 자유의 근거 (Syllabus와 정면 대비)",
+  "score": 0.788,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_dignitatis_humanae.txt",
+  "quote": "**2항**: \"이 바티칸 공의회는 인간이 종교 자유에 대한 권리를 가진다고 선언한다. 이 자유는 모든 인간이 개인적으로든 사회적으로든, 사적으로든 공적으로든, 어떤 개인이나 사회 집단, 어떤 인간 권력의 강제로부터 면제됨을 뜻하며, 정당한 한계 안에서 아무도 자기 신념에 반하여 행동하도록 강요받지 않는다는 것이다. 이 권리의 근거는 계시된 하느님의 말씀과 이성 자체를 통해 알려지는 **인간 위격 자체의 존엄성**에 있다.\" **3항**: \"인간 생활의 최고 규범은 영원하고 객관적이며 보편적인 신적 법이다... 모든 인간은 종교 문제에서 진리를 탐구해야 할 **의무이자 권리**를 지니며, 그 탐구는 자유로워야 하고, 가르침·소통·대화를 통해 이루어져야 한다... 인간은 양심의 매개를 통해 신적 법의 명령을 지각하고 인정한다. 그러므로 그는 자기 양심에 반하여 행동하도록 강요받아서는 안 되며, 특히 종교 문제에서 자기 양심에 따라 행동하는 것이 방해받아서도 안 된다. 왜냐하면 종교 행위는 본질적으로 인간이 자기 삶의 방향을 하느님을 향해 직접 정하는 내적이고 자발적이며 자유로운 행위로 이루어지기 때문이다. **어떤 인간 권력도 이런 종류의 행위를 명령하거나 금지할 수 없다.**\"",
+  "source_passage": "2. This Vatican Council declares that the human person has a right to religious freedom. This freedom means that all men are to be immune from coercion on the part of individuals or of social groups and of any human power, in such wise that no one is to be forced to act in a manner contrary to his own beliefs, whether privately or publicly, whether alone or in association with others, within due l"
  },
  {
   "id": "CCC-1376",
@@ -702,6 +1042,106 @@
   "source_passage": "Homosexuality refers to relations between men or between women who experience an exclusive or predominant sexual attraction toward persons of the same sex. It has taken a great variety of forms through the centuries and in different cultures. Its psychological genesis remains largely unexplained. Basing itself on Sacred Scripture, which presents homosexual acts as acts of grave depravity, 140 trad"
  },
  {
+  "id": "CANON-C0750",
+  "file": "CANON_C0750.md",
+  "title": "진리 등급별 동의 의무 체계",
+  "score": 0.793,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk3_teaching_747_755.txt",
+  "quote": "신자는 하느님의 말씀 안에 담긴, 계시된 것으로 엄숙한 교도권이나 통상적·보편적 교도권에 의해 제시된 모든 것을 신적·가톨릭 신앙으로 믿어야 한다(750§1). 교도권이 신앙·도덕에 관해 결정적으로 제시하는 모든 것 역시 확고히 받아들여야 하며, 이를 거부하는 자는 가톨릭 교회의 교리에 반한다(750§2). 결정적 행위 의도 없이도 교황이나 주교단이 신앙·도덕에 관해 선언하는 교리에는 신앙의 동의는 아니지만 \"지성과 의지의 종교적 복종(religious submission of the intellect and will)\"을 바쳐야 한다(752). 개별 주교는 무류성은 없으나 신자들의 정규 교사이며, 신자는 그 권위적 교도권에 지성의 종교적 복종으로 순응할 의무가 있다(753). 모든 신자는 정당한 교회 권위가 교리를 제시하거나 오류를 배격하기 위해 발표한 헌장과 교령을 준수할 의무가 있다(754).",
+  "source_passage": "Can. 750 §1. A person must believe with divine and Catholic faith all those things contained in the word of God, written or handed on, that is, in the one deposit of faith entrusted to the Church, and at the same time proposed as divinely revealed either by the solemn magisterium of the Church or by its ordinary and universal magisterium which is manifested by the common adherence of the Christian"
+ },
+ {
+  "id": "PAPAL-FRATELLI-120_123",
+  "file": "PAPAL_FRATELLI_120_123.md",
+  "title": "Fratelli Tutti 120~123항: 사유재산은 \"이차적\" 권리 — 재화의 보편적 목적 우선",
+  "score": 0.793,
+  "status": "VERIFIED",
+  "matched_at": "papal_fratelli_tutti_2020.txt",
+  "quote": "\"요한 바오로 2세의 말을 다시 인용한다: '하느님은 온 인류에게 그 모든 구성원의 생계를 위해 땅을 주셨으며, 누구도 배제하거나 편애하지 않으셨다.' 그리스도교 전통은 사유재산권을 결코 절대적이거나 불가침한 것으로 인정한 적이 없으며, 언제나 모든 형태의 사유재산이 지니는 사회적 목적을 강조해 왔다. 창조된 재화의 공동 사용 원칙은 '전체 윤리적·사회적 질서의 첫째 원리'이며, 다른 모든 권리에 우선하는 자연적이고 본래적인 권리이다. 사유재산권을 포함한 다른 모든 권리는... 이 원리를 방해해서는 안 되며 오히려 그 실현을 적극적으로 도와야 한다. **사유재산권은 창조된 재화의 보편적 목적이라는 원리에서 파생되는 이차적 자연권(secondary natural right)으로만 간주될 수 있다.**\" 123항: \"사유재산권은 언제나 땅의 재화가 보편적 목적을 지니며 따라서 모든 이가 그것을 사용할 권리를 지닌다는, 우선하는 일차적 원리에 종속된다.\"",
+  "source_passage": "120. Once more, I would like to echo a statement of Saint John Paul II whose forcefulness has perhaps been insufficiently recognized: “God gave the earth to the whole human race for the sustenance of all its members, without excluding or favouring anyone”. [94] For my part, I would observe that “the Christian tradition has never recognized the right to private property as absolute or inviolable, a"
+ },
+ {
+  "id": "TRENT-S13-C02",
+  "file": "TRENT_S13_C02.md",
+  "title": "화체설을 부정하고 빵의 실체가 남아있다면 파문 (공재설 단죄)",
+  "score": 0.793,
+  "status": "VERIFIED",
+  "matched_at": "trent_s13_eucharist.txt",
+  "quote": "\"거룩한 성찬 성사 안에서 빵과 포도주의 실체가 주 예수 그리스도의 몸과 피와 함께 공존한다고 말하며, 빵의 전체 실체가 몸의 실체로, 포도주의 전체 실체가 피의 실체로 변하는 — 오직 형상(species)만 남는 — 놀랍고 특이한 변화, 곧 교회가 지극히 적절하게 화체(Transubstantiatio)라 부르는 그 변화를 부정하는 자는 파문될지어다.\" (Canon II)",
+  "source_passage": "CANON lI.-If any one saith, that, in the sacred and holy sacrament of the Eucharist, the substance of the bread and wine remains conjointly with the body and blood of our Lord Jesus Christ, and denieth that wonderful and singular conversion of the whole substance of the bread into the Body, and of the whole substance of the wine into the Blood-the species Only of the bread and wine remaining-which"
+ },
+ {
+  "id": "CDF-DOMINUS-16_17",
+  "file": "CDF_DOMINUS_16_17.md",
+  "title": "Dominus Iesus 16~17항: 비가톨릭 그리스도교 공동체는 \"본래 의미의 교회가 아니다\"",
+  "score": 0.795,
+  "status": "VERIFIED",
+  "matched_at": "cdf_dominus_iesus_2000.txt",
+  "quote": "**16항**: \"그리스도의 구원 신비의 충만함은... 교회에도 속한다. 예수 그리스도는 교회 안에서, 교회를 통하여 자신의 구원 사업을 계속하신다... 그리스도의 유일성과 보편성에 관해서는, 그분이 세우신 **교회의 유일성**을 가톨릭 신앙의 진리로서 굳게 믿어야 한다: '그리스도가 한 분이듯, 그리스도의 몸도 하나요, 그리스도의 신부도 하나이니, 곧 하나의 가톨릭적이고 사도적인 교회이다.'\" **17항**: \"따라서 그리스도의 하나의 교회가 존재하며, 이는 베드로의 후계자와 그와 친교하는 주교들이 다스리는 가톨릭 교회 안에 존속한다(subsistit in)... 가톨릭 교회와 완전한 친교를 이루지는 않지만 사도 계승과 유효한 성체성사(a valid Eucharist)라는 가장 긴밀한 유대로 결합되어 있는 교회들(동방 정교회 등)은 참된 개별 교회(true particular Churches)이다. 그러나 **유효한 주교직(valid Episcopate)과 성체성사 신비의 진정하고 온전한 실체를 보존하지 못한 교회 공동체들은 본래 의미의 교회가 아니다(are not Churches in the proper sense).** 다만 이 공동체들 안에서 세례받은 이들도 세례로써 그리스도께 결합되며, 비록 불완전하지만 어떤 방식으로든 교회와의 친교 안에 있다.\"",
+  "source_passage": "Therefore, in connection with the unicity and universality of the salvific mediation of Jesus Christ, the unicity of the Church founded by him must be firmly believed as a truth of Catholic faith. Just as there is one Christ, so there exists a single body of Christ, a single Bride of Christ: “a single Catholic and apostolic Church”‌. 51 Furthermore, the promises of the Lord that he would not aband"
+ },
+ {
+  "id": "COUNCIL-CHALCEDON-C28",
+  "file": "COUNCIL_CHALCEDON_C28.md",
+  "title": "Canon 28: 콘스탄티노플에 로마와 동등한 특권",
+  "score": 0.797,
+  "status": "VERIFIED",
+  "matched_at": "council_chalcedon_451.txt",
+  "quote": "\"테오도시우스 황제 시대 콘스탄티노플에서 모인 150명의 존경받는 주교들의 교회법을 따라 ... 새 로마인 콘스탄티노플 교회의 특권에 관하여 같은 교령과 결의를 발표한다. 교부들은 옛 로마가 황제의 도시였기에 정당하게 그 자리에 특권을 부여했다. 같은 이유로 150명의 존경받는 주교들도 새 로마에 동등한 특권을 부여했으니(apportioned equal prerogatives to the most holy see of new Rome), 황제권과 원로원의 영예를 입고 옛 로마와 동등한 특권을 누리는 이 도시가 교회 사안에서도 그와 같은 지위로 격상되어 그 다음 자리를 차지함이 마땅하다.\" 폰투스·아시아·트라키아 관구의 관구장 주교들은 콘스탄티노플 대주교좌에 의해 서품된다고 규정한다.",
+  "source_passage": "Following in every way the decrees of the holy fathers and recognising the canon which has recently been read out–the canon of the 150 most devout bishops who assembled in the time of the great Theodosius of pious memory, then emperor, in imperial Constantinople, new Rome — we issue the same decree and resolution concerning the prerogatives of the most holy church of the same Constantinople, new R"
+ },
+ {
+  "id": "TRENT-S06-C13",
+  "file": "TRENT_S06_C13.md",
+  "title": "죄 사함을 흔들림 없이 확신해야 한다면 파문",
+  "score": 0.797,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XIII",
+  "quote": "\"죄 사함을 얻기 위해 모든 사람이 자신의 연약함과 성향에서 비롯되는 어떤 흔들림도 없이, 자기 죄가 확실히 용서받았다고 믿어야 한다고 말하는 자는 파문될지어다.\" (Canon XIII: \"...it is necessary for every one... that he believe for certain, and without any wavering... that his sins are forgiven him; let him be anathema.\")",
+  "source_passage": "CANON XIII.-If any one saith, that it is necessary for every one, for the obtaining the remission of sins, that he believe for certain, and without any wavering arising from his own infirmity and disposition, that his sins are forgiven him; let him be anathema."
+ },
+ {
+  "id": "COUNCIL-CONSTANCE-HAEC_SANCTA",
+  "file": "COUNCIL_CONSTANCE_HAEC_SANCTA.md",
+  "title": "Haec Sancta (공의회 우위론)",
+  "score": 0.798,
+  "status": "VERIFIED",
+  "matched_at": "council_constance_1415.txt",
+  "quote": "\"성령 안에 합법적으로 결집하여 보편공의회를 이루고 전투하는 보편교회를 대표하는 이 콘스탄츠의 거룩한 시노드는 ... 그리스도로부터 직접 권능을 가지며(it has power immediately from Christ), 신분과 지위가 무엇이든 심지어 교황이라 할지라도(even papal) 신앙에 관한 사안과 이 분열의 근절, 교회의 전면적 개혁에 관한 사안에서는 이 공의회에 복종할 의무가 있다(is bound to obey it)고 선언한다.\" 이를 고집스럽게 거부하는 자는 신분·지위·교황 여부를 불문하고 응분의 처벌을 받는다고 규정한다.",
+  "source_passage": "First it declares that, legitimately assembled in the holy Spirit, constituting a general council and representing the catholic church militant, it has power immediately from Christ; and that everyone of whatever state or dignity, even papal, is bound to obey it in those matters which pertain to the faith , the eradication of the said schism and the general reform of the said church of God in head"
+ },
+ {
+  "id": "COUNCIL-NICAEA-C6",
+  "file": "COUNCIL_NICAEA_C6.md",
+  "title": "Canon 6: 알렉산드리아·안티오키아의 관할 자치",
+  "score": 0.8,
+  "status": "VERIFIED",
+  "matched_at": "council_nicaea_i_325.txt",
+  "quote": "\"이집트, 리비아, 펜타폴리스의 오래된 관습이 유지되어야 하니, 이에 따라 알렉산드리아의 주교가 이 모든 지역에 대한 권한을 가진다. 이는 로마의 주교와 관련해서도 비슷한 관습이 존재하기 때문이다(since a similar custom exists with reference to the bishop of Rome). 마찬가지로 안티오키아와 다른 관구들에서도 각 교회의 특권이 보존되어야 한다.\" 관구장의 동의 없이 주교로 세워진 자는 \"이 대공의회가 주교가 아니라고 결정한다\"고 규정한다.",
+  "source_passage": "The ancient customs of Egypt, Libya and Pentapolis shall be maintained, according to which the bishop of Alexandria has authority over all these places since a similar custom exists with reference to the bishop of Rome. Similarly in Antioch and the other provinces the prerogatives of the churches are to be preserved. In general the following principle is evident: if anyone is made bishop without t"
+ },
+ {
+  "id": "LG-14",
+  "file": "LG_14.md",
+  "title": "Lumen Gentium 14항: 교회의 구원 필요성과 \"알면서 거부하면 구원 불가\"",
+  "score": 0.8,
+  "status": "VERIFIED",
+  "matched_at": "vatican2_lumen_gentium.txt",
+  "quote": "\"이 거룩한 공의회는 먼저 가톨릭 신자들에게 주의를 돌린다. 성경과 전통에 근거하여, 지상에서 순례하는 교회가 **구원에 필요하다**고 가르친다. 그리스도는 자신의 몸인 교회 안에서 우리에게 현존하시는 유일한 중개자요 구원의 유일한 길이시다... 그러므로 **가톨릭 교회가 그리스도에 의해 필요하게 되었음을 알면서도 그 안에 들어가기를 거부하거나 그 안에 머물기를 거부하는 사람은 구원받을 수 없다.**\" 이어 14항 2단락은 교회에 온전히 결합된 이들(신앙고백·성사·교회 통치와 친교)조차 사랑(caritas) 안에 머물지 않으면 구원받지 못하며, \"몸으로는\" 교회 안에 있지만 \"마음으로는\" 아니라고 경고한다.",
+  "source_passage": "14. This Sacred Council wishes to turn its attention firstly to the Catholic faithful. Basing itself upon Sacred Scripture and Tradition, it teaches that the Church, now sojourning on earth as an exile, is necessary for salvation. Christ, present to us in His Body, which is the Church, is the one Mediator and the unique way of salvation. In explicit terms He Himself affirmed the necessity of faith"
+ },
+ {
+  "id": "TRENT-S06-C17",
+  "file": "TRENT_S06_C17.md",
+  "title": "은총이 예정된 자에게만 주어지고 나머지는 악으로 예정되었다면 파문",
+  "score": 0.801,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XVII",
+  "quote": "\"의화 은총이 오직 생명으로 예정된 자들에게만 주어지며, 부르심 받은 다른 모든 이들은 참으로 부르심 받았으나 하느님의 능력에 의해 악으로 예정되었으므로 은총을 받지 못한다고 말하는 자는 파문될지어다.\" (Canon XVII: \"...the grace of Justification is only attained to by those who are predestined unto life; but that all others who are called... are, by the divine power, predestined unto evil; let him be anathema.\")",
+  "source_passage": "CANON XVII.-If any one saith, that the grace of Justification is only attained to by those who are predestined unto life; but that all others who are called, are called indeed, but receive not grace, as being, by the divine power, predestined unto evil; let him be anathema."
+ },
+ {
   "id": "CCC-1030",
   "file": "CCC_1030.md",
   "title": "연옥",
@@ -710,6 +1150,36 @@
   "matched_at": "CCC 1030",
   "quote": "하느님의 은총과 우정 속에서 죽었지만 아직 완전히 정화되지 못한 사람들은 영원한 구원이 보장되어 있으나, 죽은 후에 정화를 거쳐야 천국의 기쁨에 들어가는 데 필요한 거룩함을 얻는다. 교회는 선택된 이들의 이 최종 정화를 '연옥'(Purgatorium)이라 부른다.",
   "source_passage": "All who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven."
+ },
+ {
+  "id": "CANON-C0751",
+  "file": "CANON_C0751.md",
+  "title": "이단·배교·열교의 법적 정의",
+  "score": 0.805,
+  "status": "VERIFIED",
+  "matched_at": "canon_law_bk3_teaching_747_755.txt",
+  "quote": "\"이단(heresy)\"이란 세례를 받은 자가 신적·가톨릭 신앙으로 믿어야 할 어떤 진리를 세례 후에 고집스럽게 부정하거나 고집스럽게 의심하는 것이다. \"배교(apostasy)\"란 그리스도교 신앙 전체를 포기하는 것이다. \"열교/이교(schism)\"란 교황에 대한 복종이나 그에게 속한 교회 구성원들과의 친교를 거부하는 것이다.",
+  "source_passage": "Can. 751 Heresy is the obstinate denial or obstinate doubt after the reception of baptism of some truth which is to be believed by divine and Catholic faith; apostasy is the total repudiation of the Christian faith; schism is the refusal of submission to the Supreme Pontiff or of communion with the members of the Church subject to him."
+ },
+ {
+  "id": "TRENT-S13-C06",
+  "file": "TRENT_S13_C06.md",
+  "title": "성체를 흠숭(latria)으로 경배하지 않으면 파문",
+  "score": 0.806,
+  "status": "VERIFIED",
+  "matched_at": "trent_s13_eucharist.txt CANON VI",
+  "quote": "\"거룩한 성체 성사 안에서 하느님의 독생성자이신 그리스도께서 외적 흠숭(latria)의 예배로도 경배받으실 대상이 아니라고, 따라서 특별한 축일로 공경되거나 행렬로 장엄하게 모셔지지 말아야 한다고, 혹은 백성에게 공개적으로 경배 받도록 제시되지 말아야 한다고, 또는 그것을 경배하는 자들이 우상숭배자라고 말하는 자는 파문될지어다.\" (Canon VI)",
+  "source_passage": "CANON VI.-If any one saith, that, in the holy sacrament of the Eucharist, Christ, the only-begotten Son of God, is not to be adored with the worship, even external of latria; and is, consequently, neither to be venerated with a special festive solemnity, nor to be solemnly borne about in processions, according to the laudable and universal rite and custom of holy church; or, is not to be proposed "
+ },
+ {
+  "id": "TRENT-S14-C12",
+  "file": "TRENT_S14_C12.md",
+  "title": "하느님이 항상 죄책과 함께 형벌 전체를 사하신다면 파문 (잠벌 교리의 근거)",
+  "score": 0.808,
+  "status": "VERIFIED",
+  "matched_at": "trent_s14_penance.txt CANON XII",
+  "quote": "\"하느님이 항상 죄책과 함께 형벌 전체를 사하시며, 참회자의 보속(satisfactio)은 그리스도께서 그들을 위해 보속하셨다고 믿는 믿음 외에 다른 것이 아니라고 말하는 자는 파문될지어다.\" (Canon XII: \"...God always remits the whole punishment together with the guilt, and that the satisfaction of penitents is no other than the faith whereby they apprehend that Christ has satisfied for them; let him be anathema.\")",
+  "source_passage": "[Page 110] CANON XII.–If any one saith, that God always remits the whole punishment together with the guilt, and that the satisfaction of penitents is no other than the faith whereby they apprehend that Christ has satisfied for them; let him be anathema."
  },
  {
   "id": "TRENT-S13-C01",
@@ -722,6 +1192,146 @@
   "source_passage": "CANON I.-If any one denieth, that, in the sacrament of the most holy Eucharist, are contained truly, really, and substantially, the body and blood together with the soul and divinity of our Lord Jesus Christ, and consequently the whole Christ; but saith that He is only therein as in a sign, or in figure, or virtue; let him be anathema."
  },
  {
+  "id": "TRENT-S13-C11",
+  "file": "TRENT_S13_C11.md",
+  "title": "믿음만으로 성체를 합당하게 받기에 충분하다면 파문",
+  "score": 0.811,
+  "status": "VERIFIED",
+  "matched_at": "trent_s13_eucharist.txt CANON XI",
+  "quote": "\"거룩한 성찬 성사를 받기 위한 준비로 믿음만으로 충분하다고 말하는 자는 파문될지어다. 그리고 이토록 위대한 성사가 부당하게 받아져 죽음과 단죄에 이르지 않도록, 이 거룩한 공의회는, 고해 신부가 있을 경우, 대죄로 양심이 무거운 자는 아무리 스스로 통회했다고 여기더라도 반드시 사전에 고해성사로 고백해야 함을 명하고 선언한다.\" (Canon XI: \"...faith alone is a sufficient preparation for receiving the sacrament of the most holy Eucharist; let him be anathema.\")",
+  "source_passage": "CANON XI.-lf any one saith, that faith alone is a sufficient preparation for receiving the sacrament of the most holy Eucharist; let him be anathema. And for fear lest so great a sacrament may be received unworthily, and so unto death and condemnation, this holy Synod ordains and declares, that sacramental confession, when a confessor may be had, is of necessity to be made beforehand, by those who"
+ },
+ {
+  "id": "TRENT-S14-C07",
+  "file": "TRENT_S14_C07.md",
+  "title": "신법에 의해 모든 대죄를 낱낱이 고백할 의무가 없다면 파문",
+  "score": 0.812,
+  "status": "VERIFIED",
+  "matched_at": "trent_s14_penance.txt CANON VII",
+  "quote": "\"고해성사에서 신법(divine right)에 의해 죄 사함을 위해 진지한 성찰 후 기억나는 모든 대죄를 — 은밀한 죄까지, 십계명의 마지막 두 계명에 반하는 죄까지, 그리고 죄의 종류를 바꾸는 정황까지 — 하나하나 고백할 필요가 없다고 말하거나, 그러한 고백은 단지 참회자를 가르치고 위로하는 데 유익할 뿐이라고 말하거나, 옛적에는 단지 교회법적 보속을 부과하기 위해서만 행해졌다고 말하거나, 모든 죄를 고백하려 애쓰는 자들이 하느님의 자비에 맡길 것을 아무것도 남기지 않으려 한다고 말하거나, 마지막으로 소죄를 고백하는 것이 허용되지 않는다고 말하는 자는 파문될지어다.\" (Canon VII, 요약 인용)",
+  "source_passage": "CANON VII.–If any one saith, that, in the sacrament of Penance, it is not necessary, of divine right, for the remission of sins, to confess all and singular the mortal sins which after due and diligent previous meditation are remembered, even those (mortal sins) which are secret, and those which are opposed to the two last commandments of the Decalogue, as also the circumstances which change the s"
+ },
+ {
+  "id": "TRENT-S06-C05",
+  "file": "TRENT_S06_C05.md",
+  "title": "아담의 죄로 자유의지가 완전히 소멸했다면 파문",
+  "score": 0.813,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON V",
+  "quote": "\"아담의 죄 이후 인간의 자유의지가 상실되고 소멸되었다고, 혹은 그것이 이름뿐인 것, 실체 없는 이름, 결국 사탄이 교회 안에 끌어들인 허구라고 말하는 자는 파문될지어다.\" (Canon V: \"...the free will of man is lost and extinguished; or, that it is a thing with only a name... a figment... introduced into the Church by Satan; let him be anathema.\")",
+  "source_passage": "CANON V.-If any one saith, that, since Adam’s sin, the free will of man is lost and extinguished; or, that it is a thing with only a name, yea a name without a reality, a figment, in fine, introduced into the Church by Satan; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C11",
+  "file": "TRENT_S06_C11.md",
+  "title": "그리스도 의(義)의 전가만으로 의롭다면 파문 (법정적 칭의론 단죄)",
+  "score": 0.814,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XI",
+  "quote": "\"인간이 그리스도의 의(義)의 전가(imputatio)만으로, 혹은 죄의 사면만으로 — 성령에 의해 마음에 부어지고 내재하는 은총과 사랑을 배제한 채 — 의롭게 된다고 말하거나, 혹은 우리를 의롭게 하는 은총이 오직 하느님의 호의(favor)일 뿐이라고 말하는 자는 파문될지어다.\" (Canon XI: \"...men are justified, either by the sole imputation of the justice of Christ, or by the sole remission of sins, to the exclusion of the grace and the charity... let him be anathema.\")",
+  "source_passage": "[Page 46] CANON XI.-If any one saith, that men are justified, either by the sole imputation of the justice of Christ, or by the sole remission of sins, to the exclusion of the grace and the charity which is poured forth in their hearts by the Holy Ghost, and is inherent in them; or even that the grace, whereby we are justified, is only the favour of God; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C29",
+  "file": "TRENT_S06_C29.md",
+  "title": "세례 후 넘어진 자가 고해성사 없이 믿음만으로 회복된다면 파문",
+  "score": 0.819,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XXIX",
+  "quote": "\"세례 후 넘어진 자가 하느님의 은총으로 다시 일어날 수 없다고 말하거나, 혹은 그가 잃은 의(義)를 고해성사 없이 오직 믿음만으로 회복할 수 있다고 말하는 자 — 이는 사도들에게서 가르침받은 거룩한 로마와 보편 교회가 지금까지 고백하고 지키고 가르쳐온 바에 반하는 것이니 — 파문될지어다.\" (Canon XXIX, 전문 인용)",
+  "source_passage": "CANON XXIX.-If any one saith, that he, who has fallen after baptism, is not able by the grace of God to rise again; or, that he is able indeed to recover the justice which he has lost, but by faith alone without the sacrament of Penance, contrary to what the holy Roman and universal Church-instructed by Christ and his Apostles-has hitherto professed, observed, and taught; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C22",
+  "file": "TRENT_S06_C22.md",
+  "title": "특별한 도움 없이도 스스로 견인할 수 있다면 파문",
+  "score": 0.82,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XXII",
+  "quote": "\"의화된 자가 하느님의 특별한 도움 없이도 받은 의(義) 안에 견인(persevere)할 수 있다고 말하거나, 혹은 그 도움이 있어도 견인할 수 없다고 말하는 자는 파문될지어다.\" (Canon XXII: \"...the justified, either is able to persevere, without the special help of God, in the justice received; or that, with that help, he is not able; let him be anathema.\")",
+  "source_passage": "CANON XXII.-If any one saith, that the justified, either is able to persevere, without the special help of God, in the justice received; or that, with that help, he is not able; let him be anathema."
+ },
+ {
+  "id": "TRENT-S22-C03",
+  "file": "TRENT_S22_C03.md",
+  "title": "미사가 속죄 제사가 아니라 단순한 찬미/기념일 뿐이라면 파문",
+  "score": 0.82,
+  "status": "VERIFIED",
+  "matched_at": "trent_s22_mass.txt CANON III",
+  "quote": "\"미사의 희생 제사가 오직 찬미와 감사의 제사일 뿐이라고, 혹은 십자가에서 완성된 희생의 단순한 기념(bare commemoration)일 뿐 속죄 제사(propitiatory sacrifice)는 아니라고, 혹은 그것을 받는 자에게만 유익하다고, 그리고 산 자와 죽은 자를 위해 죄와 벌과 보속과 다른 필요를 위해 봉헌되어서는 안 된다고 말하는 자는 파문될지어다.\" (Canon III, 전문 인용)",
+  "source_passage": "CANON III.–If any one saith, that the sacrifice of the mass is only a sacrifice of praise and of thanksgiving; or, that it is a [Page 159] bare commemoration of the sacrifice consummated on the cross, but not a propitiatory sacrifice; or, that it profits him only who receives; and that it ought not to be offered for the living and the dead for sins, pains, satisfactions, and other necessities; let"
+ },
+ {
+  "id": "TRENT-S06-C01",
+  "file": "TRENT_S06_C01.md",
+  "title": "은총 없이 본성/율법의 행위로 의화된다 하면 파문",
+  "score": 0.824,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON I",
+  "quote": "\"인간이 그리스도를 통한 하느님의 은총 없이, 인간 본성의 가르침을 통해서든 율법의 가르침을 통해서든, 자신의 행위로 하느님 앞에서 의롭게 될 수 있다고 말하는 자는 파문될지어다.\" (Canon I: \"...man may be justified before God by his own works... without the grace of God through Jesus Christ; let him be anathema.\")",
+  "source_passage": "CANON I.-If any one saith, that man may be justified before God by his own works, whether done through the teaching of human nature, or that of the law, without the grace of God through Jesus Christ; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C04",
+  "file": "TRENT_S06_C04.md",
+  "title": "자유의지가 은총에 전혀 협력하지 않고 순전히 수동적이라면 파문",
+  "score": 0.826,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON IV",
+  "quote": "\"하느님에 의해 움직여지고 자극받은 인간의 자유의지가, 자극하고 부르시는 하느님께 동의함으로써 의화 은총을 얻기 위한 준비와 성향에 결코 협력하지 않으며, 원한다 해도 동의를 거부할 수 없고, 생명 없는 것처럼 아무것도 하지 않고 순전히 수동적이라고 말하는 자는 파문될지어다.\" (Canon IV: \"...as something inanimate, it does nothing whatever and is merely passive; let him be anathema.\")",
+  "source_passage": "[Page 45] CANON IV.-If any one saith, that man’s free will moved and excited by God, by assenting to God exciting and calling, nowise co-operates towards disposing and preparing itself for obtaining the grace of Justification; that it cannot refuse its consent, if it would, but that, as something inanimate, it does nothing whatever and is merely passive; let him be anathema."
+ },
+ {
+  "id": "TRENT-S24-C09",
+  "file": "TRENT_S24_C09.md",
+  "title": "서품·정결서원자가 유효하게 혼인할 수 있다면 파문 (성직자 독신제 근거)",
+  "score": 0.83,
+  "status": "VERIFIED",
+  "matched_at": "trent_s24_marriage.txt CANON IX",
+  "quote": "\"신품성사를 받은 성직자나 정결을 엄숙히 서원한 수도자가 혼인을 계약할 수 있고, 계약되면 교회법이나 서원에도 불구하고 유효하다고 말하거나, 그 반대 주장이 혼인을 단죄하는 것에 지나지 않는다고 말하거나, 정결의 은사를 느끼지 못하는 모든 이가 서원을 했더라도 혼인할 수 있다고 말하는 자는 파문될지어다 — 하느님은 바르게 구하는 이들에게 그 은사를 거절하지 않으시며, 우리가 감당할 수 없는 시험을 허락하지 않으시기 때문이다.\" (Canon IX, 요약 인용)",
+  "source_passage": "CANON IX.-If any one saith, that clerics constituted in sacred orders, or Regulars, who have solemnly professed chastity, are able to contract marriage, and that being contracted it is valid, notwithstanding the ecclesiastical law, or vow; and that the contrary is no thing else than to condemn marriage; and, that all who do not feel that they have the gift of chastity, even though they have made a"
+ },
+ {
+  "id": "TRENT-S07-C01",
+  "file": "TRENT_S07_C01.md",
+  "title": "7성사가 그리스도께서 친히 제정하신 것이 아니라면 파문",
+  "score": 0.831,
+  "status": "VERIFIED",
+  "matched_at": "trent_s07_sacraments_baptism.txt CANON I",
+  "quote": "\"신약의 성사들이 모두 우리 주 예수 그리스도께서 제정하신 것이 아니라고 말하거나, 성사가 일곱보다 많거나 적다고(즉 세례, 견진, 성체, 고해, 병자, 신품, 혼인이 아니라고) 말하거나, 이 일곱 중 어느 하나라도 참되고 고유한 의미의 성사가 아니라고 말하는 자는 파문될지어다.\" (Canon I, general sacraments: \"...they are more, or less, than seven, to wit, Baptism, Confirmation, the Eucharist, Penance, Extreme Unction, Order, and Matrimony... let him be anathema.\")",
+  "source_passage": "CANON I.-If any one saith, that the sacraments of the New Law were not all instituted by Jesus Christ, our Lord; or, that they are more, or less, than seven, to wit, Baptism, Confirmation, the Eucharist, Penance, Extreme Unction, Order, and Matrimony; or even that any one of these seven is not truly and properly a sacrament; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C12",
+  "file": "TRENT_S06_C12.md",
+  "title": "의화시키는 믿음이 단지 자비에 대한 확신일 뿐이라면 파문",
+  "score": 0.832,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XII",
+  "quote": "\"의화시키는 믿음이 그리스도를 위해 죄를 사하시는 하느님의 자비에 대한 확신(confidence) 외에 다른 것이 아니라고, 혹은 그 확신만으로 우리가 의화된다고 말하는 자는 파문될지어다.\" (Canon XII: \"...justifying faith is nothing else but confidence in the divine mercy which remits sins for Christ's sake; or, that this confidence alone is that whereby we are justified; let him be anathema.\")",
+  "source_passage": "CANON XII.-If any one saith, that justifying faith is nothing else but confidence in the divine mercy which remits sins for Christ’s sake; or, that this confidence alone is that whereby we are justified; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C02",
+  "file": "TRENT_S06_C02.md",
+  "title": "은총이 단지 쉽게 살도록 돕는 것뿐이라면 파문",
+  "score": 0.838,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON II",
+  "quote": "\"그리스도를 통한 하느님의 은총이 단지 인간이 더 쉽게 의롭게 살고 영생을 얻을 수 있도록 주어진 것일 뿐, 마치 자유의지만으로도 — 비록 힘들고 어렵더라도 — 그 둘 다를 할 수 있는 것처럼 말하는 자는 파문될지어다.\" (Canon II: \"...as if, by free will without grace, he were able to do both, though hardly indeed and with difficulty; let him be anathema.\")",
+  "source_passage": "CANON II.-If any one saith, that the grace of God, through Jesus Christ, is given only for this, that man may be able more easily to live justly, and to merit eternal life, as if, by free will without grace, he were able to do both, though hardly indeed and with difficulty; let him be anathema."
+ },
+ {
+  "id": "TRENT-S06-C14",
+  "file": "TRENT_S06_C14.md",
+  "title": "자신이 사함받았다고 믿기 때문에 참으로 의롭다면 파문",
+  "score": 0.838,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XIV",
+  "quote": "\"인간이 자신이 사죄받고 의화되었다고 확실히 믿기 때문에 참으로 사함받고 의화된다고, 혹은 자신이 의화되었다고 믿는 자만이 참으로 의화된 것이라고, 이 믿음 하나만으로 사죄와 의화가 이루어진다고 말하는 자는 파문될지어다.\" (Canon XIV: \"...man is truly absolved from his sins and justified, because that he assuredly believed himself absolved and justified... by this faith alone, absolution and justification are effected; let him be anathema.\")",
+  "source_passage": "CANON XIV.-If any one saith, that man is truly absolved from his sins and justified, because that he assuredly believed himself absolved and justified; or, that no one is truly justified but he who believes himself justified; and that, by this faith alone, absolution and justification are effected; let him be anathema."
+ },
+ {
   "id": "CCC-1261",
   "file": "CCC_1261.md",
   "title": "세례 없이 죽은 유아의 구원 희망",
@@ -732,6 +1342,26 @@
   "source_passage": "As regards children who have died without Baptism, the Church can only entrust them to the mercy of God, as she does in her funeral rites for them. Indeed, the great mercy of God who desires that all men should be saved, and Jesus' tenderness toward children which caused him to say: \"Let the children come to me, do not hinder them,\" 63 allow us to hope that there is a way of salvation for children"
  },
  {
+  "id": "TRENT-S06-C03",
+  "file": "TRENT_S06_C03.md",
+  "title": "성령의 선행 은총 없이 스스로 믿을 수 있다면 파문",
+  "score": 0.853,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON III",
+  "quote": "\"성령의 선행적(先行的) 감동과 그 도움 없이는, 인간이 의화의 은총을 얻기 위해 마땅히 요구되는 대로 믿거나 바라거나 사랑하거나 뉘우칠 수 있다고 말하는 자는 파문될지어다.\" (Canon III: \"...without the prevenient inspiration of the Holy Ghost, and without his help, man can believe, hope, love, or be penitent as he ought... let him be anathema.\")",
+  "source_passage": "CANON III.-If any one saith, that without the prevenient inspiration of the Holy Ghost, and without his help, man can believe, hope, love, or be penitent as he ought, so as that the grace of Justification may be bestowed upon him; let him be anathema."
+ },
+ {
+  "id": "TRENT-S07-C04",
+  "file": "TRENT_S07_C04.md",
+  "title": "성사가 구원에 불필요하며 믿음만으로 은총을 얻는다면 파문",
+  "score": 0.853,
+  "status": "VERIFIED",
+  "matched_at": "trent_s07_sacraments_baptism.txt CANON IV",
+  "quote": "\"신약의 성사들이 구원에 필수적이지 않고 불필요한 것이라고, 그리고 성사 없이도 혹은 그에 대한 열망 없이도 사람들이 오직 믿음만으로 하느님으로부터 의화의 은총을 얻는다고 말하는 자는 — 비록 모든 성사가 개개인 각자에게 필수적인 것은 아닐지라도 — 파문될지어다.\" (Canon IV: \"...without them, or without the desire thereof, men obtain of God, through faith alone, the grace of justification;-though all (the sacraments) are not indeed necessary for every individual; let him be anathema.\")",
+  "source_passage": "CANON IV.-If any one saith, that the sacraments of the New Law are not necessary unto salvation, but superfluous; and that, without them, or without the desire thereof, men obtain of God, through faith alone, the grace of justification;-though all (the sacraments) are not ineed necessary for every individual; let him be anathema."
+ },
+ {
   "id": "DIGNITATIS-HUMANAE",
   "file": "DIGNITATIS_HUMANAE.md",
   "title": "종교 자유에 관한 선언",
@@ -740,5 +1370,15 @@
   "matched_at": "vatican2_dignitatis_humanae.txt",
   "quote": "**2항**: \"이 바티칸 공의회는 인간이 종교 자유에 대한 권리를 가진다고 선언한다. 이 자유는 모든 인간이 개인적으로든 사회적으로든 종교 문제에서 어떤 사람이나 사회 집단이나 어떤 인간 권력의 강제로부터 면제됨을 뜻한다. 따라서 아무도 자기 양심에 반하여 행동하도록 강요받거나, 사적으로든 공적으로든 종교 문제에서 자기 양심에 따라 행동하는 것이 방해받아서는 안 된다.\"",
   "source_passage": "2. This Vatican Council declares that the human person has a right to religious freedom. This freedom means that all men are to be immune from coercion on the part of individuals or of social groups and of any human power, in such wise that no one is to be forced to act in a manner contrary to his own beliefs, whether privately or publicly, whether alone or in association with others, within due l"
+ },
+ {
+  "id": "TRENT-S06-C23",
+  "file": "TRENT_S06_C23.md",
+  "title": "의화된 자는 죄지을 수 없다 하거나, 마리아 특전 없이 평생 무죄가 가능하다 하면 파문",
+  "score": 0.857,
+  "status": "VERIFIED",
+  "matched_at": "trent_s06_justification.txt CANON XXIII",
+  "quote": "\"한번 의화된 사람은 더 이상 죄를 지을 수 없고 은총을 잃을 수 없으며, 따라서 넘어져 죄지은 자는 결코 참으로 의화된 적이 없었다고 말하는 자, 또는 반대로, 하느님으로부터 특별한 특전을 받은 경우 — 교회가 복되신 동정 마리아에 대해 인정하는 바와 같이(as the Church holds in regard of the Blessed Virgin) — 를 제외하고는, 어떤 사람이 자신의 전 생애 동안 소죄를 포함한 모든 죄를 피할 수 있다고 말하는 자는 파문될지어다.\" (Canon XXIII, 전문 인용)",
+  "source_passage": "CANON XXIII.-lf any one saith, that a man once justified can sin no more, nor lose grace, and that therefore he that falls and sins was never truly justified; or, on the other hand, that he is able, during his whole life, to avoid all sins, even those that are venial,-except by a special privilege from God, as the Church holds in regard of the Blessed Virgin; let him be anathema."
  }
 ]

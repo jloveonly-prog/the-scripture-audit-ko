@@ -44,15 +44,15 @@ CVCAP 3.0은 **가톨릭 자체 문헌(CCC, 공의회, 교황 선언, 교회법,
 ```mermaid
 flowchart TD
     subgraph PREP["📥 0단계 — 입력 준비"]
-        A["BUILD_PROMPT.md<br/>가톨릭 문헌을 AI로<br/>구조화된 카드로 변환"] --> B[("04_DOCTRINE_DB<br/>교리 카드 74장<br/>각 카드 = 주장 목록 + 부정 목록")]
-        F["scripts/fetch_sources.py<br/>바티칸 공식 사이트에서<br/>원문 39종 자동 다운로드"] --> S[("_SOURCE/<br/>1차 사료 원문<br/>⚖️ 저작권 — git 미포함")]
+        A["BUILD_PROMPT.md<br/>가톨릭 문헌을 AI로<br/>구조화된 카드로 변환"] --> B[("04_DOCTRINE_DB<br/>교리 카드 138장<br/>각 카드 = 주장 목록 + 부정 목록")]
+        F["scripts/fetch_sources.py<br/>바티칸 공식 사이트에서<br/>원문 40종 자동 다운로드"] --> S[("_SOURCE/<br/>1차 사료 원문<br/>⚖️ 저작권 — git 미포함")]
     end
 
     B --> C["🔎 STAGE 1 — conflict_detector.py<br/>카드 A의 '주장'과 카드 B의 '부정'을<br/>전수 교차 비교 (의미 유사도 ≥ 0.60)"]
-    C --> D[("충돌 후보 ~2,537건<br/>auto_conflict_results.csv<br/>⚠️ 아직 미확정 — 오탐 다수")]
+    C --> D[("충돌 후보 ~9,922건<br/>Level 1~5 자동 산출<br/>auto_conflict_results.csv<br/>⚠️ 아직 미확정 — 오탐 다수")]
 
     D --> E["⚖️ STAGE 2 — llm_judge.py<br/>LLM이 후보를 한 쌍씩 심사<br/>'진짜 정면 모순인가?' YES/NO"]
-    E --> G[("YES ~62건<br/>llm_verified_conflicts.csv")]
+    E --> G[("YES (세대2 심사 진행)<br/>llm_verified_conflicts.csv")]
 
     B --> H["📖 STAGE 3 — verify_citations.py<br/>카드의 인용문이 실제 원문에<br/>존재하는지 교차언어 대조"]
     S --> H
@@ -62,7 +62,7 @@ flowchart TD
     I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~017<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
 
     J --> K["🏛️ 문헌 법정 — OODA 10라운드<br/>검사(공격) vs 가톨릭 변증(방어) vs 중재자(판결)<br/>회피 전술 CE-01~10 선제 봉쇄"]
-    K --> L[["📕 최종 보고서<br/>catholic_error_report_v6_final.md<br/>💥 IMPLOSION 17 / ⚠️ PARTIAL 5"]]
+    K --> L[["📕 최종 보고서<br/>catholic_error_report_v7_final.md<br/>💥 IMPLOSION 9 / ⚠️ PARTIAL 13<br/>(적대 재심리 반영)"]]
 
     V["🔧 verify_pipeline.py<br/>전 계층 무결성 22항목 자가 점검"] -.->|상시 감시| D
     V -.->|상시 감시| G
@@ -75,7 +75,7 @@ flowchart TD
 
 ```mermaid
 sequenceDiagram
-    participant DB as 교리카드 DB (74장)
+    participant DB as 교리카드 DB (138장)
     participant S1 as STAGE 1<br/>임베딩 탐지기
     participant S2 as STAGE 2<br/>LLM 심사관
     participant SRC as 1차 사료<br/>(_SOURCE 원문)
@@ -88,7 +88,7 @@ sequenceDiagram
     S1->>S2: 충돌 후보 전달
     Note over S2: 방향 오류 가드 —<br/>"둘 다 같은 명제를 배격하는<br/>동일 입장 아닌가?" 먼저 검사
     alt 오탐 (같은 편)
-        S2-->>S1: NO → 폐기 (2,537건 중 대다수가 여기서 탈락)
+        S2-->>S1: NO → 폐기 (후보 대다수가 여기서 탈락)
     else 진짜 충돌
         S2->>H: YES → 승격 후보
     end
@@ -105,9 +105,10 @@ sequenceDiagram
 |:---|:---|:---|
 | STAGE 1 오탐 필터 | 어휘만 비슷하고 논리는 무관한 쌍 | "세례는 의무" vs "미사는 선택" — 문장 구조만 유사 |
 | STAGE 2 방향 가드 | A와 B가 **같은 명제를 함께 배격**하는데 충돌로 오인 | 2026-07 실측: 상위 100건 중 오탐 9건이 이 유형 |
-| STAGE 3 원문 대조 | AI가 카드를 만들 때 섞였을 수 있는 **날조 인용(환각)** | 74장 전수 대조 결과 환각 0건 — 그러나 대조 전엔 알 수 없었음 |
+| STAGE 3 원문 대조 | AI가 카드를 만들 때 섞였을 수 있는 **날조 인용(환각)** | 138장 전수 대조 — 원문 대응 96.4%, 환각 0건 — 그러나 대조 전엔 알 수 없었음 |
 | 사람 수작업 | 자동 점수가 낮게 나온 경계 사례 | 6건 전건 "카드는 맞고 검증기 한계"로 확인 |
 | OODA 법정 | 살아남은 모순도 가톨릭 방어가 실제로 성립하면 **PARTIAL로 하향** | COL-017: 검사 4승 5패 — 그대로 기록 |
+| **적대 재심리 (v7)** | 검사·중재와 **다른 모델**(Opus 5)의 변호가 기소 자체의 인용 결함을 적발 | 8건 재심 하향 — 원문에 없는 인용·삭제된 한정절·코퍼스 외 증거 전건 직권 검증 |
 
 ---
 
@@ -131,7 +132,7 @@ sequenceDiagram
 python scripts/fetch_sources.py
 ```
 
-이 한 줄이 바티칸 공식 사이트(vatican.va)와 papalencyclicals.net에서 원문 39종(가톨릭 교리서 2,863항 포함, 총 ~4MB)을 자동으로 받아 `_SOURCE/`를 만들어 줍니다. 사이트 개편 등으로 자동 수집이 실패하면, **문서별 직접 다운로드 URL 전체 목록**이 `07_REPORT/catholic_error_report_v6_final.md`의 **PART 4-3**에 있으니 거기서 수동으로 받아 같은 파일명으로 저장하면 됩니다.
+이 한 줄이 바티칸 공식 사이트(vatican.va)와 papalencyclicals.net에서 원문 40종(가톨릭 교리서 2,863항 포함, 총 ~4MB)을 자동으로 받아 `_SOURCE/`를 만들어 줍니다. 사이트 개편 등으로 자동 수집이 실패하면, **문서별 직접 다운로드 URL 전체 목록**이 `07_REPORT/catholic_error_report_v7_final.md`의 **PART 4-3**에 있으니 거기서 수동으로 받아 같은 파일명으로 저장하면 됩니다.
 
 ### 3. 전체 실행 순서
 
@@ -155,7 +156,7 @@ python scripts/verify_pipeline.py
 python scripts/generate_verified_network.py
 ```
 
-**기대 결과**: 후보 ~2,537건 → LLM YES ~62건(±수 건, LLM 비결정성) → 인용검증 74장 중 원문 대응 68장 → `verify_pipeline.py` 22/22 통과. 단계별 사용 모델의 정확한 ID와 상세 재현 명세는 v6 보고서 **PART 4** 참조.
+**기대 결과**: 후보 ~9,922건(Level 1~5 컬럼 포함) → 인용검증 138장 중 원문 대응 133장(96.4%) → LLM 심사는 규모상 단계 진행(세대 구분 필수). 단계별 사용 모델 ID와 상세 재현 명세는 v7 보고서 **PART 4**, 적대 재심리 절차는 **PART 5** 참조.
 
 **새 교리 카드를 추가했을 때**: `04_DOCTRINE_DB/`에 `schema.md` 형식으로 카드를 넣은 뒤 위 ②~⑤를 다시 돌리면 됩니다. 새 충돌 후보가 나오면 STAGE 2 심사 → 수작업 확인 → `05_COLLISION_CARDS/`에 COL 카드 등록 → OODA 법정 회부 순서로 승격시킵니다.
 
@@ -165,9 +166,9 @@ python scripts/generate_verified_network.py
 
 | 자료 | git 포함? | 이유 | 어떻게 얻나 |
 |:---|:---:|:---|:---|
-| 교리 카드 74장 (`04_DOCTRINE_DB/*.md`) | ✅ 포함 | 원문 발췌 인용 + 자체 분석 — 공정이용 범위 | 클론하면 있음 |
+| 교리 카드 138장 (`04_DOCTRINE_DB/*.md`) | ✅ 포함 | 원문 발췌 인용 + 자체 분석 — 공정이용 범위 | 클론하면 있음 |
 | 확정 카드·보고서·스크립트 전부 | ✅ 포함 | 자체 저작물 | 클론하면 있음 |
-| **`_SOURCE/` 원문 39종** | ❌ **미포함** (`.gitignore`) | 39종 중 **21종은 LEV(교황청 출판사) 저작권**(CCC 2,863항 + 바티칸2차 4 + 20세기 이후 교황/신앙교리부 8 + 교회법전 8) — 전문(全文) 재배포는 발췌 인용과 달리 공정이용으로 방어되지 않음 | `python scripts/fetch_sources.py` 자동 수집, 또는 v6 보고서 PART 4-3의 URL 목록에서 수동 다운로드 |
+| **`_SOURCE/` 원문 40종** | ❌ **미포함** (`.gitignore`) | 39종 중 **21종은 LEV(교황청 출판사) 저작권**(CCC 2,863항 + 바티칸2차 4 + 20세기 이후 교황/신앙교리부 8 + 교회법전 8) — 전문(全文) 재배포는 발췌 인용과 달리 공정이용으로 방어되지 않음 | `python scripts/fetch_sources.py` 자동 수집, 또는 v7 보고서 PART 4-3의 URL 목록에서 수동 다운로드 |
 | └ 그중 원문이 퍼블릭 도메인인 18종 (트렌트 8·중세 공의회 6·바티칸1차·19세기 이전 교황 3) | ❌ 미포함 | ① 원문(라틴어)은 자유지만 우리가 받은 건 **현대 영어 번역본**이라 번역 저작권이 별도로 성립할 수 있음(수집처 사이트가 자체 © 표기) ② 폴더를 쪼개면 파일마다 법적 판단이 필요해져 실수 위험 — 폴더째 제외가 안전 | 위와 동일. 각 파일 첫 줄의 `# LICENSE:` 헤더로 파일 단위 구분 가능 |
 
 > 🗂️ **`_SOURCE/`의 정체 (혼동 주의)**: 이 폴더는 **KO 저장소 안에 있지만 내용물은 전부 영문**입니다. 한글 문서의 영어 번역본(그건 EN 저장소 `01.TheScriptureAudit`의 역할)이 아니라, 바티칸 공식 사이트에서 받은 **제3자 원문**입니다. 한국어 교리 카드의 인용이 날조가 아닌지 교차언어(LaBSE) 대조하는 검증 전용 원자료로, `_INBOX`와 같은 범주입니다 — **KO/EN 번역쌍(doc_no) 체계의 대상이 아니고, sync-translate가 EN 저장소로 이관하지도 않습니다.** (CCC 한국어 공식판은 주교회의(CBCK) 저작권·비공개라 수집 불가 → 바티칸 공식 영문판이 대조 기준)
@@ -188,7 +189,13 @@ python scripts/generate_verified_network.py
 - **`07_REPORT/catholic_error_report.md`** (구버전, 16부작)은 내용 자체(인용·논증)는 정확하지만, **`CVCAP_Pipeline.md`가 규정한 정식 출력 양식(OODA 10라운드 전수 기술 + CE-Code 01~10 선제 봉쇄 + L-Code 명시)을 따르지 않습니다.** 각 항목이 "주장 A vs B + 짧은 판독 결과" 요약 형식이라, 정식 문헌 법정 절차(검사-변증-중재자 공방전)를 생략한 상태입니다.
 - **`07_REPORT/catholic_error_report_1오탐포함.md`**은 더 오래된 중간 초안입니다. 이 파일이 자체 신고한 "오탐 1건"은 실제 `llm_judge_full_log.csv` 대조 검증 결과 과소 신고였습니다 — 21건 자동탐지 후보 중 다수가 재심사에서 NO 판정을 받았고, 같은 쌍이 재실행마다 YES/NO로 엇갈리는 비결정성도 확인됐습니다. **참고용 히스토리로만 보고, 인용하지 마십시오.**
 - 신뢰할 수 있는 것은 `05_COLLISION_CARDS/confirmed/`의 COL-001~014(자동탐지→LLM심사→원문대조 3단계 통과)와 `combos/`의 COMBO-01~05입니다.
-- **`07_REPORT/catholic_error_report_v6_final.md`** (2026-08-30 완성) — **최종 통합본 · 재현 가능판.**
+- **`07_REPORT/catholic_error_report_v7_final.md`** (2026-08-30 완성) — **최종 통합본 · 적대 재심리 완료판.**
+  검사·변증·중재를 한 모델이 맡던 자기 대국 구조를 깨고 **변호인에 Opus 5, 중재에 Fable 5**를 배정해
+  IMPLOSION 6건을 재심리했다. 변호인이 기소 본문의 **인용 결함**(원문에 없는 문장, 삭제된 한정절,
+  코퍼스 외 증거)을 적발했고 재판부가 전건 직권 검증으로 확인 → **8건 하향, 최종 IMPLOSION 9 / PARTIAL 13**.
+  살아남은 9건은 다른 모델의 전력 변호를 견딘 항목들이다(#10·#13은 변호인이 방어 불가 자인).
+  기반: 카드 138장(원문 직독 생성 64장 포함, 대응 96.4%) · 후보 9,922건(Level 1~5 자동 산출).
+- `07_REPORT/catholic_error_report_v6_final.md` (구버전, v7에 흡수) — 재현 가능판.
   v5 전체에 **PART 4 재현성 명세**를 더했습니다: 단계별 사용 AI 모델의 정확한 ID(전수 심사 `claude-haiku-4-5-20251001` 스냅샷 고정,
   승격 심리 `claude-sonnet-5`, 인용 검증 `LaBSE`, 최종 검증 `claude-fable-5`), 저작권으로 git에서 제외된 원문 39종의
   **직접 다운로드 URL 전체**(vatican.va / papalencyclicals.net), 그리고 클론→동일 결과 재현 명령 6단계.

@@ -14,7 +14,8 @@
 
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
-| **🏆 최종 통합본 v6 (재현 가능판)** | [catholic_error_report_v6_final.md](./catholic_error_report_v6_final.md) | v5 전체 + **PART 4 재현성 명세** — 단계별 사용 모델 정확한 ID(haiku 스냅샷 고정·LaBSE·MiniLM·sonnet·fable), 저작권 제외 원문 39종의 직접 다운로드 URL, 클론→동일결과 재현 절차. `claude-fable-5` 최종 검증 통과 (2026-08-30) | ✅ **최신 · 최종본** |
+| **🏆 최종 통합본 v7 (적대 재심리 완료판)** | [catholic_error_report_v7_final.md](./catholic_error_report_v7_final.md) | **적대 분리 재심리**(변호 Opus 5 / 중재 Fable 5)로 기소 인용 결함 적발 → **8건 재심 하향, 최종 IMPLOSION 9 / PARTIAL 13**. DB 138장(원문 대응 96.4%) · 후보 9,922건(Level 1~5) · PART 5 판결문 전문 수록 (2026-08-30) | ✅ **최신 · 최종본** |
+| 최종 통합본 v6 (v7에 흡수) | [catholic_error_report_v6_final.md](./catholic_error_report_v6_final.md) | v5 전체 + **PART 4 재현성 명세** — 단계별 사용 모델 정확한 ID(haiku 스냅샷 고정·LaBSE·MiniLM·sonnet·fable), 저작권 제외 원문 39종의 직접 다운로드 URL, 클론→동일결과 재현 절차. `claude-fable-5` 최종 검증 통과 (2026-08-30) | ⚠️ v7에 흡수됨 |
 | 최종 통합본 v5 (v6에 흡수) | [catholic_error_report_v5_final.md](./catholic_error_report_v5_final.md) | v4 전체 + **구 "비고 3건"을 정식 3단계 검증에 회부해 COL-015~017로 승격**. **22개 항목**(IMPLOSION 17 / PARTIAL 5) · 220라운드 · 카드 74장 중 원문 대응 68장(91.9%) · 환각 0건 (2026-08-30) | ⚠️ v6에 흡수됨 |
 | 최종 통합본 v4 (v5에 흡수) | [catholic_error_report_v4_final.md](./catholic_error_report_v4_final.md) | v3 전체 + **PART 3 사료 검증 계층 신설**. 교리서·공의회·교황문서 원문을 직접 수집해 카드 71장 전수 대조 — 원문 대응 확인 65장(91.5%), **환각 0건** (2026-08-29) | ⚠️ v5에 흡수됨 |
 | 인용 검증 원자료 | [citation_verification.json](./citation_verification.json) | `scripts/verify_citations.py` 산출 — 카드별 대조 점수·매치 위치·원문 발췌 | ✅ 최신 |
