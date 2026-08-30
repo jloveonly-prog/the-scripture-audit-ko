@@ -14,6 +14,7 @@
 
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
+| **📢 공개판 (학술 어조)** | [catholic_audit_public_edition.md](./catholic_audit_public_edition.md) | v7의 22개 쟁점을 군사 은유 없이 학술 어조로 재서술한 **일반 공개용 독립 문서** — 미해소 모순 9 / 방어 성립 13, 재심 정정 8건을 자기 수정 기록으로 명시 (2026-08-30) | ✅ 공개용 |
 | **🏆 최종 통합본 v7 (적대 재심리 완료판)** | [catholic_error_report_v7_final.md](./catholic_error_report_v7_final.md) | **적대 분리 재심리**(변호 Opus 5 / 중재 Fable 5)로 기소 인용 결함 적발 → **8건 재심 하향, 최종 IMPLOSION 9 / PARTIAL 13**. DB 138장(원문 대응 96.4%) · 후보 9,922건(Level 1~5) · PART 5 판결문 전문 수록 (2026-08-30) | ✅ **최신 · 최종본** |
 | 최종 통합본 v6 (v7에 흡수) | [catholic_error_report_v6_final.md](./catholic_error_report_v6_final.md) | v5 전체 + **PART 4 재현성 명세** — 단계별 사용 모델 정확한 ID(haiku 스냅샷 고정·LaBSE·MiniLM·sonnet·fable), 저작권 제외 원문 39종의 직접 다운로드 URL, 클론→동일결과 재현 절차. `claude-fable-5` 최종 검증 통과 (2026-08-30) | ⚠️ v7에 흡수됨 |
 | 최종 통합본 v5 (v6에 흡수) | [catholic_error_report_v5_final.md](./catholic_error_report_v5_final.md) | v4 전체 + **구 "비고 3건"을 정식 3단계 검증에 회부해 COL-015~017로 승격**. **22개 항목**(IMPLOSION 17 / PARTIAL 5) · 220라운드 · 카드 74장 중 원문 대응 68장(91.9%) · 환각 0건 (2026-08-30) | ⚠️ v6에 흡수됨 |
