@@ -1,15 +1,56 @@
+# ============================================================
+# 01.TheScriptureAudit_ko — git 제외 규칙
+#
+# 원칙 (CLAUDE.md 연동): 여기서 제외된 폴더는 git뿐 아니라
+# KO→EN 번역·이관·배포 대상에서도 자동으로 빠진다.
+# sync-translate 스킬이 origin/main 추적 파일만 스캔하기 때문.
+#
+# ⚠️ 이미 추적 중인 파일은 규칙을 추가해도 자동으로 빠지지 않는다
+# (git ls-files -ci --exclude-standard 로 확인 가능). 추적 해제는
+# 별도 결정 사항이며, 이 파일은 "새로 들어오는 것"만 막는다.
+# ============================================================
+
+
+# ── 1. 로컬 임시·개인 작업물 ─────────────────────────────────
 docs/
 휴지통/
-
-
-
 extracted_text.md
 scratch.txt
+.obsidian
+__pycache__/
 
 
-_INBOX(작전목표)/
+# ── 2. backup 정책 (생태계 공통 — D:\00.TheScriptureMaster 00~06, 99) ──
+# backup/ 하위는 절대 커밋·공개하지 않는다. 어떤 깊이든 전부 매칭.
+# ※ 이력상 이미 추적된 backup 파일(bible_believer/backup 41개)은 이
+#   규칙과 무관하게 추적이 유지되고 있음 — 해제 여부는 사용자 결정 대기.
+**/backup/
 
 
+# ── 3. 원자료·미검토 초안 (제3자 저작권 / 배포 대상 아님) ────
+# _INBOX: 폴더명에 _INBOX가 들어가면 어디에 있든 전부 제외
+#         (외부 제3자 원자재 — 저작권 보호)
+**/*_INBOX*/
+# 참고자료·구세대 엔진 보관소
+# ※ _Legacy_Engines는 규칙 추가 이전에 커밋된 37개 파일이 추적 유지 중.
+99.참고자료/
+_Legacy_Engines/
+
+
+# ── 4. 저작권 데이터 (전문 재배포 불가 — 로컬 검증 전용) ────
+# 4-1. KJV 한영 대역 데이터 (fetch_kjv_ko.py 수집분)
+KJV_KO_표준.json
+KJV_KO_표준.md
+# 4-2. CVCAP 1차 사료 원문 — ⚠️ 내용물은 영문 (제3자 원문, 번역쌍 체계 밖)
+#      39종 중 21종이 Libreria Editrice Vaticana(교황청 출판사) 저작권.
+#      fetch_sources.py로 재수집 가능하며, 스크립트 자체에도 이 규칙이
+#      없으면 실행을 거부하는 안전장치가 내장되어 있다 (이중 방어).
+the-catholic-audit/04_DOCTRINE_DB/_SOURCE/
+
+
+# ── 5. the-sermon-audit 비공개 결과물 (설교자 실명·설교 저작권) ──
+# 실제 감사 내용물은 제외하고, 폴더 구조(.gitkeep)와 폴더 안내문(README)만
+# 추적한다. 내용물 제외는 CLAUDE.md의 "공유 대상 아님" 방침.
 the-sermon-audit/_INBOX(설교목록)/*
 !the-sermon-audit/_INBOX(설교목록)/.gitkeep
 the-sermon-audit/01_CLAIMS(주장추출)/*
@@ -18,32 +59,15 @@ the-sermon-audit/01_CLAIMS(주장추출)/*
 the-sermon-audit/03_REPORT(설교감사보고서)/*
 !the-sermon-audit/03_REPORT(설교감사보고서)/.gitkeep
 
-the-catholic-audit/05_DOCTRINE_DB
-the-catholic-audit/06_COLLISION_CARDS
-the-catholic-audit/07_ZERO_DAY
 
-__pycache__/
-
-
-.obsidian
-
-
-99.참고자료/
-
-_Legacy_Engines/
-
-# 다운로드된 KJV 한영 대역 데이터 (저작권 보호)
-KJV_KO_표준.json
-KJV_KO_표준.md
-# Backup folders - all contents excluded recursively
-**/backup/
-*/backup/
-backup/
-
-# _INBOX 폴더 - 외부(제3자) 원자재 저작권 보호, 폴더명에 _INBOX가 들어가면 전부 제외
-**/*_INBOX*/
-
-# CVCAP 1차 사료 원문 (fetch_sources.py 수집분)
-# CCC·바티칸2차·현대 교황 문서는 Libreria Editrice Vaticana 저작권 대상 —
-# 로컬 인용 검증 용도로만 보관하고 커밋하지 않는다 (KJV_KO_표준.json과 동일 방침)
-the-catholic-audit/04_DOCTRINE_DB/_SOURCE/
+# ============================================================
+# 변경 이력 메모
+# - 구 규칙 3줄 삭제 (2026-08-30): the-catholic-audit/05_DOCTRINE_DB,
+#   06_COLLISION_CARDS, 07_ZERO_DAY — CVCAP v3.0 폴더 재번호(05→04,
+#   06→05, 07→06) 이전의 옛 경로를 가리키는 죽은 규칙이었음.
+#   현행 04_DOCTRINE_DB(교리 카드)·05_COLLISION_CARDS(확정 카드)는
+#   공정이용 발췌+자체 분석이므로 의도적으로 추적한다 (README 저작권 표).
+# - backup 3중 규칙(**/backup/, */backup/, backup/)을 **/backup/ 하나로
+#   통합 (2026-08-30) — 의미 동일, **가 루트 포함 모든 깊이를 커버.
+# - _INBOX(작전목표)/ 개별 규칙 삭제 (2026-08-30) — **/*_INBOX*/가 커버.
+# ============================================================
