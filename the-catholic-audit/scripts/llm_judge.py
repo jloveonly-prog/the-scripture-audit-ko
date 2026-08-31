@@ -48,6 +48,7 @@ with open(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__fil
 # ⚠️ LLM 판정은 같은 모델이라도 완전 결정적이지 않다 — 경계 사례가 재실행에서 YES/NO로
 # 흔들린 실측 사례가 있으므로(2026-08-29 확인), 재현성은 "동일 파이프라인 + 동일 모델 +
 # 확정 카드는 수작업 재검증"의 계층 구조로 보장한다.
+CHECKPOINT_PATH = os.path.join(os.path.dirname(FULL_LOG_PATH), 'llm_judge_checkpoint.csv')  # 배치별 즉시 기록 — 크래시 시 유실 방지
 TIMEOUT_SEC = 300        # 배치 1회 호출 제한 시간 (정상 배치는 1~2분 — 5분 넘으면 행으로 간주)
 
 
@@ -57,7 +58,11 @@ def _run_claude(cmd, timeout):
     claude CLI는 node 자식을 낳는데, run()의 타임아웃은 직계만 죽여서 자식이
     stdout 파이프를 계속 물고 있으면 read가 영원히 블록된다 (2026-08-30 실측:
     배치 하나가 47분 행). taskkill /T /F 로 프로세스 트리 전체를 죽인다."""
-    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+    # stdin=DEVNULL 필수: 백그라운드 실행 시 stdin이 파이프면 claude CLI가
+    # EOF를 기다리며 영원히 블록된다 (2026-08-31 실측: 포그라운드 정상,
+    # 백그라운드만 첫 배치부터 행 — stdin 차단으로 해결)
+    proc = subprocess.Popen(cmd, stdin=subprocess.DEVNULL,
+                            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                             text=True, encoding="utf-8", errors="replace")
     try:
         out, err = proc.communicate(timeout=timeout)
@@ -148,11 +153,12 @@ def main():
     if NEXT_MODE:
         # 이미 심사된 후보(YES/NO — ERROR는 재심사 대상)를 로그에서 읽어 건너뛴다
         done_keys = set()
-        if os.path.exists(FULL_LOG_PATH):
-            with open(FULL_LOG_PATH, 'r', encoding='utf-8-sig') as f:
-                for r in csv.DictReader(f):
-                    if r.get('LLM_Decision') in ('YES', 'NO'):
-                        done_keys.add(row_key(r))
+        for _path in (FULL_LOG_PATH, CHECKPOINT_PATH):
+            if os.path.exists(_path):
+                with open(_path, 'r', encoding='utf-8-sig') as f:
+                    for r in csv.DictReader(f):
+                        if r.get('LLM_Decision') in ('YES', 'NO'):
+                            done_keys.add(row_key(r))
         pending = [(i, r) for i, r in enumerate(all_candidates, start=1) if row_key(r) not in done_keys]
         if not pending:
             print("🎉 전체 후보 심사 완료 — 미심사 잔여 0건입니다.")
@@ -201,6 +207,15 @@ def main():
                 row['LLM_Reason'] = str(v.get("reason", "")).strip()
             judged_rows.append(row)
 
+        # 배치별 체크포인트 — 크래시/강제종료 시에도 이 배치까지는 보존된다
+        _ckpt_new = not os.path.exists(CHECKPOINT_PATH)
+        _fields = list(batch[0][1].keys())
+        with open(CHECKPOINT_PATH, 'a', encoding='utf-8-sig', newline='') as _cf:
+            _w = csv.DictWriter(_cf, fieldnames=_fields)
+            if _ckpt_new:
+                _w.writeheader()
+            _w.writerows(r for _, r in batch)
+
         time.sleep(3)  # 연속 고속 호출로 인한 일시적 제한 방지
 
     error_count = sum(1 for r in judged_rows if r.get('LLM_Decision') == 'ERROR')
@@ -213,6 +228,11 @@ def main():
         with open(FULL_LOG_PATH, 'r', encoding='utf-8-sig') as f:
             for r in csv.DictReader(f):
                 merged[row_key(r)] = r
+    if os.path.exists(CHECKPOINT_PATH):
+        with open(CHECKPOINT_PATH, 'r', encoding='utf-8-sig') as f:
+            for r in csv.DictReader(f):
+                if r.get('LLM_Decision') in ('YES', 'NO'):
+                    merged[row_key(r)] = r
     for r in judged_rows:
         merged[row_key(r)] = r  # 같은 후보를 재심사하면 최신 판정으로 갱신
     merged_rows = sorted(merged.values(), key=lambda r: float(r.get('Score', 0) or 0), reverse=True)
@@ -227,6 +247,8 @@ def main():
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(merged_rows)
+    if os.path.exists(CHECKPOINT_PATH):
+        os.remove(CHECKPOINT_PATH)  # 병합 완료 — 체크포인트 소진
     judged_ok_keys = {row_key(r) for r in merged_rows if r.get('LLM_Decision') in ('YES', 'NO')}
     remaining = sum(1 for r in all_candidates if row_key(r) not in judged_ok_keys)
     print(f"누적 현황: 총 심사 {len(merged_rows)}건, 진짜 모순 판정 {len(merged_yes)}건")
