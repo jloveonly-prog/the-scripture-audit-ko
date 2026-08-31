@@ -48,7 +48,28 @@ with open(_os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__fil
 # ⚠️ LLM 판정은 같은 모델이라도 완전 결정적이지 않다 — 경계 사례가 재실행에서 YES/NO로
 # 흔들린 실측 사례가 있으므로(2026-08-29 확인), 재현성은 "동일 파이프라인 + 동일 모델 +
 # 확정 카드는 수작업 재검증"의 계층 구조로 보장한다.
-TIMEOUT_SEC = 600        # 배치 1회 호출 제한 시간
+TIMEOUT_SEC = 300        # 배치 1회 호출 제한 시간 (정상 배치는 1~2분 — 5분 넘으면 행으로 간주)
+
+
+def _run_claude(cmd, timeout):
+    """subprocess.run(timeout=) 의 Windows 함정 회피 버전.
+
+    claude CLI는 node 자식을 낳는데, run()의 타임아웃은 직계만 죽여서 자식이
+    stdout 파이프를 계속 물고 있으면 read가 영원히 블록된다 (2026-08-30 실측:
+    배치 하나가 47분 행). taskkill /T /F 로 프로세스 트리 전체를 죽인다."""
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                            text=True, encoding="utf-8", errors="replace")
+    try:
+        out, err = proc.communicate(timeout=timeout)
+    except subprocess.TimeoutExpired:
+        subprocess.run(["taskkill", "/PID", str(proc.pid), "/T", "/F"],
+                       capture_output=True)
+        try:
+            out, err = proc.communicate(timeout=15)
+        except subprocess.TimeoutExpired:
+            out, err = "", ""
+        raise TimeoutError(f"claude CLI {timeout}초 초과 — 프로세스 트리 강제 종료")
+    return proc.returncode, out, err
 
 
 def row_key(r):
@@ -94,17 +115,13 @@ def call_claude_cli(claude_bin, prompt, retries=2):
             print(f"    ({attempt}차 재시도 — {wait}초 대기)")
             time.sleep(wait)
         try:
-            result = subprocess.run(
-                [claude_bin, "-p", prompt, "--model", MODEL],
-                capture_output=True, text=True, encoding="utf-8", errors="replace",
-                timeout=TIMEOUT_SEC,
-            )
-            if result.returncode != 0:
+            rc, out, err = _run_claude([claude_bin, "-p", prompt, "--model", MODEL], TIMEOUT_SEC)
+            if rc != 0:
                 raise RuntimeError(
-                    f"claude CLI 종료 코드 {result.returncode}: "
-                    f"stderr={(result.stderr or '').strip()[:200]} stdout={(result.stdout or '').strip()[:200]}"
+                    f"claude CLI 종료 코드 {rc}: "
+                    f"stderr={(err or '').strip()[:200]} stdout={(out or '').strip()[:200]}"
                 )
-            text = (result.stdout or "").strip()
+            text = (out or "").strip()
             # ```json 펜스나 앞뒤 설명이 섞여도 첫 번째 JSON 배열만 뽑아낸다
             match = re.search(r"\[.*\]", text, re.DOTALL)
             if not match:
