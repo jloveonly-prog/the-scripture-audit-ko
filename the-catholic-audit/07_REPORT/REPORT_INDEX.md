@@ -24,7 +24,7 @@
 | 최종 통합본 v3 (v4에 흡수) | [catholic_error_report_v3_final.md](./catholic_error_report_v3_final.md) | **19개 항목** 전부를 PART 1(신학용어 없는 쉬운 설명판, A/B/왜무너지는가/비유/판정) + PART 2(정식 OODA 10라운드 전수) + 비고(미검증 3건)로 한 파일에 통합. IMPLOSION 17 / PARTIAL 2 (2026-08-29) | ⚠️ v4에 흡수됨 |
 | 정식 문헌 법정 전수 보고서 v2 (OODA만) | [catholic_error_report_v2_ooda.md](./catholic_error_report_v2_ooda.md) | v3에 흡수된 PART 2와 동일 내용(쉬운 설명판 없이 OODA 10라운드만) | ⚠️ v3에 흡수됨 |
 | 종합 감사 보고서 (요약본) | [catholic_error_report.md](./catholic_error_report.md) | 개별 검증 완료된 **16대 모순**을 "주장 vs 판독" 짧은 요약 형식으로 정리 — OODA 10라운드 절차는 생략된 버전 | ⚠️ 구버전 (v3 참고 권장) |
-| 자동 탐지 후보 (임베딩) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Sentence-Transformers 유사도 ≥0.60 + cross-claim 필터 통과 후보 **2,537건** (미확정) | ✅ 최신 |
+| 자동 탐지 후보 (임베딩) | [auto_conflict_results.csv](./auto_conflict_results.csv) | Sentence-Transformers 유사도 ≥0.60 + cross-claim 필터 통과 후보 **9,922건** (카드 138장 확장 반영, Level 1~5 자동 산출 포함, 미확정) | ✅ 최신 |
 | 자동 탐지 제외 사례 (투명성 공개) | [auto_conflict_excluded_self_negation.csv](./auto_conflict_excluded_self_negation.csv) | 오탐(동일 입장)으로 판정되어 제외된 **2,054건** — 수작업 검증 제외 목록 34쌍 포함 | ✅ 최신 |
 | 콤보 필터 태깅 | [cvcap_combo_results.csv](./cvcap_combo_results.csv) | CVCAP 3.0 다중 필터에 동시 적발된 **626건** (키워드 태깅 — 미확정 후보) | ✅ 최신 |
 | LLM 2차 심사 (YES만) | [llm_verified_conflicts.csv](./llm_verified_conflicts.csv) | `scripts/llm_judge.py` — claude CLI 헤드리스 심사 (API 키 불필요). **✅ 전체 후보 전수 심사 완료** (누적 YES 62건 — 전량 수작업 재검증 거침) | ✅ 완료 |
@@ -38,7 +38,7 @@
 
 > ⚠️ **탐지기 한계 안내 (신뢰 계층)**:
 > ① 임베딩 유사도는 '주제 인접'과 '논리 모순'을 완전히 구분하지 못하므로, `auto_conflict_results.csv`의
-> 2,537건은 전부 **"사람/LLM의 신학적 재검토가 필요한 1차 후보"**입니다.
+> 9,922건은 전부 **"사람/LLM의 신학적 재검토가 필요한 1차 후보"**입니다. (세대2 claude-sonnet-5 전수 심사 완료 — 유효 10,000행/YES 75건, 로그 이력 78건은 74→138장 확장 이전 세대의 잔재)
 > ② `cvcap_combo_results.csv`의 626건은 **키워드 필터 히트 건수**이지 확정 모순 수가 아닙니다.
 > ③ 최종 확정 판단은 `catholic_error_report.md`의 16대 모순, `05_COLLISION_CARDS/confirmed/`,
 > `combos/`처럼 **개별 검증을 거친 카드만** 신뢰하십시오.

@@ -27,7 +27,7 @@ FULL_LOG = os.path.join(BASE, '07_REPORT', 'llm_judge_full_log.csv')
 VERIFIED = os.path.join(BASE, '07_REPORT', 'llm_verified_conflicts.csv')
 COMBO = os.path.join(BASE, '07_REPORT', 'cvcap_combo_results.csv')
 CONFIRMED_DIR = os.path.join(BASE, '05_COLLISION_CARDS', 'confirmed')
-GRAPH = os.path.join(BASE, '07_REPORT', 'conflict_network.html')
+GRAPH = os.path.join(BASE, '07_REPORT', 'conflict_network_v2.html')  # v1은 generate_graph.py와 함께 DEPRECATED (2026-08-30)
 
 checks = []  # (통과여부, 이름, 상세)
 
