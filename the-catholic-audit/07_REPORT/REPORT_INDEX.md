@@ -15,7 +15,8 @@
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
 | **📢 공개판 (학술 어조)** | [catholic_audit_public_edition.md](./catholic_audit_public_edition.md) | v7의 22개 쟁점을 군사 은유 없이 학술 어조로 재서술한 **일반 공개용 독립 문서** — 미해소 모순 9 / 방어 성립 13, 재심 정정 8건을 자기 수정 기록으로 명시 (2026-08-30) | ✅ 공개용 |
-| **🏆 최종 통합본 v7 (적대 재심리 완료판)** | [catholic_error_report_v7_final.md](./catholic_error_report_v7_final.md) | **적대 분리 재심리**(변호 Opus 5 / 중재 Fable 5)로 기소 인용 결함 적발 → **8건 재심 하향, 최종 IMPLOSION 9 / PARTIAL 13**. DB 138장(원문 대응 96.4%) · 후보 9,922건(Level 1~5) · PART 5 판결문 전문 수록 (2026-08-30) | ✅ **최신 · 최종본** |
+| **🏆 최종 통합본 v8 (전 항목 승격 완료판)** | [catholic_error_report_v8_final.md](./catholic_error_report_v8_final.md) | v7 전체 + **세대2(claude-sonnet-5) 전수 심사 완주(9,922건, YES 75)** + 신규 발굴 2건(COL-018·019)의 정식 3단계 검증·OODA 10라운드 승격 심리 완료. **24개 항목**(IMPLOSION 9 / PARTIAL 15) · 240라운드 · 확정 카드 19장 (2026-09-01) | ✅ **최신 · 최종본** |
+| 최종 통합본 v7 (v8에 흡수) | [catholic_error_report_v7_final.md](./catholic_error_report_v7_final.md) | **적대 분리 재심리**(변호 Opus 5 / 중재 Fable 5)로 기소 인용 결함 적발 → **8건 재심 하향, 최종 IMPLOSION 9 / PARTIAL 13**. DB 138장(원문 대응 96.4%) · 후보 9,922건(Level 1~5) · PART 5 판결문 전문 수록 (2026-08-30) | ⚠️ v8에 흡수됨 |
 | 최종 통합본 v6 (v7에 흡수) | [catholic_error_report_v6_final.md](./catholic_error_report_v6_final.md) | v5 전체 + **PART 4 재현성 명세** — 단계별 사용 모델 정확한 ID(haiku 스냅샷 고정·LaBSE·MiniLM·sonnet·fable), 저작권 제외 원문 39종의 직접 다운로드 URL, 클론→동일결과 재현 절차. `claude-fable-5` 최종 검증 통과 (2026-08-30) | ⚠️ v7에 흡수됨 |
 | 최종 통합본 v5 (v6에 흡수) | [catholic_error_report_v5_final.md](./catholic_error_report_v5_final.md) | v4 전체 + **구 "비고 3건"을 정식 3단계 검증에 회부해 COL-015~017로 승격**. **22개 항목**(IMPLOSION 17 / PARTIAL 5) · 220라운드 · 카드 74장 중 원문 대응 68장(91.9%) · 환각 0건 (2026-08-30) | ⚠️ v6에 흡수됨 |
 | 최종 통합본 v4 (v5에 흡수) | [catholic_error_report_v4_final.md](./catholic_error_report_v4_final.md) | v3 전체 + **PART 3 사료 검증 계층 신설**. 교리서·공의회·교황문서 원문을 직접 수집해 카드 71장 전수 대조 — 원문 대응 확인 65장(91.5%), **환각 0건** (2026-08-29) | ⚠️ v5에 흡수됨 |
@@ -31,7 +32,7 @@
 | LLM 심사 전체 로그 | [llm_judge_full_log.csv](./llm_judge_full_log.csv) | 전체 판정(YES/NO) + 근거. 미심사 잔여 **0건**. 새 카드 추가 후 재개는 `python scripts/llm_judge.py next 200` | ✅ 완료 |
 | **충돌 네트워크 시각화 v2 (검증 완료 19건)** | [conflict_network_v2.html](./conflict_network_v2.html) | Vis.js 인터랙티브 그래프 — 정식 보고서의 **검증 완료 19건만** 표시 (노이즈 없음). `scripts/generate_verified_network.py`로 재생성 (Chrome으로 열기) | ✅ **최신** |
 | 충돌 네트워크 시각화 (구, 미검증 후보 전체) | [conflict_network.html](./conflict_network.html) | Vis.js 인터랙티브 그래프 — 미검증 자동탐지 후보 상위 150건 (Chrome으로 열기) | ⚠️ 구버전 |
-| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~017, 수작업 정밀 검증 완료 (015~017은 2026-08-30 구 비고 3건 승격분) (009~014는 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전 + 교회법 844 실천모순) | ✅ 최신 |
+| 확정 콜리전 카드 | [`../05_COLLISION_CARDS/confirmed/`](../05_COLLISION_CARDS/confirmed/) | COL-001~019, 수작업 정밀 검증 완료 (015~017은 2026-08-30 구 비고 3건 승격분, 018~019는 2026-09-01 세대2 자동탐지 파생 신규 승격분) (009~014는 자동 탐지→LLM 심사→원문 대조 3단계 통과 신규 발굴: EENS 3장 + 동성 축복 자기부정 + 종교자유 역전 + 교회법 844 실천모순) | ✅ 최신 |
 | 후보 카드 | [`../05_COLLISION_CARDS/candidates/`](../05_COLLISION_CARDS/candidates/) | 비어 있음 — CAND-001은 2026-07-21 OODA 승격 심리 통과로 COL-014 승격 | ✅ 처리 완료 |
 | 콤보 카드 (확정) | [`../05_COLLISION_CARDS/combos/`](../05_COLLISION_CARDS/combos/) | COMBO-01~05 — 마리아론·무류성·구원론·연옥/대사·동성 축복 연쇄 붕괴 카드 | ✅ 최신 |
 | 제로데이 스캔 후보 | [`../06_ZERO_DAY/scan_targets.md`](../06_ZERO_DAY/scan_targets.md) | 향후 우선 탐색 대상 (Fiducia Supplicans 등) | 🔄 진행 중 |

@@ -59,10 +59,10 @@ flowchart TD
     H --> I["✋ 사람 수작업<br/>경계 사례 원문 직접 확인<br/>+ 승격 심리"]
     G --> I
 
-    I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~017<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
+    I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~019<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
 
     J --> K["🏛️ 문헌 법정 — OODA 10라운드<br/>검사(공격) vs 가톨릭 변증(방어) vs 중재자(판결)<br/>회피 전술 CE-01~10 선제 봉쇄"]
-    K --> L[["📕 최종 보고서<br/>catholic_error_report_v7_final.md<br/>💥 IMPLOSION 9 / ⚠️ PARTIAL 13<br/>(적대 재심리 반영)"]]
+    K --> L[["📕 최종 보고서<br/>catholic_error_report_v8_final.md<br/>💥 IMPLOSION 9 / ⚠️ PARTIAL 15<br/>(적대 재심리+승격 2건 반영)"]]
 
     V["🔧 verify_pipeline.py<br/>전 계층 무결성 22항목 자가 점검"] -.->|상시 감시| D
     V -.->|상시 감시| G
@@ -132,7 +132,7 @@ sequenceDiagram
 python scripts/fetch_sources.py
 ```
 
-이 한 줄이 바티칸 공식 사이트(vatican.va)와 papalencyclicals.net에서 원문 40종(가톨릭 교리서 2,863항 포함, 총 ~4MB)을 자동으로 받아 `_SOURCE/`를 만들어 줍니다. 사이트 개편 등으로 자동 수집이 실패하면, **문서별 직접 다운로드 URL 전체 목록**이 `07_REPORT/catholic_error_report_v7_final.md`의 **PART 4-3**에 있으니 거기서 수동으로 받아 같은 파일명으로 저장하면 됩니다.
+이 한 줄이 바티칸 공식 사이트(vatican.va)와 papalencyclicals.net에서 원문 40종(가톨릭 교리서 2,863항 포함, 총 ~4MB)을 자동으로 받아 `_SOURCE/`를 만들어 줍니다. 사이트 개편 등으로 자동 수집이 실패하면, **문서별 직접 다운로드 URL 전체 목록**이 `07_REPORT/catholic_error_report_v8_final.md`의 **PART 4-3**에 있으니 거기서 수동으로 받아 같은 파일명으로 저장하면 됩니다.
 
 ### 3. 전체 실행 순서
 
@@ -156,7 +156,7 @@ python scripts/verify_pipeline.py
 python scripts/generate_verified_network.py
 ```
 
-**기대 결과**: 후보 ~9,922건(Level 1~5 컬럼 포함) → 인용검증 138장 중 원문 대응 133장(96.4%) → LLM 심사는 규모상 단계 진행(세대 구분 필수). 단계별 사용 모델 ID와 상세 재현 명세는 v7 보고서 **PART 4**, 적대 재심리 절차는 **PART 5** 참조.
+**기대 결과**: 후보 ~9,922건(Level 1~5 컬럼 포함) → 인용검증 138장 중 원문 대응 133장(96.4%) → LLM 심사는 규모상 단계 진행(세대 구분 필수). 단계별 사용 모델 ID와 상세 재현 명세는 v8 보고서 **PART 4**, 적대 재심리·승격 심리 절차는 **PART 5** 참조.
 
 **새 교리 카드를 추가했을 때**: `04_DOCTRINE_DB/`에 `schema.md` 형식으로 카드를 넣은 뒤 위 ②~⑤를 다시 돌리면 됩니다. 새 충돌 후보가 나오면 STAGE 2 심사 → 수작업 확인 → `05_COLLISION_CARDS/`에 COL 카드 등록 → OODA 법정 회부 순서로 승격시킵니다.
 
@@ -189,7 +189,11 @@ python scripts/generate_verified_network.py
 - **`07_REPORT/catholic_error_report.md`** (구버전, 16부작)은 내용 자체(인용·논증)는 정확하지만, **`CVCAP_Pipeline.md`가 규정한 정식 출력 양식(OODA 10라운드 전수 기술 + CE-Code 01~10 선제 봉쇄 + L-Code 명시)을 따르지 않습니다.** 각 항목이 "주장 A vs B + 짧은 판독 결과" 요약 형식이라, 정식 문헌 법정 절차(검사-변증-중재자 공방전)를 생략한 상태입니다.
 - **`07_REPORT/catholic_error_report_1오탐포함.md`**은 더 오래된 중간 초안입니다. 이 파일이 자체 신고한 "오탐 1건"은 실제 `llm_judge_full_log.csv` 대조 검증 결과 과소 신고였습니다 — 21건 자동탐지 후보 중 다수가 재심사에서 NO 판정을 받았고, 같은 쌍이 재실행마다 YES/NO로 엇갈리는 비결정성도 확인됐습니다. **참고용 히스토리로만 보고, 인용하지 마십시오.**
 - 신뢰할 수 있는 것은 `05_COLLISION_CARDS/confirmed/`의 COL-001~014(자동탐지→LLM심사→원문대조 3단계 통과)와 `combos/`의 COMBO-01~05입니다.
-- **`07_REPORT/catholic_error_report_v7_final.md`** (2026-08-30 완성) — **최종 통합본 · 적대 재심리 완료판.**
+- **`07_REPORT/catholic_error_report_v8_final.md`** (2026-09-01 완성) — **최종 통합본 · 전 항목 승격 완료판.**
+  v7 전체에 **세대2(claude-sonnet-5) 전수 심사 완주**(9,922건, YES 75)와, 그중 발굴된 완전 신규 쟁점
+  2건(로마 수위권 기원 서사 325→1215, 공의회 우위론 vs 교황 무류·수위권)의 정식 3단계 검증·OODA 10라운드
+  승격 심리를 더했습니다. **24개 항목**(IMPLOSION 9 / PARTIAL 15) · 240라운드 · 확정 카드 19장.
+- `07_REPORT/catholic_error_report_v7_final.md` (구버전, v8에 흡수) — 적대 재심리 완료판.
   검사·변증·중재를 한 모델이 맡던 자기 대국 구조를 깨고 **변호인에 Opus 5, 중재에 Fable 5**를 배정해
   IMPLOSION 6건을 재심리했다. 변호인이 기소 본문의 **인용 결함**(원문에 없는 문장, 삭제된 한정절,
   코퍼스 외 증거)을 적발했고 재판부가 전건 직권 검증으로 확인 → **8건 하향, 최종 IMPLOSION 9 / PARTIAL 13**.
