@@ -62,7 +62,7 @@ flowchart TD
     I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~019<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
 
     J --> K["🏛️ 문헌 법정 — OODA 10라운드<br/>검사(공격) vs 가톨릭 변증(방어) vs 중재자(판결)<br/>회피 전술 CE-01~10 선제 봉쇄"]
-    K --> L[["📕 최종 보고서<br/>catholic_error_report_v8_final.md<br/>💥 IMPLOSION 9 / ⚠️ PARTIAL 15<br/>(적대 재심리+승격 2건 반영)"]]
+    K --> L[["📕 최종 보고서<br/>catholic_error_report_v9_final.md<br/>💥 IMPLOSION 1 / ⚠️ PARTIAL 23<br/>(적대 재심리 1·2차 완료)"]]
 
     V["🔧 verify_pipeline.py<br/>전 계층 무결성 22항목 자가 점검"] -.->|상시 감시| D
     V -.->|상시 감시| G

@@ -14,7 +14,7 @@
 
 | 산출물 | 위치 | 내용 | 상태 |
 |:---|:---|:---|:---:|
-| **📢 공개판 (학술 어조)** | [catholic_audit_public_edition.md](./catholic_audit_public_edition.md) | v7의 22개 쟁점을 군사 은유 없이 학술 어조로 재서술한 **일반 공개용 독립 문서** — 미해소 모순 9 / 방어 성립 13, 재심 정정 8건을 자기 수정 기록으로 명시 (2026-08-30) | ✅ 공개용 |
+| **📢 공개판 (학술 어조)** | [catholic_audit_public_edition.md](./catholic_audit_public_edition.md) | v9의 24개 쟁점을 군사 은유 없이 학술 어조로 재서술한 **일반 공개용 독립 문서** — 최종 미해소 모순 1(#13) / 방어 성립 23, 두 차례 교차 검토에서 정정된 16건을 자기 수정 기록으로 전부 명시 (2026-09-02 갱신) | ✅ 공개용 |
 | **🏆 최종 통합본 v9 (전 항목 교차검증 완료판)** | [catholic_error_report_v9_final.md](./catholic_error_report_v9_final.md) | v8 전체 + **2차 적대 재심리** — 아직 교차검증을 받지 않았던 IMPLOSION 8건(#4·6·8·9·10·14·17·18) 전부를 Opus 5 변호단에 회부, 전건 PARTIAL 하향. **최종 IMPLOSION 1건(#13) / PARTIAL 23건**. 원심(자기 대국) IMPLOSION 17건 중 교차검증을 거친 14건 중 13건 하향이라는 사실을 숨김 없이 기록 (2026-09-02) | ✅ **최신 · 최종본** |
 | 최종 통합본 v8 (v9에 흡수) | [catholic_error_report_v8_final.md](./catholic_error_report_v8_final.md) | v7 전체 + **세대2(claude-sonnet-5) 전수 심사 완주(9,922건, YES 75)** + 신규 발굴 2건(COL-018·019)의 정식 3단계 검증·OODA 10라운드 승격 심리 완료. **24개 항목**(IMPLOSION 9 / PARTIAL 15) · 240라운드 · 확정 카드 19장 (2026-09-01) | ⚠️ v9에 흡수됨 |
 | 최종 통합본 v7 (v8에 흡수) | [catholic_error_report_v7_final.md](./catholic_error_report_v7_final.md) | **적대 분리 재심리**(변호 Opus 5 / 중재 Fable 5)로 기소 인용 결함 적발 → **8건 재심 하향, 최종 IMPLOSION 9 / PARTIAL 13**. DB 138장(원문 대응 96.4%) · 후보 9,922건(Level 1~5) · PART 5 판결문 전문 수록 (2026-08-30) | ⚠️ v8에 흡수됨 |
