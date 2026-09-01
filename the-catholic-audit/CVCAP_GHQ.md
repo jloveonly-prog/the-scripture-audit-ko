@@ -236,7 +236,7 @@
 # [가톨릭 교리명] — CVCAP 3.0 포렌식 감사 보고서
 **— "[핵심 쟁점 한 줄 요약]" CVCAP v3.0 Implosion 보고서 —**
 
-> **STATUS**: 검증 완료 | VERDICT: [💥 IMPLOSION / ⚠️ PARTIAL / 🔄 LOOP]
+> **STATUS**: 검증 완료 | VERDICT: [💥 IMPLOSION / 🔄 LOOP / 🛡️ DEFENDED / ❌ WITHDRAWN / ⛔ OUT OF SCOPE / (⚠️ PARTIAL — 사용 제한 규범 참조)]
 > **CD-Code**: [해당 코드 | 예: CD-06 화체설]
 > **적용 분석 도구**: [L-Code 조합 + 논리 필터(1~8) 조합]
 > **BVCAP 이첩 여부**: [성경 해석 쟁점 발생 시 이첩 기록 / 없음]
