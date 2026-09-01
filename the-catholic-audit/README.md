@@ -62,7 +62,7 @@ flowchart TD
     I --> J[("05_COLLISION_CARDS<br/>확정 카드 COL-001~019<br/>+ 콤보 COMBO-01~05<br/>= 3단계 전부 통과한 것만")]
 
     J --> K["🏛️ 문헌 법정 — OODA 10라운드<br/>검사(공격) vs 가톨릭 변증(방어) vs 중재자(판결)<br/>회피 전술 CE-01~10 선제 봉쇄"]
-    K --> L[["📕 최종 보고서<br/>catholic_error_report_v9_final.md<br/>💥 IMPLOSION 1 / ⚠️ PARTIAL 23<br/>(적대 재심리 1·2차 완료)"]]
+    K --> L[["📕 최종 보고서<br/>catholic_error_report_v10_final.md<br/>💥1 🔄6 🛡️9 ❌7 ⛔1<br/>(재심리 2회 + 판정 재분류)"]]
 
     V["🔧 verify_pipeline.py<br/>전 계층 무결성 22항목 자가 점검"] -.->|상시 감시| D
     V -.->|상시 감시| G
@@ -189,7 +189,12 @@ python scripts/generate_verified_network.py
 - **`07_REPORT/catholic_error_report.md`** (구버전, 16부작)은 내용 자체(인용·논증)는 정확하지만, **`CVCAP_Pipeline.md`가 규정한 정식 출력 양식(OODA 10라운드 전수 기술 + CE-Code 01~10 선제 봉쇄 + L-Code 명시)을 따르지 않습니다.** 각 항목이 "주장 A vs B + 짧은 판독 결과" 요약 형식이라, 정식 문헌 법정 절차(검사-변증-중재자 공방전)를 생략한 상태입니다.
 - **`07_REPORT/catholic_error_report_1오탐포함.md`**은 더 오래된 중간 초안입니다. 이 파일이 자체 신고한 "오탐 1건"은 실제 `llm_judge_full_log.csv` 대조 검증 결과 과소 신고였습니다 — 21건 자동탐지 후보 중 다수가 재심사에서 NO 판정을 받았고, 같은 쌍이 재실행마다 YES/NO로 엇갈리는 비결정성도 확인됐습니다. **참고용 히스토리로만 보고, 인용하지 마십시오.**
 - 신뢰할 수 있는 것은 `05_COLLISION_CARDS/confirmed/`의 COL-001~014(자동탐지→LLM심사→원문대조 3단계 통과)와 `combos/`의 COMBO-01~05입니다.
-- **`07_REPORT/catholic_error_report_v9_final.md`** (2026-09-02 완성) — **최종 통합본 · 전 항목 교차검증 완료판.**
+- **`07_REPORT/catholic_error_report_v10_final.md`** (2026-09-02 완성) — **최종 통합본 · 판정 재분류판.**
+  v9까지 24건 중 23건이 `PARTIAL` 한 칸에 몰려 판정이 정보를 주지 못했고, **"우리 기소가 틀렸다"와
+  "상대에게 진짜 문제가 남았다"가 같은 라벨**을 쓰고 있었습니다. 실제 판시 사유대로 5개 코드로 분리:
+  **💥 IMPLOSION 1 / 🔄 LOOP 6 / 🛡️ DEFENDED 9 / ❌ WITHDRAWN 7 / ⛔ OUT OF SCOPE 1.**
+  쉬운 설명판도 현행 판정을 맨 위로 올리고 폐기된 원심은 「판정 이력」으로 내렸습니다.
+- `07_REPORT/catholic_error_report_v9_final.md` (구버전, v10에 흡수) — 전 항목 교차검증 완료판.
   v8의 IMPLOSION 9건 중 아직 다른 모델의 반박을 받지 않았던 8건 전부를 2차 적대 재심리에 회부해
   전건 PARTIAL로 하향시켰습니다. **최종 판정: IMPLOSION 1건(#13) / PARTIAL 23건.** 원심(자기 대국
   self-play)이 구조적으로 관대했다는 실측 결과를 숨기지 않고 그대로 실었습니다.
